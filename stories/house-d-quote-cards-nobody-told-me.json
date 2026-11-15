@@ -1,0 +1,70 @@
+{
+ "format": "D quote cards",
+ "title": "3 things nobody tells new homeowners",
+ "cover": "3 things nobody told you",
+ "cover_accent": [
+  "3",
+  "nobody"
+ ],
+ "cover_sub": "Straight from the book",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "3 things nobody tells new homeowners",
+   "accent": [
+    "3",
+    "nobody"
+   ],
+   "dur": 2.6
+  },
+  {
+   "type": "quote",
+   "label": "NOBODY TOLD ME",
+   "count": "1 / 3",
+   "text": "The garage door is the most forgotten entry point in the house. Old remotes still work until you clear them from the opener.",
+   "accent": [
+    "garage",
+    "door",
+    "remotes"
+   ],
+   "size": 76,
+   "dur": 6.2
+  },
+  {
+   "type": "quote",
+   "label": "NOBODY TOLD ME",
+   "count": "2 / 3",
+   "text": "If the house came with a 15-year-old alarm, it’s decor, not protection.",
+   "accent": [
+    "decor,"
+   ],
+   "size": 88,
+   "dur": 4.8
+  },
+  {
+   "type": "quote",
+   "label": "NOBODY TOLD ME",
+   "count": "3 / 3",
+   "text": "The ages of your furnace, AC, water heater and roof are the four numbers that decide your next decade of big bills.",
+   "accent": [
+    "four",
+    "numbers"
+   ],
+   "size": 76,
+   "dur": 6.2
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Three things nobody tells you when they hand over the keys.",
+  "feel": "None of this is in the closing paperwork. All of it costs money to learn the hard way.",
+  "shows": "Three “Nobody Told Me” lines from the book: the garage remotes, the old smoke alarm, and the four ages that drive your big bills.",
+  "ask": "Which one did you already learn the hard way?",
+  "tags": "#firsttimehomebuyer #newhomeowner #homeownertips #homemaintenance #firsthome #homeowner101 #booktok"
+ },
+ "slug": "house-d-quote-cards-nobody-told-me",
+ "book": "house"
+}

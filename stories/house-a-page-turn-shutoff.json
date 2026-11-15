@@ -1,0 +1,108 @@
+{
+ "format": "A page-turn",
+ "title": "The first thing to find in your new house",
+ "cover": "Find this valve first",
+ "cover_accent": [
+  "valve"
+ ],
+ "cover_sub": "Day-one advice from the book",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "The first thing to find in your new house",
+   "accent": [
+    "first"
+   ],
+   "label": "NEW HOMEOWNERS",
+   "dur": 2.7
+  },
+  {
+   "type": "page",
+   "page": 14,
+   "page_no": 4,
+   "from": [
+    0.485,
+    0.33,
+    0.94
+   ],
+   "focus": [
+    0.485,
+    0.37,
+    0.87
+   ],
+   "text": "When a pipe bursts, water comes out at several gallons a minute.",
+   "accent": [
+    "gallons"
+   ],
+   "dur": 4.6
+  },
+  {
+   "type": "page",
+   "page": 14,
+   "page_no": 4,
+   "from": [
+    0.485,
+    0.37,
+    0.87
+   ],
+   "focus": [
+    0.485,
+    0.4,
+    0.8
+   ],
+   "highlight": [
+    0.092,
+    0.381,
+    0.876,
+    0.424
+   ],
+   "highlight_at": 0.5,
+   "text": "The difference between a $300 repair and a $30,000 insurance claim is how fast you can stop it.",
+   "accent": [
+    "$300",
+    "$30,000"
+   ],
+   "dur": 6.2
+  },
+  {
+   "type": "page",
+   "page": 14,
+   "page_no": 4,
+   "from": [
+    0.485,
+    0.72,
+    0.88
+   ],
+   "focus": [
+    0.485,
+    0.845,
+    0.8
+   ],
+   "highlight": [
+    0.115,
+    0.834,
+    0.855,
+    0.881
+   ],
+   "highlight_at": 1.0,
+   "text": "A $5 tag on the shutoff vs. ten minutes of water pouring through your ceiling.",
+   "accent": [
+    "$5"
+   ],
+   "dur": 5.6
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "The first thing to find in your new house isn’t the Wi-Fi password.",
+  "feel": "Nobody walks you through this at closing. You get keys, a folder, and a house full of mystery pipes.",
+  "shows": "A real page from Chapter 1: where the main water shutoff hides, and why you turn it once before you ever need it.",
+  "ask": "Do you know where your main shutoff is right now? Be honest.",
+  "tags": "#firsttimehomebuyer #newhomeowner #homeownertips #homemaintenance #firsthome #homeowner101 #booktok"
+ },
+ "slug": "house-a-page-turn-shutoff",
+ "book": "house"
+}

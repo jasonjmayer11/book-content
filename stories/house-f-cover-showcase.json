@@ -1,0 +1,49 @@
+{
+ "format": "F cover showcase",
+ "title": "Your house didn’t come with a manual",
+ "cover": "Your house has a manual",
+ "cover_accent": [
+  "manual"
+ ],
+ "cover_sub": "For first-time homeowners",
+ "scenes": [
+  {
+   "type": "book",
+   "text": "Your house didn’t come with a manual",
+   "accent": [
+    "manual"
+   ],
+   "sub": "So here it is.",
+   "chips": [
+    "PAPERBACK $16.99",
+    "KINDLE $7.99"
+   ],
+   "dur": 5.6,
+   "book_h": 700
+  },
+  {
+   "type": "quote",
+   "label": "FOR FIRST-TIME HOMEOWNERS",
+   "text": "34 chapters. Zero condescension.",
+   "accent": [
+    "Zero"
+   ],
+   "size": 120,
+   "dur": 3.0
+  },
+  {
+   "type": "end",
+   "dur": 3.8
+  }
+ ],
+ "caption": {
+  "hook": "Your car came with a manual. Your house didn’t.",
+  "feel": "The most expensive thing you’ll ever buy came with a stack of paperwork and a set of keys.",
+  "shows": "The book: what every valve, switch, filter and bill in your home does, and what to do the week you move in.",
+  "ask": "Who do you know that just bought their first place?",
+  "save": "Send this to someone who just got their keys.",
+  "tags": "#firsttimehomebuyer #newhomeowner #homeownertips #homemaintenance #firsthome #homeowner101 #booktok #housewarminggift"
+ },
+ "slug": "house-f-cover-showcase",
+ "book": "house"
+}

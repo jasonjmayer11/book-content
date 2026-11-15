@@ -1,0 +1,34 @@
+name: Build book reels
+on:
+  workflow_dispatch:
+    inputs:
+      stories: {description: "Story files (space separated, default all)", required: false}
+      voice: {description: "Kokoro voice", default: "af_heart"}
+concurrency: {group: build, cancel-in-progress: false}
+permissions: {contents: write}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q "kokoro>=0.9.4" pillow numpy soundfile
+      - name: Build (never posts)
+        env: {VOICE: "${{ inputs.voice }}"}
+        run: python3 scripts/bookkit.py dist ${{ inputs.stories || 'stories/*.json' }}
+      - name: Publish each video as a prerelease (the review shelf)
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          STAMP=$(date -u +%Y%m%d-%H%M)
+          for m in dist/*-meta.json; do
+            SLUG=$(basename "$m" -meta.json); TAG="$SLUG-$STAMP"
+            TITLE=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1]))['title'])" "$m")
+            cp "dist/$SLUG-caption.txt" dist/caption.txt
+            gh release create "$TAG" "dist/$SLUG.mp4" "dist/$SLUG-cover.jpg" "dist/$SLUG-sheet.jpg" dist/caption.txt \
+              --prerelease --title "$TITLE" --notes-file "dist/$SLUG-caption.txt"
+          done

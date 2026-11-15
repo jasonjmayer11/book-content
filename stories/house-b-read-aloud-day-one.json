@@ -1,0 +1,137 @@
+{
+ "format": "B read-aloud",
+ "title": "You bought a house. Now what?",
+ "cover": "Keys are yours. Now what?",
+ "cover_accent": [
+  "now",
+  "what?"
+ ],
+ "cover_sub": "Chapter 1, read aloud",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "You bought a house. Now what?",
+   "accent": [
+    "now",
+    "what?"
+   ],
+   "label": "CHAPTER 1",
+   "voice": "You bought a house. Now what?"
+  },
+  {
+   "type": "page",
+   "page": 13,
+   "page_no": 3,
+   "from": [
+    0.5185,
+    0.3,
+    0.94
+   ],
+   "focus": [
+    0.5185,
+    0.4,
+    0.86
+   ],
+   "text": "Congratulations. You just signed your name roughly 140 times, wired more money than you’ve ever seen in one place, and a stranger in a nice blazer handed you a set of keys and a bottle of cheap champagne.",
+   "accent": [
+    "140"
+   ],
+   "voice": "Congratulations. You just signed your name roughly 140 times, wired more money than you've ever seen in one place, and a stranger in a nice blazer handed you a set of keys and a bottle of cheap champagne."
+  },
+  {
+   "type": "page",
+   "page": 13,
+   "page_no": 3,
+   "from": [
+    0.5185,
+    0.4,
+    0.86
+   ],
+   "focus": [
+    0.5185,
+    0.455,
+    0.8
+   ],
+   "highlight": [
+    0.125,
+    0.447,
+    0.41,
+    0.471
+   ],
+   "highlight_at": 0.2,
+   "text": "And then everybody left.",
+   "accent": [
+    "everybody",
+    "left."
+   ],
+   "voice": "And then everybody left.",
+   "hold": 0.5
+  },
+  {
+   "type": "page",
+   "page": 13,
+   "page_no": 3,
+   "from": [
+    0.5185,
+    0.455,
+    0.8
+   ],
+   "focus": [
+    0.5185,
+    0.5,
+    0.8
+   ],
+   "text": "The realtor’s gone. The lender’s gone. The inspector who walked around for three hours mumbling “that’s not ideal” is gone.",
+   "accent": [
+    "gone.",
+    "gone"
+   ],
+   "voice": "The realtor's gone. The lender's gone. The inspector who walked around for three hours mumbling, that's not ideal, is gone."
+  },
+  {
+   "type": "page",
+   "page": 13,
+   "page_no": 3,
+   "from": [
+    0.5185,
+    0.5,
+    0.8
+   ],
+   "focus": [
+    0.5185,
+    0.545,
+    0.8
+   ],
+   "text": "There’s you, a house full of boxes, and a lot of mystery pipes.",
+   "accent": [
+    "mystery",
+    "pipes."
+   ],
+   "voice": "There's you, a house full of boxes, and a lot of mystery pipes."
+  },
+  {
+   "type": "quote",
+   "label": "THE GOOD NEWS",
+   "text": "You need to do about a dozen specific things in your first week.",
+   "accent": [
+    "dozen",
+    "first",
+    "week."
+   ],
+   "voice": "The good news? You need to do about a dozen specific things in your first week."
+  },
+  {
+   "type": "end",
+   "dur": 3.4
+  }
+ ],
+ "caption": {
+  "hook": "You signed your name 140 times and then everybody left.",
+  "feel": "No landlord to text. No maintenance guy. Just you and a lot of mystery pipes.",
+  "shows": "The opening page of Chapter 1, read aloud. The dozen things to do in week one are in the book.",
+  "ask": "What was the first thing that broke in your house?",
+  "tags": "#firsttimehomebuyer #newhomeowner #homeownertips #homemaintenance #firsthome #homeowner101 #booktok"
+ },
+ "slug": "house-b-read-aloud-day-one",
+ "book": "house"
+}

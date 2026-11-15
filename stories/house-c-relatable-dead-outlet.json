@@ -1,0 +1,76 @@
+{
+ "format": "C relatable moment",
+ "title": "When the bathroom outlet dies",
+ "cover": "Outlet dead? Don’t call yet.",
+ "cover_accent": [
+  "don’t",
+  "call",
+  "yet."
+ ],
+ "cover_sub": "Check this before the electrician",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "When the bathroom outlet dies and you’re about to call an electrician",
+   "accent": [
+    "electrician"
+   ],
+   "label": "NEW HOMEOWNER PROBLEMS",
+   "size": 150,
+   "dur": 3.4
+  },
+  {
+   "type": "page",
+   "page": 15,
+   "page_no": 5,
+   "from": [
+    0.515,
+    0.34,
+    0.92
+   ],
+   "focus": [
+    0.515,
+    0.44,
+    0.8
+   ],
+   "highlight": [
+    0.148,
+    0.397,
+    0.886,
+    0.483
+   ],
+   "highlight_at": 1.1,
+   "label": "NOBODY TOLD ME  ·  PAGE 5",
+   "text": "It’s usually not broken. Look for an outlet nearby with two little buttons, called a GFCI.",
+   "accent": [
+    "not",
+    "broken.",
+    "GFCI."
+   ],
+   "dur": 6.4
+  },
+  {
+   "type": "quote",
+   "label": "THE FIX",
+   "text": "It tripped. Press “Reset.”",
+   "accent": [
+    "“Reset.”"
+   ],
+   "size": 140,
+   "dur": 3.0
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "The outlet isn’t broken. It tripped.",
+  "feel": "Every new homeowner pays for this lesson once. You don’t have to.",
+  "shows": "A “Nobody Told Me” box from Chapter 1: what a GFCI is and where its reset button hides.",
+  "ask": "What’s the dumbest thing you ever called a pro for?",
+  "tags": "#firsttimehomebuyer #newhomeowner #homeownertips #homemaintenance #firsthome #homeowner101 #booktok"
+ },
+ "slug": "house-c-relatable-dead-outlet",
+ "book": "house"
+}
