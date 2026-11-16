@@ -1,0 +1,1194 @@
+{
+ "slug": "house-x-how-it-works-radon",
+ "book": "house",
+ "format": "X explainer",
+ "title": "The invisible gas in a lot of basements",
+ "cover": "The gas you can’t smell",
+ "cover_accent": [
+  "can’t"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  1
+ ],
+ "hero_t": 3.0,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1280,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1300,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "text",
+      "text": "SOIL",
+      "xy": [
+       120,
+       1640
+      ],
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        260,
+        560
+       ],
+       [
+        920,
+        160
+       ],
+       [
+        1580,
+        560
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       340,
+       560,
+       1500,
+       1280
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       340,
+       1280,
+       1500,
+       1540
+      ],
+      "w": 16
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        340,
+        1000
+       ],
+       [
+        1500,
+        1000
+       ]
+      ],
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       920,
+       1400
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        700,
+        1540
+       ],
+       [
+        720,
+        1500
+       ],
+       [
+        700,
+        1460
+       ]
+      ],
+      "c": "yel",
+      "w": 6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1240,
+        1540
+       ],
+       [
+        1260,
+        1500
+       ],
+       [
+        1240,
+        1470
+       ]
+      ],
+      "c": "yel",
+      "w": 6
+     },
+     {
+      "k": "level",
+      "box": [
+       352,
+       1292,
+       1488,
+       1528
+      ],
+      "c": [
+       160,
+       200,
+       80
+      ],
+      "v0": 0,
+      "v1": 0.5,
+      "over": 3
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        710,
+        1740
+       ],
+       [
+        710,
+        1500
+       ],
+       [
+        760,
+        1360
+       ]
+      ],
+      "c": [
+       160,
+       200,
+       80
+      ],
+      "n": 4,
+      "speed": 120,
+      "r": 13
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1250,
+        1740
+       ],
+       [
+        1250,
+        1500
+       ],
+       [
+        1180,
+        1360
+       ]
+      ],
+      "c": [
+       160,
+       200,
+       80
+      ],
+      "n": 4,
+      "speed": 120,
+      "r": 13
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        960,
+        1740
+       ],
+       [
+        960,
+        1560
+       ],
+       [
+        960,
+        1420
+       ]
+      ],
+      "c": [
+       160,
+       200,
+       80
+      ],
+      "n": 3,
+      "speed": 100,
+      "r": 13
+     },
+     {
+      "k": "label",
+      "text": "RADON",
+      "xy": [
+       160,
+       1180
+      ],
+      "anchor": [
+       700,
+       1500
+      ],
+      "c": [
+       160,
+       200,
+       80
+      ],
+      "at": 1
+     }
+    ]
+   },
+   "text": "Radon is a radioactive gas that seeps up from the ground and collects indoors. You can’t see it or smell it.",
+   "voice": "Radon is a radioactive gas that seeps up from the ground, and collects indoors. You can't see it, or smell it.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.78,
+     1.4
+    ]
+   ],
+   "accent": [
+    "radioactive",
+    "smell"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1280,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1300,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "text",
+      "text": "SOIL",
+      "xy": [
+       120,
+       1640
+      ],
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        260,
+        560
+       ],
+       [
+        920,
+        160
+       ],
+       [
+        1580,
+        560
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       340,
+       560,
+       1500,
+       1280
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       340,
+       1280,
+       1500,
+       1540
+      ],
+      "w": 16
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        340,
+        1000
+       ],
+       [
+        1500,
+        1000
+       ]
+      ],
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       920,
+       1400
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        700,
+        1540
+       ],
+       [
+        720,
+        1500
+       ],
+       [
+        700,
+        1460
+       ]
+      ],
+      "c": "yel",
+      "w": 6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1240,
+        1540
+       ],
+       [
+        1260,
+        1500
+       ],
+       [
+        1240,
+        1470
+       ]
+      ],
+      "c": "yel",
+      "w": 6
+     },
+     {
+      "k": "level",
+      "box": [
+       352,
+       1292,
+       1488,
+       1528
+      ],
+      "c": [
+       160,
+       200,
+       80
+      ],
+      "v0": 0.5,
+      "v1": 0.5,
+      "over": 3
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        710,
+        1740
+       ],
+       [
+        710,
+        1500
+       ],
+       [
+        760,
+        1360
+       ]
+      ],
+      "c": [
+       160,
+       200,
+       80
+      ],
+      "n": 4,
+      "speed": 120,
+      "r": 13
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1250,
+        1740
+       ],
+       [
+        1250,
+        1500
+       ],
+       [
+        1180,
+        1360
+       ]
+      ],
+      "c": [
+       160,
+       200,
+       80
+      ],
+      "n": 4,
+      "speed": 120,
+      "r": 13
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        960,
+        1740
+       ],
+       [
+        960,
+        1560
+       ],
+       [
+        960,
+        1420
+       ]
+      ],
+      "c": [
+       160,
+       200,
+       80
+      ],
+      "n": 3,
+      "speed": 100,
+      "r": 13
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       710,
+       1500
+      ],
+      "r": 80,
+      "c": "yel"
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       1250,
+       1500
+      ],
+      "r": 80,
+      "c": "yel",
+      "at": 1.2
+     },
+     {
+      "k": "label",
+      "text": "CRACKS",
+      "xy": [
+       150,
+       1460
+      ],
+      "anchor": [
+       640,
+       1500
+      ],
+      "c": "yel"
+     }
+    ]
+   },
+   "text": "It gets in through cracks in the floor, gaps around pipes, and the joints in your foundation.",
+   "voice": "It gets in through cracks in the floor, gaps around pipes, and the joints in your foundation.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.78,
+     1.4
+    ],
+    [
+     1,
+     0.55,
+     0.82,
+     1.7
+    ]
+   ],
+   "accent": [
+    "cracks"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1280,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1300,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "text",
+      "text": "SOIL",
+      "xy": [
+       120,
+       1640
+      ],
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        260,
+        560
+       ],
+       [
+        920,
+        160
+       ],
+       [
+        1580,
+        560
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       340,
+       560,
+       1500,
+       1280
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       340,
+       1280,
+       1500,
+       1540
+      ],
+      "w": 16
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        340,
+        1000
+       ],
+       [
+        1500,
+        1000
+       ]
+      ],
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       920,
+       1400
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        700,
+        1540
+       ],
+       [
+        720,
+        1500
+       ],
+       [
+        700,
+        1460
+       ]
+      ],
+      "c": "yel",
+      "w": 6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1240,
+        1540
+       ],
+       [
+        1260,
+        1500
+       ],
+       [
+        1240,
+        1470
+       ]
+      ],
+      "c": "yel",
+      "w": 6
+     },
+     {
+      "k": "level",
+      "box": [
+       352,
+       1292,
+       1488,
+       1528
+      ],
+      "c": [
+       160,
+       200,
+       80
+      ],
+      "v0": 0.5,
+      "v1": 0.5,
+      "over": 3
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        710,
+        1740
+       ],
+       [
+        710,
+        1500
+       ],
+       [
+        760,
+        1360
+       ]
+      ],
+      "c": [
+       160,
+       200,
+       80
+      ],
+      "n": 4,
+      "speed": 120,
+      "r": 13
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1250,
+        1740
+       ],
+       [
+        1250,
+        1500
+       ],
+       [
+        1180,
+        1360
+       ]
+      ],
+      "c": [
+       160,
+       200,
+       80
+      ],
+      "n": 4,
+      "speed": 120,
+      "r": 13
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        960,
+        1740
+       ],
+       [
+        960,
+        1560
+       ],
+       [
+        960,
+        1420
+       ]
+      ],
+      "c": [
+       160,
+       200,
+       80
+      ],
+      "n": 3,
+      "speed": 100,
+      "r": 13
+     },
+     {
+      "k": "rect",
+      "box": [
+       820,
+       1440,
+       1020,
+       1520
+      ],
+      "r": 10,
+      "fill": [
+       236,
+       230,
+       214
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "TEST KIT",
+      "xy": [
+       920,
+       1460
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 28
+     },
+     {
+      "k": "count",
+      "fmt": "{:.1f} pCi/L",
+      "v0": 0,
+      "v1": 6.2,
+      "over": 3,
+      "xy": [
+       920,
+       1080
+      ],
+      "center": true,
+      "c": "red",
+      "size": 80,
+      "at": 2.5
+     },
+     {
+      "k": "hud",
+      "text": "EPA: FIX AT 4+",
+      "c": "red",
+      "at": 4
+     }
+    ]
+   },
+   "text": "The only way to know your level is to test. A kit costs about $15 to $25 including the lab fee. Fix it at 4 picocuries or higher.",
+   "voice": "The only way to know your level is to test. A kit costs about fifteen to twenty five dollars, including the lab fee. Fix it at four picocuries, or higher.",
+   "cam": [
+    [
+     0,
+     0.55,
+     0.82,
+     1.7
+    ],
+    [
+     1,
+     0.5,
+     0.68,
+     1.4
+    ]
+   ],
+   "accent": [
+    "test.",
+    "4"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1280,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1300,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "text",
+      "text": "SOIL",
+      "xy": [
+       120,
+       1640
+      ],
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        260,
+        560
+       ],
+       [
+        920,
+        160
+       ],
+       [
+        1580,
+        560
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       340,
+       560,
+       1500,
+       1280
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       340,
+       1280,
+       1500,
+       1540
+      ],
+      "w": 16
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        340,
+        1000
+       ],
+       [
+        1500,
+        1000
+       ]
+      ],
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       920,
+       1400
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        700,
+        1540
+       ],
+       [
+        720,
+        1500
+       ],
+       [
+        700,
+        1460
+       ]
+      ],
+      "c": "yel",
+      "w": 6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1240,
+        1540
+       ],
+       [
+        1260,
+        1500
+       ],
+       [
+        1240,
+        1470
+       ]
+      ],
+      "c": "yel",
+      "w": 6
+     },
+     {
+      "k": "level",
+      "box": [
+       352,
+       1292,
+       1488,
+       1528
+      ],
+      "c": [
+       160,
+       200,
+       80
+      ],
+      "v0": 0.5,
+      "v1": 0,
+      "over": 3
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        1100,
+        1600
+       ],
+       [
+        1100,
+        1300
+       ],
+       [
+        1100,
+        1100
+       ],
+       [
+        1100,
+        80
+       ]
+      ],
+      "w": 56
+     },
+     {
+      "k": "rect",
+      "box": [
+       1050,
+       620,
+       1150,
+       720
+      ],
+      "r": 12,
+      "fill": "green",
+      "w": 0
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        400,
+        1620
+       ],
+       [
+        1100,
+        1620
+       ],
+       [
+        1100,
+        80
+       ]
+      ],
+      "c": [
+       160,
+       200,
+       80
+      ],
+      "n": 10,
+      "speed": 520,
+      "r": 12
+     },
+     {
+      "k": "label",
+      "text": "FAN",
+      "xy": [
+       1200,
+       560
+      ],
+      "anchor": [
+       1150,
+       670
+      ],
+      "c": "green",
+      "at": 2
+     },
+     {
+      "k": "hud",
+      "text": "MITIGATION SYSTEM",
+      "c": "green"
+     }
+    ]
+   },
+   "text": "The fix is a pipe from under the floor to above the roof, with a small fan that pulls the gas out before it gets in.",
+   "voice": "The fix is a pipe from under the floor to above the roof, with a small fan that pulls the gas out before it gets in.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.68,
+     1.4
+    ],
+    [
+     1,
+     0.55,
+     0.45,
+     1.0
+    ]
+   ],
+   "accent": [
+    "pipe",
+    "fan"
+   ],
+   "label": "THE FIX",
+   "hold": 0.6
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "The EPA estimates radon causes about 21,000 lung cancer deaths a year, and about 1 in 15 homes has elevated levels.",
+   "voice": "The E P A estimates radon causes about twenty one thousand lung cancer deaths a year. And about one in fifteen homes has elevated levels.",
+   "accent": [
+    "21,000",
+    "1",
+    "15"
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "There may be a gas in your basement you can’t see or smell.",
+  "feel": "Your neighbor’s test tells you nothing about your house. Only yours does.",
+  "shows": "Where radon comes from, how it gets in, what level to act on, and how mitigation works. Readings shown are examples.",
+  "ask": "Have you ever tested your home?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #radon"
+ }
+}

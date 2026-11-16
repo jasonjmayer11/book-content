@@ -1,0 +1,2269 @@
+{
+ "slug": "house-x-how-it-works-ac",
+ "book": "house",
+ "format": "X explainer",
+ "title": "Your AC doesn’t make cold air",
+ "cover": "AC doesn’t make cold",
+ "cover_accent": [
+  "cold"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  1
+ ],
+ "hero_t": 3.0,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1440
+       ],
+       [
+        1840,
+        1440
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1480,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        60,
+        480
+       ],
+       [
+        620,
+        120
+       ],
+       [
+        1180,
+        480
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       140,
+       480,
+       1100,
+       1440
+      ],
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "INSIDE: 72°F",
+      "xy": [
+       380,
+       1360
+      ],
+      "c": "sky",
+      "size": 40
+     },
+     {
+      "k": "text",
+      "text": "OUTSIDE: 95°F",
+      "xy": [
+       1500,
+       520
+      ],
+      "center": true,
+      "c": "hot",
+      "size": 44
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       900,
+       380,
+       1120
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        290,
+        900
+       ],
+       [
+        290,
+        1120
+       ]
+      ],
+      "c": "dim",
+      "w": 6
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       500,
+       1080,
+       760
+      ],
+      "r": 16,
+      "fill": "panel",
+      "w": 12
+     },
+     {
+      "k": "hatch",
+      "box": [
+       790,
+       560,
+       1050,
+       700
+      ],
+      "c": [
+       90,
+       160,
+       230
+      ],
+      "gap": 18,
+      "w": 5
+     },
+     {
+      "k": "text",
+      "text": "INDOOR COIL",
+      "xy": [
+       920,
+       440
+      ],
+      "center": true,
+      "c": "ice",
+      "size": 34
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       1060,
+       1780,
+       1420
+      ],
+      "r": 20,
+      "fill": "panel",
+      "w": 14
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1460,
+       1080,
+       1760,
+       1400
+      ],
+      "c": [
+       70,
+       90,
+       120
+      ],
+      "gap": 16,
+      "w": 4
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1610,
+       1240
+      ],
+      "r": 120,
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1610,
+       1240
+      ],
+      "len": 105,
+      "a0": 0,
+      "a1": 3600,
+      "over": 10,
+      "c": "line",
+      "w": 16
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1610,
+       1240
+      ],
+      "len": 105,
+      "a0": 120,
+      "a1": 3720,
+      "over": 10,
+      "c": "line",
+      "w": 16
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1610,
+       1240
+      ],
+      "len": 105,
+      "a0": 240,
+      "a1": 3840,
+      "over": 10,
+      "c": "line",
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "OUTDOOR UNIT",
+      "xy": [
+       1610,
+       1500
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 32
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        1500,
+        1250
+       ],
+       [
+        1320,
+        1250
+       ],
+       [
+        1320,
+        900
+       ],
+       [
+        880,
+        900
+       ],
+       [
+        880,
+        560
+       ]
+      ],
+      "w": 40
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        960,
+        560
+       ],
+       [
+        960,
+        980
+       ],
+       [
+        1400,
+        980
+       ],
+       [
+        1400,
+        1180
+       ],
+       [
+        1560,
+        1180
+       ]
+      ],
+      "w": 40
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1500,
+        1250
+       ],
+       [
+        1320,
+        1250
+       ],
+       [
+        1320,
+        900
+       ],
+       [
+        880,
+        900
+       ],
+       [
+        880,
+        560
+       ]
+      ],
+      "c": "ice",
+      "n": 6,
+      "speed": 360,
+      "r": 12
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        960,
+        560
+       ],
+       [
+        960,
+        980
+       ],
+       [
+        1400,
+        980
+       ],
+       [
+        1400,
+        1180
+       ],
+       [
+        1560,
+        1180
+       ]
+      ],
+      "c": "hot",
+      "n": 6,
+      "speed": 360,
+      "r": 12
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        200,
+        640
+       ],
+       [
+        740,
+        640
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 300,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1080,
+        690
+       ],
+       [
+        1100,
+        690
+       ]
+      ],
+      "c": "ice",
+      "n": 1,
+      "speed": 60,
+      "r": 1
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        760,
+        740
+       ],
+       [
+        500,
+        900
+       ],
+       [
+        300,
+        1300
+       ]
+      ],
+      "c": "ice",
+      "n": 5,
+      "speed": 300,
+      "r": 14
+     },
+     {
+      "k": "rise",
+      "at_xy": [
+       1610,
+       1040
+      ],
+      "c": "hot",
+      "n": 4,
+      "h": 320,
+      "gap": 80
+     }
+    ]
+   },
+   "text": "Your air conditioner doesn’t make cold air. It moves heat from inside your house to the outside.",
+   "voice": "Your air conditioner doesn't make cold air. It moves heat, from inside your house, to the outside.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.5,
+     1.0
+    ]
+   ],
+   "accent": [
+    "moves",
+    "heat"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1440
+       ],
+       [
+        1840,
+        1440
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1480,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        60,
+        480
+       ],
+       [
+        620,
+        120
+       ],
+       [
+        1180,
+        480
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       140,
+       480,
+       1100,
+       1440
+      ],
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "INSIDE: 72°F",
+      "xy": [
+       380,
+       1360
+      ],
+      "c": "sky",
+      "size": 40
+     },
+     {
+      "k": "text",
+      "text": "OUTSIDE: 95°F",
+      "xy": [
+       1500,
+       520
+      ],
+      "center": true,
+      "c": "hot",
+      "size": 44
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       900,
+       380,
+       1120
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        290,
+        900
+       ],
+       [
+        290,
+        1120
+       ]
+      ],
+      "c": "dim",
+      "w": 6
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       500,
+       1080,
+       760
+      ],
+      "r": 16,
+      "fill": "panel",
+      "w": 12
+     },
+     {
+      "k": "hatch",
+      "box": [
+       790,
+       560,
+       1050,
+       700
+      ],
+      "c": [
+       90,
+       160,
+       230
+      ],
+      "gap": 18,
+      "w": 5
+     },
+     {
+      "k": "text",
+      "text": "INDOOR COIL",
+      "xy": [
+       920,
+       440
+      ],
+      "center": true,
+      "c": "ice",
+      "size": 34
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       1060,
+       1780,
+       1420
+      ],
+      "r": 20,
+      "fill": "panel",
+      "w": 14
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1460,
+       1080,
+       1760,
+       1400
+      ],
+      "c": [
+       70,
+       90,
+       120
+      ],
+      "gap": 16,
+      "w": 4
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1610,
+       1240
+      ],
+      "r": 120,
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1610,
+       1240
+      ],
+      "len": 105,
+      "a0": 0,
+      "a1": 3600,
+      "over": 10,
+      "c": "line",
+      "w": 16
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1610,
+       1240
+      ],
+      "len": 105,
+      "a0": 120,
+      "a1": 3720,
+      "over": 10,
+      "c": "line",
+      "w": 16
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1610,
+       1240
+      ],
+      "len": 105,
+      "a0": 240,
+      "a1": 3840,
+      "over": 10,
+      "c": "line",
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "OUTDOOR UNIT",
+      "xy": [
+       1610,
+       1500
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 32
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        1500,
+        1250
+       ],
+       [
+        1320,
+        1250
+       ],
+       [
+        1320,
+        900
+       ],
+       [
+        880,
+        900
+       ],
+       [
+        880,
+        560
+       ]
+      ],
+      "w": 40
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        960,
+        560
+       ],
+       [
+        960,
+        980
+       ],
+       [
+        1400,
+        980
+       ],
+       [
+        1400,
+        1180
+       ],
+       [
+        1560,
+        1180
+       ]
+      ],
+      "w": 40
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1500,
+        1250
+       ],
+       [
+        1320,
+        1250
+       ],
+       [
+        1320,
+        900
+       ],
+       [
+        880,
+        900
+       ],
+       [
+        880,
+        560
+       ]
+      ],
+      "c": "ice",
+      "n": 6,
+      "speed": 360,
+      "r": 12
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        960,
+        560
+       ],
+       [
+        960,
+        980
+       ],
+       [
+        1400,
+        980
+       ],
+       [
+        1400,
+        1180
+       ],
+       [
+        1560,
+        1180
+       ]
+      ],
+      "c": "hot",
+      "n": 6,
+      "speed": 360,
+      "r": 12
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        200,
+        640
+       ],
+       [
+        740,
+        640
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 300,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1080,
+        690
+       ],
+       [
+        1100,
+        690
+       ]
+      ],
+      "c": "ice",
+      "n": 1,
+      "speed": 60,
+      "r": 1
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        760,
+        740
+       ],
+       [
+        500,
+        900
+       ],
+       [
+        300,
+        1300
+       ]
+      ],
+      "c": "ice",
+      "n": 5,
+      "speed": 300,
+      "r": 14
+     },
+     {
+      "k": "label",
+      "text": "REFRIGERANT",
+      "xy": [
+       1150,
+       760
+      ],
+      "anchor": [
+       1100,
+       900
+      ],
+      "c": "ice",
+      "at": 2.2
+     }
+    ]
+   },
+   "text": "Inside, warm air from your rooms blows across a cold coil. The refrigerant in that coil soaks up the heat.",
+   "voice": "Inside, warm air from your rooms blows across a cold coil. The refrigerant in that coil soaks up the heat.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.42,
+     0.36,
+     1.6
+    ]
+   ],
+   "accent": [
+    "cold",
+    "coil."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1440
+       ],
+       [
+        1840,
+        1440
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1480,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        60,
+        480
+       ],
+       [
+        620,
+        120
+       ],
+       [
+        1180,
+        480
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       140,
+       480,
+       1100,
+       1440
+      ],
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "INSIDE: 72°F",
+      "xy": [
+       380,
+       1360
+      ],
+      "c": "sky",
+      "size": 40
+     },
+     {
+      "k": "text",
+      "text": "OUTSIDE: 95°F",
+      "xy": [
+       1500,
+       520
+      ],
+      "center": true,
+      "c": "hot",
+      "size": 44
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       900,
+       380,
+       1120
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        290,
+        900
+       ],
+       [
+        290,
+        1120
+       ]
+      ],
+      "c": "dim",
+      "w": 6
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       500,
+       1080,
+       760
+      ],
+      "r": 16,
+      "fill": "panel",
+      "w": 12
+     },
+     {
+      "k": "hatch",
+      "box": [
+       790,
+       560,
+       1050,
+       700
+      ],
+      "c": [
+       90,
+       160,
+       230
+      ],
+      "gap": 18,
+      "w": 5
+     },
+     {
+      "k": "text",
+      "text": "INDOOR COIL",
+      "xy": [
+       920,
+       440
+      ],
+      "center": true,
+      "c": "ice",
+      "size": 34
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       1060,
+       1780,
+       1420
+      ],
+      "r": 20,
+      "fill": "panel",
+      "w": 14
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1460,
+       1080,
+       1760,
+       1400
+      ],
+      "c": [
+       70,
+       90,
+       120
+      ],
+      "gap": 16,
+      "w": 4
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1610,
+       1240
+      ],
+      "r": 120,
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1610,
+       1240
+      ],
+      "len": 105,
+      "a0": 0,
+      "a1": 3600,
+      "over": 10,
+      "c": "line",
+      "w": 16
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1610,
+       1240
+      ],
+      "len": 105,
+      "a0": 120,
+      "a1": 3720,
+      "over": 10,
+      "c": "line",
+      "w": 16
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1610,
+       1240
+      ],
+      "len": 105,
+      "a0": 240,
+      "a1": 3840,
+      "over": 10,
+      "c": "line",
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "OUTDOOR UNIT",
+      "xy": [
+       1610,
+       1500
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 32
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        1500,
+        1250
+       ],
+       [
+        1320,
+        1250
+       ],
+       [
+        1320,
+        900
+       ],
+       [
+        880,
+        900
+       ],
+       [
+        880,
+        560
+       ]
+      ],
+      "w": 40
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        960,
+        560
+       ],
+       [
+        960,
+        980
+       ],
+       [
+        1400,
+        980
+       ],
+       [
+        1400,
+        1180
+       ],
+       [
+        1560,
+        1180
+       ]
+      ],
+      "w": 40
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1500,
+        1250
+       ],
+       [
+        1320,
+        1250
+       ],
+       [
+        1320,
+        900
+       ],
+       [
+        880,
+        900
+       ],
+       [
+        880,
+        560
+       ]
+      ],
+      "c": "ice",
+      "n": 6,
+      "speed": 360,
+      "r": 12
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        960,
+        560
+       ],
+       [
+        960,
+        980
+       ],
+       [
+        1400,
+        980
+       ],
+       [
+        1400,
+        1180
+       ],
+       [
+        1560,
+        1180
+       ]
+      ],
+      "c": "hot",
+      "n": 6,
+      "speed": 360,
+      "r": 12
+     },
+     {
+      "k": "rise",
+      "at_xy": [
+       1610,
+       1040
+      ],
+      "c": "hot",
+      "n": 4,
+      "h": 320,
+      "gap": 80
+     },
+     {
+      "k": "label",
+      "text": "HEAT OUT",
+      "xy": [
+       1180,
+       820
+      ],
+      "anchor": [
+       1560,
+       1000
+      ],
+      "c": "hot",
+      "at": 1.4
+     },
+     {
+      "k": "hud",
+      "text": "MOVING HEAT, NOT MAKING COLD",
+      "c": "yel"
+     }
+    ]
+   },
+   "text": "A pump sends that refrigerant outside, where a big fan blows the heat into the yard.",
+   "voice": "A pump sends that refrigerant outside, where a big fan blows the heat into the yard.",
+   "cam": [
+    [
+     0,
+     0.42,
+     0.36,
+     1.6
+    ],
+    [
+     1,
+     0.82,
+     0.68,
+     1.6
+    ]
+   ],
+   "accent": [
+    "fan",
+    "heat"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1440
+       ],
+       [
+        1840,
+        1440
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1480,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        60,
+        480
+       ],
+       [
+        620,
+        120
+       ],
+       [
+        1180,
+        480
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       140,
+       480,
+       1100,
+       1440
+      ],
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "INSIDE: 72°F",
+      "xy": [
+       380,
+       1360
+      ],
+      "c": "sky",
+      "size": 40
+     },
+     {
+      "k": "text",
+      "text": "OUTSIDE: 95°F",
+      "xy": [
+       1500,
+       520
+      ],
+      "center": true,
+      "c": "hot",
+      "size": 44
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       900,
+       380,
+       1120
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        290,
+        900
+       ],
+       [
+        290,
+        1120
+       ]
+      ],
+      "c": "dim",
+      "w": 6
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       500,
+       1080,
+       760
+      ],
+      "r": 16,
+      "fill": "panel",
+      "w": 12
+     },
+     {
+      "k": "hatch",
+      "box": [
+       790,
+       560,
+       1050,
+       700
+      ],
+      "c": [
+       90,
+       160,
+       230
+      ],
+      "gap": 18,
+      "w": 5
+     },
+     {
+      "k": "text",
+      "text": "INDOOR COIL",
+      "xy": [
+       920,
+       440
+      ],
+      "center": true,
+      "c": "ice",
+      "size": 34
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       1060,
+       1780,
+       1420
+      ],
+      "r": 20,
+      "fill": "panel",
+      "w": 14
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1460,
+       1080,
+       1760,
+       1400
+      ],
+      "c": [
+       70,
+       90,
+       120
+      ],
+      "gap": 16,
+      "w": 4
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1610,
+       1240
+      ],
+      "r": 120,
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1610,
+       1240
+      ],
+      "len": 105,
+      "a0": 0,
+      "a1": 3600,
+      "over": 10,
+      "c": "line",
+      "w": 16
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1610,
+       1240
+      ],
+      "len": 105,
+      "a0": 120,
+      "a1": 3720,
+      "over": 10,
+      "c": "line",
+      "w": 16
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1610,
+       1240
+      ],
+      "len": 105,
+      "a0": 240,
+      "a1": 3840,
+      "over": 10,
+      "c": "line",
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "OUTDOOR UNIT",
+      "xy": [
+       1610,
+       1500
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 32
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        1500,
+        1250
+       ],
+       [
+        1320,
+        1250
+       ],
+       [
+        1320,
+        900
+       ],
+       [
+        880,
+        900
+       ],
+       [
+        880,
+        560
+       ]
+      ],
+      "w": 40
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        960,
+        560
+       ],
+       [
+        960,
+        980
+       ],
+       [
+        1400,
+        980
+       ],
+       [
+        1400,
+        1180
+       ],
+       [
+        1560,
+        1180
+       ]
+      ],
+      "w": 40
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1500,
+        1250
+       ],
+       [
+        1320,
+        1250
+       ],
+       [
+        1320,
+        900
+       ],
+       [
+        880,
+        900
+       ],
+       [
+        880,
+        560
+       ]
+      ],
+      "c": "ice",
+      "n": 6,
+      "speed": 360,
+      "r": 12
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        960,
+        560
+       ],
+       [
+        960,
+        980
+       ],
+       [
+        1400,
+        980
+       ],
+       [
+        1400,
+        1180
+       ],
+       [
+        1560,
+        1180
+       ]
+      ],
+      "c": "hot",
+      "n": 6,
+      "speed": 360,
+      "r": 12
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        200,
+        640
+       ],
+       [
+        740,
+        640
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 300,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1080,
+        690
+       ],
+       [
+        1100,
+        690
+       ]
+      ],
+      "c": "ice",
+      "n": 1,
+      "speed": 60,
+      "r": 1
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        760,
+        740
+       ],
+       [
+        500,
+        900
+       ],
+       [
+        300,
+        1300
+       ]
+      ],
+      "c": "ice",
+      "n": 5,
+      "speed": 300,
+      "r": 14
+     },
+     {
+      "k": "drops",
+      "at_xy": [
+       920,
+       770
+      ],
+      "c": "water",
+      "n": 4,
+      "spread": 8,
+      "fall": 60,
+      "rate": 1.2,
+      "r": 10
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        860,
+        790
+       ],
+       [
+        980,
+        790
+       ]
+      ],
+      "w": 10
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        980,
+        790
+       ],
+       [
+        1080,
+        790
+       ],
+       [
+        1100,
+        1440
+       ]
+      ],
+      "c": "water",
+      "w": 12,
+      "draw": 1.2
+     },
+     {
+      "k": "label",
+      "text": "CONDENSATE LINE",
+      "xy": [
+       1130,
+       1140
+      ],
+      "anchor": [
+       1094,
+       1180
+      ],
+      "c": "water",
+      "at": 2.2
+     },
+     {
+      "k": "hud",
+      "text": "CLOGGED LINE = WET CEILING",
+      "c": "red",
+      "at": 4.2
+     }
+    ]
+   },
+   "text": "It also pulls water out of the air. That drips into a pan and out a small drain line. When algae clogs it, the water goes into your ceiling.",
+   "voice": "It also pulls water out of the air. That drips into a pan, and out a small drain line. When algae clogs it, the water goes into your ceiling.",
+   "cam": [
+    [
+     0,
+     0.82,
+     0.68,
+     1.6
+    ],
+    [
+     0.3,
+     0.5,
+     0.4,
+     1.9
+    ],
+    [
+     1,
+     0.55,
+     0.6,
+     1.4
+    ]
+   ],
+   "accent": [
+    "water",
+    "ceiling."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1440
+       ],
+       [
+        1840,
+        1440
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1480,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        60,
+        480
+       ],
+       [
+        620,
+        120
+       ],
+       [
+        1180,
+        480
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       140,
+       480,
+       1100,
+       1440
+      ],
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "INSIDE: 72°F",
+      "xy": [
+       380,
+       1360
+      ],
+      "c": "sky",
+      "size": 40
+     },
+     {
+      "k": "text",
+      "text": "OUTSIDE: 95°F",
+      "xy": [
+       1500,
+       520
+      ],
+      "center": true,
+      "c": "hot",
+      "size": 44
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       900,
+       380,
+       1120
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        290,
+        900
+       ],
+       [
+        290,
+        1120
+       ]
+      ],
+      "c": "dim",
+      "w": 6
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       500,
+       1080,
+       760
+      ],
+      "r": 16,
+      "fill": "panel",
+      "w": 12
+     },
+     {
+      "k": "hatch",
+      "box": [
+       790,
+       560,
+       1050,
+       700
+      ],
+      "c": [
+       90,
+       160,
+       230
+      ],
+      "gap": 18,
+      "w": 5
+     },
+     {
+      "k": "text",
+      "text": "INDOOR COIL",
+      "xy": [
+       920,
+       440
+      ],
+      "center": true,
+      "c": "ice",
+      "size": 34
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       1060,
+       1780,
+       1420
+      ],
+      "r": 20,
+      "fill": "panel",
+      "w": 14
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1460,
+       1080,
+       1760,
+       1400
+      ],
+      "c": [
+       70,
+       90,
+       120
+      ],
+      "gap": 16,
+      "w": 4
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1610,
+       1240
+      ],
+      "r": 120,
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1610,
+       1240
+      ],
+      "len": 105,
+      "a0": 0,
+      "a1": 3600,
+      "over": 10,
+      "c": "line",
+      "w": 16
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1610,
+       1240
+      ],
+      "len": 105,
+      "a0": 120,
+      "a1": 3720,
+      "over": 10,
+      "c": "line",
+      "w": 16
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1610,
+       1240
+      ],
+      "len": 105,
+      "a0": 240,
+      "a1": 3840,
+      "over": 10,
+      "c": "line",
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "OUTDOOR UNIT",
+      "xy": [
+       1610,
+       1500
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 32
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        1500,
+        1250
+       ],
+       [
+        1320,
+        1250
+       ],
+       [
+        1320,
+        900
+       ],
+       [
+        880,
+        900
+       ],
+       [
+        880,
+        560
+       ]
+      ],
+      "w": 40
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        960,
+        560
+       ],
+       [
+        960,
+        980
+       ],
+       [
+        1400,
+        980
+       ],
+       [
+        1400,
+        1180
+       ],
+       [
+        1560,
+        1180
+       ]
+      ],
+      "w": 40
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1500,
+        1250
+       ],
+       [
+        1320,
+        1250
+       ],
+       [
+        1320,
+        900
+       ],
+       [
+        880,
+        900
+       ],
+       [
+        880,
+        560
+       ]
+      ],
+      "c": "ice",
+      "n": 6,
+      "speed": 360,
+      "r": 12
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        960,
+        560
+       ],
+       [
+        960,
+        980
+       ],
+       [
+        1400,
+        980
+       ],
+       [
+        1400,
+        1180
+       ],
+       [
+        1560,
+        1180
+       ]
+      ],
+      "c": "hot",
+      "n": 6,
+      "speed": 360,
+      "r": 12
+     },
+     {
+      "k": "rise",
+      "at_xy": [
+       1610,
+       1040
+      ],
+      "c": "hot",
+      "n": 4,
+      "h": 320,
+      "gap": 80
+     },
+     {
+      "k": "dim",
+      "a": [
+       1440,
+       1000
+      ],
+      "b": [
+       1780,
+       1000
+      ],
+      "text": "2 FT CLEAR",
+      "c": "yel",
+      "dy": -60
+     },
+     {
+      "k": "hud",
+      "text": "KEEP IT CLEAR",
+      "c": "green"
+     }
+    ]
+   },
+   "text": "So keep two feet of clear space around the outdoor unit, and change your filter. Both help it move heat.",
+   "voice": "So keep two feet of clear space around the outdoor unit, and change your filter. Both help it move heat.",
+   "cam": [
+    [
+     0,
+     0.55,
+     0.6,
+     1.4
+    ],
+    [
+     1,
+     0.82,
+     0.66,
+     1.55
+    ]
+   ],
+   "accent": [
+    "two",
+    "feet"
+   ],
+   "label": "THE FIX",
+   "hold": 0.6
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "ENERGY STAR says heating and cooling is almost half of the average home’s energy bill.",
+   "voice": "Energy Star says heating and cooling is almost half of the average home's energy bill. Knowing how it works helps you keep it efficient.",
+   "accent": [
+    "half"
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Your air conditioner doesn’t make cold air.",
+  "feel": "It’s a heat mover, and once you get that, its upkeep makes sense.",
+  "shows": "How heat moves from your rooms to the outdoor unit, where the water goes, and the two-foot rule.",
+  "ask": "When did you last clear around your outdoor unit?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #hvac"
+ }
+}

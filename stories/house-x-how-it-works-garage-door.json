@@ -1,0 +1,793 @@
+{
+ "slug": "house-x-how-it-works-garage-door",
+ "book": "house",
+ "format": "X explainer",
+ "title": "The safety test your garage door needs",
+ "cover": "Test this every month",
+ "cover_accent": [
+  "month"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  1
+ ],
+ "hero_t": 2.5,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1560,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0,
+        1560
+       ],
+       [
+        1840,
+        1560
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       300,
+       1640,
+       1560
+      ],
+      "w": 18
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        200,
+        300
+       ],
+       [
+        920,
+        80
+       ],
+       [
+        1640,
+        300
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       240,
+       340,
+       1600,
+       584.0
+      ],
+      "box1": [
+       240,
+       340,
+       1600,
+       584.0
+      ],
+      "over": 3,
+      "fill": [
+       44,
+       64,
+       96
+      ],
+      "w": 6,
+      "c": "dim",
+      "to": 999
+     },
+     {
+      "k": "rect",
+      "box": [
+       240,
+       1460,
+       300,
+       1500
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       1540,
+       1460,
+       1600,
+       1500
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PHOTO EYES",
+      "xy": [
+       920,
+       1600
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 32
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        300,
+        1480
+       ],
+       [
+        1540,
+        1480
+       ]
+      ],
+      "c": "red",
+      "w": 4
+     },
+     {
+      "k": "label",
+      "text": "PHOTO EYE BEAM",
+      "xy": [
+       620,
+       1300
+      ],
+      "anchor": [
+       900,
+       1480
+      ],
+      "c": "red",
+      "at": 2
+     }
+    ]
+   },
+   "text": "A garage door weighs a lot. Two safety systems keep it from closing on a person, a pet, or your car.",
+   "voice": "A garage door weighs a lot. Two safety systems keep it from closing on a person, a pet, or your car.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.5,
+     1.0
+    ]
+   ],
+   "accent": [
+    "Two",
+    "safety"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1560,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0,
+        1560
+       ],
+       [
+        1840,
+        1560
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       300,
+       1640,
+       1560
+      ],
+      "w": 18
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        200,
+        300
+       ],
+       [
+        920,
+        80
+       ],
+       [
+        1640,
+        300
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       240,
+       340,
+       1600,
+       584.0
+      ],
+      "box1": [
+       240,
+       340,
+       1600,
+       1255.0
+      ],
+      "over": 3,
+      "fill": [
+       44,
+       64,
+       96
+      ],
+      "w": 6,
+      "c": "dim",
+      "to": 3.25
+     },
+     {
+      "k": "rect",
+      "box": [
+       240,
+       340,
+       1600,
+       1255.0
+      ],
+      "box1": [
+       240,
+       340,
+       1600,
+       584.0
+      ],
+      "over": 1.4,
+      "fill": [
+       44,
+       64,
+       96
+      ],
+      "w": 6,
+      "c": "dim",
+      "at": 3.25
+     },
+     {
+      "k": "rect",
+      "box": [
+       240,
+       1460,
+       300,
+       1500
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       1540,
+       1460,
+       1600,
+       1500
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PHOTO EYES",
+      "xy": [
+       920,
+       1600
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 32
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        300,
+        1480
+       ],
+       [
+        1540,
+        1480
+       ]
+      ],
+      "c": "red",
+      "w": 4
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        880,
+        1380
+       ],
+       [
+        960,
+        1560
+       ]
+      ],
+      "c": "yel",
+      "w": 18,
+      "at": 3.2
+     },
+     {
+      "k": "text",
+      "text": "BROOM",
+      "xy": [
+       980,
+       1360
+      ],
+      "c": "yel",
+      "size": 30,
+      "at": 3.2
+     },
+     {
+      "k": "hud",
+      "text": "BEAM BROKEN: REVERSE",
+      "c": "green",
+      "at": 3.3
+     }
+    ]
+   },
+   "text": "First, the photo eyes. Two small sensors near the floor send a beam across the opening. Break the beam, and the door should reverse.",
+   "voice": "First, the photo eyes. Two small sensors near the floor send a beam across the opening. Break the beam, and the door should reverse.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.78,
+     1.5
+    ]
+   ],
+   "accent": [
+    "photo",
+    "eyes.",
+    "reverse."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1560,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0,
+        1560
+       ],
+       [
+        1840,
+        1560
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       300,
+       1640,
+       1560
+      ],
+      "w": 18
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        200,
+        300
+       ],
+       [
+        920,
+        80
+       ],
+       [
+        1640,
+        300
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       240,
+       340,
+       1600,
+       584.0
+      ],
+      "box1": [
+       240,
+       340,
+       1600,
+       1474.6000000000001
+      ],
+      "over": 3.4,
+      "fill": [
+       44,
+       64,
+       96
+      ],
+      "w": 6,
+      "c": "dim",
+      "to": 3.65
+     },
+     {
+      "k": "rect",
+      "box": [
+       240,
+       340,
+       1600,
+       1474.6000000000001
+      ],
+      "box1": [
+       240,
+       340,
+       1600,
+       584.0
+      ],
+      "over": 1.4,
+      "fill": [
+       44,
+       64,
+       96
+      ],
+      "w": 6,
+      "c": "dim",
+      "at": 3.65
+     },
+     {
+      "k": "rect",
+      "box": [
+       240,
+       1460,
+       300,
+       1500
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       1540,
+       1460,
+       1600,
+       1500
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PHOTO EYES",
+      "xy": [
+       920,
+       1600
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 32
+     },
+     {
+      "k": "rect",
+      "box": [
+       820,
+       1520,
+       1020,
+       1560
+      ],
+      "fill": "brown",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "2×4",
+      "xy": [
+       920,
+       1480
+      ],
+      "center": true,
+      "c": "brown",
+      "size": 34
+     },
+     {
+      "k": "hud",
+      "text": "HIT THE BOARD: REVERSE",
+      "c": "green",
+      "at": 3.6
+     }
+    ]
+   },
+   "text": "Second, auto-reverse. Lay a 2×4 flat in the door’s path and close it. It should hit the board and go back up.",
+   "voice": "Second, auto reverse. Lay a two by four flat in the door's path, and close it. It should hit the board, and go back up.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.78,
+     1.5
+    ],
+    [
+     1,
+     0.5,
+     0.82,
+     1.8
+    ]
+   ],
+   "accent": [
+    "2×4",
+    "back",
+    "up."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1560,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0,
+        1560
+       ],
+       [
+        1840,
+        1560
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       300,
+       1640,
+       1560
+      ],
+      "w": 18
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        200,
+        300
+       ],
+       [
+        920,
+        80
+       ],
+       [
+        1640,
+        300
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       240,
+       340,
+       1600,
+       1474.6000000000001
+      ],
+      "box1": [
+       240,
+       340,
+       1600,
+       1474.6000000000001
+      ],
+      "over": 3,
+      "fill": [
+       44,
+       64,
+       96
+      ],
+      "w": 6,
+      "c": "dim",
+      "to": 999
+     },
+     {
+      "k": "rect",
+      "box": [
+       240,
+       1460,
+       300,
+       1500
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       1540,
+       1460,
+       1600,
+       1500
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PHOTO EYES",
+      "xy": [
+       920,
+       1600
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 32
+     },
+     {
+      "k": "rect",
+      "box": [
+       820,
+       1520,
+       1020,
+       1560
+      ],
+      "fill": "brown",
+      "w": 0
+     },
+     {
+      "k": "hud",
+      "text": "NO REVERSE = STOP USING IT",
+      "c": "red"
+     },
+     {
+      "k": "hud",
+      "text": "TEST MONTHLY",
+      "c": "green",
+      "at": 3
+     }
+    ]
+   },
+   "text": "If it doesn’t reverse, stop using the opener until it’s fixed. Then test both every month.",
+   "voice": "If it doesn't reverse, stop using the opener until it's fixed. Then test both, every month.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.82,
+     1.8
+    ],
+    [
+     1,
+     0.5,
+     0.5,
+     1.0
+    ]
+   ],
+   "accent": [
+    "stop",
+    "month."
+   ],
+   "label": "DO THIS",
+   "hold": 0.6
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "Federal rules have required this protection on openers made since 1993, but sensors get dirty and knocked out of line.",
+   "voice": "Federal rules have required this protection on openers made since nineteen ninety three. But sensors get dirty, and knocked out of line.",
+   "accent": [
+    "1993,"
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Your garage door has two safety systems. Have you tested either one?",
+  "feel": "Both can quietly stop working, and the door doesn’t tell you.",
+  "shows": "How the photo eyes and auto-reverse work, the broom test, the 2×4 test, and what to do if it fails.",
+  "ask": "When did you last test yours?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #homesafety"
+ }
+}

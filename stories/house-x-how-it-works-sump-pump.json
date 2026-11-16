@@ -1,0 +1,1394 @@
+{
+ "slug": "house-x-how-it-works-sump-pump",
+ "book": "house",
+ "format": "X explainer",
+ "title": "The pump keeping your basement dry",
+ "cover": "Your basement’s last defense",
+ "cover_accent": [
+  "last"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  2
+ ],
+ "hero_t": 2.0,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       0,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       0,
+       1840,
+       1760
+      ],
+      "c": [
+       34,
+       46,
+       60
+      ],
+      "gap": 46
+     },
+     {
+      "k": "level",
+      "box": [
+       0,
+       900,
+       1840,
+       1760
+      ],
+      "c": [
+       30,
+       70,
+       120
+      ],
+      "v0": 0.6,
+      "v1": 0.6
+     },
+     {
+      "k": "rect",
+      "box": [
+       300,
+       0,
+       1540,
+       1120
+      ],
+      "fill": "navy",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        300,
+        1120
+       ],
+       [
+        1540,
+        1120
+       ]
+      ],
+      "w": 24
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        300,
+        0
+       ],
+       [
+        300,
+        1120
+       ]
+      ],
+      "w": 24
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1540,
+        0
+       ],
+       [
+        1540,
+        1120
+       ]
+      ],
+      "w": 24
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       920,
+       980
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 44
+     },
+     {
+      "k": "text",
+      "text": "GROUNDWATER",
+      "xy": [
+       160,
+       1280
+      ],
+      "c": "water",
+      "size": 36
+     },
+     {
+      "k": "level",
+      "box": [
+       772,
+       1192,
+       1068,
+       1608
+      ],
+      "c": "water",
+      "v0": 0.3,
+      "v1": 0.6,
+      "over": 3
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       1180,
+       1080,
+       1620
+      ],
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "SUMP PIT",
+      "xy": [
+       1140,
+       1560
+      ],
+      "c": "dim",
+      "size": 34
+     },
+     {
+      "k": "rect",
+      "box": [
+       860,
+       1460,
+       980,
+       1600
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        920,
+        1460
+       ],
+       [
+        920,
+        400
+       ],
+       [
+        1540,
+        400
+       ],
+       [
+        1840,
+        400
+       ]
+      ],
+      "w": 26
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        200,
+        1700
+       ],
+       [
+        200,
+        1400
+       ],
+       [
+        880,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        500,
+        1700
+       ],
+       [
+        500,
+        1400
+       ],
+       [
+        880,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1300,
+        1700
+       ],
+       [
+        1300,
+        1400
+       ],
+       [
+        960,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1700,
+        1700
+       ],
+       [
+        1700,
+        1400
+       ],
+       [
+        960,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "label",
+      "text": "SUMP PUMP",
+      "xy": [
+       1130,
+       1300
+      ],
+      "anchor": [
+       985,
+       1520
+      ],
+      "c": "yel",
+      "at": 2
+     }
+    ]
+   },
+   "text": "If your basement has a pit in the floor with a pump in it, that pump is all that stands between a rainstorm and a flooded basement.",
+   "voice": "If your basement has a pit in the floor, with a pump in it, that pump is all that stands between a rainstorm, and a flooded basement.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.78,
+     1.4
+    ]
+   ],
+   "accent": [
+    "flooded",
+    "basement."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       0,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       0,
+       1840,
+       1760
+      ],
+      "c": [
+       34,
+       46,
+       60
+      ],
+      "gap": 46
+     },
+     {
+      "k": "level",
+      "box": [
+       0,
+       900,
+       1840,
+       1760
+      ],
+      "c": [
+       30,
+       70,
+       120
+      ],
+      "v0": 0.6,
+      "v1": 0.6
+     },
+     {
+      "k": "rect",
+      "box": [
+       300,
+       0,
+       1540,
+       1120
+      ],
+      "fill": "navy",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        300,
+        1120
+       ],
+       [
+        1540,
+        1120
+       ]
+      ],
+      "w": 24
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        300,
+        0
+       ],
+       [
+        300,
+        1120
+       ]
+      ],
+      "w": 24
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1540,
+        0
+       ],
+       [
+        1540,
+        1120
+       ]
+      ],
+      "w": 24
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       920,
+       980
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 44
+     },
+     {
+      "k": "text",
+      "text": "GROUNDWATER",
+      "xy": [
+       160,
+       1280
+      ],
+      "c": "water",
+      "size": 36
+     },
+     {
+      "k": "level",
+      "box": [
+       772,
+       1192,
+       1068,
+       1608
+      ],
+      "c": "water",
+      "v0": 0.6,
+      "v1": 0.2,
+      "over": 3
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       1180,
+       1080,
+       1620
+      ],
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "SUMP PIT",
+      "xy": [
+       1140,
+       1560
+      ],
+      "c": "dim",
+      "size": 34
+     },
+     {
+      "k": "rect",
+      "box": [
+       860,
+       1460,
+       980,
+       1600
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        920,
+        1460
+       ],
+       [
+        920,
+        400
+       ],
+       [
+        1540,
+        400
+       ],
+       [
+        1840,
+        400
+       ]
+      ],
+      "w": 26
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        200,
+        1700
+       ],
+       [
+        200,
+        1400
+       ],
+       [
+        880,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        500,
+        1700
+       ],
+       [
+        500,
+        1400
+       ],
+       [
+        880,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1300,
+        1700
+       ],
+       [
+        1300,
+        1400
+       ],
+       [
+        960,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1700,
+        1700
+       ],
+       [
+        1700,
+        1400
+       ],
+       [
+        960,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        920,
+        1460
+       ],
+       [
+        920,
+        400
+       ],
+       [
+        1840,
+        400
+       ]
+      ],
+      "c": "water",
+      "n": 10,
+      "speed": 700,
+      "r": 13
+     },
+     {
+      "k": "text",
+      "text": "PUMP ON",
+      "xy": [
+       920,
+       1420
+      ],
+      "center": true,
+      "c": "green",
+      "size": 30
+     },
+     {
+      "k": "hud",
+      "text": "FLOAT UP: PUMP ON",
+      "c": "green"
+     }
+    ]
+   },
+   "text": "Groundwater collects in the pit. When it rises, a float switches the pump on, and it pushes the water outside.",
+   "voice": "Groundwater collects in the pit. When it rises, a float switches the pump on, and it pushes the water outside.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.78,
+     1.4
+    ],
+    [
+     0.6,
+     0.5,
+     0.55,
+     1.0
+    ],
+    [
+     1,
+     0.6,
+     0.3,
+     1.2
+    ]
+   ],
+   "accent": [
+    "float",
+    "outside."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       0,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       0,
+       1840,
+       1760
+      ],
+      "c": [
+       34,
+       46,
+       60
+      ],
+      "gap": 46
+     },
+     {
+      "k": "level",
+      "box": [
+       0,
+       900,
+       1840,
+       1760
+      ],
+      "c": [
+       30,
+       70,
+       120
+      ],
+      "v0": 0.6,
+      "v1": 0.6
+     },
+     {
+      "k": "rect",
+      "box": [
+       300,
+       0,
+       1540,
+       1120
+      ],
+      "fill": "navy",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        300,
+        1120
+       ],
+       [
+        1540,
+        1120
+       ]
+      ],
+      "w": 24
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        300,
+        0
+       ],
+       [
+        300,
+        1120
+       ]
+      ],
+      "w": 24
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1540,
+        0
+       ],
+       [
+        1540,
+        1120
+       ]
+      ],
+      "w": 24
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       920,
+       980
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 44
+     },
+     {
+      "k": "text",
+      "text": "GROUNDWATER",
+      "xy": [
+       160,
+       1280
+      ],
+      "c": "water",
+      "size": 36
+     },
+     {
+      "k": "level",
+      "box": [
+       772,
+       1192,
+       1068,
+       1608
+      ],
+      "c": "water",
+      "v0": 0.6,
+      "v1": 1,
+      "over": 3
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       1180,
+       1080,
+       1620
+      ],
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "SUMP PIT",
+      "xy": [
+       1140,
+       1560
+      ],
+      "c": "dim",
+      "size": 34
+     },
+     {
+      "k": "rect",
+      "box": [
+       860,
+       1460,
+       980,
+       1600
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        920,
+        1460
+       ],
+       [
+        920,
+        400
+       ],
+       [
+        1540,
+        400
+       ],
+       [
+        1840,
+        400
+       ]
+      ],
+      "w": 26
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        200,
+        1700
+       ],
+       [
+        200,
+        1400
+       ],
+       [
+        880,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        500,
+        1700
+       ],
+       [
+        500,
+        1400
+       ],
+       [
+        880,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1300,
+        1700
+       ],
+       [
+        1300,
+        1400
+       ],
+       [
+        960,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1700,
+        1700
+       ],
+       [
+        1700,
+        1400
+       ],
+       [
+        960,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "level",
+      "box": [
+       312,
+       1060,
+       1528,
+       1108
+      ],
+      "c": "water",
+      "v0": 0,
+      "v1": 1,
+      "over": 2,
+      "at": 2.5
+     },
+     {
+      "k": "hud",
+      "text": "POWER OUT",
+      "c": "red"
+     },
+     {
+      "k": "rain",
+      "box": [
+       0,
+       0,
+       300,
+       880
+      ],
+      "c": "water",
+      "n": 10
+     }
+    ]
+   },
+   "text": "But the storms that flood basements also knock out power. No power, no pump.",
+   "voice": "But the storms that flood basements also knock out power. No power, no pump.",
+   "cam": [
+    [
+     0,
+     0.6,
+     0.3,
+     1.2
+    ],
+    [
+     1,
+     0.5,
+     0.7,
+     1.3
+    ]
+   ],
+   "accent": [
+    "power.",
+    "pump."
+   ],
+   "hold": 0.8
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       0,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       0,
+       1840,
+       1760
+      ],
+      "c": [
+       34,
+       46,
+       60
+      ],
+      "gap": 46
+     },
+     {
+      "k": "level",
+      "box": [
+       0,
+       900,
+       1840,
+       1760
+      ],
+      "c": [
+       30,
+       70,
+       120
+      ],
+      "v0": 0.6,
+      "v1": 0.6
+     },
+     {
+      "k": "rect",
+      "box": [
+       300,
+       0,
+       1540,
+       1120
+      ],
+      "fill": "navy",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        300,
+        1120
+       ],
+       [
+        1540,
+        1120
+       ]
+      ],
+      "w": 24
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        300,
+        0
+       ],
+       [
+        300,
+        1120
+       ]
+      ],
+      "w": 24
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1540,
+        0
+       ],
+       [
+        1540,
+        1120
+       ]
+      ],
+      "w": 24
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       920,
+       980
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 44
+     },
+     {
+      "k": "text",
+      "text": "GROUNDWATER",
+      "xy": [
+       160,
+       1280
+      ],
+      "c": "water",
+      "size": 36
+     },
+     {
+      "k": "level",
+      "box": [
+       772,
+       1192,
+       1068,
+       1608
+      ],
+      "c": "water",
+      "v0": 0.2,
+      "v1": 0.5,
+      "over": 3
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       1180,
+       1080,
+       1620
+      ],
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "SUMP PIT",
+      "xy": [
+       1140,
+       1560
+      ],
+      "c": "dim",
+      "size": 34
+     },
+     {
+      "k": "rect",
+      "box": [
+       860,
+       1460,
+       980,
+       1600
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        920,
+        1460
+       ],
+       [
+        920,
+        400
+       ],
+       [
+        1540,
+        400
+       ],
+       [
+        1840,
+        400
+       ]
+      ],
+      "w": 26
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        200,
+        1700
+       ],
+       [
+        200,
+        1400
+       ],
+       [
+        880,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        500,
+        1700
+       ],
+       [
+        500,
+        1400
+       ],
+       [
+        880,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1300,
+        1700
+       ],
+       [
+        1300,
+        1400
+       ],
+       [
+        960,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1700,
+        1700
+       ],
+       [
+        1700,
+        1400
+       ],
+       [
+        960,
+        1300
+       ]
+      ],
+      "c": "water",
+      "n": 3,
+      "speed": 140,
+      "r": 10
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        920,
+        1460
+       ],
+       [
+        920,
+        400
+       ],
+       [
+        1840,
+        400
+       ]
+      ],
+      "c": "water",
+      "n": 10,
+      "speed": 700,
+      "r": 13
+     },
+     {
+      "k": "text",
+      "text": "PUMP ON",
+      "xy": [
+       920,
+       1420
+      ],
+      "center": true,
+      "c": "green",
+      "size": 30
+     },
+     {
+      "k": "rect",
+      "box": [
+       1180,
+       1380,
+       1380,
+       1600
+      ],
+      "r": 14,
+      "fill": "green",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "BACKUP",
+      "xy": [
+       1280,
+       1470
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 34
+     },
+     {
+      "k": "hud",
+      "text": "TEST · BACKUP · ALARM",
+      "c": "green"
+     }
+    ]
+   },
+   "text": "Test it a few times a year with a bucket of water. Add a battery backup and a water alarm, and replace it every 7 to 10 years.",
+   "voice": "Test it a few times a year with a bucket of water. Add a battery backup, and a water alarm. And replace it every seven to ten years.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.7,
+     1.3
+    ],
+    [
+     1,
+     0.55,
+     0.78,
+     1.45
+    ]
+   ],
+   "accent": [
+    "bucket",
+    "backup",
+    "7",
+    "10"
+   ],
+   "label": "THE FIX",
+   "hold": 0.6
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "Standard home insurance generally won’t cover sump pump failure unless you add water backup coverage.",
+   "voice": "Standard home insurance generally won't cover a failed sump pump, unless you add water backup coverage. Check your policy.",
+   "accent": [
+    "won’t"
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "One pump decides whether your basement floods.",
+  "feel": "And it fails right when you need it, during a storm with the power out.",
+  "shows": "How a sump pump works, why storms beat it, and the test, backup and alarm that protect you.",
+  "ask": "Have you ever tested yours?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering"
+ }
+}
