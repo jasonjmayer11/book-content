@@ -73,11 +73,12 @@ def fit_block(text, path, size, max_w, max_h, min_size=44, **kw):
         if (b[1] <= max_h and b[0] <= max_w) or size <= min_size: return b
         size -= 6
 
-def draw_words(frame, block, cx, y, t, t0, span, alpha=1.0, pop=0.16):
-    """Words appear one by one across `span` seconds starting at t0 (first word is there at t0)."""
+def draw_words(frame, block, cx, y, t, t0, span, alpha=1.0, pop=0.16, times=None):
+    """Words appear one by one: at their spoken time when `times` is given, else spread across `span` from t0."""
     _, _, items = block; n = max(1, len(items))
     for i, (l, x, yy) in enumerate(items):
-        a = min(1.0, (t - (t0 + span * i / n)) / pop + (1.0 if i == 0 and t0 <= 0 else 0))
+        if times: a = min(1.0, (t - (times[min(i, len(times) - 1)] - 0.07)) / 0.12)
+        else: a = min(1.0, (t - (t0 + span * i / n)) / pop + (1.0 if i == 0 and t0 <= 0 else 0))
         if a <= 0: continue
         a = ease_out(a)
         frame.alpha_composite(with_alpha(l, a * alpha), (int(cx + x), int(y + yy + 22 * (1 - a))))
@@ -109,6 +110,100 @@ def shadowed(im, radius=0, blur=40, dy=30, strength=150):
     out.alpha_composite(sh.filter(ImageFilter.GaussianBlur(blur))); out.alpha_composite(im, (pad, pad))
     return out, pad
 
+
+
+# ------------------------------------------------------------------ caption timing from the actual voice audio
+import difflib
+def syl(w):
+    core = re.sub(r"[^A-Za-z0-9$%]", "", w)
+    if not core: return 0.4
+    digits = re.sub(r"[^0-9]", "", core)
+    if digits: return max(1.0, 1.6 * len(digits) + (1 if "$" in core else 0) + (2 if "%" in core else 0))
+    letters = re.sub(r"[^A-Za-z]", "", core)
+    if re.fullmatch(r"[A-Z]{2,5}s?", letters): return float(len(letters.rstrip("s")))
+    l = letters.lower(); g = len(re.findall(r"[aeiouy]+", l))
+    if l.endswith("e") and g > 1 and not l.endswith(("le", "ee")): g -= 1
+    return float(max(1, g))
+
+def voice_word_times(voice, clip, sr=24000):
+    """Start time of every spoken word, found from the audio: silences anchor phrase boundaries,
+    syllables spread the words inside each phrase. Returns (starts, speech_end)."""
+    words = voice.split(); w = np.array([syl(x) for x in words]); cum = np.concatenate([[0], np.cumsum(w)]); tot = cum[-1]
+    hop = int(sr * 0.01); n = len(clip) // hop
+    rms = np.sqrt(np.mean(clip[: n * hop].reshape(n, hop) ** 2, axis=1)); on = rms > max(1e-4, rms.max() * 0.06)
+    idx = np.where(on)[0]
+    if len(idx) == 0: return [0.1 + 0.2 * i for i in range(len(words))], 0.1 + 0.2 * len(words)
+    a, b = idx[0], idx[-1] + 1; gaps = []; run = None
+    for k in range(a, b):
+        if not on[k]:
+            if run is None: run = k
+        elif run is not None:
+            if k - run >= 7: gaps.append((run * 0.01, k * 0.01))
+            run = None
+    start, end = a * 0.01, b * 0.01
+    sp_total = (end - start) - sum(g1 - g0 for g0, g1 in gaps)
+    gpos, acc, last = [], 0.0, start                      # each gap's position in speech-time (silences removed)
+    for g0, g1 in gaps: acc += g0 - last; gpos.append(acc); last = g1
+    def wall(p, after=True):
+        t = start + p
+        for (g0, g1), q in zip(gaps, gpos):
+            if q < p - 1e-9 or (after and abs(q - p) < 1e-9): t += g1 - g0
+        return t
+    bnd = [i for i, x in enumerate(words[:-1]) if re.search(r"[,.;:?!]$", x)]
+    anchors = {}
+    for gi in sorted(range(len(gaps)), key=lambda i: gaps[i][0] - gaps[i][1])[: len(bnd)]:
+        f = gpos[gi] / max(1e-6, sp_total)
+        cand = [(abs(cum[bi + 1] / tot - f), bi) for bi in bnd if bi not in anchors]
+        if cand:
+            d, bi = min(cand)
+            if d < 0.18: anchors[bi] = gpos[gi]
+    pts = [(0, 0.0)] + sorted((bi + 1, q) for bi, q in anchors.items()) + [(len(words), sp_total)]
+    clean = [pts[0]]
+    for wi, q in pts[1:]:
+        if wi > clean[-1][0] and q > clean[-1][1]: clean.append((wi, q))
+    if clean[-1][0] != len(words): clean[-1] = (len(words), sp_total)
+    starts = []
+    for (w0, q0), (w1, q1) in zip(clean, clean[1:]):
+        seg = cum[w1] - cum[w0] or 1
+        for i in range(w0, w1): starts.append(wall(q0 + (q1 - q0) * (cum[i] - cum[w0]) / seg))
+    return starts, end
+
+def align_display(display, voice, vstarts, vend):
+    """Give every on-screen word the time its spoken counterpart starts ($300 sits where 'three hundred dollar' is said)."""
+    nz = lambda x: re.sub(r"[^a-z0-9]", "", x.lower().replace("’", "'"))
+    dw, vw = display.split(), voice.split(); dn, vn = [nz(x) for x in dw], [nz(x) for x in vw]
+    times = [None] * len(dw)
+    for a, b, size in difflib.SequenceMatcher(None, dn, vn, autojunk=False).get_matching_blocks():
+        for k in range(size):
+            if dn[a + k]: times[a + k] = vstarts[b + k]
+    known = [i for i, x in enumerate(times) if x is not None]
+    if not known: 
+        L = max(vend - vstarts[0], 0.3); ws = [syl(x) for x in dw]; tot = sum(ws); c = 0
+        out = []
+        for x in ws: out.append(vstarts[0] + L * c / tot); c += x
+        return out
+    i = 0
+    while i < len(dw):
+        if times[i] is not None: i += 1; continue
+        j = i
+        while j < len(dw) and times[j] is None: j += 1
+        t0 = times[i - 1] if i > 0 else vstarts[0]; t1 = times[j] if j < len(dw) else vend
+        if i == 0 and j < len(dw): t0 = min(vstarts[0], t1 - 0.2 * (j - i))
+        ws = [syl(x) for x in dw[i - 1 if i > 0 else i: j]]; tot = sum(ws) or 1; c = ws[0] if i > 0 else 0
+        for k in range(i, j): times[k] = t0 + (t1 - t0) * c / tot; c += syl(dw[k])
+        i = j
+    return times
+
+def word_times(s, speak):
+    if s.get("_wt"): return s["_wt"]
+    ws = s.get("text", "").split(); k = max(0.1, speak - 0.1) / max(1.0, sum(syl(w) for w in ws)); t, out = 0.1, []
+    for w in ws: out.append(t); t += syl(w) * k
+    return out
+
+def cap_spans(s, caps, speak):
+    wt = word_times(s, speak); st, i = [], 0
+    for c in caps: st.append(max(0.0, wt[min(i, len(wt) - 1)] - 0.05) if wt else 0.1); i += len(c.split())
+    return [(a, st[j + 1] if j + 1 < len(st) else 1e9) for j, a in enumerate(st)]
 
 # ------------------------------------------------------------------ the book
 def cover_img(book): return Image.open(os.path.join(ROOT, book["cover"])).convert("RGB")
@@ -154,8 +249,8 @@ def sc_hook(s, book, dur, speak):
         z = 1.0 + 0.03 * ease_in_out(t / dur)
         if tag: place(f, tag, CX, y0 - 110, min(1, t / 0.2 + 0.4))
         lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-        draw_words(lay, blk, CX, y0, t, 0, min(speak, dur) * 0.75)
-        if sub: draw_words(lay, sub, CX, y0 + blk[1] + 50, t, min(speak, dur) * 0.75, 0.5)
+        wt = word_times(s, speak); draw_words(lay, blk, CX, y0, t, 0, 0, times=wt)
+        if sub: draw_words(lay, sub, CX, y0 + blk[1] + 50, t, (wt[-1] if wt else 0) + 0.3, 0.5)
         zw, zh = int(W * z), int(H * z)
         f.alpha_composite(lay.resize((zw, zh), Image.BILINEAR).crop(((zw - W) // 2, (zh - H) // 2, (zw - W) // 2 + W, (zh - H) // 2 + H)))
         return f
@@ -177,11 +272,9 @@ def sc_page(s, book, dur, speak):
     ImageDraw.Draw(sh).rounded_rectangle([80, PY + 30, 80 + PW, PY + PH + 30], radius=28, fill=(252, 211, 3, 60))
     sh = sh.filter(ImageFilter.GaussianBlur(50))
     lab = pill(s.get("label", f"FROM THE BOOK  ·  PAGE {s.get('page_no', '')}".rstrip(" ·")), size=26)
-    caps = chunks(s["text"]); tot = sum(len(c) for c in caps) or 1
+    caps = chunks(s["text"])
     cap_l = [fit_block(c, F_DISP, 68, 940, 240, accent=s.get("accent", ()), lh=1.12) for c in caps]
-    spans, t0 = [], 0.1
-    for c in caps:
-        d = max(0.5, (speak - 0.1) * len(c) / tot); spans.append((t0, t0 + d)); t0 += d
+    spans = cap_spans(s, caps, speak)
     hl_at = s.get("highlight_at", dur * 0.35)
     def crop(src, k):
         cx, cy, w = (a[i] + (b[i] - a[i]) * k for i in range(3))
@@ -214,7 +307,7 @@ def sc_quote(s, book, dur, speak):
         f = BG.copy().convert("RGBA"); f.alpha_composite(stripes(t))
         p, dy = enter(t, 0.0, dur=0.35, rise=26)
         place(f, lab, CX, y0 - 150 + dy, max(p, 0.35))
-        draw_words(f, blk, CX, y0, t, 0.0, min(speak, dur - 0.6) * 0.8)
+        draw_words(f, blk, CX, y0, t, 0.0, 0, times=word_times(s, speak))
         place(f, bar, CX, y0 + blk[1] + 46, min(1, t / 0.4), 1.0)
         if num: place(f, num, CX, y0 + blk[1] + 86, min(1, t / 0.4))
         return f
@@ -229,8 +322,8 @@ def sc_book(s, book, dur, speak):
     y_book = y_sub + (sub[1] if sub else 0) + 30 - pad
     def frame(t):
         f = BG.copy().convert("RGBA"); f.alpha_composite(stripes(t))
-        draw_words(f, head, CX, y_head, t, 0.0, min(1.2, speak * 0.5))
-        if sub: draw_words(f, sub, CX, y_sub, t, 0.5, 0.6)
+        wt = word_times(s, speak); draw_words(f, head, CX, y_head, t, 0.0, 0, times=wt)
+        if sub: draw_words(f, sub, CX, y_sub, t, (wt[-1] if wt else 0) + 0.3, 0.6)
         p, dy = enter(t, 0.0, dur=0.8, rise=120)
         bob = 10 * math.sin(t * 1.6)
         place(f, b3, CX, y_book + dy + bob, max(p, 0.25), 0.94 + 0.06 * p + 0.012 * ease_in_out(t / dur))
@@ -267,11 +360,9 @@ def sc_diagram(s, book, dur, speak):
     edge = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ImageDraw.Draw(edge).rounded_rectangle([78, PY - 2, 82 + PW, PY + PH + 2], radius=30, outline=YELLOW + (150,), width=3)
     lab = pill(s.get("label", "HOW IT WORKS"), size=26)
-    caps = chunks(s["text"]); tot = sum(len(c) for c in caps) or 1
+    caps = chunks(s["text"])
     cap_l = [fit_block(c, F_DISP, 68, 940, 240, accent=s.get("accent", ()), lh=1.12) for c in caps]
-    spans, t0 = [], 0.1
-    for c in caps:
-        d = max(0.5, (speak - 0.1) * len(c) / tot); spans.append((t0, t0 + d)); t0 += d
+    spans = cap_spans(s, caps, speak)
     huds = {}; s_t0 = s.get("t0", 0.0)
     def cam_at(k):
         for a, b in zip(cam, cam[1:]):
@@ -412,6 +503,9 @@ def build(story_path, out_dir, used_tracks=()):
         speak = (len(clips[i]) / 24000) if clips and clips[i] is not None else words / 2.7 + 0.3
         dur = s.get("dur") or max(s.get("min", 2.2), speak + 0.5 + s.get("hold", 0.3))
         if clips and clips[i] is not None: dur = speak + 0.45      # hold the scene to exactly the spoken line
+        if clips and clips[i] is not None and s.get("text"):
+            vs, ve = voice_word_times(s["voice"], clips[i])
+            s["_wt"] = [x + 0.12 for x in align_display(s["text"], s["voice"], vs, ve)]   # voice is placed 0.12 s into the scene
         timeline.append((SCENES[s["type"]](s, book, dur, speak), dur, s["type"]))
     cover = make_cover(story, book); cover_path = os.path.join(out_dir, f"{slug}-cover.jpg"); cover.save(cover_path, quality=93)
     silent = os.path.join(out_dir, f"{slug}.silent.mp4")
