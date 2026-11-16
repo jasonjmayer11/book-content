@@ -20,6 +20,97 @@
    "state": {
     "els": [
      {
+      "k": "hatch",
+      "box": [
+       60,
+       240,
+       150,
+       1740
+      ],
+      "c": [
+       30,
+       48,
+       78
+      ],
+      "gap": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        150,
+        240
+       ],
+       [
+        150,
+        1740
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       700,
+       1450,
+       1300,
+       1740
+      ],
+      "r": 120,
+      "w": 14,
+      "c": "dim"
+     },
+     {
+      "k": "text",
+      "text": "BOWL",
+      "xy": [
+       1180,
+       1560
+      ],
+      "c": "dim",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        465,
+        1192
+       ],
+       [
+        465,
+        1330
+       ],
+       [
+        150,
+        1330
+       ]
+      ],
+      "c": "dim",
+      "w": 18
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       270,
+       1330
+      ],
+      "r": 34,
+      "fill": "yel",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "SUPPLY VALVE",
+      "xy": [
+       180,
+       1380
+      ],
+      "c": "dim",
+      "size": 30
+     },
+     {
       "k": "level",
       "box": [
        308,
@@ -41,6 +132,65 @@
        1200
       ],
       "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       280,
+       270,
+       1360,
+       300
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        500,
+        500
+       ],
+       [
+        640,
+        450
+       ],
+       [
+        815,
+        505
+       ]
+      ],
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        300,
+        400
+       ],
+       [
+        560,
+        400
+       ]
+      ],
+      "w": 12
+     },
+     {
+      "k": "bolts",
+      "pts": [
+       [
+        600,
+        1200
+       ],
+       [
+        1240,
+        1200
+       ]
+      ],
+      "c": "line"
      },
      {
       "k": "rect",
@@ -211,6 +361,97 @@
    "state": {
     "els": [
      {
+      "k": "hatch",
+      "box": [
+       60,
+       240,
+       150,
+       1740
+      ],
+      "c": [
+       30,
+       48,
+       78
+      ],
+      "gap": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        150,
+        240
+       ],
+       [
+        150,
+        1740
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       700,
+       1450,
+       1300,
+       1740
+      ],
+      "r": 120,
+      "w": 14,
+      "c": "dim"
+     },
+     {
+      "k": "text",
+      "text": "BOWL",
+      "xy": [
+       1180,
+       1560
+      ],
+      "c": "dim",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        465,
+        1192
+       ],
+       [
+        465,
+        1330
+       ],
+       [
+        150,
+        1330
+       ]
+      ],
+      "c": "dim",
+      "w": 18
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       270,
+       1330
+      ],
+      "r": 34,
+      "fill": "yel",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "SUPPLY VALVE",
+      "xy": [
+       180,
+       1380
+      ],
+      "c": "dim",
+      "size": 30
+     },
+     {
       "k": "level",
       "box": [
        308,
@@ -232,6 +473,65 @@
        1200
       ],
       "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       280,
+       270,
+       1360,
+       300
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        500,
+        500
+       ],
+       [
+        640,
+        450
+       ],
+       [
+        815,
+        505
+       ]
+      ],
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        300,
+        400
+       ],
+       [
+        560,
+        400
+       ]
+      ],
+      "w": 12
+     },
+     {
+      "k": "bolts",
+      "pts": [
+       [
+        600,
+        1200
+       ],
+       [
+        1240,
+        1200
+       ]
+      ],
+      "c": "line"
      },
      {
       "k": "rect",
@@ -412,6 +712,97 @@
    "state": {
     "els": [
      {
+      "k": "hatch",
+      "box": [
+       60,
+       240,
+       150,
+       1740
+      ],
+      "c": [
+       30,
+       48,
+       78
+      ],
+      "gap": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        150,
+        240
+       ],
+       [
+        150,
+        1740
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       700,
+       1450,
+       1300,
+       1740
+      ],
+      "r": 120,
+      "w": 14,
+      "c": "dim"
+     },
+     {
+      "k": "text",
+      "text": "BOWL",
+      "xy": [
+       1180,
+       1560
+      ],
+      "c": "dim",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        465,
+        1192
+       ],
+       [
+        465,
+        1330
+       ],
+       [
+        150,
+        1330
+       ]
+      ],
+      "c": "dim",
+      "w": 18
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       270,
+       1330
+      ],
+      "r": 34,
+      "fill": "yel",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "SUPPLY VALVE",
+      "xy": [
+       180,
+       1380
+      ],
+      "c": "dim",
+      "size": 30
+     },
+     {
       "k": "level",
       "box": [
        308,
@@ -433,6 +824,65 @@
        1200
       ],
       "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       280,
+       270,
+       1360,
+       300
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        500,
+        500
+       ],
+       [
+        640,
+        450
+       ],
+       [
+        815,
+        505
+       ]
+      ],
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        300,
+        400
+       ],
+       [
+        560,
+        400
+       ]
+      ],
+      "w": 12
+     },
+     {
+      "k": "bolts",
+      "pts": [
+       [
+        600,
+        1200
+       ],
+       [
+        1240,
+        1200
+       ]
+      ],
+      "c": "line"
      },
      {
       "k": "rect",
@@ -629,6 +1079,97 @@
    "state": {
     "els": [
      {
+      "k": "hatch",
+      "box": [
+       60,
+       240,
+       150,
+       1740
+      ],
+      "c": [
+       30,
+       48,
+       78
+      ],
+      "gap": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        150,
+        240
+       ],
+       [
+        150,
+        1740
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       700,
+       1450,
+       1300,
+       1740
+      ],
+      "r": 120,
+      "w": 14,
+      "c": "dim"
+     },
+     {
+      "k": "text",
+      "text": "BOWL",
+      "xy": [
+       1180,
+       1560
+      ],
+      "c": "dim",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        465,
+        1192
+       ],
+       [
+        465,
+        1330
+       ],
+       [
+        150,
+        1330
+       ]
+      ],
+      "c": "dim",
+      "w": 18
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       270,
+       1330
+      ],
+      "r": 34,
+      "fill": "yel",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "SUPPLY VALVE",
+      "xy": [
+       180,
+       1380
+      ],
+      "c": "dim",
+      "size": 30
+     },
+     {
       "k": "level",
       "box": [
        308,
@@ -650,6 +1191,65 @@
        1200
       ],
       "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       280,
+       270,
+       1360,
+       300
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        500,
+        500
+       ],
+       [
+        640,
+        450
+       ],
+       [
+        815,
+        505
+       ]
+      ],
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        300,
+        400
+       ],
+       [
+        560,
+        400
+       ]
+      ],
+      "w": 12
+     },
+     {
+      "k": "bolts",
+      "pts": [
+       [
+        600,
+        1200
+       ],
+       [
+        1240,
+        1200
+       ]
+      ],
+      "c": "line"
      },
      {
       "k": "rect",
@@ -836,6 +1436,18 @@
    "hold": 0.8
   },
   {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "The EPA says a running toilet can waste 200 gallons a day. That’s on your water bill.",
+   "voice": "The E P A says a running toilet can waste two hundred gallons a day. That's on your water bill, for one inexpensive rubber part.",
+   "accent": [
+    "200",
+    "gallons"
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
    "type": "book",
    "text": "That’s one page of the manual your house didn’t come with",
    "accent": [
@@ -847,7 +1459,7 @@
     "34 CHAPTERS",
     "PAPERBACK + KINDLE"
    ],
-   "voice": "That's one page of the manual your house didn't come with. A simple book for first-time homeowners."
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
   },
   {
    "type": "end",

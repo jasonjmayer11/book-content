@@ -39,17 +39,23 @@ def _stroke(d, pts, w, fill):
 _cache = {}
 def _base(pipe=True):
     if pipe in _cache: return _cache[pipe]
-    im = Image.new("RGB", (DW, DH), NAVY); d = ImageDraw.Draw(im)
-    for x in range(0, DW, 80): d.line([(x, 0), (x, DH)], fill=GRID, width=2)
-    for y in range(0, DH, 80): d.line([(0, y), (DW, y)], fill=GRID, width=2)
+    im = _grid(); d = ImageDraw.Draw(im)
+    d.rectangle([TX - 640, 300, TX - 610, DH], fill=DIM); d.rectangle([TX - 610, DH - 120, WALL, DH - 90], fill=DIM)          # vanity cabinet side + floor
+    for x in range(TX - 600, WALL, 46): d.line([(x, DH - 90), (x + 40, DH - 20)], fill=(30, 48, 78), width=4)
     d.rectangle([WALL, 0, DW, DH], fill=(20, 36, 62))
     for y in range(-120, DH, 72): d.line([(WALL, y + 120), (DW, y)], fill=(44, 70, 110), width=6)
     d.polygon([(TX - 500, 260), (TX + 500, 260), (TX + 340, TOPY), (TX - 340, TOPY)], outline=LINE, width=16)
     d.rectangle([TX - 600, 224, TX + 600, 260], fill=LINE)
     d.line([(TX + 400, 224), (TX + 400, 80), (TX + 80, 80), (TX + 80, 140)], fill=LINE, width=32, joint="curve")
     if pipe:
-        _stroke(d, PATH, PIPE, LINE); _stroke(d, PATH, INNER, NAVY)
-        d.rectangle([TX - INNER // 2, TOPY - 12, TX + INNER // 2, TOPY + 20], fill=NAVY)
+        _stroke(d, [(x + 18, y + 22) for x, y in PATH], PIPE, (3, 8, 16))
+        _stroke(d, PATH, PIPE, LINE); _stroke(d, PATH, INNER, (6, 14, 28))
+        d.rectangle([TX - INNER // 2, TOPY - 12, TX + INNER // 2, TOPY + 20], fill=(6, 14, 28))
+        o = PIPE / 2 - 8; d.line([(x - o, y - o) for x, y in PATH[:2]], fill=(255, 255, 255), width=6); d.line([(x - o, y - o) for x, y in PATH[-2:]], fill=(255, 255, 255), width=6)
+        for bx0, by0, bx1, by1 in ((TX - PIPE // 2 - 16, BY - 90, TX + PIPE // 2 + 16, BY - 40), (RX - PIPE // 2 - 16, AY + 130, RX + PIPE // 2 + 16, AY + 180), (WALL - 44, AY - PIPE // 2 - 34, WALL, AY + PIPE // 2 + 34), (TX - PIPE // 2 - 16, TOPY + 30, TX + PIPE // 2 + 16, TOPY + 76)):
+            d.rounded_rectangle([bx0, by0, bx1, by1], radius=10, fill=LINE, outline=(3, 8, 16), width=4)
+            for i in range(1, 5): d.line([(bx0 + (bx1 - bx0) * i / 5, by0 + 6), (bx0 + (bx1 - bx0) * i / 5, by1 - 6)] if bx1 - bx0 > by1 - by0 else [(bx0 + 6, by0 + (by1 - by0) * i / 5), (bx1 - 6, by0 + (by1 - by0) * i / 5)], fill=(170, 160, 135), width=4)
+        d.ellipse([TX + 330, 150, TX + 470, 230], fill=LINE); d.rectangle([TX - 60, TOPY - 26, TX + 60, TOPY - 8], fill=LINE)
     _cache[pipe] = im
     return im
 def _watermask():
@@ -153,15 +159,25 @@ RED, DIM = (255, 96, 80), (70, 86, 112)
 def _grid():
     if "grid" not in _cache:
         im = Image.new("RGB", (DW, DH), NAVY); d = ImageDraw.Draw(im)
+        for x in range(0, DW, 20): d.line([(x, 0), (x, DH)], fill=(14, 28, 50), width=1)
+        for y in range(0, DH, 20): d.line([(0, y), (DW, y)], fill=(14, 28, 50), width=1)
         for x in range(0, DW, 80): d.line([(x, 0), (x, DH)], fill=GRID, width=2)
         for y in range(0, DH, 80): d.line([(0, y), (DW, y)], fill=GRID, width=2)
+        for x in range(0, DW, 320):
+            for y in range(0, DH, 320): d.line([(x - 14, y), (x + 14, y)], fill=(60, 96, 150), width=3); d.line([(x, y - 14), (x, y + 14)], fill=(60, 96, 150), width=3)
+        v = Image.new("L", (DW // 8, DH // 8), 0); ImageDraw.Draw(v).ellipse([-40, -40, DW // 8 + 40, DH // 8 + 40], fill=255)
+        v = v.filter(ImageFilter.GaussianBlur(40)).resize((DW, DH))
+        im = Image.composite(im, Image.new("RGB", (DW, DH), (4, 9, 18)), v)
         _cache["grid"] = im
     return _cache["grid"].copy()
+def _mix(c, k, to=NAVY): return tuple(int(c[i] + (to[i] - c[i]) * k) for i in range(3))
 def _dots(d, path, t, n, speed, r, fill, frac=1.0):
     L = _len(path) * frac
     if L <= 1: return
     for i in range(n):
-        x, y = _along(path, (t * speed + i * L / n) % L); d.ellipse([x - r, y - r, x + r, y + r], fill=fill)
+        x, y = _along(path, (t * speed + i * L / n) % L)
+        d.ellipse([x - r - 4, y - r - 4, x + r + 4, y + r + 4], fill=_mix(fill, .5, (0, 0, 0))); d.ellipse([x - r, y - r, x + r, y + r], fill=fill)
+        d.ellipse([x - r * .45, y - r * .55, x + r * .1, y], fill=(255, 255, 255))
 def _txt(im, font, text, xy, color=LINE, size=56, center=False):
     t = text_layer(text, font, size, color, tracking=0.1); x = xy[0] - (t.width // 2 if center else 0)
     im.paste(t, (int(x), int(xy[1])), t)
@@ -177,6 +193,12 @@ def shutoff(state, t, dur, font):
     for x in range(-200, 360, 70): d.line([(x, DH), (x + 380, 1380)], fill=(44, 56, 70), width=5)
     d.line([(360, 380), (360, 1640), (1720, 1640), (1720, 380)], fill=LINE, width=16)       # walls + floor
     d.line([(300, 380), (1040, 110), (1780, 380), (300, 380)], fill=LINE, width=16)         # roof
+    for wx in (480, 1380):
+        d.rectangle([wx, 700, wx + 220, 960], outline=DIM, width=8); d.line([(wx + 110, 700), (wx + 110, 960)], fill=DIM, width=6); d.line([(wx, 830), (wx + 220, 830)], fill=DIM, width=6)
+    d.line([(360, 1100), (1720, 1100)], fill=DIM, width=8)
+    for x in range(360, 1720, 120): d.line([(x, 1100), (x, 1130)], fill=DIM, width=8)
+    for x in range(360, 1700, 46): d.line([(x, 1700), (x + 40, 1648)], fill=(30, 48, 78), width=4)
+    _txt(im, font, "BASEMENT", (1200, 1190), DIM, 40)
     closing = 0.0
     if state == "close": closing = ease_in_out(min(1.0, max(0.0, t - dur * 0.35) / 0.9))
     if state == "tag": closing = 1.0 - ease_in_out(min(1.0, max(0.0, t - 0.5) / 0.9)) if t < dur * 0.5 else ease_in_out(min(1.0, (t - dur * 0.5) / 0.9)) * 0 
@@ -185,6 +207,7 @@ def shutoff(state, t, dur, font):
     burst_on = state in ("burst", "locate") or (state == "close" and is_open)
     d.line(SP, fill=LINE, width=84); [d.ellipse([x - 42, y - 42, x + 42, y + 42], fill=LINE) for x, y in SP[1:-1]]
     d.line(SP, fill=NAVY, width=56); [d.ellipse([x - 28, y - 28, x + 28, y + 28], fill=NAVY) for x, y in SP[1:-1]]
+    d.line([(x - 34, y - 34) for x, y in SP[:4]], fill=(255, 255, 255), width=5); d.line([(x - 34, y - 34) for x, y in SP[4:6]], fill=(255, 255, 255), width=5)
     up = SP[:3]; down = SP[2:]
     d.line(up, fill=WATER, width=56)
     if state != "close" or closing < 1.0 or True:
@@ -268,7 +291,12 @@ def gfci(state, t, dur, font):
     d.rounded_rectangle([1340, OY - 260, 1660, OY + 260], radius=40, outline=LINE, width=14)
     for i in range(4): d.line([(1400 + i * 66, OY - 150), (1400 + i * 66, OY + 150)], fill=(LINE if live else DIM), width=10)
     _txt(im, font, "HAIR DRYER", (1500, OY + 290), LINE, 50, center=True)
+    d.rounded_rectangle([OX - 250, OY - 400, OX + 250, OY + 400], radius=40, fill=(18, 30, 50), outline=DIM, width=8)
     _outlet(d, OX, OY, 1.0, True)
+    for sy in (OY - 290, OY + 290):
+        d.ellipse([OX - 20, sy - 20, OX + 20, sy + 20], fill=LINE, outline=(3, 8, 16), width=4); d.line([(OX - 11, sy - 6), (OX + 11, sy + 6)], fill=(3, 8, 16), width=4)
+    d.rounded_rectangle([OX + 150, OY - 250, OX + 230, OY - 130], radius=14, fill=DIM); d.rounded_rectangle([OX + 150, OY + 130, OX + 230, OY + 250], radius=14, fill=DIM)
+    d.ellipse([1290, OY - 50, 1390, OY + 50], outline=LINE, width=10); d.line([(1470, OY - 220), (1470, OY - 180)], fill=YEL, width=14)
     # TEST / RESET buttons: RESET pops out when tripped
     d.rounded_rectangle([OX - 80, OY - 62, OX + 80, OY - 8], radius=10, fill=(40, 40, 40), outline=LINE, width=6)
     pop = 16 if tripped else 0
@@ -322,6 +350,15 @@ def airfilter(state, t, dur, font):
     d.line([(0, FY0), (1240, FY0)], fill=LINE, width=16); d.line([(0, FY1), (1240, FY1)], fill=LINE, width=16)   # return duct
     d.rounded_rectangle([1240, 380, 1760, 1340], radius=30, outline=LINE, width=16)                               # furnace cabinet
     d.line([(1400, 380), (1400, 0)], fill=LINE, width=16); d.line([(1620, 380), (1620, 0)], fill=LINE, width=16)  # supply up
+    for fx in (200, 480, 1040):
+        d.rectangle([fx - 10, FY0 - 26, fx + 10, FY1 + 26], fill=DIM)
+        for fy in (FY0 - 14, FY1 + 14): d.ellipse([fx - 12, fy - 12, fx + 12, fy + 12], fill=LINE)
+    d.line([(4, FY0 + 14), (1236, FY0 + 14)], fill=(255, 255, 255), width=4)
+    d.rounded_rectangle([1290, 1120, 1710, 1300], radius=16, outline=DIM, width=8)
+    for i in range(5):
+        fx = 1340 + i * 80; h = 70 + 22 * math.sin(t * 10 + i); d.polygon([(fx - 26, 1280), (fx, 1280 - h), (fx + 26, 1280)], fill=COL["hot"]); d.polygon([(fx - 12, 1280), (fx, 1280 - h * .5), (fx + 12, 1280)], fill=YEL)
+    d.rounded_rectangle([1300, 420, 1480, 520], radius=10, outline=DIM, width=6); d.ellipse([1320, 450, 1360, 490], fill=(120, 220, 120))
+    for i in range(4): d.line([(1560 + i * 34, 430), (1560 + i * 34, 510)], fill=DIM, width=8)
     _txt(im, font, "FURNACE", (1500, 1370), LINE, 54, center=True); _txt(im, font, "AIR FROM YOUR ROOMS", (40, FY1 + 40), (150, 180, 215), 46)
     bx, by = 1500, 860; strain = state == "strain" or (state == "clog" and clog > 0.7)
     bc = RED if strain and math.sin(t * 9) > -0.2 else LINE
@@ -393,13 +430,25 @@ def gx(state, t, dur, font):
             if e.get("draw"): pts = _upto(pts, _len(pts) * min(1.0, lt / e["draw"]))
             if len(pts) > 1: d.line(pts, fill=c, width=e.get("w", 12), joint="curve")
         elif k == "pipe":
-            pts = [tuple(q) for q in e["pts"]]; w = e.get("w", 84); inner = _c(e.get("water"), NAVY) if e.get("water") else NAVY
+            pts = [tuple(q) for q in e["pts"]]; w = e.get("w", 84); inner = _c(e.get("water"), NAVY) if e.get("water") else (6, 14, 28)
+            sh = [(x + 16, y + 20) for x, y in pts]; d.line(sh, fill=(3, 8, 16), width=w); [d.ellipse([x - w / 2, y - w / 2, x + w / 2, y + w / 2], fill=(3, 8, 16)) for x, y in sh[1:-1]]
             for col, ww in ((c, w), (inner, w - 28)):
                 d.line(pts, fill=col, width=ww); [d.ellipse([x - ww / 2, y - ww / 2, x + ww / 2, y + ww / 2], fill=col) for x, y in pts[1:-1]]
+            o = w / 2 - 6
+            d.line([(x - o, y - o) for x, y in pts], fill=(255, 255, 255), width=4); d.line([(x + o, y + o) for x, y in pts], fill=_mix(c, .45, (0, 0, 0)), width=5)
+            if e.get("water"):
+                o2 = (w - 28) / 4; d.line([(x - o2, y - o2) for x, y in pts], fill=_mix(inner, .45, (255, 255, 255)), width=7)
+            for (x0, y0), (x1, y1) in ((pts[0], pts[1]), (pts[-1], pts[-2])):          # couplings at both ends
+                L_ = math.hypot(x1 - x0, y1 - y0) or 1; ux, uy = (x1 - x0) / L_, (y1 - y0) / L_; hw = w / 2 + 12
+                for off in (18, 44):
+                    cx_, cy_ = x0 + ux * off, y0 + uy * off
+                    d.line([(cx_ - uy * hw, cy_ + ux * hw), (cx_ + uy * hw, cy_ - ux * hw)], fill=c, width=16)
         elif k == "poly": d.polygon([tuple(q) for q in e["pts"]], fill=_c(e.get("fill"), None) if e.get("fill") else None, outline=c if e.get("w", 14) else None, width=e.get("w", 14))
         elif k == "rect":
             box = _lerp(e["box"], e["box1"], p) if e.get("box1") else e["box"]
+            if e.get("fill") and e.get("shadow", True) and (box[2] - box[0]) * (box[3] - box[1]) > 4000: d.rounded_rectangle([box[0] + 12, box[1] + 14, box[2] + 12, box[3] + 14], radius=e.get("r", 0), fill=(3, 8, 16))
             d.rounded_rectangle(box, radius=e.get("r", 0), fill=_c(e.get("fill"), None) if e.get("fill") else None, outline=c if e.get("w", 14) else None, width=e.get("w", 14))
+            if e.get("fill") and box[2] - box[0] > 60 and box[3] - box[1] > 40: d.line([(box[0] + 10, box[3] - 10), (box[0] + 10, box[1] + 10), (box[2] - 10, box[1] + 10)], fill=_mix(_c(e["fill"]), .35, (255, 255, 255)), width=4)
         elif k == "circ":
             x, y = e["at_xy"]; r = e["r"]; d.ellipse([x - r, y - r, x + r, y + r], fill=_c(e.get("fill"), None) if e.get("fill") else None, outline=c if e.get("w", 12) else None, width=e.get("w", 12))
         elif k == "dots": _dots(d, [tuple(q) for q in e["pts"]], t, e.get("n", 8), e.get("speed", 500), e.get("r", 12), c)
@@ -410,9 +459,23 @@ def gx(state, t, dur, font):
         elif k == "level":
             x0, y0, x1, y1 = e["box"]; v = e.get("v0", 0.0) + (e.get("v1", 1.0) - e.get("v0", 0.0)) * p
             if v > 0.003:
-                if e.get("dir") == "top": d.rectangle([x0, y0, x1, y0 + (y1 - y0) * v], fill=c)
-                elif e.get("dir") == "right": d.rectangle([x0, y0, x0 + (x1 - x0) * v, y1], fill=c)
-                else: d.rectangle([x0, y1 - (y1 - y0) * v, x1, y1], fill=c)
+                if e.get("dir") == "top": bx = [x0, y0, x1, y0 + (y1 - y0) * v]
+                elif e.get("dir") == "right": bx = [x0, y0, x0 + (x1 - x0) * v, y1]
+                else: bx = [x0, y1 - (y1 - y0) * v, x1, y1]
+                bw, bh = bx[2] - bx[0], bx[3] - bx[1]
+                if bw < 120 or bh < 30: d.rectangle(bx, fill=c)
+                else:
+                    n = 8
+                    for i in range(n): d.rectangle([bx[0], bx[1] + bh * i / n, bx[2], bx[1] + bh * (i + 1) / n + 1], fill=_mix(c, 0.05 * i, (0, 0, 0)))
+                    seed = int(x0 * 7 + y1)
+                    if c == COL["brown"]:
+                        for i in range(int(bw * bh / 2600)): xx = bx[0] + (seed + i * 197) % int(bw); yy = bx[1] + (seed + i * 89) % int(max(1, bh)); d.ellipse([xx - 5, yy - 4, xx + 5, yy + 4], fill=_mix(c, .35, (0, 0, 0)) if i % 2 else _mix(c, .3, (255, 255, 255)))
+                    else:
+                        for i in range(max(3, int(bw / 90))):
+                            q = (t * 0.25 + i * 0.37) % 1; xx = bx[0] + 20 + (seed + i * 233) % int(bw - 40); yy = bx[3] - bh * q; r = 7 + (i % 3) * 4
+                            d.ellipse([xx - r, yy - r, xx + r, yy + r], outline=_mix(c, .5, (255, 255, 255)), width=3)
+                        if e.get("dir") != "top":
+                            d.line([(bx[0] + i * bw / 24, bx[1] + 5 * math.sin(t * 4 + i)) for i in range(25)], fill=_mix(c, .6, (255, 255, 255)), width=7)
         elif k == "count":
             v = e["v0"] + (e["v1"] - e["v0"]) * p; _txt(im, font, e["fmt"].format(v), e["xy"], c, e.get("size", 80), center=e.get("center", False)); d = ImageDraw.Draw(im)
         elif k == "hud": hud, hud_c = e["text"], c
@@ -439,5 +502,21 @@ def gx(state, t, dur, font):
             for i in range(e.get("n", 4)):
                 q = (t * 0.6 + i / e.get("n", 4)) % 1; x = x0 + (i - 1.5) * e.get("gap", 90) + 20 * math.sin(q * 7 + i); y = y0 - e.get("h", 300) * q
                 d.arc([x - 30, y - 30, x + 30, y + 30], 200, 340, fill=c, width=10)
+        elif k == "hatch":
+            x0, y0, x1, y1 = e["box"]; sp = e.get("gap", 26)
+            for i in range(int(-(y1 - y0)), int(x1 - x0), sp):
+                xa, xb = x0 + i, x0 + i + (y1 - y0); ya, yb = y1, y0
+                if xa < x0: ya = y1 - (x0 - xa); xa = x0
+                if xb > x1: yb = y0 + (xb - x1); xb = x1
+                d.line([(xa, ya), (xb, yb)], fill=c, width=e.get("w", 3))
+        elif k == "dim":
+            (xa, ya), (xb, yb) = e["a"], e["b"]; d.line([(xa, ya), (xb, yb)], fill=c, width=5)
+            for x, y in ((xa, ya), (xb, yb)):
+                if abs(xb - xa) > abs(yb - ya): d.line([(x, y - 22), (x, y + 22)], fill=c, width=5)
+                else: d.line([(x - 22, y), (x + 22, y)], fill=c, width=5)
+            _txt(im, font, e["text"], [(xa + xb) / 2 + e.get("dx", 0), (ya + yb) / 2 + e.get("dy", -64)], c, e.get("size", 40), center=True); d = ImageDraw.Draw(im)
+        elif k == "bolts":
+            for x, y in e["pts"]:
+                d.ellipse([x - 13, y - 13, x + 13, y + 13], fill=c, outline=(3, 8, 16), width=3); d.line([(x - 7, y), (x + 7, y)], fill=(3, 8, 16), width=3)
     return im, hud, hud_c
 DIAGRAMS["gx"] = gx

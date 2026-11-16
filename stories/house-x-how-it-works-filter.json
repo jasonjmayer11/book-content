@@ -151,6 +151,18 @@
    "hold": 0.8
   },
   {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "The Department of Energy says replacing a clogged filter can cut an air conditioner’s energy use by 5 to 15%.",
+   "voice": "The Department of Energy says replacing a clogged filter can cut an air conditioner's energy use by five to fifteen percent. It's one of the cheapest parts in your house.",
+   "accent": [
+    "5",
+    "15%."
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
    "type": "book",
    "text": "That’s page 6 of the manual your house didn’t come with",
    "accent": [
@@ -162,7 +174,7 @@
     "34 CHAPTERS",
     "PAPERBACK + KINDLE"
    ],
-   "voice": "That's page six of the manual your house didn't come with. A simple book for first-time homeowners."
+   "voice": "That's page six of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
   },
   {
    "type": "end",

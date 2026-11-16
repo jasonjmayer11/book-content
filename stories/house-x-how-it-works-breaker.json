@@ -20,6 +20,61 @@
    "state": {
     "els": [
      {
+      "k": "hatch",
+      "box": [
+       660,
+       420,
+       1780,
+       620
+      ],
+      "c": [
+       26,
+       44,
+       74
+      ],
+      "gap": 44
+     },
+     {
+      "k": "text",
+      "text": "INSIDE THE WALL",
+      "xy": [
+       1500,
+       380
+      ],
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1060,
+        1190
+       ],
+       [
+        1780,
+        1190
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1060,
+       1196,
+       1780,
+       1250
+      ],
+      "c": [
+       30,
+       48,
+       78
+      ],
+      "gap": 30
+     },
+     {
       "k": "rect",
       "box": [
        140,
@@ -32,6 +87,18 @@
       "w": 16
      },
      {
+      "k": "rect",
+      "box": [
+       168,
+       328,
+       612,
+       1312
+      ],
+      "r": 18,
+      "w": 4,
+      "c": "dim"
+     },
+     {
       "k": "text",
       "text": "BREAKER PANEL",
       "xy": [
@@ -39,6 +106,136 @@
        215
       ],
       "center": true
+     },
+     {
+      "k": "bolts",
+      "pts": [
+       [
+        190,
+        350
+       ],
+       [
+        590,
+        350
+       ],
+       [
+        190,
+        1290
+       ],
+       [
+        590,
+        1290
+       ]
+      ],
+      "c": "line"
+     },
+     {
+      "k": "rect",
+      "box": [
+       300,
+       345,
+       480,
+       395
+      ],
+      "r": 8,
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "MAIN",
+      "xy": [
+       390,
+       352
+      ],
+      "c": "navy",
+      "size": 28,
+      "center": true
+     },
+     {
+      "k": "rect",
+      "box": [
+       1210,
+       780,
+       1290,
+       826
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "rect",
+      "box": [
+       1540,
+       780,
+       1620,
+       826
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "KITCHEN",
+      "xy": [
+       232,
+       450
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "LAUNDRY",
+      "xy": [
+       232,
+       600
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "BATH",
+      "xy": [
+       232,
+       750
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "BEDROOM",
+      "xy": [
+       232,
+       900
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "GARAGE",
+      "xy": [
+       232,
+       1050
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "LIVING",
+      "xy": [
+       232,
+       1200
+      ],
+      "c": "dim",
+      "size": 24
      },
      {
       "k": "rect",
@@ -312,6 +509,61 @@
    "state": {
     "els": [
      {
+      "k": "hatch",
+      "box": [
+       660,
+       420,
+       1780,
+       620
+      ],
+      "c": [
+       26,
+       44,
+       74
+      ],
+      "gap": 44
+     },
+     {
+      "k": "text",
+      "text": "INSIDE THE WALL",
+      "xy": [
+       1500,
+       380
+      ],
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1060,
+        1190
+       ],
+       [
+        1780,
+        1190
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1060,
+       1196,
+       1780,
+       1250
+      ],
+      "c": [
+       30,
+       48,
+       78
+      ],
+      "gap": 30
+     },
+     {
       "k": "rect",
       "box": [
        140,
@@ -324,6 +576,18 @@
       "w": 16
      },
      {
+      "k": "rect",
+      "box": [
+       168,
+       328,
+       612,
+       1312
+      ],
+      "r": 18,
+      "w": 4,
+      "c": "dim"
+     },
+     {
       "k": "text",
       "text": "BREAKER PANEL",
       "xy": [
@@ -331,6 +595,136 @@
        215
       ],
       "center": true
+     },
+     {
+      "k": "bolts",
+      "pts": [
+       [
+        190,
+        350
+       ],
+       [
+        590,
+        350
+       ],
+       [
+        190,
+        1290
+       ],
+       [
+        590,
+        1290
+       ]
+      ],
+      "c": "line"
+     },
+     {
+      "k": "rect",
+      "box": [
+       300,
+       345,
+       480,
+       395
+      ],
+      "r": 8,
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "MAIN",
+      "xy": [
+       390,
+       352
+      ],
+      "c": "navy",
+      "size": 28,
+      "center": true
+     },
+     {
+      "k": "rect",
+      "box": [
+       1210,
+       780,
+       1290,
+       826
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "rect",
+      "box": [
+       1540,
+       780,
+       1620,
+       826
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "KITCHEN",
+      "xy": [
+       232,
+       450
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "LAUNDRY",
+      "xy": [
+       232,
+       600
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "BATH",
+      "xy": [
+       232,
+       750
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "BEDROOM",
+      "xy": [
+       232,
+       900
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "GARAGE",
+      "xy": [
+       232,
+       1050
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "LIVING",
+      "xy": [
+       232,
+       1200
+      ],
+      "c": "dim",
+      "size": 24
      },
      {
       "k": "rect",
@@ -659,6 +1053,61 @@
    "state": {
     "els": [
      {
+      "k": "hatch",
+      "box": [
+       660,
+       420,
+       1780,
+       620
+      ],
+      "c": [
+       26,
+       44,
+       74
+      ],
+      "gap": 44
+     },
+     {
+      "k": "text",
+      "text": "INSIDE THE WALL",
+      "xy": [
+       1500,
+       380
+      ],
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1060,
+        1190
+       ],
+       [
+        1780,
+        1190
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1060,
+       1196,
+       1780,
+       1250
+      ],
+      "c": [
+       30,
+       48,
+       78
+      ],
+      "gap": 30
+     },
+     {
       "k": "rect",
       "box": [
        140,
@@ -671,6 +1120,18 @@
       "w": 16
      },
      {
+      "k": "rect",
+      "box": [
+       168,
+       328,
+       612,
+       1312
+      ],
+      "r": 18,
+      "w": 4,
+      "c": "dim"
+     },
+     {
       "k": "text",
       "text": "BREAKER PANEL",
       "xy": [
@@ -678,6 +1139,136 @@
        215
       ],
       "center": true
+     },
+     {
+      "k": "bolts",
+      "pts": [
+       [
+        190,
+        350
+       ],
+       [
+        590,
+        350
+       ],
+       [
+        190,
+        1290
+       ],
+       [
+        590,
+        1290
+       ]
+      ],
+      "c": "line"
+     },
+     {
+      "k": "rect",
+      "box": [
+       300,
+       345,
+       480,
+       395
+      ],
+      "r": 8,
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "MAIN",
+      "xy": [
+       390,
+       352
+      ],
+      "c": "navy",
+      "size": 28,
+      "center": true
+     },
+     {
+      "k": "rect",
+      "box": [
+       1210,
+       780,
+       1290,
+       826
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "rect",
+      "box": [
+       1540,
+       780,
+       1620,
+       826
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "KITCHEN",
+      "xy": [
+       232,
+       450
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "LAUNDRY",
+      "xy": [
+       232,
+       600
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "BATH",
+      "xy": [
+       232,
+       750
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "BEDROOM",
+      "xy": [
+       232,
+       900
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "GARAGE",
+      "xy": [
+       232,
+       1050
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "LIVING",
+      "xy": [
+       232,
+       1200
+      ],
+      "c": "dim",
+      "size": 24
      },
      {
       "k": "rect",
@@ -1050,6 +1641,61 @@
    "state": {
     "els": [
      {
+      "k": "hatch",
+      "box": [
+       660,
+       420,
+       1780,
+       620
+      ],
+      "c": [
+       26,
+       44,
+       74
+      ],
+      "gap": 44
+     },
+     {
+      "k": "text",
+      "text": "INSIDE THE WALL",
+      "xy": [
+       1500,
+       380
+      ],
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1060,
+        1190
+       ],
+       [
+        1780,
+        1190
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1060,
+       1196,
+       1780,
+       1250
+      ],
+      "c": [
+       30,
+       48,
+       78
+      ],
+      "gap": 30
+     },
+     {
       "k": "rect",
       "box": [
        140,
@@ -1062,6 +1708,18 @@
       "w": 16
      },
      {
+      "k": "rect",
+      "box": [
+       168,
+       328,
+       612,
+       1312
+      ],
+      "r": 18,
+      "w": 4,
+      "c": "dim"
+     },
+     {
       "k": "text",
       "text": "BREAKER PANEL",
       "xy": [
@@ -1069,6 +1727,136 @@
        215
       ],
       "center": true
+     },
+     {
+      "k": "bolts",
+      "pts": [
+       [
+        190,
+        350
+       ],
+       [
+        590,
+        350
+       ],
+       [
+        190,
+        1290
+       ],
+       [
+        590,
+        1290
+       ]
+      ],
+      "c": "line"
+     },
+     {
+      "k": "rect",
+      "box": [
+       300,
+       345,
+       480,
+       395
+      ],
+      "r": 8,
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "MAIN",
+      "xy": [
+       390,
+       352
+      ],
+      "c": "navy",
+      "size": 28,
+      "center": true
+     },
+     {
+      "k": "rect",
+      "box": [
+       1210,
+       780,
+       1290,
+       826
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "rect",
+      "box": [
+       1540,
+       780,
+       1620,
+       826
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "KITCHEN",
+      "xy": [
+       232,
+       450
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "LAUNDRY",
+      "xy": [
+       232,
+       600
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "BATH",
+      "xy": [
+       232,
+       750
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "BEDROOM",
+      "xy": [
+       232,
+       900
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "GARAGE",
+      "xy": [
+       232,
+       1050
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "LIVING",
+      "xy": [
+       232,
+       1200
+      ],
+      "c": "dim",
+      "size": 24
      },
      {
       "k": "rect",
@@ -1468,6 +2256,61 @@
    "state": {
     "els": [
      {
+      "k": "hatch",
+      "box": [
+       660,
+       420,
+       1780,
+       620
+      ],
+      "c": [
+       26,
+       44,
+       74
+      ],
+      "gap": 44
+     },
+     {
+      "k": "text",
+      "text": "INSIDE THE WALL",
+      "xy": [
+       1500,
+       380
+      ],
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1060,
+        1190
+       ],
+       [
+        1780,
+        1190
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1060,
+       1196,
+       1780,
+       1250
+      ],
+      "c": [
+       30,
+       48,
+       78
+      ],
+      "gap": 30
+     },
+     {
       "k": "rect",
       "box": [
        140,
@@ -1480,6 +2323,18 @@
       "w": 16
      },
      {
+      "k": "rect",
+      "box": [
+       168,
+       328,
+       612,
+       1312
+      ],
+      "r": 18,
+      "w": 4,
+      "c": "dim"
+     },
+     {
       "k": "text",
       "text": "BREAKER PANEL",
       "xy": [
@@ -1487,6 +2342,136 @@
        215
       ],
       "center": true
+     },
+     {
+      "k": "bolts",
+      "pts": [
+       [
+        190,
+        350
+       ],
+       [
+        590,
+        350
+       ],
+       [
+        190,
+        1290
+       ],
+       [
+        590,
+        1290
+       ]
+      ],
+      "c": "line"
+     },
+     {
+      "k": "rect",
+      "box": [
+       300,
+       345,
+       480,
+       395
+      ],
+      "r": 8,
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "MAIN",
+      "xy": [
+       390,
+       352
+      ],
+      "c": "navy",
+      "size": 28,
+      "center": true
+     },
+     {
+      "k": "rect",
+      "box": [
+       1210,
+       780,
+       1290,
+       826
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "rect",
+      "box": [
+       1540,
+       780,
+       1620,
+       826
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "KITCHEN",
+      "xy": [
+       232,
+       450
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "LAUNDRY",
+      "xy": [
+       232,
+       600
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "BATH",
+      "xy": [
+       232,
+       750
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "BEDROOM",
+      "xy": [
+       232,
+       900
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "GARAGE",
+      "xy": [
+       232,
+       1050
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "LIVING",
+      "xy": [
+       232,
+       1200
+      ],
+      "c": "dim",
+      "size": 24
      },
      {
       "k": "rect",
@@ -1912,6 +2897,61 @@
    "state": {
     "els": [
      {
+      "k": "hatch",
+      "box": [
+       660,
+       420,
+       1780,
+       620
+      ],
+      "c": [
+       26,
+       44,
+       74
+      ],
+      "gap": 44
+     },
+     {
+      "k": "text",
+      "text": "INSIDE THE WALL",
+      "xy": [
+       1500,
+       380
+      ],
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1060,
+        1190
+       ],
+       [
+        1780,
+        1190
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1060,
+       1196,
+       1780,
+       1250
+      ],
+      "c": [
+       30,
+       48,
+       78
+      ],
+      "gap": 30
+     },
+     {
       "k": "rect",
       "box": [
        140,
@@ -1924,6 +2964,18 @@
       "w": 16
      },
      {
+      "k": "rect",
+      "box": [
+       168,
+       328,
+       612,
+       1312
+      ],
+      "r": 18,
+      "w": 4,
+      "c": "dim"
+     },
+     {
       "k": "text",
       "text": "BREAKER PANEL",
       "xy": [
@@ -1931,6 +2983,136 @@
        215
       ],
       "center": true
+     },
+     {
+      "k": "bolts",
+      "pts": [
+       [
+        190,
+        350
+       ],
+       [
+        590,
+        350
+       ],
+       [
+        190,
+        1290
+       ],
+       [
+        590,
+        1290
+       ]
+      ],
+      "c": "line"
+     },
+     {
+      "k": "rect",
+      "box": [
+       300,
+       345,
+       480,
+       395
+      ],
+      "r": 8,
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "MAIN",
+      "xy": [
+       390,
+       352
+      ],
+      "c": "navy",
+      "size": 28,
+      "center": true
+     },
+     {
+      "k": "rect",
+      "box": [
+       1210,
+       780,
+       1290,
+       826
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "rect",
+      "box": [
+       1540,
+       780,
+       1620,
+       826
+      ],
+      "fill": "line",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "KITCHEN",
+      "xy": [
+       232,
+       450
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "LAUNDRY",
+      "xy": [
+       232,
+       600
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "BATH",
+      "xy": [
+       232,
+       750
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "BEDROOM",
+      "xy": [
+       232,
+       900
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "GARAGE",
+      "xy": [
+       232,
+       1050
+      ],
+      "c": "dim",
+      "size": 24
+     },
+     {
+      "k": "text",
+      "text": "LIVING",
+      "xy": [
+       232,
+       1200
+      ],
+      "c": "dim",
+      "size": 24
      },
      {
       "k": "rect",
@@ -2234,6 +3416,17 @@
    "label": "ONE RULE"
   },
   {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "That switch is what stands between an overloaded wire and a fire inside your wall.",
+   "voice": "That little switch is what stands between an overloaded wire, and a fire inside your wall. Know your panel before you need it in the dark.",
+   "accent": [
+    "fire"
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
    "type": "book",
    "text": "That’s one page of the manual your house didn’t come with",
    "accent": [
@@ -2245,7 +3438,7 @@
     "34 CHAPTERS",
     "PAPERBACK + KINDLE"
    ],
-   "voice": "That's one page of the manual your house didn't come with. A simple book for first-time homeowners."
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
   },
   {
    "type": "end",

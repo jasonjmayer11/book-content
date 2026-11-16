@@ -143,6 +143,19 @@
    "label": "DO THIS NOW"
   },
   {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "About 1 in 60 insured homes files a water damage claim every year. The average is over $13,000.",
+   "voice": "About one in sixty insured homes files a water damage claim every year. The average is over thirteen thousand dollars. One valve changes that number.",
+   "accent": [
+    "1",
+    "60",
+    "$13,000."
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
    "type": "book",
    "text": "That’s page 4 of the manual your house didn’t come with",
    "accent": [
@@ -154,7 +167,7 @@
     "34 CHAPTERS",
     "PAPERBACK + KINDLE"
    ],
-   "voice": "That's page four of the manual your house didn't come with. A simple book for first-time homeowners."
+   "voice": "That's page four of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
   },
   {
    "type": "end",

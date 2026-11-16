@@ -179,6 +179,17 @@
    "hold": 1.2
   },
   {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "It reacts to a leak of about 0.005 amps, in as little as 1/40 of a second.",
+   "voice": "It reacts to a leak of about five thousandths of an amp, in as little as one fortieth of a second. Know which outlets have one, and you'll never pay an electrician to press a button.",
+   "accent": [
+    "1/40"
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
    "type": "book",
    "text": "That’s page 5 of the manual your house didn’t come with",
    "accent": [
@@ -190,7 +201,7 @@
     "34 CHAPTERS",
     "PAPERBACK + KINDLE"
    ],
-   "voice": "That's page five of the manual your house didn't come with. A simple book for first-time homeowners."
+   "voice": "That's page five of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
   },
   {
    "type": "end",

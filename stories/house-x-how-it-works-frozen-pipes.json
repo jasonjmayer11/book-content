@@ -28,7 +28,114 @@
        1760
       ],
       "fill": "panel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       500,
+       0,
+       640,
+       1760
+      ],
+      "c": [
+       40,
+       60,
+       96
+      ],
+      "gap": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        0
+       ],
+       [
+        640,
+        1760
+       ]
+      ],
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "INSULATION",
+      "xy": [
+       520,
+       1620
+      ],
+      "c": "dim",
+      "size": 26
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1700
+       ],
+       [
+        200,
+        1620
+       ],
+       [
+        470,
+        1660
+       ],
+       [
+        470,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "ice",
       "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       84,
+       440,
+       124,
+       700
+      ],
+      "r": 20,
+      "w": 8
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       104,
+       724
+      ],
+      "r": 36,
+      "fill": "ice",
+      "w": 0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1640,
+        1250
+       ],
+       [
+        1640,
+        1180
+       ],
+       [
+        1700,
+        1180
+       ]
+      ],
+      "w": 16
      },
      {
       "k": "line",
@@ -191,7 +298,114 @@
        1760
       ],
       "fill": "panel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       500,
+       0,
+       640,
+       1760
+      ],
+      "c": [
+       40,
+       60,
+       96
+      ],
+      "gap": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        0
+       ],
+       [
+        640,
+        1760
+       ]
+      ],
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "INSULATION",
+      "xy": [
+       520,
+       1620
+      ],
+      "c": "dim",
+      "size": 26
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1700
+       ],
+       [
+        200,
+        1620
+       ],
+       [
+        470,
+        1660
+       ],
+       [
+        470,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "ice",
       "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       84,
+       440,
+       124,
+       700
+      ],
+      "r": 20,
+      "w": 8
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       104,
+       724
+      ],
+      "r": 36,
+      "fill": "ice",
+      "w": 0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1640,
+        1250
+       ],
+       [
+        1640,
+        1180
+       ],
+       [
+        1700,
+        1180
+       ]
+      ],
+      "w": 16
      },
      {
       "k": "line",
@@ -371,7 +585,114 @@
        1760
       ],
       "fill": "panel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       500,
+       0,
+       640,
+       1760
+      ],
+      "c": [
+       40,
+       60,
+       96
+      ],
+      "gap": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        0
+       ],
+       [
+        640,
+        1760
+       ]
+      ],
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "INSULATION",
+      "xy": [
+       520,
+       1620
+      ],
+      "c": "dim",
+      "size": 26
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1700
+       ],
+       [
+        200,
+        1620
+       ],
+       [
+        470,
+        1660
+       ],
+       [
+        470,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "ice",
       "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       84,
+       440,
+       124,
+       700
+      ],
+      "r": 20,
+      "w": 8
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       104,
+       724
+      ],
+      "r": 36,
+      "fill": "ice",
+      "w": 0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1640,
+        1250
+       ],
+       [
+        1640,
+        1180
+       ],
+       [
+        1700,
+        1180
+       ]
+      ],
+      "w": 16
      },
      {
       "k": "line",
@@ -582,7 +903,114 @@
        1760
       ],
       "fill": "panel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       500,
+       0,
+       640,
+       1760
+      ],
+      "c": [
+       40,
+       60,
+       96
+      ],
+      "gap": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        0
+       ],
+       [
+        640,
+        1760
+       ]
+      ],
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "INSULATION",
+      "xy": [
+       520,
+       1620
+      ],
+      "c": "dim",
+      "size": 26
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1700
+       ],
+       [
+        200,
+        1620
+       ],
+       [
+        470,
+        1660
+       ],
+       [
+        470,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "ice",
       "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       84,
+       440,
+       124,
+       700
+      ],
+      "r": 20,
+      "w": 8
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       104,
+       724
+      ],
+      "r": 36,
+      "fill": "ice",
+      "w": 0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1640,
+        1250
+       ],
+       [
+        1640,
+        1180
+       ],
+       [
+        1700,
+        1180
+       ]
+      ],
+      "w": 16
      },
      {
       "k": "line",
@@ -770,6 +1198,17 @@
    "label": "PREVENT IT"
   },
   {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "Water damage and freezing claims average over $13,000. A dripping faucet costs pennies.",
+   "voice": "Water damage and freezing insurance claims average over thirteen thousand dollars. A dripping faucet costs pennies.",
+   "accent": [
+    "$13,000."
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
    "type": "book",
    "text": "That’s one page of the manual your house didn’t come with",
    "accent": [
@@ -781,7 +1220,7 @@
     "34 CHAPTERS",
     "PAPERBACK + KINDLE"
    ],
-   "voice": "That's one page of the manual your house didn't come with. A simple book for first-time homeowners."
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
   },
   {
    "type": "end",

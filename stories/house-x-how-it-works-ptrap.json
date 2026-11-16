@@ -190,6 +190,17 @@
    ]
   },
   {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "That smell is sewer gas in the air you breathe. The fix is free, if you know where to look.",
+   "voice": "That smell is sewer gas, in the air you're breathing. And the fix is free, if you know where to look.",
+   "accent": [
+    "free,"
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
    "type": "book",
    "text": "That’s one page of the manual your house didn’t come with",
    "accent": [
@@ -201,7 +212,7 @@
     "34 CHAPTERS",
     "PAPERBACK + KINDLE"
    ],
-   "voice": "That's one page of the manual your house didn't come with. A simple book for first-time homeowners."
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
   },
   {
    "type": "end",
