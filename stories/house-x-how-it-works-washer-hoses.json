@@ -1,0 +1,1067 @@
+{
+ "slug": "house-x-how-it-works-washer-hoses",
+ "book": "house",
+ "format": "X explainer",
+ "title": "The $25 part behind a lot of flooded laundry rooms",
+ "cover": "The $25 flood prevention",
+ "cover_accent": [
+  "$25"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  1
+ ],
+ "hero_t": 2.0,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1560,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0,
+        1560
+       ],
+       [
+        1840,
+        1560
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       300,
+       300,
+       760,
+       560
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       420,
+       430
+      ],
+      "r": 40,
+      "fill": "red",
+      "w": 0
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       640,
+       430
+      ],
+      "r": 40,
+      "fill": [
+       58,
+       160,
+       255
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "VALVES",
+      "xy": [
+       530,
+       240
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "rect",
+      "box": [
+       900,
+       700,
+       1560,
+       1560
+      ],
+      "r": 30,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1230,
+       1160
+      ],
+      "r": 230,
+      "w": 14
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1230,
+       1160
+      ],
+      "r": 170,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       940,
+       740,
+       1520,
+       840
+      ],
+      "r": 12,
+      "w": 6,
+      "c": "dim"
+     },
+     {
+      "k": "text",
+      "text": "WASHER",
+      "xy": [
+       1230,
+       1470
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        420,
+        470
+       ],
+       [
+        420,
+        900
+       ],
+       [
+        940,
+        900
+       ]
+      ],
+      "c": "red",
+      "w": 26
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        470
+       ],
+       [
+        640,
+        820
+       ],
+       [
+        940,
+        820
+       ]
+      ],
+      "c": [
+       58,
+       160,
+       255
+      ],
+      "w": 26
+     },
+     {
+      "k": "label",
+      "text": "SUPPLY HOSES",
+      "xy": [
+       60,
+       1000
+      ],
+      "anchor": [
+       420,
+       900
+      ],
+      "c": "yel",
+      "at": 1.4
+     },
+     {
+      "k": "hud",
+      "text": "ALWAYS UNDER PRESSURE",
+      "c": "yel",
+      "at": 2.4
+     }
+    ]
+   },
+   "text": "Behind your washer are two supply hoses under constant water pressure, 24 hours a day.",
+   "voice": "Behind your washer are two supply hoses, under constant water pressure, twenty four hours a day.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.35,
+     0.4,
+     1.6
+    ]
+   ],
+   "accent": [
+    "constant",
+    "pressure,"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1560,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0,
+        1560
+       ],
+       [
+        1840,
+        1560
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       300,
+       300,
+       760,
+       560
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       420,
+       430
+      ],
+      "r": 40,
+      "fill": "red",
+      "w": 0
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       640,
+       430
+      ],
+      "r": 40,
+      "fill": [
+       58,
+       160,
+       255
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "VALVES",
+      "xy": [
+       530,
+       240
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "rect",
+      "box": [
+       900,
+       700,
+       1560,
+       1560
+      ],
+      "r": 30,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1230,
+       1160
+      ],
+      "r": 230,
+      "w": 14
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1230,
+       1160
+      ],
+      "r": 170,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       940,
+       740,
+       1520,
+       840
+      ],
+      "r": 12,
+      "w": 6,
+      "c": "dim"
+     },
+     {
+      "k": "text",
+      "text": "WASHER",
+      "xy": [
+       1230,
+       1470
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        420,
+        470
+       ],
+       [
+        420,
+        900
+       ],
+       [
+        700,
+        900
+       ]
+      ],
+      "c": "red",
+      "w": 26
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        780,
+        900
+       ],
+       [
+        940,
+        900
+       ]
+      ],
+      "c": "red",
+      "w": 26
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        470
+       ],
+       [
+        640,
+        820
+       ],
+       [
+        940,
+        820
+       ]
+      ],
+      "c": [
+       58,
+       160,
+       255
+      ],
+      "w": 26
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       600,
+       900
+      ],
+      "r": 34,
+      "fill": "red",
+      "w": 0,
+      "to": 2.6
+     },
+     {
+      "k": "drops",
+      "at_xy": [
+       740,
+       900
+      ],
+      "c": "water",
+      "n": 26,
+      "spread": 420,
+      "fall": 640,
+      "at": 2.6
+     },
+     {
+      "k": "level",
+      "box": [
+       0,
+       1500,
+       1840,
+       1560
+      ],
+      "c": "water",
+      "v0": 0,
+      "v1": 1,
+      "over": 2,
+      "at": 3
+     },
+     {
+      "k": "hud",
+      "text": "BURST",
+      "c": "red",
+      "at": 2.6
+     }
+    ]
+   },
+   "text": "Plain rubber hoses get brittle over time. One day one bursts, and it runs at full pressure until someone notices.",
+   "voice": "Plain rubber hoses get brittle over time. One day one bursts, and it runs at full pressure until someone notices.",
+   "cam": [
+    [
+     0,
+     0.35,
+     0.4,
+     1.6
+    ],
+    [
+     0.6,
+     0.4,
+     0.55,
+     1.6
+    ],
+    [
+     1,
+     0.5,
+     0.65,
+     1.1
+    ]
+   ],
+   "accent": [
+    "brittle",
+    "bursts,"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1560,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0,
+        1560
+       ],
+       [
+        1840,
+        1560
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       300,
+       300,
+       760,
+       560
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       420,
+       430
+      ],
+      "r": 40,
+      "fill": "red",
+      "w": 0
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       640,
+       430
+      ],
+      "r": 40,
+      "fill": [
+       58,
+       160,
+       255
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "VALVES",
+      "xy": [
+       530,
+       240
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "rect",
+      "box": [
+       900,
+       700,
+       1560,
+       1560
+      ],
+      "r": 30,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1230,
+       1160
+      ],
+      "r": 230,
+      "w": 14
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1230,
+       1160
+      ],
+      "r": 170,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       940,
+       740,
+       1520,
+       840
+      ],
+      "r": 12,
+      "w": 6,
+      "c": "dim"
+     },
+     {
+      "k": "text",
+      "text": "WASHER",
+      "xy": [
+       1230,
+       1470
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        420,
+        470
+       ],
+       [
+        420,
+        900
+       ],
+       [
+        700,
+        900
+       ]
+      ],
+      "c": "red",
+      "w": 26
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        470
+       ],
+       [
+        640,
+        820
+       ],
+       [
+        940,
+        820
+       ]
+      ],
+      "c": [
+       58,
+       160,
+       255
+      ],
+      "w": 26
+     },
+     {
+      "k": "drops",
+      "at_xy": [
+       740,
+       900
+      ],
+      "c": "water",
+      "n": 26,
+      "spread": 420,
+      "fall": 640
+     },
+     {
+      "k": "level",
+      "box": [
+       0,
+       1300,
+       1840,
+       1560
+      ],
+      "c": "water",
+      "v0": 0.25,
+      "v1": 1,
+      "over": 4
+     },
+     {
+      "k": "count",
+      "fmt": "{:.0f} GALLONS",
+      "v0": 0,
+      "v1": 650,
+      "over": 4,
+      "xy": [
+       920,
+       160
+      ],
+      "center": true,
+      "c": "water",
+      "size": 80
+     },
+     {
+      "k": "hud",
+      "text": "ONE HOUR",
+      "c": "red"
+     }
+    ]
+   },
+   "text": "State Farm says a failed hose can release around 650 gallons an hour. That’s a second-floor laundry room emptying into your kitchen.",
+   "voice": "State Farm says a failed hose can release around six hundred fifty gallons an hour. That's a second floor laundry room, emptying into your kitchen.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.65,
+     1.1
+    ],
+    [
+     1,
+     0.5,
+     0.45,
+     1.0
+    ]
+   ],
+   "accent": [
+    "650",
+    "gallons"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1560,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        0,
+        1560
+       ],
+       [
+        1840,
+        1560
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       300,
+       300,
+       760,
+       560
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       420,
+       430
+      ],
+      "r": 40,
+      "fill": "red",
+      "w": 0
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       640,
+       430
+      ],
+      "r": 40,
+      "fill": [
+       58,
+       160,
+       255
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "VALVES",
+      "xy": [
+       530,
+       240
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "rect",
+      "box": [
+       900,
+       700,
+       1560,
+       1560
+      ],
+      "r": 30,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1230,
+       1160
+      ],
+      "r": 230,
+      "w": 14
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1230,
+       1160
+      ],
+      "r": 170,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       940,
+       740,
+       1520,
+       840
+      ],
+      "r": 12,
+      "w": 6,
+      "c": "dim"
+     },
+     {
+      "k": "text",
+      "text": "WASHER",
+      "xy": [
+       1230,
+       1470
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        420,
+        470
+       ],
+       [
+        420,
+        900
+       ],
+       [
+        940,
+        900
+       ]
+      ],
+      "c": [
+       200,
+       200,
+       210
+      ],
+      "w": 30
+     },
+     {
+      "k": "hatch",
+      "box": [
+       400,
+       480,
+       440,
+       900
+      ],
+      "c": [
+       120,
+       120,
+       130
+      ],
+      "gap": 12,
+      "w": 4
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        470
+       ],
+       [
+        640,
+        820
+       ],
+       [
+        940,
+        820
+       ]
+      ],
+      "c": [
+       200,
+       200,
+       210
+      ],
+      "w": 30
+     },
+     {
+      "k": "hatch",
+      "box": [
+       620,
+       480,
+       660,
+       820
+      ],
+      "c": [
+       120,
+       120,
+       130
+      ],
+      "gap": 12,
+      "w": 4
+     },
+     {
+      "k": "label",
+      "text": "BRAIDED: ~$25",
+      "xy": [
+       60,
+       1000
+      ],
+      "anchor": [
+       420,
+       880
+      ],
+      "c": "yel",
+      "at": 0.5
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       1500,
+       860,
+       1556
+      ],
+      "r": 20,
+      "fill": "yel",
+      "w": 0,
+      "at": 3.2
+     },
+     {
+      "k": "label",
+      "text": "LEAK SENSOR: ~$15",
+      "xy": [
+       200,
+       1300
+      ],
+      "anchor": [
+       800,
+       1500
+      ],
+      "c": "yel",
+      "at": 3.4
+     },
+     {
+      "k": "hud",
+      "text": "$40 OF PREVENTION",
+      "c": "green",
+      "at": 4
+     }
+    ]
+   },
+   "text": "The fix: swap them for braided stainless hoses, about $25, and put a $15 leak sensor on the floor behind the washer.",
+   "voice": "The fix. Swap them for braided stainless hoses, about twenty five dollars, and put a fifteen dollar leak sensor on the floor behind the washer.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.45,
+     1.0
+    ],
+    [
+     0.4,
+     0.32,
+     0.45,
+     1.5
+    ],
+    [
+     1,
+     0.4,
+     0.7,
+     1.4
+    ]
+   ],
+   "accent": [
+    "braided",
+    "$25,",
+    "$15"
+   ],
+   "label": "THE FIX",
+   "hold": 0.6
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "State Farm paid nearly $30 million in 2020 on washing machine hose claims. The average claim was about $10,200.",
+   "voice": "State Farm paid nearly thirty million dollars in twenty twenty on washing machine hose claims. The average claim was about ten thousand two hundred dollars.",
+   "accent": [
+    "$30",
+    "million",
+    "$10,200."
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "The cheapest flood insurance you can buy costs about $40.",
+  "feel": "Rubber washer hoses don’t warn you before they burst.",
+  "shows": "Why washer hoses fail, how much water a burst one releases, and the braided-hose plus leak-sensor fix. Prices are approximate.",
+  "ask": "Are your washer hoses rubber or braided?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #laundryroom"
+ }
+}

@@ -1,0 +1,653 @@
+{
+ "slug": "house-x-how-it-works-repair-fund",
+ "book": "house",
+ "format": "X explainer",
+ "title": "How much to save for home repairs",
+ "cover": "Save this much for repairs",
+ "cover_accent": [
+  "this",
+  "much"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  1
+ ],
+ "hero_t": 3.0,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "text",
+      "text": "REPAIR FUND",
+      "xy": [
+       920,
+       470
+      ],
+      "center": true,
+      "size": 44
+     },
+     {
+      "k": "level",
+      "box": [
+       712,
+       572,
+       1128,
+       1348
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "v0": 0.05,
+      "v1": 0.05,
+      "over": 4
+     },
+     {
+      "k": "rect",
+      "box": [
+       700,
+       560,
+       1140,
+       1360
+      ],
+      "r": 40,
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       520,
+       1080,
+       560
+      ],
+      "r": 10,
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       900,
+       460,
+       1100
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 8,
+      "c": "red",
+      "at": 2
+     },
+     {
+      "k": "text",
+      "text": "FURNACE",
+      "xy": [
+       330,
+       980
+      ],
+      "center": true,
+      "c": "red",
+      "size": 36,
+      "at": 2
+     },
+     {
+      "k": "rect",
+      "box": [
+       1380,
+       900,
+       1640,
+       1100
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 8,
+      "c": "red",
+      "at": 2.6
+     },
+     {
+      "k": "text",
+      "text": "WATER HEATER",
+      "xy": [
+       1510,
+       980
+      ],
+      "center": true,
+      "c": "red",
+      "size": 30,
+      "at": 2.6
+     },
+     {
+      "k": "hud",
+      "text": "NO FUND",
+      "c": "red",
+      "at": 3.2
+     }
+    ]
+   },
+   "text": "The mortgage is the predictable part of owning a home. What breaks people is everything else, arriving at once, with no money set aside.",
+   "voice": "The mortgage is the predictable part of owning a home. What breaks people is everything else, arriving at once, with no money set aside.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.5,
+     1.0
+    ]
+   ],
+   "accent": [
+    "everything",
+    "else,"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "text",
+      "text": "REPAIR FUND",
+      "xy": [
+       920,
+       470
+      ],
+      "center": true,
+      "size": 44
+     },
+     {
+      "k": "level",
+      "box": [
+       712,
+       572,
+       1128,
+       1348
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "v0": 0.05,
+      "v1": 0.6,
+      "over": 6
+     },
+     {
+      "k": "rect",
+      "box": [
+       700,
+       560,
+       1140,
+       1360
+      ],
+      "r": 40,
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       520,
+       1080,
+       560
+      ],
+      "r": 10,
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        400,
+        300
+       ],
+       [
+        920,
+        300
+       ],
+       [
+        920,
+        600
+       ]
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "n": 6,
+      "speed": 420,
+      "r": 14
+     },
+     {
+      "k": "count",
+      "fmt": "${:,.0f} / YEAR",
+      "v0": 0,
+      "v1": 4000,
+      "over": 3,
+      "xy": [
+       920,
+       1420
+      ],
+      "center": true,
+      "c": "white",
+      "size": 56,
+      "at": 2.5
+     },
+     {
+      "k": "hud",
+      "text": "1–3% OF VALUE PER YEAR",
+      "c": "yel"
+     }
+    ]
+   },
+   "text": "The classic rule: set aside 1 to 3 percent of your home’s value every year. On a $400,000 house, that’s $4,000 to $12,000 a year.",
+   "voice": "The classic rule. Set aside one to three percent of your home's value, every year. On a four hundred thousand dollar house, that's four thousand to twelve thousand dollars a year.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.62,
+     1.15
+    ]
+   ],
+   "accent": [
+    "1",
+    "3",
+    "percent"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       300,
+       1300,
+       600,
+       1460
+      ],
+      "fill": "green",
+      "w": 0,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       770,
+       1140,
+       1070,
+       1460
+      ],
+      "fill": "yel",
+      "w": 0,
+      "r": 10,
+      "at": 1.4
+     },
+     {
+      "k": "rect",
+      "box": [
+       1240,
+       980,
+       1540,
+       1460
+      ],
+      "fill": "red",
+      "w": 0,
+      "r": 10,
+      "at": 2.8
+     },
+     {
+      "k": "text",
+      "text": "1%",
+      "xy": [
+       450,
+       1220
+      ],
+      "center": true,
+      "size": 60
+     },
+     {
+      "k": "text",
+      "text": "2%",
+      "xy": [
+       920,
+       1060
+      ],
+      "center": true,
+      "size": 60,
+      "at": 1.4
+     },
+     {
+      "k": "text",
+      "text": "3%+",
+      "xy": [
+       1390,
+       900
+      ],
+      "center": true,
+      "size": 60,
+      "at": 2.8
+     },
+     {
+      "k": "text",
+      "text": "UNDER 10 YRS",
+      "xy": [
+       450,
+       1490
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 32
+     },
+     {
+      "k": "text",
+      "text": "10–30 YRS",
+      "xy": [
+       920,
+       1490
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 32,
+      "at": 1.4
+     },
+     {
+      "k": "text",
+      "text": "OLDER",
+      "xy": [
+       1390,
+       1490
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 32,
+      "at": 2.8
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        240,
+        1460
+       ],
+       [
+        1600,
+        1460
+       ]
+      ],
+      "w": 10
+     }
+    ]
+   },
+   "text": "Newer homes, closer to 1 percent. 10 to 30 years old, around 2. Older homes, or systems near the end of their lives, 3 or more.",
+   "voice": "Newer homes, closer to one percent. Ten to thirty years old, around two. Older homes, or systems near the end of their lives, three or more.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.72,
+     1.3
+    ],
+    [
+     1,
+     0.5,
+     0.68,
+     1.2
+    ]
+   ],
+   "accent": [
+    "1",
+    "2.",
+    "3"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "text",
+      "text": "REPAIR FUND",
+      "xy": [
+       920,
+       470
+      ],
+      "center": true,
+      "size": 44
+     },
+     {
+      "k": "level",
+      "box": [
+       712,
+       572,
+       1128,
+       1348
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "v0": 0.8,
+      "v1": 0.25,
+      "over": 5
+     },
+     {
+      "k": "rect",
+      "box": [
+       700,
+       560,
+       1140,
+       1360
+      ],
+      "r": 40,
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       520,
+       1080,
+       560
+      ],
+      "r": 10,
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        920,
+        1360
+       ],
+       [
+        920,
+        1500
+       ],
+       [
+        330,
+        1500
+       ]
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "n": 5,
+      "speed": 380,
+      "r": 14,
+      "at": 2
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        920,
+        1360
+       ],
+       [
+        920,
+        1500
+       ],
+       [
+        1510,
+        1500
+       ]
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "n": 5,
+      "speed": 380,
+      "r": 14,
+      "at": 2.6
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       1420,
+       460,
+       1600
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 8,
+      "c": "green",
+      "at": 2
+     },
+     {
+      "k": "text",
+      "text": "FURNACE",
+      "xy": [
+       330,
+       1490
+      ],
+      "center": true,
+      "c": "green",
+      "size": 36,
+      "at": 2
+     },
+     {
+      "k": "rect",
+      "box": [
+       1380,
+       1420,
+       1640,
+       1600
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 8,
+      "c": "green",
+      "at": 2.6
+     },
+     {
+      "k": "text",
+      "text": "WATER HEATER",
+      "xy": [
+       1510,
+       1490
+      ],
+      "center": true,
+      "c": "green",
+      "size": 30,
+      "at": 2.6
+     },
+     {
+      "k": "hud",
+      "text": "PAID FROM THE FUND",
+      "c": "green",
+      "at": 3.4
+     }
+    ]
+   },
+   "text": "You won’t spend it every year. Then one year takes the furnace and the water heater, and the fund makes that year annoying instead of catastrophic.",
+   "voice": "You won't spend it every year. Then one year takes the furnace and the water heater. And the fund makes that year annoying, instead of catastrophic.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.62,
+     1.15
+    ],
+    [
+     1,
+     0.5,
+     0.6,
+     1.0
+    ]
+   ],
+   "accent": [
+    "annoying",
+    "catastrophic."
+   ],
+   "hold": 0.6
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "Angi’s 2025 report: the average homeowner spent $2,041 on maintenance and $1,143 on emergency repairs in a single year.",
+   "voice": "Angi's twenty twenty five report found the average homeowner spent two thousand forty one dollars on maintenance, and eleven hundred forty three on emergency repairs, in a single year.",
+   "accent": [
+    "$2,041",
+    "$1,143"
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "How much should you save for home repairs?",
+  "feel": "The mortgage is the easy part. It’s everything else that breaks budgets.",
+  "shows": "The 1–3% rule, where your house falls in that range, and why the fund exists. The $400,000 home is an example.",
+  "ask": "Do you have a separate repair fund?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #personalfinance #budgeting"
+ }
+}

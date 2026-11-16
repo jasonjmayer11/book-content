@@ -1,0 +1,1383 @@
+{
+ "slug": "house-x-how-it-works-insurance-gaps",
+ "book": "house",
+ "format": "X explainer",
+ "title": "What your home insurance doesn’t cover",
+ "cover": "Insurance won’t pay for this",
+ "cover_accent": [
+  "won’t"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  2
+ ],
+ "hero_t": 3.0,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1380,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1400,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        440,
+        700
+       ],
+       [
+        920.0,
+        360
+       ],
+       [
+        1400,
+        700
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       520,
+       700,
+       1320,
+       1380
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       820,
+       780,
+       1000
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       1060,
+       1080,
+       1200,
+       1380
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        920,
+        230
+       ],
+       [
+        1460,
+        360
+       ],
+       [
+        1420,
+        1100
+       ],
+       [
+        920,
+        1440
+       ],
+       [
+        420,
+        1100
+       ],
+       [
+        380,
+        360
+       ]
+      ],
+      "w": 10,
+      "c": "green"
+     },
+     {
+      "k": "drops",
+      "at_xy": [
+       1000,
+       900
+      ],
+      "c": "water",
+      "n": 16,
+      "spread": 180,
+      "fall": 420
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        860,
+        880
+       ],
+       [
+        1140,
+        880
+       ]
+      ],
+      "w": 24
+     },
+     {
+      "k": "rect",
+      "box": [
+       1180,
+       520,
+       1700,
+       630
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 8,
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "at": 2.4
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1236,
+       575
+      ],
+      "r": 34,
+      "fill": [
+       90,
+       200,
+       130
+      ],
+      "w": 0,
+      "at": 2.4
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1218,
+        576
+       ],
+       [
+        1232,
+        592
+       ],
+       [
+        1256,
+        560
+       ]
+      ],
+      "c": "navy",
+      "w": 9,
+      "at": 2.4
+     },
+     {
+      "k": "text",
+      "text": "BURST PIPE",
+      "xy": [
+       1290,
+       554
+      ],
+      "c": "line",
+      "size": 38,
+      "at": 2.4
+     }
+    ]
+   },
+   "text": "Home insurance covers sudden accidents. A pipe that bursts out of nowhere is usually covered.",
+   "voice": "Home insurance covers sudden accidents. A pipe that bursts out of nowhere, is usually covered.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.58,
+     0.42,
+     1.25
+    ]
+   ],
+   "accent": [
+    "sudden",
+    "covered."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1380,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1400,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        440,
+        700
+       ],
+       [
+        920.0,
+        360
+       ],
+       [
+        1400,
+        700
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       520,
+       700,
+       1320,
+       1380
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       820,
+       780,
+       1000
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       1060,
+       1080,
+       1200,
+       1380
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        860,
+        880
+       ],
+       [
+        1140,
+        880
+       ]
+      ],
+      "w": 24
+     },
+     {
+      "k": "drops",
+      "at_xy": [
+       1000,
+       900
+      ],
+      "c": "water",
+      "n": 3,
+      "spread": 4,
+      "fall": 300,
+      "rate": 0.6
+     },
+     {
+      "k": "rect",
+      "box": [
+       860,
+       1220,
+       1140,
+       1380
+      ],
+      "fill": "brown",
+      "w": 0,
+      "at": 0.5
+     },
+     {
+      "k": "count",
+      "fmt": "MONTH {:.0f}",
+      "v0": 1,
+      "v1": 6,
+      "over": 2.5,
+      "xy": [
+       1000,
+       1100
+      ],
+      "center": true,
+      "c": "white",
+      "size": 52
+     },
+     {
+      "k": "rect",
+      "box": [
+       1180,
+       520,
+       1700,
+       630
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 8,
+      "c": [
+       255,
+       96,
+       80
+      ],
+      "at": 2.6
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1236,
+       575
+      ],
+      "r": 34,
+      "fill": [
+       255,
+       96,
+       80
+      ],
+      "w": 0,
+      "at": 2.6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1220,
+        559
+       ],
+       [
+        1252,
+        591
+       ]
+      ],
+      "c": "navy",
+      "w": 9,
+      "at": 2.6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1220,
+        591
+       ],
+       [
+        1252,
+        559
+       ]
+      ],
+      "c": "navy",
+      "w": 9,
+      "at": 2.6
+     },
+     {
+      "k": "text",
+      "text": "SLOW LEAK",
+      "xy": [
+       1290,
+       554
+      ],
+      "c": "line",
+      "size": 38,
+      "at": 2.6
+     }
+    ]
+   },
+   "text": "But a pipe that dripped for six months? That’s wear, and it generally isn’t.",
+   "voice": "But a pipe that dripped for six months? That's wear. And it generally isn't.",
+   "cam": [
+    [
+     0,
+     0.58,
+     0.42,
+     1.25
+    ],
+    [
+     1,
+     0.55,
+     0.55,
+     1.3
+    ]
+   ],
+   "accent": [
+    "wear,",
+    "isn’t."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1380,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1400,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "level",
+      "box": [
+       0,
+       1100,
+       1840,
+       1760
+      ],
+      "c": [
+       40,
+       110,
+       180
+      ],
+      "v0": 0,
+      "v1": 0.55,
+      "over": 4
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        440,
+        700
+       ],
+       [
+        920.0,
+        360
+       ],
+       [
+        1400,
+        700
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       520,
+       700,
+       1320,
+       1380
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       820,
+       780,
+       1000
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       1060,
+       1080,
+       1200,
+       1380
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       1240,
+       260,
+       1660,
+       370
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 8,
+      "c": [
+       255,
+       96,
+       80
+      ],
+      "at": 1.0
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1296,
+       315
+      ],
+      "r": 34,
+      "fill": [
+       255,
+       96,
+       80
+      ],
+      "w": 0,
+      "at": 1.0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1280,
+        299
+       ],
+       [
+        1312,
+        331
+       ]
+      ],
+      "c": "navy",
+      "w": 9,
+      "at": 1.0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1280,
+        331
+       ],
+       [
+        1312,
+        299
+       ]
+      ],
+      "c": "navy",
+      "w": 9,
+      "at": 1.0
+     },
+     {
+      "k": "text",
+      "text": "FLOOD",
+      "xy": [
+       1350,
+       294
+      ],
+      "c": "line",
+      "size": 38,
+      "at": 1.0
+     },
+     {
+      "k": "count",
+      "fmt": "WAIT: {:.0f} DAYS",
+      "v0": 0,
+      "v1": 30,
+      "over": 3,
+      "xy": [
+       300,
+       300
+      ],
+      "center": true,
+      "c": "yel",
+      "size": 60,
+      "at": 3.5
+     }
+    ]
+   },
+   "text": "Flood from outside is excluded from standard policies. Flood insurance is separate, and a new policy usually takes 30 days to start.",
+   "voice": "Flood from outside is excluded from standard policies. Flood insurance is separate. And a new policy usually takes thirty days to start.",
+   "cam": [
+    [
+     0,
+     0.55,
+     0.55,
+     1.3
+    ],
+    [
+     1,
+     0.5,
+     0.5,
+     1.0
+    ]
+   ],
+   "accent": [
+    "Flood",
+    "30",
+    "days"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1380,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1400,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        440,
+        700
+       ],
+       [
+        920.0,
+        360
+       ],
+       [
+        1400,
+        700
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       520,
+       700,
+       1320,
+       1380
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       820,
+       780,
+       1000
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       1060,
+       1080,
+       1200,
+       1380
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        920,
+        1380
+       ],
+       [
+        920,
+        1600
+       ],
+       [
+        1840,
+        1600
+       ]
+      ],
+      "w": 70
+     },
+     {
+      "k": "rect",
+      "box": [
+       860,
+       1300,
+       980,
+       1380
+      ],
+      "r": 14,
+      "w": 8
+     },
+     {
+      "k": "level",
+      "box": [
+       528,
+       1300,
+       1312,
+       1372
+      ],
+      "c": [
+       140,
+       120,
+       60
+      ],
+      "v0": 0,
+      "v1": 1,
+      "over": 3
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1840,
+        1600
+       ],
+       [
+        920,
+        1600
+       ],
+       [
+        920,
+        1360
+       ]
+      ],
+      "c": [
+       140,
+       120,
+       60
+      ],
+      "n": 6,
+      "speed": 260,
+      "r": 13
+     },
+     {
+      "k": "rect",
+      "box": [
+       1180,
+       520,
+       1740,
+       630
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 8,
+      "c": [
+       255,
+       96,
+       80
+      ],
+      "at": 1.0
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1236,
+       575
+      ],
+      "r": 34,
+      "fill": [
+       255,
+       96,
+       80
+      ],
+      "w": 0,
+      "at": 1.0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1220,
+        559
+       ],
+       [
+        1252,
+        591
+       ]
+      ],
+      "c": "navy",
+      "w": 9,
+      "at": 1.0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1220,
+        591
+       ],
+       [
+        1252,
+        559
+       ]
+      ],
+      "c": "navy",
+      "w": 9,
+      "at": 1.0
+     },
+     {
+      "k": "text",
+      "text": "SEWER BACKUP",
+      "xy": [
+       1290,
+       554
+      ],
+      "c": "line",
+      "size": 38,
+      "at": 1.0
+     },
+     {
+      "k": "rect",
+      "box": [
+       1180,
+       680,
+       1740,
+       790
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 8,
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "at": 3.6
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1236,
+       735
+      ],
+      "r": 34,
+      "fill": [
+       90,
+       200,
+       130
+      ],
+      "w": 0,
+      "at": 3.6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1218,
+        736
+       ],
+       [
+        1232,
+        752
+       ],
+       [
+        1256,
+        720
+       ]
+      ],
+      "c": "navy",
+      "w": 9,
+      "at": 3.6
+     },
+     {
+      "k": "text",
+      "text": "+ ENDORSEMENT",
+      "xy": [
+       1290,
+       714
+      ],
+      "c": "line",
+      "size": 38,
+      "at": 3.6
+     }
+    ]
+   },
+   "text": "Sewer backup is excluded too, unless you add an endorsement. The book’s advice: add it.",
+   "voice": "Sewer backup is excluded too, unless you add an endorsement. The book's advice? Add it.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.62,
+     0.6,
+     1.25
+    ]
+   ],
+   "accent": [
+    "Sewer",
+    "add",
+    "it."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       1380,
+       1840,
+       1760
+      ],
+      "fill": "soil",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1400,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        440,
+        700
+       ],
+       [
+        920.0,
+        360
+       ],
+       [
+        1400,
+        700
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       520,
+       700,
+       1320,
+       1380
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       820,
+       780,
+       1000
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       1060,
+       1080,
+       1200,
+       1380
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       120,
+       180,
+       620,
+       290
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 8,
+      "c": [
+       255,
+       96,
+       80
+      ],
+      "at": 0.0
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       176,
+       235
+      ],
+      "r": 34,
+      "fill": [
+       255,
+       96,
+       80
+      ],
+      "w": 0,
+      "at": 0.0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        160,
+        219
+       ],
+       [
+        192,
+        251
+       ]
+      ],
+      "c": "navy",
+      "w": 9,
+      "at": 0.0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        160,
+        251
+       ],
+       [
+        192,
+        219
+       ]
+      ],
+      "c": "navy",
+      "w": 9,
+      "at": 0.0
+     },
+     {
+      "k": "text",
+      "text": "EARTHQUAKE",
+      "xy": [
+       230,
+       214
+      ],
+      "c": "line",
+      "size": 38,
+      "at": 0.0
+     },
+     {
+      "k": "rect",
+      "box": [
+       120,
+       330,
+       720,
+       440
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 8,
+      "c": [
+       255,
+       96,
+       80
+      ],
+      "at": 0.6
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       176,
+       385
+      ],
+      "r": 34,
+      "fill": [
+       255,
+       96,
+       80
+      ],
+      "w": 0,
+      "at": 0.6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        160,
+        369
+       ],
+       [
+        192,
+        401
+       ]
+      ],
+      "c": "navy",
+      "w": 9,
+      "at": 0.6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        160,
+        401
+       ],
+       [
+        192,
+        369
+       ]
+      ],
+      "c": "navy",
+      "w": 9,
+      "at": 0.6
+     },
+     {
+      "k": "text",
+      "text": "TERMITES / PESTS",
+      "xy": [
+       230,
+       364
+      ],
+      "c": "line",
+      "size": 38,
+      "at": 0.6
+     },
+     {
+      "k": "rect",
+      "box": [
+       1180,
+       180,
+       1740,
+       290
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 8,
+      "c": [
+       255,
+       96,
+       80
+      ],
+      "at": 1.2
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1236,
+       235
+      ],
+      "r": 34,
+      "fill": [
+       255,
+       96,
+       80
+      ],
+      "w": 0,
+      "at": 1.2
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1220,
+        219
+       ],
+       [
+        1252,
+        251
+       ]
+      ],
+      "c": "navy",
+      "w": 9,
+      "at": 1.2
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1220,
+        251
+       ],
+       [
+        1252,
+        219
+       ]
+      ],
+      "c": "navy",
+      "w": 9,
+      "at": 1.2
+     },
+     {
+      "k": "text",
+      "text": "MOLD (OFTEN)",
+      "xy": [
+       1290,
+       214
+      ],
+      "c": "line",
+      "size": 38,
+      "at": 1.2
+     },
+     {
+      "k": "hud",
+      "text": "READ YOUR EXCLUSIONS",
+      "c": "green",
+      "at": 2.6
+     }
+    ]
+   },
+   "text": "Earthquakes, pests and mold usually aren’t covered either. Read your exclusions before you need them.",
+   "voice": "Earthquakes, pests, and mold, usually aren't covered either. Read your exclusions, before you need them.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.3,
+     1.15
+    ]
+   ],
+   "accent": [
+    "exclusions"
+   ],
+   "label": "DO THIS",
+   "hold": 0.6
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "FEMA says most standard homeowners policies don’t cover flood damage. Most people find out after the water arrives.",
+   "voice": "FEMA says most standard homeowners policies don't cover flood damage. Most people find out after the water arrives.",
+   "accent": [
+    "don’t"
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Your home insurance has holes. Do you know where they are?",
+  "feel": "Most people find out the day they file a claim.",
+  "shows": "What a standard policy covers, the big exclusions (flood, sewer backup, wear, earthquake, pests, mold), and what to add. Policies vary, so read yours.",
+  "ask": "Do you have sewer backup coverage?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #homeinsurance"
+ }
+}

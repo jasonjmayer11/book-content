@@ -1,0 +1,555 @@
+{
+ "slug": "house-x-how-it-works-equity",
+ "book": "house",
+ "format": "X explainer",
+ "title": "What home equity actually is",
+ "cover": "Equity, explained simply",
+ "cover_accent": [
+  "Equity,"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  0
+ ],
+ "hero_t": 2.0,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "text",
+      "text": "WHAT YOUR HOUSE IS WORTH",
+      "xy": [
+       920,
+       200
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       560,
+       540.0,
+       1280,
+       1500
+      ],
+      "box1": [
+       560,
+       540.0,
+       1280,
+       1500
+      ],
+      "over": 4,
+      "fill": [
+       90,
+       200,
+       130
+      ],
+      "w": 0,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       560,
+       732.0,
+       1280,
+       1500
+      ],
+      "box1": [
+       560,
+       732.0,
+       1280,
+       1500
+      ],
+      "over": 4,
+      "fill": [
+       70,
+       86,
+       112
+      ],
+      "w": 0,
+      "r": 10
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        540,
+        1500
+       ],
+       [
+        1300,
+        1500
+       ]
+      ],
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "OWED: $320,000",
+      "xy": [
+       920,
+       1180
+      ],
+      "center": true,
+      "c": "white",
+      "size": 52
+     },
+     {
+      "k": "text",
+      "text": "EQUITY: $80,000",
+      "xy": [
+       920,
+       610
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 52,
+      "at": 2
+     },
+     {
+      "k": "text",
+      "text": "VALUE: $400,000",
+      "xy": [
+       1320,
+       260
+      ],
+      "c": "line",
+      "size": 40
+     },
+     {
+      "k": "hud",
+      "text": "EXAMPLE NUMBERS",
+      "c": "yel"
+     }
+    ]
+   },
+   "text": "Equity is the part of your house you actually own. It’s the home’s value, minus what you still owe.",
+   "voice": "Equity is the part of your house you actually own. It's the home's value, minus what you still owe.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.5,
+     1.0
+    ]
+   ],
+   "accent": [
+    "own.",
+    "minus"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "text",
+      "text": "WHAT YOUR HOUSE IS WORTH",
+      "xy": [
+       920,
+       200
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       560,
+       540.0,
+       1280,
+       1500
+      ],
+      "box1": [
+       560,
+       540.0,
+       1280,
+       1500
+      ],
+      "over": 6,
+      "fill": [
+       90,
+       200,
+       130
+      ],
+      "w": 0,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       560,
+       732.0,
+       1280,
+       1500
+      ],
+      "box1": [
+       560,
+       827.9999999999999,
+       1280,
+       1500
+      ],
+      "over": 6,
+      "fill": [
+       70,
+       86,
+       112
+      ],
+      "w": 0,
+      "r": 10
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        540,
+        1500
+       ],
+       [
+        1300,
+        1500
+       ]
+      ],
+      "w": 10
+     },
+     {
+      "k": "count",
+      "fmt": "OWED: ${:,.0f}",
+      "v0": 320000,
+      "v1": 280000,
+      "over": 4,
+      "xy": [
+       920,
+       1180
+      ],
+      "center": true,
+      "c": "white",
+      "size": 52
+     },
+     {
+      "k": "hud",
+      "text": "PAYING IT DOWN",
+      "c": "green",
+      "at": 1.2
+     }
+    ]
+   },
+   "text": "It grows two ways. First, every payment chips away at the loan. Early on, most of each payment is interest, so this part starts slow.",
+   "voice": "It grows two ways. First, every payment chips away at the loan. Early on, most of each payment is interest, so this part starts slow.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.6,
+     1.2
+    ]
+   ],
+   "accent": [
+    "two",
+    "slow."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "text",
+      "text": "WHAT YOUR HOUSE IS WORTH",
+      "xy": [
+       920,
+       200
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       560,
+       540.0,
+       1280,
+       1500
+      ],
+      "box1": [
+       560,
+       372.0,
+       1280,
+       1500
+      ],
+      "over": 4,
+      "fill": [
+       90,
+       200,
+       130
+      ],
+      "w": 0,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       560,
+       827.9999999999999,
+       1280,
+       1500
+      ],
+      "box1": [
+       560,
+       827.9999999999999,
+       1280,
+       1500
+      ],
+      "over": 4,
+      "fill": [
+       70,
+       86,
+       112
+      ],
+      "w": 0,
+      "r": 10
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        540,
+        1500
+       ],
+       [
+        1300,
+        1500
+       ]
+      ],
+      "w": 10
+     },
+     {
+      "k": "count",
+      "fmt": "VALUE: ${:,.0f}",
+      "v0": 400000,
+      "v1": 470000,
+      "over": 4,
+      "xy": [
+       1320,
+       260
+      ],
+      "c": "line",
+      "size": 40
+     },
+     {
+      "k": "hud",
+      "text": "VALUE GOING UP (NOT GUARANTEED)",
+      "c": "yel"
+     }
+    ]
+   },
+   "text": "Second, if your home’s value rises, your equity rises with it, without you paying a cent more.",
+   "voice": "Second, if your home's value rises, your equity rises with it, without you paying a cent more.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.6,
+     1.2
+    ],
+    [
+     1,
+     0.5,
+     0.38,
+     1.2
+    ]
+   ],
+   "accent": [
+    "value",
+    "rises,"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "text",
+      "text": "WHAT YOUR HOUSE IS WORTH",
+      "xy": [
+       920,
+       200
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       560,
+       372.0,
+       1280,
+       1500
+      ],
+      "box1": [
+       560,
+       372.0,
+       1280,
+       1500
+      ],
+      "over": 4,
+      "fill": [
+       90,
+       200,
+       130
+      ],
+      "w": 0,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       560,
+       827.9999999999999,
+       1280,
+       1500
+      ],
+      "box1": [
+       560,
+       636.0,
+       1280,
+       1500
+      ],
+      "over": 4,
+      "fill": [
+       70,
+       86,
+       112
+      ],
+      "w": 0,
+      "r": 10
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        540,
+        1500
+       ],
+       [
+        1300,
+        1500
+       ]
+      ],
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       1380,
+       700,
+       1720,
+       900
+      ],
+      "r": 16,
+      "fill": "yel",
+      "w": 0,
+      "at": 1.2
+     },
+     {
+      "k": "text",
+      "text": "BORROWED",
+      "xy": [
+       1550,
+       770
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40,
+      "at": 1.2
+     },
+     {
+      "k": "hud",
+      "text": "YOUR HOUSE IS THE COLLATERAL",
+      "c": "red",
+      "at": 3.6
+     }
+    ]
+   },
+   "text": "You can borrow against it with a home equity loan or line of credit. But your house becomes the collateral.",
+   "voice": "You can borrow against it, with a home equity loan, or line of credit. But your house becomes the collateral.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.38,
+     1.2
+    ],
+    [
+     1,
+     0.58,
+     0.5,
+     1.1
+    ]
+   ],
+   "accent": [
+    "borrow",
+    "collateral."
+   ],
+   "label": "CAREFUL",
+   "hold": 0.6
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "In the Federal Reserve’s 2016 survey, the primary residence was the largest asset on household balance sheets nationwide.",
+   "voice": "In the Federal Reserve's twenty sixteen survey, the primary home was the largest asset on household balance sheets nationwide. Understand it, before you borrow against it.",
+   "accent": [
+    "largest"
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Equity is the part of your house you actually own.",
+  "feel": "It’s most people’s biggest asset, and most people can’t explain it.",
+  "shows": "What equity is, the two ways it grows, and the catch with borrowing against it. All figures are examples, not advice.",
+  "ask": "Do you know roughly how much equity you have?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #personalfinance"
+ }
+}
