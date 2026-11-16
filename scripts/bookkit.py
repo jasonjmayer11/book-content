@@ -312,7 +312,7 @@ def make_cover(story, book):
         cv.alpha_composite(st, (CX - st.width // 2, y)); y += st.height + 30
     if story.get("hero"):
         from diagrams import DIAGRAMS
-        hd, hs = story["hero"]; hero = DIAGRAMS[hd](hs, story.get("hero_t", 2.0), 4.0, F_SEMI)[0]; hh = min(PH, 1640 - y - 20); hw = int(PW * hh / PH)
+        hd, hs = story["hero"]; hs = story["scenes"][hs]["state"] if hd == "gx" else hs; hero = DIAGRAMS[hd](hs, story.get("hero_t", 2.0), 4.0, F_SEMI)[0]; hh = min(PH, 1640 - y - 20); hw = int(PW * hh / PH)
         hero = rounded(hero.resize((hw, hh), Image.LANCZOS), 26)
         ImageDraw.Draw(hero).rounded_rectangle([1, 1, hw - 2, hh - 2], radius=26, outline=YELLOW + (255,), width=5)
         cv.alpha_composite(hero, (CX - hw // 2, y + 10))

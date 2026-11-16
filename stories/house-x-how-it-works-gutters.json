@@ -1,0 +1,1022 @@
+{
+ "slug": "house-x-how-it-works-gutters",
+ "book": "house",
+ "format": "X explainer",
+ "title": "What your gutters are actually for",
+ "cover": "Gutters protect the basement",
+ "cover_accent": [
+  "basement"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  2
+ ],
+ "hero_t": 3.5,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1380
+       ],
+       [
+        600,
+        1380
+       ],
+       [
+        600,
+        1700
+       ],
+       [
+        1300,
+        1700
+       ],
+       [
+        1300,
+        1380
+       ],
+       [
+        1840,
+        1380
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       1380,
+       1300,
+       1690
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       640,
+       1300,
+       1380
+      ],
+      "w": 16
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        500,
+        640
+       ],
+       [
+        950,
+        300
+       ],
+       [
+        1400,
+        640
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       950,
+       1600
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 44
+     },
+     {
+      "k": "rect",
+      "box": [
+       1390,
+       630,
+       1470,
+       684
+      ],
+      "w": 10,
+      "fill": "navy"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1440,
+        684
+       ],
+       [
+        1440,
+        1330
+       ],
+       [
+        1500,
+        1380
+       ]
+      ],
+      "w": 22
+     },
+     {
+      "k": "rain",
+      "box": [
+       300,
+       0,
+       1700,
+       290
+      ],
+      "c": "water"
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        950,
+        300
+       ],
+       [
+        1400,
+        640
+       ]
+      ],
+      "c": "water",
+      "n": 7,
+      "speed": 520,
+      "r": 15
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        950,
+        300
+       ],
+       [
+        500,
+        640
+       ]
+      ],
+      "c": "water",
+      "n": 7,
+      "speed": 520,
+      "r": 15
+     },
+     {
+      "k": "count",
+      "fmt": "{:.0f} GALLONS",
+      "v0": 0,
+      "v1": 600,
+      "over": 3.5,
+      "xy": [
+       950,
+       840
+      ],
+      "center": true,
+      "c": "water",
+      "size": 64
+     },
+     {
+      "k": "text",
+      "text": "OFF ONE ROOF, ONE STORM",
+      "xy": [
+       950,
+       950
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 40
+     }
+    ]
+   },
+   "text": "A roof sheds hundreds of gallons in a single rainstorm.",
+   "voice": "A roof sheds hundreds of gallons in a single rainstorm.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.4,
+     1.0
+    ],
+    [
+     1,
+     0.54,
+     0.32,
+     1.4
+    ]
+   ],
+   "accent": [
+    "hundreds"
+   ],
+   "hold": 0.8
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1380
+       ],
+       [
+        600,
+        1380
+       ],
+       [
+        600,
+        1700
+       ],
+       [
+        1300,
+        1700
+       ],
+       [
+        1300,
+        1380
+       ],
+       [
+        1840,
+        1380
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       1380,
+       1300,
+       1690
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       640,
+       1300,
+       1380
+      ],
+      "w": 16
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        500,
+        640
+       ],
+       [
+        950,
+        300
+       ],
+       [
+        1400,
+        640
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       950,
+       1600
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 44
+     },
+     {
+      "k": "rect",
+      "box": [
+       1390,
+       630,
+       1470,
+       684
+      ],
+      "w": 10,
+      "fill": "water"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1440,
+        684
+       ],
+       [
+        1440,
+        1330
+       ],
+       [
+        1500,
+        1380
+       ]
+      ],
+      "w": 22
+     },
+     {
+      "k": "rain",
+      "box": [
+       300,
+       0,
+       1700,
+       290
+      ],
+      "c": "water"
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        950,
+        300
+       ],
+       [
+        1400,
+        640
+       ]
+      ],
+      "c": "water",
+      "n": 7,
+      "speed": 520,
+      "r": 15
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        950,
+        300
+       ],
+       [
+        500,
+        640
+       ]
+      ],
+      "c": "water",
+      "n": 7,
+      "speed": 520,
+      "r": 15
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1440,
+        650
+       ],
+       [
+        1440,
+        1330
+       ],
+       [
+        1500,
+        1380
+       ],
+       [
+        1830,
+        1396
+       ]
+      ],
+      "c": "water",
+      "n": 9,
+      "speed": 560,
+      "r": 14
+     },
+     {
+      "k": "label",
+      "text": "GUTTER",
+      "xy": [
+       1500,
+       470
+      ],
+      "anchor": [
+       1436,
+       636
+      ],
+      "c": "yel",
+      "at": 0.4
+     },
+     {
+      "k": "label",
+      "text": "DOWNSPOUT",
+      "xy": [
+       1040,
+       1000
+      ],
+      "anchor": [
+       1430,
+       1000
+      ],
+      "c": "line",
+      "at": 1.2
+     }
+    ]
+   },
+   "text": "Gutters catch it, and downspouts carry it away from the house.",
+   "voice": "Gutters catch it, and downspouts carry it away from the house.",
+   "cam": [
+    [
+     0,
+     0.54,
+     0.32,
+     1.4
+    ],
+    [
+     1,
+     0.76,
+     0.56,
+     1.45
+    ]
+   ],
+   "accent": [
+    "away"
+   ],
+   "hold": 0.6
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1380
+       ],
+       [
+        600,
+        1380
+       ],
+       [
+        600,
+        1700
+       ],
+       [
+        1300,
+        1700
+       ],
+       [
+        1300,
+        1380
+       ],
+       [
+        1840,
+        1380
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "level",
+      "box": [
+       1300,
+       1340,
+       1720,
+       1380
+      ],
+      "c": "water",
+      "v0": 0,
+      "v1": 1,
+      "over": 2,
+      "at": 0.8
+     },
+     {
+      "k": "level",
+      "box": [
+       608,
+       1388,
+       1292,
+       1682
+      ],
+      "c": "water",
+      "v0": 0,
+      "v1": 0.3,
+      "over": 3,
+      "at": 2.2
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       1380,
+       1300,
+       1690
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       640,
+       1300,
+       1380
+      ],
+      "w": 16
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        500,
+        640
+       ],
+       [
+        950,
+        300
+       ],
+       [
+        1400,
+        640
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       950,
+       1600
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 44
+     },
+     {
+      "k": "rect",
+      "box": [
+       1390,
+       630,
+       1470,
+       684
+      ],
+      "w": 10,
+      "fill": "brown"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1440,
+        684
+       ],
+       [
+        1440,
+        1330
+       ],
+       [
+        1500,
+        1380
+       ]
+      ],
+      "w": 22
+     },
+     {
+      "k": "rain",
+      "box": [
+       300,
+       0,
+       1700,
+       290
+      ],
+      "c": "water"
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        950,
+        300
+       ],
+       [
+        1400,
+        640
+       ]
+      ],
+      "c": "water",
+      "n": 7,
+      "speed": 520,
+      "r": 15
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        950,
+        300
+       ],
+       [
+        500,
+        640
+       ]
+      ],
+      "c": "water",
+      "n": 7,
+      "speed": 520,
+      "r": 15
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1400,
+        640
+       ],
+       [
+        1335,
+        700
+       ],
+       [
+        1335,
+        1380
+       ]
+      ],
+      "c": "water",
+      "n": 10,
+      "speed": 560,
+      "r": 14
+     },
+     {
+      "k": "hud",
+      "text": "WATER AT THE FOUNDATION",
+      "c": "red",
+      "at": 1
+     },
+     {
+      "k": "label",
+      "text": "CLOGGED",
+      "xy": [
+       1500,
+       470
+      ],
+      "anchor": [
+       1436,
+       636
+      ],
+      "c": "brown"
+     }
+    ]
+   },
+   "text": "When they clog, that water pours down the siding, pools at the foundation, and ends up in your basement.",
+   "voice": "When they clog, that water pours down the siding, pools at the foundation, and ends up in your basement.",
+   "cam": [
+    [
+     0,
+     0.78,
+     0.38,
+     1.6
+    ],
+    [
+     0.45,
+     0.72,
+     0.76,
+     1.5
+    ],
+    [
+     1,
+     0.55,
+     0.86,
+     1.6
+    ]
+   ],
+   "accent": [
+    "clog,",
+    "basement."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1380
+       ],
+       [
+        600,
+        1380
+       ],
+       [
+        600,
+        1700
+       ],
+       [
+        1300,
+        1700
+       ],
+       [
+        1300,
+        1380
+       ],
+       [
+        1840,
+        1380
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       1380,
+       1300,
+       1690
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       640,
+       1300,
+       1380
+      ],
+      "w": 16
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        500,
+        640
+       ],
+       [
+        950,
+        300
+       ],
+       [
+        1400,
+        640
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       950,
+       1600
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 44
+     },
+     {
+      "k": "rect",
+      "box": [
+       1390,
+       630,
+       1470,
+       684
+      ],
+      "w": 10,
+      "fill": "water"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1440,
+        684
+       ],
+       [
+        1440,
+        1330
+       ],
+       [
+        1500,
+        1380
+       ]
+      ],
+      "w": 22
+     },
+     {
+      "k": "rain",
+      "box": [
+       300,
+       0,
+       1700,
+       290
+      ],
+      "c": "water"
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        950,
+        300
+       ],
+       [
+        1400,
+        640
+       ]
+      ],
+      "c": "water",
+      "n": 7,
+      "speed": 520,
+      "r": 15
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        950,
+        300
+       ],
+       [
+        500,
+        640
+       ]
+      ],
+      "c": "water",
+      "n": 7,
+      "speed": 520,
+      "r": 15
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1500,
+        1380
+       ],
+       [
+        1830,
+        1394
+       ]
+      ],
+      "c": "yel",
+      "w": 30,
+      "draw": 1.0,
+      "at": 0.8
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1440,
+        650
+       ],
+       [
+        1440,
+        1330
+       ],
+       [
+        1500,
+        1380
+       ],
+       [
+        1830,
+        1396
+       ]
+      ],
+      "c": "water",
+      "n": 9,
+      "speed": 560,
+      "r": 14
+     },
+     {
+      "k": "label",
+      "text": "4 TO 6 FEET AWAY",
+      "xy": [
+       1040,
+       1500
+      ],
+      "anchor": [
+       1680,
+       1404
+      ],
+      "c": "yel",
+      "at": 1.8
+     },
+     {
+      "k": "hud",
+      "text": "$12 EXTENSION",
+      "c": "green",
+      "at": 1.8
+     }
+    ]
+   },
+   "text": "Clean them twice a year, and extend the downspouts 4 to 6 feet from the foundation. A $12 extension is the cheapest basement waterproofing ever invented.",
+   "voice": "Clean them twice a year, and extend the downspouts four to six feet from the foundation. A twelve dollar extension is the cheapest basement waterproofing ever invented.",
+   "cam": [
+    [
+     0,
+     0.55,
+     0.86,
+     1.6
+    ],
+    [
+     0.3,
+     0.8,
+     0.8,
+     1.6
+    ],
+    [
+     1,
+     0.6,
+     0.6,
+     1.1
+    ]
+   ],
+   "accent": [
+    "4",
+    "6",
+    "feet",
+    "$12"
+   ],
+   "label": "THE FIX"
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. A simple book for first-time homeowners."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Your gutters aren’t there to keep you dry at the front door.",
+  "feel": "They’re there to keep hundreds of gallons away from your foundation.",
+  "shows": "Where roof water goes when gutters work, where it goes when they clog, and the $12 fix.",
+  "ask": "When were yours last cleaned?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering"
+ }
+}

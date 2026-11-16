@@ -1,0 +1,2262 @@
+{
+ "slug": "house-x-how-it-works-breaker",
+ "book": "house",
+ "format": "X explainer",
+ "title": "What a breaker actually does",
+ "cover": "Why the power cut out",
+ "cover_accent": [
+  "cut"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  2
+ ],
+ "hero_t": 2.5,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       140,
+       300,
+       640,
+       1340
+      ],
+      "r": 30,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "BREAKER PANEL",
+      "xy": [
+       390,
+       215
+      ],
+      "center": true
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       420,
+       560,
+       510
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       435,
+       520,
+       495
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       570,
+       560,
+       660
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       585,
+       520,
+       645
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       720,
+       560,
+       810
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       870,
+       560,
+       960
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       885,
+       520,
+       945
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       1020,
+       560,
+       1110
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       1035,
+       520,
+       1095
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       1170,
+       560,
+       1260
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       1185,
+       520,
+       1245
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       1110,
+       820,
+       1390,
+       1180
+      ],
+      "r": 30,
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "SPACE HEATER",
+      "xy": [
+       1250,
+       1205
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       820,
+       1720,
+       1180
+      ],
+      "r": 30,
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "HAIR DRYER",
+      "xy": [
+       1580,
+       1205
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        765
+       ],
+       [
+        1000,
+        765
+       ],
+       [
+        1000,
+        520
+       ],
+       [
+        1720,
+        520
+       ]
+      ],
+      "c": "line",
+      "w": 20
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1250,
+        520
+       ],
+       [
+        1250,
+        820
+       ]
+      ],
+      "c": "line",
+      "w": 20
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1580,
+        520
+       ],
+       [
+        1580,
+        820
+       ]
+      ],
+      "c": "line",
+      "w": 20
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       735,
+       520,
+       795
+      ],
+      "fill": "yel",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       460,
+       765
+      ],
+      "r": 150,
+      "c": "yel",
+      "at": 0.8
+     }
+    ]
+   },
+   "text": "A breaker is a safety switch. Every circuit in your house has one.",
+   "voice": "A breaker is a safety switch. Every circuit in your house has one.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.22,
+     0.45,
+     1.8
+    ]
+   ],
+   "accent": [
+    "safety",
+    "switch."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       140,
+       300,
+       640,
+       1340
+      ],
+      "r": 30,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "BREAKER PANEL",
+      "xy": [
+       390,
+       215
+      ],
+      "center": true
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       420,
+       560,
+       510
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       435,
+       520,
+       495
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       570,
+       560,
+       660
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       585,
+       520,
+       645
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       720,
+       560,
+       810
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       870,
+       560,
+       960
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       885,
+       520,
+       945
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       1020,
+       560,
+       1110
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       1035,
+       520,
+       1095
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       1170,
+       560,
+       1260
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       1185,
+       520,
+       1245
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       1110,
+       820,
+       1390,
+       1180
+      ],
+      "r": 30,
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "SPACE HEATER",
+      "xy": [
+       1250,
+       1205
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       820,
+       1720,
+       1180
+      ],
+      "r": 30,
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "HAIR DRYER",
+      "xy": [
+       1580,
+       1205
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        765
+       ],
+       [
+        1000,
+        765
+       ],
+       [
+        1000,
+        520
+       ],
+       [
+        1720,
+        520
+       ]
+      ],
+      "c": "yel",
+      "w": 20
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1250,
+        520
+       ],
+       [
+        1250,
+        820
+       ]
+      ],
+      "c": "yel",
+      "w": 20
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1580,
+        520
+       ],
+       [
+        1580,
+        820
+       ]
+      ],
+      "c": "yel",
+      "w": 20
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       735,
+       520,
+       795
+      ],
+      "fill": "yel",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        640,
+        765
+       ],
+       [
+        1000,
+        765
+       ],
+       [
+        1000,
+        520
+       ],
+       [
+        1250,
+        520
+       ],
+       [
+        1250,
+        820
+       ]
+      ],
+      "c": "white",
+      "n": 6,
+      "speed": 420
+     },
+     {
+      "k": "rect",
+      "box": [
+       1150,
+       880,
+       1350,
+       1120
+      ],
+      "fill": "hot",
+      "w": 0,
+      "r": 16
+     },
+     {
+      "k": "text",
+      "text": "WIRE LIMIT: 15 A",
+      "xy": [
+       1000,
+       215
+      ],
+      "center": true,
+      "c": "sky"
+     },
+     {
+      "k": "count",
+      "fmt": "{:.0f} A",
+      "v0": 0,
+      "v1": 12,
+      "over": 1.5,
+      "xy": [
+       1000,
+       300
+      ],
+      "center": true,
+      "c": "yel",
+      "size": 120
+     }
+    ]
+   },
+   "text": "Its wires can only carry so much current, safely.",
+   "voice": "Its wires can only carry so much current, safely.",
+   "cam": [
+    [
+     0,
+     0.22,
+     0.45,
+     1.8
+    ],
+    [
+     1,
+     0.62,
+     0.4,
+     1.3
+    ]
+   ],
+   "accent": [
+    "so",
+    "much"
+   ],
+   "hold": 0.8
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       140,
+       300,
+       640,
+       1340
+      ],
+      "r": 30,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "BREAKER PANEL",
+      "xy": [
+       390,
+       215
+      ],
+      "center": true
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       420,
+       560,
+       510
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       435,
+       520,
+       495
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       570,
+       560,
+       660
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       585,
+       520,
+       645
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       720,
+       560,
+       810
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       870,
+       560,
+       960
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       885,
+       520,
+       945
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       1020,
+       560,
+       1110
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       1035,
+       520,
+       1095
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       1170,
+       560,
+       1260
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       1185,
+       520,
+       1245
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       1110,
+       820,
+       1390,
+       1180
+      ],
+      "r": 30,
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "SPACE HEATER",
+      "xy": [
+       1250,
+       1205
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       820,
+       1720,
+       1180
+      ],
+      "r": 30,
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "HAIR DRYER",
+      "xy": [
+       1580,
+       1205
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        765
+       ],
+       [
+        1000,
+        765
+       ],
+       [
+        1000,
+        520
+       ],
+       [
+        1720,
+        520
+       ]
+      ],
+      "c": "red",
+      "w": 28
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1250,
+        520
+       ],
+       [
+        1250,
+        820
+       ]
+      ],
+      "c": "red",
+      "w": 28
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1580,
+        520
+       ],
+       [
+        1580,
+        820
+       ]
+      ],
+      "c": "red",
+      "w": 28
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       735,
+       520,
+       795
+      ],
+      "fill": "yel",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        640,
+        765
+       ],
+       [
+        1000,
+        765
+       ],
+       [
+        1000,
+        520
+       ],
+       [
+        1250,
+        520
+       ],
+       [
+        1250,
+        820
+       ]
+      ],
+      "c": "white",
+      "n": 6,
+      "speed": 560
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        640,
+        765
+       ],
+       [
+        1000,
+        765
+       ],
+       [
+        1000,
+        520
+       ],
+       [
+        1580,
+        520
+       ],
+       [
+        1580,
+        820
+       ]
+      ],
+      "c": "white",
+      "n": 6,
+      "speed": 560
+     },
+     {
+      "k": "rect",
+      "box": [
+       1150,
+       880,
+       1350,
+       1120
+      ],
+      "fill": "hot",
+      "w": 0,
+      "r": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       1480,
+       880,
+       1680,
+       1120
+      ],
+      "fill": "hot",
+      "w": 0,
+      "r": 16
+     },
+     {
+      "k": "text",
+      "text": "WIRE LIMIT: 15 A",
+      "xy": [
+       1000,
+       215
+      ],
+      "center": true,
+      "c": "sky"
+     },
+     {
+      "k": "count",
+      "fmt": "{:.0f} A",
+      "v0": 12,
+      "v1": 24,
+      "over": 1.5,
+      "xy": [
+       1000,
+       300
+      ],
+      "center": true,
+      "c": "red",
+      "size": 120
+     },
+     {
+      "k": "hud",
+      "text": "WIRES OVERHEATING",
+      "c": "red",
+      "at": 1.2
+     }
+    ]
+   },
+   "text": "Run a space heater and a hair dryer on the same circuit, and it pulls more than the wires can carry.",
+   "voice": "Run a space heater and a hair dryer on the same circuit, and it pulls more than the wires can carry.",
+   "cam": [
+    [
+     0,
+     0.62,
+     0.4,
+     1.3
+    ],
+    [
+     1,
+     0.75,
+     0.5,
+     1.45
+    ]
+   ],
+   "accent": [
+    "more"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       140,
+       300,
+       640,
+       1340
+      ],
+      "r": 30,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "BREAKER PANEL",
+      "xy": [
+       390,
+       215
+      ],
+      "center": true
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       420,
+       560,
+       510
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       435,
+       520,
+       495
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       570,
+       560,
+       660
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       585,
+       520,
+       645
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       720,
+       560,
+       810
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       870,
+       560,
+       960
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       885,
+       520,
+       945
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       1020,
+       560,
+       1110
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       1035,
+       520,
+       1095
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       1170,
+       560,
+       1260
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       1185,
+       520,
+       1245
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       1110,
+       820,
+       1390,
+       1180
+      ],
+      "r": 30,
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "SPACE HEATER",
+      "xy": [
+       1250,
+       1205
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       820,
+       1720,
+       1180
+      ],
+      "r": 30,
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "HAIR DRYER",
+      "xy": [
+       1580,
+       1205
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        765
+       ],
+       [
+        1000,
+        765
+       ],
+       [
+        1000,
+        520
+       ],
+       [
+        1720,
+        520
+       ]
+      ],
+      "c": "red",
+      "w": 28,
+      "to": 0.6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1250,
+        520
+       ],
+       [
+        1250,
+        820
+       ]
+      ],
+      "c": "red",
+      "w": 28,
+      "to": 0.6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1580,
+        520
+       ],
+       [
+        1580,
+        820
+       ]
+      ],
+      "c": "red",
+      "w": 28,
+      "to": 0.6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        765
+       ],
+       [
+        1000,
+        765
+       ],
+       [
+        1000,
+        520
+       ],
+       [
+        1720,
+        520
+       ]
+      ],
+      "c": "dim",
+      "w": 20,
+      "at": 0.6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1250,
+        520
+       ],
+       [
+        1250,
+        820
+       ]
+      ],
+      "c": "dim",
+      "w": 20,
+      "at": 0.6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1580,
+        520
+       ],
+       [
+        1580,
+        820
+       ]
+      ],
+      "c": "dim",
+      "w": 20,
+      "at": 0.6
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       735,
+       520,
+       795
+      ],
+      "fill": "yel",
+      "w": 0,
+      "r": 8,
+      "to": 0.6
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       735,
+       520,
+       795
+      ],
+      "box1": [
+       340,
+       735,
+       460,
+       795
+      ],
+      "over": 0.25,
+      "fill": "red",
+      "w": 0,
+      "r": 8,
+      "at": 0.6
+     },
+     {
+      "k": "text",
+      "text": "WIRE LIMIT: 15 A",
+      "xy": [
+       1000,
+       215
+      ],
+      "center": true,
+      "c": "sky"
+     },
+     {
+      "k": "text",
+      "text": "24 A",
+      "xy": [
+       1000,
+       300
+      ],
+      "center": true,
+      "c": "red",
+      "size": 120,
+      "to": 0.6
+     },
+     {
+      "k": "text",
+      "text": "0 A",
+      "xy": [
+       1000,
+       300
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 120,
+      "at": 0.6
+     },
+     {
+      "k": "hud",
+      "text": "TRIPPED: POWER CUT",
+      "c": "green",
+      "at": 0.6
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       400,
+       765
+      ],
+      "r": 150,
+      "c": "yel",
+      "at": 1.2
+     }
+    ]
+   },
+   "text": "So the breaker trips, and cuts the power before the wires overheat inside your walls.",
+   "voice": "So the breaker trips, and cuts the power, before the wires overheat inside your walls.",
+   "cam": [
+    [
+     0,
+     0.75,
+     0.5,
+     1.45
+    ],
+    [
+     0.3,
+     0.22,
+     0.45,
+     1.9
+    ],
+    [
+     1,
+     0.22,
+     0.45,
+     1.9
+    ]
+   ],
+   "accent": [
+    "trips,"
+   ],
+   "hold": 0.8
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       140,
+       300,
+       640,
+       1340
+      ],
+      "r": 30,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "BREAKER PANEL",
+      "xy": [
+       390,
+       215
+      ],
+      "center": true
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       420,
+       560,
+       510
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       435,
+       520,
+       495
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       570,
+       560,
+       660
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       585,
+       520,
+       645
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       720,
+       560,
+       810
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       870,
+       560,
+       960
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       885,
+       520,
+       945
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       1020,
+       560,
+       1110
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       1035,
+       520,
+       1095
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       1170,
+       560,
+       1260
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       1185,
+       520,
+       1245
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       1110,
+       820,
+       1390,
+       1180
+      ],
+      "r": 30,
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "SPACE HEATER",
+      "xy": [
+       1250,
+       1205
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       820,
+       1720,
+       1180
+      ],
+      "r": 30,
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "HAIR DRYER",
+      "xy": [
+       1580,
+       1205
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        765
+       ],
+       [
+        1000,
+        765
+       ],
+       [
+        1000,
+        520
+       ],
+       [
+        1720,
+        520
+       ]
+      ],
+      "c": "dim",
+      "w": 20,
+      "to": 2.6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1250,
+        520
+       ],
+       [
+        1250,
+        820
+       ]
+      ],
+      "c": "dim",
+      "w": 20,
+      "to": 2.6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1580,
+        520
+       ],
+       [
+        1580,
+        820
+       ]
+      ],
+      "c": "dim",
+      "w": 20,
+      "to": 2.6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        765
+       ],
+       [
+        1000,
+        765
+       ],
+       [
+        1000,
+        520
+       ],
+       [
+        1720,
+        520
+       ]
+      ],
+      "c": "yel",
+      "w": 20,
+      "at": 2.6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1250,
+        520
+       ],
+       [
+        1250,
+        820
+       ]
+      ],
+      "c": "yel",
+      "w": 20,
+      "at": 2.6
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1580,
+        520
+       ],
+       [
+        1580,
+        820
+       ]
+      ],
+      "c": "yel",
+      "w": 20,
+      "at": 2.6
+     },
+     {
+      "k": "rect",
+      "box": [
+       340,
+       735,
+       460,
+       795
+      ],
+      "box1": [
+       250,
+       735,
+       370,
+       795
+      ],
+      "over": 0.7,
+      "fill": "red",
+      "w": 0,
+      "r": 8,
+      "at": 0.3,
+      "to": 1.6
+     },
+     {
+      "k": "rect",
+      "box": [
+       340,
+       735,
+       460,
+       795
+      ],
+      "fill": "red",
+      "w": 0,
+      "r": 8,
+      "to": 0.3
+     },
+     {
+      "k": "rect",
+      "box": [
+       250,
+       735,
+       370,
+       795
+      ],
+      "box1": [
+       400,
+       735,
+       520,
+       795
+      ],
+      "over": 0.7,
+      "fill": "yel",
+      "w": 0,
+      "r": 8,
+      "at": 1.6
+     },
+     {
+      "k": "hud",
+      "text": "OFF FIRST, THEN ON",
+      "c": "yel"
+     },
+     {
+      "k": "hud",
+      "text": "ONE BIG APPLIANCE PER CIRCUIT",
+      "c": "green",
+      "at": 2.6
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        640,
+        765
+       ],
+       [
+        1000,
+        765
+       ],
+       [
+        1000,
+        520
+       ],
+       [
+        1250,
+        520
+       ],
+       [
+        1250,
+        820
+       ]
+      ],
+      "c": "white",
+      "n": 6,
+      "speed": 420,
+      "at": 2.6
+     },
+     {
+      "k": "rect",
+      "box": [
+       1150,
+       880,
+       1350,
+       1120
+      ],
+      "fill": "hot",
+      "w": 0,
+      "r": 16,
+      "at": 2.6
+     }
+    ]
+   },
+   "text": "To reset it, push it fully off first, then on. And move one thing to another circuit.",
+   "voice": "To reset it, push it fully off first, then on. And move one thing to another circuit.",
+   "cam": [
+    [
+     0,
+     0.22,
+     0.45,
+     1.9
+    ],
+    [
+     0.55,
+     0.22,
+     0.45,
+     1.9
+    ],
+    [
+     1,
+     0.5,
+     0.45,
+     1.1
+    ]
+   ],
+   "accent": [
+    "off",
+    "first,"
+   ],
+   "label": "THE FIX",
+   "hold": 1.0
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       140,
+       300,
+       640,
+       1340
+      ],
+      "r": 30,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "BREAKER PANEL",
+      "xy": [
+       390,
+       215
+      ],
+      "center": true
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       420,
+       560,
+       510
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       435,
+       520,
+       495
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       570,
+       560,
+       660
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       585,
+       520,
+       645
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       720,
+       560,
+       810
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       870,
+       560,
+       960
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       885,
+       520,
+       945
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       1020,
+       560,
+       1110
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       1035,
+       520,
+       1095
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       220,
+       1170,
+       560,
+       1260
+      ],
+      "w": 8,
+      "r": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       1185,
+       520,
+       1245
+      ],
+      "fill": "dim",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       1110,
+       820,
+       1390,
+       1180
+      ],
+      "r": 30,
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "SPACE HEATER",
+      "xy": [
+       1250,
+       1205
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       820,
+       1720,
+       1180
+      ],
+      "r": 30,
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "HAIR DRYER",
+      "xy": [
+       1580,
+       1205
+      ],
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        640,
+        765
+       ],
+       [
+        1000,
+        765
+       ],
+       [
+        1000,
+        520
+       ],
+       [
+        1720,
+        520
+       ]
+      ],
+      "c": "yel",
+      "w": 20
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1250,
+        520
+       ],
+       [
+        1250,
+        820
+       ]
+      ],
+      "c": "yel",
+      "w": 20
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1580,
+        520
+       ],
+       [
+        1580,
+        820
+       ]
+      ],
+      "c": "yel",
+      "w": 20
+     },
+     {
+      "k": "rect",
+      "box": [
+       400,
+       735,
+       520,
+       795
+      ],
+      "fill": "yel",
+      "w": 0,
+      "r": 8
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        640,
+        765
+       ],
+       [
+        1000,
+        765
+       ],
+       [
+        1000,
+        520
+       ],
+       [
+        1250,
+        520
+       ],
+       [
+        1250,
+        820
+       ]
+      ],
+      "c": "white",
+      "n": 6,
+      "speed": 420
+     },
+     {
+      "k": "rect",
+      "box": [
+       1150,
+       880,
+       1350,
+       1120
+      ],
+      "fill": "hot",
+      "w": 0,
+      "r": 16
+     },
+     {
+      "k": "hud",
+      "text": "NEVER A BIGGER BREAKER",
+      "c": "red"
+     }
+    ]
+   },
+   "text": "A breaker that keeps tripping is telling you something. The answer is never a bigger breaker.",
+   "voice": "A breaker that keeps tripping is telling you something. The answer is never a bigger breaker.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.45,
+     1.1
+    ],
+    [
+     1,
+     0.22,
+     0.45,
+     1.6
+    ]
+   ],
+   "accent": [
+    "never"
+   ],
+   "label": "ONE RULE"
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. A simple book for first-time homeowners."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "A tripped breaker isn’t the problem.",
+  "feel": "It’s the thing protecting you from the problem.",
+  "shows": "What a breaker does, why a heater plus a hair dryer trips it, and how to reset it properly.",
+  "ask": "Which two appliances always trip yours?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #electrical101"
+ }
+}

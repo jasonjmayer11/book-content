@@ -1,0 +1,1053 @@
+{
+ "slug": "house-x-how-it-works-water-heater",
+ "book": "house",
+ "format": "X explainer",
+ "title": "How your water heater works, and what kills it",
+ "cover": "What kills a water heater",
+ "cover_accent": [
+  "kills"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  2
+ ],
+ "hero_t": 3.0,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        200,
+        220
+       ],
+       [
+        760,
+        220
+       ],
+       [
+        760,
+        420
+       ]
+      ],
+      "w": 80,
+      "water": "water"
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        1080,
+        420
+       ],
+       [
+        1080,
+        220
+       ],
+       [
+        1700,
+        220
+       ]
+      ],
+      "w": 80,
+      "water": "hot"
+     },
+     {
+      "k": "level",
+      "box": [
+       614,
+       414,
+       1226,
+       1426
+      ],
+      "c": [
+       40,
+       110,
+       180
+      ],
+      "v0": 1,
+      "v1": 1
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       400,
+       1240,
+       1440
+      ],
+      "r": 60,
+      "w": 16
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        760,
+        420
+       ],
+       [
+        760,
+        1250
+       ]
+      ],
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       520,
+       1340,
+       600,
+       1400
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       700,
+       1480,
+       1140,
+       1520
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "COLD IN",
+      "xy": [
+       210,
+       110
+      ],
+      "c": "sky"
+     },
+     {
+      "k": "text",
+      "text": "HOT OUT",
+      "xy": [
+       1440,
+       110
+      ],
+      "c": "hot"
+     },
+     {
+      "k": "label",
+      "text": "WATER HEATER",
+      "xy": [
+       1300,
+       640
+      ],
+      "anchor": [
+       1244,
+       760
+      ],
+      "c": "yel",
+      "at": 0.4,
+      "size": 48
+     }
+    ]
+   },
+   "text": "Your water heater sits in a corner doing its job, until the day it doesn’t.",
+   "voice": "Your water heater sits in a corner doing its job, until the day it doesn't.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.52,
+     1.25
+    ]
+   ],
+   "accent": [
+    "doesn’t."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        200,
+        220
+       ],
+       [
+        760,
+        220
+       ],
+       [
+        760,
+        420
+       ]
+      ],
+      "w": 80,
+      "water": "water"
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        1080,
+        420
+       ],
+       [
+        1080,
+        220
+       ],
+       [
+        1700,
+        220
+       ]
+      ],
+      "w": 80,
+      "water": "hot"
+     },
+     {
+      "k": "level",
+      "box": [
+       614,
+       414,
+       1226,
+       1426
+      ],
+      "c": [
+       40,
+       110,
+       180
+      ],
+      "v0": 1,
+      "v1": 1
+     },
+     {
+      "k": "level",
+      "box": [
+       614,
+       414,
+       1226,
+       1426
+      ],
+      "c": "hot",
+      "dir": "top",
+      "v0": 0,
+      "v1": 0.55,
+      "over": 4,
+      "at": 1.5
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       400,
+       1240,
+       1440
+      ],
+      "r": 60,
+      "w": 16
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        760,
+        420
+       ],
+       [
+        760,
+        1250
+       ]
+      ],
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       520,
+       1340,
+       600,
+       1400
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       700,
+       1480,
+       1140,
+       1520
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "COLD IN",
+      "xy": [
+       210,
+       110
+      ],
+      "c": "sky"
+     },
+     {
+      "k": "text",
+      "text": "HOT OUT",
+      "xy": [
+       1440,
+       110
+      ],
+      "c": "hot"
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        200,
+        220
+       ],
+       [
+        760,
+        220
+       ],
+       [
+        760,
+        1250
+       ]
+      ],
+      "c": "ice",
+      "n": 7,
+      "speed": 420
+     },
+     {
+      "k": "flame",
+      "at_xy": [
+       920,
+       1478
+      ],
+      "at": 1.2
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1080,
+        420
+       ],
+       [
+        1080,
+        220
+       ],
+       [
+        1700,
+        220
+       ]
+      ],
+      "c": "white",
+      "n": 4,
+      "speed": 420,
+      "at": 4
+     }
+    ]
+   },
+   "text": "Cold water goes down a tube to the bottom. A burner heats it, and the hot water rises to the top, ready for your shower.",
+   "voice": "Cold water goes down a tube to the bottom. A burner heats it, and the hot water rises to the top, ready for your shower.",
+   "cam": [
+    [
+     0,
+     0.42,
+     0.2,
+     1.5
+    ],
+    [
+     0.4,
+     0.45,
+     0.75,
+     1.5
+    ],
+    [
+     1,
+     0.5,
+     0.4,
+     1.3
+    ]
+   ],
+   "accent": [
+    "hot",
+    "rises"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        200,
+        220
+       ],
+       [
+        760,
+        220
+       ],
+       [
+        760,
+        420
+       ]
+      ],
+      "w": 80,
+      "water": "water"
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        1080,
+        420
+       ],
+       [
+        1080,
+        220
+       ],
+       [
+        1700,
+        220
+       ]
+      ],
+      "w": 80,
+      "water": "hot"
+     },
+     {
+      "k": "level",
+      "box": [
+       614,
+       414,
+       1226,
+       1426
+      ],
+      "c": [
+       40,
+       110,
+       180
+      ],
+      "v0": 1,
+      "v1": 1
+     },
+     {
+      "k": "level",
+      "box": [
+       614,
+       414,
+       1226,
+       1426
+      ],
+      "c": "hot",
+      "dir": "top",
+      "v0": 0.55,
+      "v1": 0.55
+     },
+     {
+      "k": "level",
+      "box": [
+       614,
+       414,
+       1226,
+       1426
+      ],
+      "c": "brown",
+      "v0": 0,
+      "v1": 0.1,
+      "over": 3
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       400,
+       1240,
+       1440
+      ],
+      "r": 60,
+      "w": 16
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        760,
+        420
+       ],
+       [
+        760,
+        1250
+       ]
+      ],
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       520,
+       1340,
+       600,
+       1400
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       700,
+       1480,
+       1140,
+       1520
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "COLD IN",
+      "xy": [
+       210,
+       110
+      ],
+      "c": "sky"
+     },
+     {
+      "k": "text",
+      "text": "HOT OUT",
+      "xy": [
+       1440,
+       110
+      ],
+      "c": "hot"
+     },
+     {
+      "k": "flame",
+      "at_xy": [
+       920,
+       1478
+      ]
+     },
+     {
+      "k": "hud",
+      "text": "SEDIMENT BUILDING UP",
+      "c": "red",
+      "at": 1
+     },
+     {
+      "k": "label",
+      "text": "SEDIMENT",
+      "xy": [
+       1320,
+       1250
+      ],
+      "anchor": [
+       1180,
+       1380
+      ],
+      "c": "brown",
+      "at": 1.2
+     }
+    ]
+   },
+   "text": "Over the years, sediment settles at the bottom. It makes the heater work harder, and rumble.",
+   "voice": "Over the years, sediment settles at the bottom. It makes the heater work harder, and rumble.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.4,
+     1.3
+    ],
+    [
+     1,
+     0.52,
+     0.8,
+     1.7
+    ]
+   ],
+   "accent": [
+    "sediment"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        200,
+        220
+       ],
+       [
+        760,
+        220
+       ],
+       [
+        760,
+        420
+       ]
+      ],
+      "w": 80,
+      "water": "water"
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        1080,
+        420
+       ],
+       [
+        1080,
+        220
+       ],
+       [
+        1700,
+        220
+       ]
+      ],
+      "w": 80,
+      "water": "hot"
+     },
+     {
+      "k": "level",
+      "box": [
+       614,
+       414,
+       1226,
+       1426
+      ],
+      "c": [
+       40,
+       110,
+       180
+      ],
+      "v0": 1,
+      "v1": 1
+     },
+     {
+      "k": "level",
+      "box": [
+       614,
+       414,
+       1226,
+       1426
+      ],
+      "c": "hot",
+      "dir": "top",
+      "v0": 0.55,
+      "v1": 0.55
+     },
+     {
+      "k": "level",
+      "box": [
+       614,
+       414,
+       1226,
+       1426
+      ],
+      "c": "brown",
+      "v0": 0.1,
+      "v1": 0.1
+     },
+     {
+      "k": "level",
+      "box": [
+       935,
+       420,
+       965,
+       1050
+      ],
+      "c": "line",
+      "dir": "top",
+      "v0": 1,
+      "v1": 0.35,
+      "over": 4
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       400,
+       1240,
+       1440
+      ],
+      "r": 60,
+      "w": 16
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        760,
+        420
+       ],
+       [
+        760,
+        1250
+       ]
+      ],
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       520,
+       1340,
+       600,
+       1400
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       700,
+       1480,
+       1140,
+       1520
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "COLD IN",
+      "xy": [
+       210,
+       110
+      ],
+      "c": "sky"
+     },
+     {
+      "k": "text",
+      "text": "HOT OUT",
+      "xy": [
+       1440,
+       110
+      ],
+      "c": "hot"
+     },
+     {
+      "k": "label",
+      "text": "ANODE ROD",
+      "xy": [
+       1320,
+       560
+      ],
+      "anchor": [
+       965,
+       520
+      ],
+      "c": "yel",
+      "at": 0.5
+     }
+    ]
+   },
+   "text": "Inside, a metal rod sacrifices itself so the tank doesn’t rust. Having it checked every few years can add years to the tank.",
+   "voice": "Inside, a metal rod sacrifices itself so the tank doesn't rust. Having it checked every few years can add years to the tank.",
+   "cam": [
+    [
+     0,
+     0.52,
+     0.8,
+     1.7
+    ],
+    [
+     0.3,
+     0.6,
+     0.4,
+     1.4
+    ],
+    [
+     1,
+     0.6,
+     0.42,
+     1.45
+    ]
+   ],
+   "accent": [
+    "rod"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        200,
+        220
+       ],
+       [
+        760,
+        220
+       ],
+       [
+        760,
+        420
+       ]
+      ],
+      "w": 80,
+      "water": "water"
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        1080,
+        420
+       ],
+       [
+        1080,
+        220
+       ],
+       [
+        1700,
+        220
+       ]
+      ],
+      "w": 80,
+      "water": "hot"
+     },
+     {
+      "k": "level",
+      "box": [
+       614,
+       414,
+       1226,
+       1426
+      ],
+      "c": [
+       40,
+       110,
+       180
+      ],
+      "v0": 1,
+      "v1": 1
+     },
+     {
+      "k": "level",
+      "box": [
+       614,
+       414,
+       1226,
+       1426
+      ],
+      "c": "hot",
+      "dir": "top",
+      "v0": 0.55,
+      "v1": 0.55
+     },
+     {
+      "k": "level",
+      "box": [
+       614,
+       414,
+       1226,
+       1426
+      ],
+      "c": "brown",
+      "v0": 0.1,
+      "v1": 0.03,
+      "over": 2,
+      "at": 3
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       400,
+       1240,
+       1440
+      ],
+      "r": 60,
+      "w": 16
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        760,
+        420
+       ],
+       [
+        760,
+        1250
+       ]
+      ],
+      "w": 10
+     },
+     {
+      "k": "rect",
+      "box": [
+       520,
+       1340,
+       600,
+       1400
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       700,
+       1480,
+       1140,
+       1520
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "COLD IN",
+      "xy": [
+       210,
+       110
+      ],
+      "c": "sky"
+     },
+     {
+      "k": "text",
+      "text": "HOT OUT",
+      "xy": [
+       1440,
+       110
+      ],
+      "c": "hot"
+     },
+     {
+      "k": "count",
+      "fmt": "AGE: {:.0f} YEARS",
+      "v0": 1,
+      "v1": 12,
+      "over": 3,
+      "xy": [
+       920,
+       860
+      ],
+      "center": true,
+      "c": "white",
+      "size": 84
+     },
+     {
+      "k": "label",
+      "text": "DRAIN VALVE",
+      "xy": [
+       220,
+       1560
+      ],
+      "anchor": [
+       540,
+       1400
+      ],
+      "c": "yel",
+      "at": 2.6
+     },
+     {
+      "k": "drops",
+      "at_xy": [
+       510,
+       1400
+      ],
+      "c": "water",
+      "n": 8,
+      "spread": 30,
+      "fall": 300,
+      "at": 3
+     },
+     {
+      "k": "hud",
+      "text": "LASTS ABOUT 8 TO 12 YEARS",
+      "c": "yel"
+     }
+    ]
+   },
+   "text": "Tanks commonly last 8 to 12 years. Find the date on the sticker, and drain a few gallons from the bottom once a year.",
+   "voice": "Tanks commonly last eight to twelve years. Find the date on the sticker, and drain a few gallons from the bottom once a year.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.45,
+     1.3
+    ],
+    [
+     0.55,
+     0.4,
+     0.78,
+     1.5
+    ],
+    [
+     1,
+     0.38,
+     0.8,
+     1.6
+    ]
+   ],
+   "accent": [
+    "8",
+    "12",
+    "years."
+   ],
+   "label": "KEEP IT ALIVE",
+   "hold": 0.6
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. A simple book for first-time homeowners."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Your water heater is aging quietly in a corner.",
+  "feel": "It works until the day it doesn’t, and that day usually involves water on the floor.",
+  "shows": "How a tank heater works, what sediment and rust do to it, and the yearly flush. If yours is old and has never been flushed, ask a plumber first.",
+  "ask": "Do you know how old yours is?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #plumbing101"
+ }
+}

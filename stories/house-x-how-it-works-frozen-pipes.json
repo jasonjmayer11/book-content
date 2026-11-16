@@ -1,0 +1,798 @@
+{
+ "slug": "house-x-how-it-works-frozen-pipes",
+ "book": "house",
+ "format": "X explainer",
+ "title": "Why frozen pipes burst",
+ "cover": "Why frozen pipes burst",
+ "cover_accent": [
+  "burst"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  1
+ ],
+ "hero_t": 2.5,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       0,
+       480,
+       1760
+      ],
+      "fill": "panel",
+      "w": 0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        480,
+        0
+       ],
+       [
+        480,
+        1760
+       ]
+      ],
+      "w": 30
+     },
+     {
+      "k": "text",
+      "text": "OUTSIDE",
+      "xy": [
+       240,
+       180
+      ],
+      "center": true,
+      "c": "sky"
+     },
+     {
+      "k": "text",
+      "text": "INSIDE THE WALL",
+      "xy": [
+       1160,
+       180
+      ],
+      "center": true,
+      "c": "sky"
+     },
+     {
+      "k": "rain",
+      "box": [
+       0,
+       470,
+       470,
+       1720
+      ],
+      "c": "ice",
+      "n": 24
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        560,
+        900
+       ],
+       [
+        1640,
+        900
+       ],
+       [
+        1640,
+        1250
+       ]
+      ],
+      "w": 130,
+      "water": "water"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1560,
+        1250
+       ],
+       [
+        1720,
+        1250
+       ]
+      ],
+      "w": 30
+     },
+     {
+      "k": "rect",
+      "box": [
+       700,
+       848,
+       720,
+       952
+      ],
+      "box1": [
+       700,
+       848,
+       1180,
+       952
+      ],
+      "over": 3,
+      "fill": "ice",
+      "w": 0,
+      "at": 0.8
+     },
+     {
+      "k": "count",
+      "fmt": "{:.0f}°F",
+      "v0": 40,
+      "v1": 10,
+      "over": 3,
+      "xy": [
+       240,
+       300
+      ],
+      "center": true,
+      "c": "ice",
+      "size": 120
+     },
+     {
+      "k": "label",
+      "text": "ICE",
+      "xy": [
+       860,
+       640
+      ],
+      "anchor": [
+       940,
+       850
+      ],
+      "c": "ice",
+      "at": 1.8
+     }
+    ]
+   },
+   "text": "Water expands when it freezes. Inside a pipe, it has nowhere to go.",
+   "voice": "Water expands when it freezes. Inside a pipe, it has nowhere to go.",
+   "cam": [
+    [
+     0,
+     0.4,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.5,
+     1.6
+    ]
+   ],
+   "accent": [
+    "expands"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       0,
+       480,
+       1760
+      ],
+      "fill": "panel",
+      "w": 0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        480,
+        0
+       ],
+       [
+        480,
+        1760
+       ]
+      ],
+      "w": 30
+     },
+     {
+      "k": "text",
+      "text": "OUTSIDE",
+      "xy": [
+       240,
+       180
+      ],
+      "center": true,
+      "c": "sky"
+     },
+     {
+      "k": "text",
+      "text": "INSIDE THE WALL",
+      "xy": [
+       1160,
+       180
+      ],
+      "center": true,
+      "c": "sky"
+     },
+     {
+      "k": "rain",
+      "box": [
+       0,
+       470,
+       470,
+       1720
+      ],
+      "c": "ice",
+      "n": 24
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        560,
+        900
+       ],
+       [
+        1640,
+        900
+       ],
+       [
+        1640,
+        1250
+       ]
+      ],
+      "w": 130,
+      "water": "water"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1560,
+        1250
+       ],
+       [
+        1720,
+        1250
+       ]
+      ],
+      "w": 30
+     },
+     {
+      "k": "rect",
+      "box": [
+       700,
+       848,
+       1180,
+       952
+      ],
+      "fill": "ice",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "10°F",
+      "xy": [
+       240,
+       300
+      ],
+      "center": true,
+      "c": "ice",
+      "size": 120
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1230,
+        838
+       ],
+       [
+        1252,
+        880
+       ],
+       [
+        1224,
+        922
+       ],
+       [
+        1254,
+        962
+       ]
+      ],
+      "c": "yel",
+      "w": 14,
+      "draw": 0.5,
+      "at": 0.6
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       1240,
+       900
+      ],
+      "r": 130,
+      "c": "yel",
+      "at": 0.6
+     },
+     {
+      "k": "hud",
+      "text": "THE PIPE SPLITS",
+      "c": "red",
+      "at": 0.6
+     }
+    ]
+   },
+   "text": "So a frozen pipe can split.",
+   "voice": "So a frozen pipe can split.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.6
+    ],
+    [
+     1,
+     0.66,
+     0.5,
+     1.9
+    ]
+   ],
+   "accent": [
+    "split."
+   ],
+   "hold": 1.2
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       0,
+       480,
+       1760
+      ],
+      "fill": "panel",
+      "w": 0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        480,
+        0
+       ],
+       [
+        480,
+        1760
+       ]
+      ],
+      "w": 30
+     },
+     {
+      "k": "text",
+      "text": "OUTSIDE",
+      "xy": [
+       240,
+       180
+      ],
+      "center": true,
+      "c": "sky"
+     },
+     {
+      "k": "text",
+      "text": "INSIDE THE WALL",
+      "xy": [
+       1160,
+       180
+      ],
+      "center": true,
+      "c": "sky"
+     },
+     {
+      "k": "rain",
+      "box": [
+       0,
+       470,
+       470,
+       1720
+      ],
+      "c": "ice",
+      "n": 24
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        560,
+        900
+       ],
+       [
+        1640,
+        900
+       ],
+       [
+        1640,
+        1250
+       ]
+      ],
+      "w": 130,
+      "water": "water"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1560,
+        1250
+       ],
+       [
+        1720,
+        1250
+       ]
+      ],
+      "w": 30
+     },
+     {
+      "k": "rect",
+      "box": [
+       700,
+       848,
+       1180,
+       952
+      ],
+      "box1": [
+       700,
+       848,
+       720,
+       952
+      ],
+      "over": 2.2,
+      "fill": "ice",
+      "w": 0
+     },
+     {
+      "k": "level",
+      "box": [
+       700,
+       1700,
+       1740,
+       1750
+      ],
+      "c": "water",
+      "v0": 0,
+      "v1": 1,
+      "over": 1.5,
+      "at": 2.2
+     },
+     {
+      "k": "count",
+      "fmt": "{:.0f}°F",
+      "v0": 10,
+      "v1": 45,
+      "over": 2.2,
+      "xy": [
+       240,
+       300
+      ],
+      "center": true,
+      "c": "hot",
+      "size": 120
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1230,
+        838
+       ],
+       [
+        1252,
+        880
+       ],
+       [
+        1224,
+        922
+       ],
+       [
+        1254,
+        962
+       ]
+      ],
+      "c": "yel",
+      "w": 14
+     },
+     {
+      "k": "drops",
+      "at_xy": [
+       1240,
+       965
+      ],
+      "c": "water",
+      "n": 22,
+      "spread": 280,
+      "fall": 720,
+      "at": 2.0
+     },
+     {
+      "k": "hud",
+      "text": "NOW IT SPRAYS",
+      "c": "red",
+      "at": 2.0
+     }
+    ]
+   },
+   "text": "And you won’t know until it thaws, and starts spraying.",
+   "voice": "And you won't know until it thaws, and starts spraying.",
+   "cam": [
+    [
+     0,
+     0.66,
+     0.5,
+     1.9
+    ],
+    [
+     0.5,
+     0.66,
+     0.55,
+     1.6
+    ],
+    [
+     1,
+     0.66,
+     0.68,
+     1.3
+    ]
+   ],
+   "accent": [
+    "thaws,",
+    "spraying."
+   ],
+   "hold": 1.0
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       0,
+       480,
+       1760
+      ],
+      "fill": "panel",
+      "w": 0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        480,
+        0
+       ],
+       [
+        480,
+        1760
+       ]
+      ],
+      "w": 30
+     },
+     {
+      "k": "text",
+      "text": "OUTSIDE",
+      "xy": [
+       240,
+       180
+      ],
+      "center": true,
+      "c": "sky"
+     },
+     {
+      "k": "text",
+      "text": "INSIDE THE WALL",
+      "xy": [
+       1160,
+       180
+      ],
+      "center": true,
+      "c": "sky"
+     },
+     {
+      "k": "rain",
+      "box": [
+       0,
+       470,
+       470,
+       1720
+      ],
+      "c": "ice",
+      "n": 24
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        560,
+        900
+       ],
+       [
+        1640,
+        900
+       ],
+       [
+        1640,
+        1250
+       ]
+      ],
+      "w": 130,
+      "water": "water"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1560,
+        1250
+       ],
+       [
+        1720,
+        1250
+       ]
+      ],
+      "w": 30
+     },
+     {
+      "k": "text",
+      "text": "10°F",
+      "xy": [
+       240,
+       300
+      ],
+      "center": true,
+      "c": "ice",
+      "size": 120
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        560,
+        900
+       ],
+       [
+        1640,
+        900
+       ],
+       [
+        1640,
+        1250
+       ]
+      ],
+      "c": "white",
+      "n": 6,
+      "speed": 170,
+      "r": 13
+     },
+     {
+      "k": "drops",
+      "at_xy": [
+       1640,
+       1300
+      ],
+      "c": "water",
+      "n": 4,
+      "spread": 6,
+      "fall": 380,
+      "rate": 0.9,
+      "r": 13
+     },
+     {
+      "k": "label",
+      "text": "LET IT DRIP",
+      "xy": [
+       1020,
+       1420
+      ],
+      "anchor": [
+       1630,
+       1340
+      ],
+      "c": "yel",
+      "at": 0.6
+     },
+     {
+      "k": "text",
+      "text": "HEAT: 55°F MINIMUM",
+      "xy": [
+       1160,
+       420
+      ],
+      "center": true,
+      "c": "hot",
+      "size": 70,
+      "at": -3.2
+     },
+     {
+      "k": "hud",
+      "text": "MOVING WATER RESISTS FREEZING",
+      "c": "green",
+      "at": 2.2
+     }
+    ]
+   },
+   "text": "On freezing nights, let faucets on outside walls drip. Moving water resists freezing. And never set the heat below about 55 degrees.",
+   "voice": "On freezing nights, let faucets on outside walls drip. Moving water resists freezing. And never set the heat below about fifty five degrees.",
+   "cam": [
+    [
+     0,
+     0.6,
+     0.5,
+     1.2
+    ],
+    [
+     0.45,
+     0.85,
+     0.72,
+     1.6
+    ],
+    [
+     1,
+     0.6,
+     0.42,
+     1.2
+    ]
+   ],
+   "accent": [
+    "drip.",
+    "55"
+   ],
+   "label": "PREVENT IT"
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. A simple book for first-time homeowners."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "A frozen pipe doesn’t flood your house when it freezes.",
+  "feel": "It floods it when it thaws.",
+  "shows": "Why ice splits a pipe, why you only find out later, and what to do on a freezing night.",
+  "ask": "Has this ever happened to you?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #winterprep"
+ }
+}

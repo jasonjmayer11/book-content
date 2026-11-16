@@ -371,3 +371,73 @@ def airfilter(state, t, dur, font):
     return im, hud, hud_c
 
 DIAGRAMS.update({"shutoff": shutoff, "gfci": gfci, "filter": airfilter})
+
+
+# ====================================================================== gx: data-driven diagrams (elements listed in the storyboard)
+COL = {"line": LINE, "navy": NAVY, "water": WATER, "gas": GAS, "yel": YEL, "red": RED, "dim": DIM, "hot": (255, 140, 60), "ice": (200, 235, 255),
+       "brown": (150, 110, 70), "green": (120, 220, 120), "soil": (26, 34, 44), "sky": (150, 180, 215), "white": (255, 255, 255), "panel": (20, 36, 62)}
+def _c(v, default=LINE): return COL.get(v, default) if isinstance(v, str) else (tuple(v) if v else default)
+def _p(e, lt):
+    return ease_in_out(min(1.0, max(0.0, lt / max(0.05, e.get("over", 1.0)))))
+def _lerp(a, b, p): return [a[i] + (b[i] - a[i]) * p for i in range(len(a))]
+def gx(state, t, dur, font):
+    im = _grid(); d = ImageDraw.Draw(im); hud, hud_c = None, YEL
+    for e in state["els"]:
+        at = e.get("at", 0.0)
+        if at < 0: at = max(0.0, dur + at)                      # negative = seconds before the scene ends
+        lt = t - at
+        if lt < 0 or ("to" in e and t > e["to"]): continue
+        k = e["k"]; c = _c(e.get("c")); p = _p(e, lt)
+        if k == "line":
+            pts = [tuple(q) for q in e["pts"]]
+            if e.get("draw"): pts = _upto(pts, _len(pts) * min(1.0, lt / e["draw"]))
+            if len(pts) > 1: d.line(pts, fill=c, width=e.get("w", 12), joint="curve")
+        elif k == "pipe":
+            pts = [tuple(q) for q in e["pts"]]; w = e.get("w", 84); inner = _c(e.get("water"), NAVY) if e.get("water") else NAVY
+            for col, ww in ((c, w), (inner, w - 28)):
+                d.line(pts, fill=col, width=ww); [d.ellipse([x - ww / 2, y - ww / 2, x + ww / 2, y + ww / 2], fill=col) for x, y in pts[1:-1]]
+        elif k == "poly": d.polygon([tuple(q) for q in e["pts"]], fill=_c(e.get("fill"), None) if e.get("fill") else None, outline=c if e.get("w", 14) else None, width=e.get("w", 14))
+        elif k == "rect":
+            box = _lerp(e["box"], e["box1"], p) if e.get("box1") else e["box"]
+            d.rounded_rectangle(box, radius=e.get("r", 0), fill=_c(e.get("fill"), None) if e.get("fill") else None, outline=c if e.get("w", 14) else None, width=e.get("w", 14))
+        elif k == "circ":
+            x, y = e["at_xy"]; r = e["r"]; d.ellipse([x - r, y - r, x + r, y + r], fill=_c(e.get("fill"), None) if e.get("fill") else None, outline=c if e.get("w", 12) else None, width=e.get("w", 12))
+        elif k == "dots": _dots(d, [tuple(q) for q in e["pts"]], t, e.get("n", 8), e.get("speed", 500), e.get("r", 12), c)
+        elif k == "label": _label(im, font, e["text"], tuple(e["xy"]), tuple(e["anchor"]), c, e.get("size", 58), a=lt); d = ImageDraw.Draw(im)
+        elif k == "text": _txt(im, font, e["text"], e["xy"], c, e.get("size", 52), center=e.get("center", False)); d = ImageDraw.Draw(im)
+        elif k == "ring":
+            x, y = e["at_xy"]; r = e["r"] + 16 * math.sin(t * 5); d.ellipse([x - r, y - r, x + r, y + r], outline=c, width=12)
+        elif k == "level":
+            x0, y0, x1, y1 = e["box"]; v = e.get("v0", 0.0) + (e.get("v1", 1.0) - e.get("v0", 0.0)) * p
+            if v > 0.003:
+                if e.get("dir") == "top": d.rectangle([x0, y0, x1, y0 + (y1 - y0) * v], fill=c)
+                elif e.get("dir") == "right": d.rectangle([x0, y0, x0 + (x1 - x0) * v, y1], fill=c)
+                else: d.rectangle([x0, y1 - (y1 - y0) * v, x1, y1], fill=c)
+        elif k == "count":
+            v = e["v0"] + (e["v1"] - e["v0"]) * p; _txt(im, font, e["fmt"].format(v), e["xy"], c, e.get("size", 80), center=e.get("center", False)); d = ImageDraw.Draw(im)
+        elif k == "hud": hud, hud_c = e["text"], c
+        elif k == "drops":
+            x0, y0 = e["at_xy"]
+            for i in range(e.get("n", 20)):
+                q = (t * e.get("rate", 1.2) + i / e.get("n", 20)) % 1; a = -1 + 2 * ((i * 37) % e.get("n", 20)) / e.get("n", 20)
+                x = x0 + e.get("spread", 200) * a * q; y = y0 + e.get("fall", 800) * q * q + 40 * q; r = e.get("r", 12)
+                d.ellipse([x - r, y - r, x + r, y + r], fill=c)
+        elif k == "rain":
+            x0, y0, x1, y1 = e["box"]
+            for i in range(e.get("n", 40)):
+                x = x0 + (i * 173) % (x1 - x0); y = y0 + (t * 900 + i * 97) % (y1 - y0); d.line([(x, y), (x - 10, y + 44)], fill=c, width=6)
+        elif k == "rot":
+            x, y = e["pivot"]; a = math.radians(e["a0"] + (e.get("a1", e["a0"]) - e["a0"]) * p)
+            d.line([(x, y), (x + e["len"] * math.cos(a), y - e["len"] * math.sin(a))], fill=c, width=e.get("w", 28))
+        elif k == "flame":
+            x, y = e["at_xy"]; s = e.get("size", 90)
+            for i in range(e.get("n", 4)):
+                xx = x + (i - (e.get("n", 4) - 1) / 2) * s * 0.9; h = s * (1.1 + 0.35 * math.sin(t * 11 + i * 2))
+                d.polygon([(xx - s * 0.4, y), (xx, y - h), (xx + s * 0.4, y)], fill=COL["hot"]); d.polygon([(xx - s * 0.2, y), (xx, y - h * 0.55), (xx + s * 0.2, y)], fill=YEL)
+        elif k == "rise":                                           # wisps: steam, heat, smell
+            x0, y0 = e["at_xy"]
+            for i in range(e.get("n", 4)):
+                q = (t * 0.6 + i / e.get("n", 4)) % 1; x = x0 + (i - 1.5) * e.get("gap", 90) + 20 * math.sin(q * 7 + i); y = y0 - e.get("h", 300) * q
+                d.arc([x - 30, y - 30, x + 30, y + 30], 200, 340, fill=c, width=10)
+    return im, hud, hud_c
+DIAGRAMS["gx"] = gx
