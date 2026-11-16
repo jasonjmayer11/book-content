@@ -1,0 +1,1478 @@
+{
+ "slug": "house-x-how-it-works-dryer-vent",
+ "book": "house",
+ "format": "X explainer",
+ "title": "Why your dryer takes longer and longer",
+ "cover": "Why the dryer got slow",
+ "cover_accent": [
+  "slow"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  1
+ ],
+ "hero_t": 4.0,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "line",
+      "pts": [
+       [
+        100,
+        1506
+       ],
+       [
+        1560,
+        1506
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "hatch",
+      "box": [
+       100,
+       1512,
+       1560,
+       1580
+      ],
+      "c": [
+       30,
+       48,
+       78
+      ],
+      "gap": 30
+     },
+     {
+      "k": "rect",
+      "box": [
+       1560,
+       160,
+       1640,
+       1580
+      ],
+      "fill": "panel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1560,
+       160,
+       1640,
+       1580
+      ],
+      "c": [
+       44,
+       70,
+       110
+      ],
+      "gap": 40
+     },
+     {
+      "k": "text",
+      "text": "OUTSIDE",
+      "xy": [
+       1740,
+       300
+      ],
+      "c": "sky",
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        760,
+        1100
+       ],
+       [
+        1100,
+        1100
+       ],
+       [
+        1100,
+        500
+       ],
+       [
+        1560,
+        500
+       ]
+      ],
+      "w": 110
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        1640,
+        440
+       ],
+       [
+        1780,
+        470
+       ],
+       [
+        1780,
+        560
+       ],
+       [
+        1640,
+        560
+       ]
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       880,
+       760,
+       1500
+      ],
+      "r": 30,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       480,
+       1230
+      ],
+      "r": 190,
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       480,
+       1230
+      ],
+      "r": 150,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       480,
+       1230
+      ],
+      "len": 140,
+      "a0": 0,
+      "a1": 1440,
+      "over": 9,
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       480,
+       1230
+      ],
+      "len": 140,
+      "a0": 120,
+      "a1": 1560,
+      "over": 9,
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       480,
+       1230
+      ],
+      "len": 140,
+      "a0": 240,
+      "a1": 1680,
+      "over": 9,
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "rect",
+      "box": [
+       240,
+       910,
+       720,
+       990
+      ],
+      "r": 12,
+      "w": 6,
+      "c": "dim"
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       300,
+       950
+      ],
+      "r": 24,
+      "c": "yel",
+      "w": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       420,
+       925,
+       600,
+       975
+      ],
+      "r": 8,
+      "fill": "yel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "LINT SCREEN",
+      "xy": [
+       510,
+       936
+      ],
+      "c": "navy",
+      "size": 24,
+      "center": true
+     },
+     {
+      "k": "text",
+      "text": "DRYER",
+      "xy": [
+       480,
+       1440
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 40
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        760,
+        1100
+       ],
+       [
+        1100,
+        1100
+       ],
+       [
+        1100,
+        500
+       ],
+       [
+        1560,
+        500
+       ],
+       [
+        1760,
+        500
+       ]
+      ],
+      "c": "hot",
+      "n": 8,
+      "speed": 520,
+      "r": 13
+     },
+     {
+      "k": "label",
+      "text": "VENT DUCT",
+      "xy": [
+       1180,
+       800
+      ],
+      "anchor": [
+       1150,
+       760
+      ],
+      "c": "yel",
+      "at": 1.0
+     }
+    ]
+   },
+   "text": "Your dryer pushes hot, wet air and lint out through a duct to the outside.",
+   "voice": "Your dryer pushes hot, wet air, and lint, out through a duct to the outside.",
+   "cam": [
+    [
+     0,
+     0.35,
+     0.65,
+     1.3
+    ],
+    [
+     1,
+     0.6,
+     0.5,
+     1.25
+    ]
+   ],
+   "accent": [
+    "duct"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "line",
+      "pts": [
+       [
+        100,
+        1506
+       ],
+       [
+        1560,
+        1506
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "hatch",
+      "box": [
+       100,
+       1512,
+       1560,
+       1580
+      ],
+      "c": [
+       30,
+       48,
+       78
+      ],
+      "gap": 30
+     },
+     {
+      "k": "rect",
+      "box": [
+       1560,
+       160,
+       1640,
+       1580
+      ],
+      "fill": "panel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1560,
+       160,
+       1640,
+       1580
+      ],
+      "c": [
+       44,
+       70,
+       110
+      ],
+      "gap": 40
+     },
+     {
+      "k": "text",
+      "text": "OUTSIDE",
+      "xy": [
+       1740,
+       300
+      ],
+      "c": "sky",
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        760,
+        1100
+       ],
+       [
+        1100,
+        1100
+       ],
+       [
+        1100,
+        500
+       ],
+       [
+        1560,
+        500
+       ]
+      ],
+      "w": 110
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        1640,
+        440
+       ],
+       [
+        1780,
+        470
+       ],
+       [
+        1780,
+        560
+       ],
+       [
+        1640,
+        560
+       ]
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "level",
+      "box": [
+       790,
+       1059,
+       1060,
+       1141
+      ],
+      "c": "brown",
+      "v0": 0,
+      "v1": 0.7,
+      "over": 4
+     },
+     {
+      "k": "level",
+      "box": [
+       1059,
+       540,
+       1141,
+       1060
+      ],
+      "c": "brown",
+      "dir": "right",
+      "v0": 0,
+      "v1": 0.7,
+      "over": 4
+     },
+     {
+      "k": "level",
+      "box": [
+       1140,
+       459,
+       1540,
+       541
+      ],
+      "c": "brown",
+      "v0": 0,
+      "v1": 0.7,
+      "over": 4
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       880,
+       760,
+       1500
+      ],
+      "r": 30,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       480,
+       1230
+      ],
+      "r": 190,
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       480,
+       1230
+      ],
+      "r": 150,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       480,
+       1230
+      ],
+      "len": 140,
+      "a0": 0,
+      "a1": 1440,
+      "over": 9,
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       480,
+       1230
+      ],
+      "len": 140,
+      "a0": 120,
+      "a1": 1560,
+      "over": 9,
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       480,
+       1230
+      ],
+      "len": 140,
+      "a0": 240,
+      "a1": 1680,
+      "over": 9,
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "rect",
+      "box": [
+       240,
+       910,
+       720,
+       990
+      ],
+      "r": 12,
+      "w": 6,
+      "c": "dim"
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       300,
+       950
+      ],
+      "r": 24,
+      "c": "yel",
+      "w": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       420,
+       925,
+       600,
+       975
+      ],
+      "r": 8,
+      "fill": "yel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "LINT SCREEN",
+      "xy": [
+       510,
+       936
+      ],
+      "c": "navy",
+      "size": 24,
+      "center": true
+     },
+     {
+      "k": "text",
+      "text": "DRYER",
+      "xy": [
+       480,
+       1440
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 40
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        760,
+        1100
+       ],
+       [
+        1100,
+        1100
+       ],
+       [
+        1100,
+        500
+       ],
+       [
+        1560,
+        500
+       ],
+       [
+        1760,
+        500
+       ]
+      ],
+      "c": "hot",
+      "n": 4,
+      "speed": 180,
+      "r": 13
+     },
+     {
+      "k": "hud",
+      "text": "LINT BUILDING UP",
+      "c": "yel"
+     },
+     {
+      "k": "count",
+      "fmt": "DRY TIME: {:.0f} MIN",
+      "v0": 45,
+      "v1": 95,
+      "over": 5,
+      "xy": [
+       480,
+       720
+      ],
+      "center": true,
+      "c": "white",
+      "size": 60
+     }
+    ]
+   },
+   "text": "Lint that gets past the screen builds up in that duct. Air slows down, so clothes take longer and longer to dry.",
+   "voice": "Lint that gets past the screen builds up in that duct. Air slows down, so clothes take longer and longer to dry.",
+   "cam": [
+    [
+     0,
+     0.6,
+     0.5,
+     1.25
+    ],
+    [
+     0.5,
+     0.62,
+     0.42,
+     1.6
+    ],
+    [
+     1,
+     0.45,
+     0.55,
+     1.25
+    ]
+   ],
+   "accent": [
+    "longer",
+    "lint"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "line",
+      "pts": [
+       [
+        100,
+        1506
+       ],
+       [
+        1560,
+        1506
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "hatch",
+      "box": [
+       100,
+       1512,
+       1560,
+       1580
+      ],
+      "c": [
+       30,
+       48,
+       78
+      ],
+      "gap": 30
+     },
+     {
+      "k": "rect",
+      "box": [
+       1560,
+       160,
+       1640,
+       1580
+      ],
+      "fill": "panel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1560,
+       160,
+       1640,
+       1580
+      ],
+      "c": [
+       44,
+       70,
+       110
+      ],
+      "gap": 40
+     },
+     {
+      "k": "text",
+      "text": "OUTSIDE",
+      "xy": [
+       1740,
+       300
+      ],
+      "c": "sky",
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        760,
+        1100
+       ],
+       [
+        1100,
+        1100
+       ],
+       [
+        1100,
+        500
+       ],
+       [
+        1560,
+        500
+       ]
+      ],
+      "w": 110
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        1640,
+        440
+       ],
+       [
+        1780,
+        470
+       ],
+       [
+        1780,
+        560
+       ],
+       [
+        1640,
+        560
+       ]
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "level",
+      "box": [
+       790,
+       1059,
+       1060,
+       1141
+      ],
+      "c": "brown",
+      "v0": 0.7,
+      "v1": 0.7,
+      "over": 4
+     },
+     {
+      "k": "level",
+      "box": [
+       1059,
+       540,
+       1141,
+       1060
+      ],
+      "c": "brown",
+      "dir": "right",
+      "v0": 0.7,
+      "v1": 0.7,
+      "over": 4
+     },
+     {
+      "k": "level",
+      "box": [
+       1140,
+       459,
+       1540,
+       541
+      ],
+      "c": "brown",
+      "v0": 0.7,
+      "v1": 0.7,
+      "over": 4
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       880,
+       760,
+       1500
+      ],
+      "r": 30,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       480,
+       1230
+      ],
+      "r": 190,
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       480,
+       1230
+      ],
+      "r": 150,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       480,
+       1230
+      ],
+      "len": 140,
+      "a0": 0,
+      "a1": 1440,
+      "over": 9,
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       480,
+       1230
+      ],
+      "len": 140,
+      "a0": 120,
+      "a1": 1560,
+      "over": 9,
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       480,
+       1230
+      ],
+      "len": 140,
+      "a0": 240,
+      "a1": 1680,
+      "over": 9,
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "rect",
+      "box": [
+       240,
+       910,
+       720,
+       990
+      ],
+      "r": 12,
+      "w": 6,
+      "c": "dim"
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       300,
+       950
+      ],
+      "r": 24,
+      "c": "yel",
+      "w": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       420,
+       925,
+       600,
+       975
+      ],
+      "r": 8,
+      "fill": "yel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "LINT SCREEN",
+      "xy": [
+       510,
+       936
+      ],
+      "c": "navy",
+      "size": 24,
+      "center": true
+     },
+     {
+      "k": "text",
+      "text": "DRYER",
+      "xy": [
+       480,
+       1440
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 40
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        760,
+        1100
+       ],
+       [
+        1100,
+        1100
+       ],
+       [
+        1100,
+        500
+       ],
+       [
+        1560,
+        500
+       ],
+       [
+        1760,
+        500
+       ]
+      ],
+      "c": "hot",
+      "n": 3,
+      "speed": 90,
+      "r": 13
+     },
+     {
+      "k": "hud",
+      "text": "HEAT TRAPPED",
+      "c": "red"
+     },
+     {
+      "k": "rise",
+      "at_xy": [
+       930,
+       1040
+      ],
+      "c": "hot",
+      "n": 4,
+      "h": 240,
+      "gap": 60
+     },
+     {
+      "k": "flame",
+      "at_xy": [
+       930,
+       1100
+      ],
+      "size": 46,
+      "n": 3,
+      "at": 1.6
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       930,
+       1080
+      ],
+      "r": 150,
+      "c": "red",
+      "at": 1.6
+     },
+     {
+      "k": "text",
+      "text": "DRY TIME: 95 MIN",
+      "xy": [
+       480,
+       720
+      ],
+      "center": true,
+      "c": "red",
+      "size": 60
+     }
+    ]
+   },
+   "text": "Now the heat can’t escape. And lint is highly flammable.",
+   "voice": "Now the heat can't escape. And lint is highly flammable.",
+   "cam": [
+    [
+     0,
+     0.45,
+     0.55,
+     1.25
+    ],
+    [
+     1,
+     0.52,
+     0.62,
+     1.9
+    ]
+   ],
+   "accent": [
+    "flammable."
+   ],
+   "hold": 1.0
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "line",
+      "pts": [
+       [
+        100,
+        1506
+       ],
+       [
+        1560,
+        1506
+       ]
+      ],
+      "c": "dim",
+      "w": 10
+     },
+     {
+      "k": "hatch",
+      "box": [
+       100,
+       1512,
+       1560,
+       1580
+      ],
+      "c": [
+       30,
+       48,
+       78
+      ],
+      "gap": 30
+     },
+     {
+      "k": "rect",
+      "box": [
+       1560,
+       160,
+       1640,
+       1580
+      ],
+      "fill": "panel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1560,
+       160,
+       1640,
+       1580
+      ],
+      "c": [
+       44,
+       70,
+       110
+      ],
+      "gap": 40
+     },
+     {
+      "k": "text",
+      "text": "OUTSIDE",
+      "xy": [
+       1740,
+       300
+      ],
+      "c": "sky",
+      "center": true,
+      "size": 40
+     },
+     {
+      "k": "pipe",
+      "pts": [
+       [
+        760,
+        1100
+       ],
+       [
+        1100,
+        1100
+       ],
+       [
+        1100,
+        500
+       ],
+       [
+        1560,
+        500
+       ]
+      ],
+      "w": 110
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        1640,
+        440
+       ],
+       [
+        1780,
+        470
+       ],
+       [
+        1780,
+        560
+       ],
+       [
+        1640,
+        560
+       ]
+      ],
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "level",
+      "box": [
+       790,
+       1059,
+       1060,
+       1141
+      ],
+      "c": "brown",
+      "v0": 0.7,
+      "v1": 0,
+      "over": 2.5
+     },
+     {
+      "k": "level",
+      "box": [
+       1059,
+       540,
+       1141,
+       1060
+      ],
+      "c": "brown",
+      "dir": "right",
+      "v0": 0.7,
+      "v1": 0,
+      "over": 2.5
+     },
+     {
+      "k": "level",
+      "box": [
+       1140,
+       459,
+       1540,
+       541
+      ],
+      "c": "brown",
+      "v0": 0.7,
+      "v1": 0,
+      "over": 2.5
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       880,
+       760,
+       1500
+      ],
+      "r": 30,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       480,
+       1230
+      ],
+      "r": 190,
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       480,
+       1230
+      ],
+      "r": 150,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       480,
+       1230
+      ],
+      "len": 140,
+      "a0": 0,
+      "a1": 1440,
+      "over": 9,
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       480,
+       1230
+      ],
+      "len": 140,
+      "a0": 120,
+      "a1": 1560,
+      "over": 9,
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       480,
+       1230
+      ],
+      "len": 140,
+      "a0": 240,
+      "a1": 1680,
+      "over": 9,
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "rect",
+      "box": [
+       240,
+       910,
+       720,
+       990
+      ],
+      "r": 12,
+      "w": 6,
+      "c": "dim"
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       300,
+       950
+      ],
+      "r": 24,
+      "c": "yel",
+      "w": 8
+     },
+     {
+      "k": "rect",
+      "box": [
+       420,
+       925,
+       600,
+       975
+      ],
+      "r": 8,
+      "fill": "yel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "text",
+      "text": "LINT SCREEN",
+      "xy": [
+       510,
+       936
+      ],
+      "c": "navy",
+      "size": 24,
+      "center": true
+     },
+     {
+      "k": "text",
+      "text": "DRYER",
+      "xy": [
+       480,
+       1440
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 40
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        760,
+        1100
+       ],
+       [
+        1100,
+        1100
+       ],
+       [
+        1100,
+        500
+       ],
+       [
+        1560,
+        500
+       ],
+       [
+        1760,
+        500
+       ]
+      ],
+      "c": "hot",
+      "n": 8,
+      "speed": 520,
+      "r": 13
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       510,
+       950
+      ],
+      "r": 130,
+      "c": "yel",
+      "to": 2.4
+     },
+     {
+      "k": "hud",
+      "text": "SCREEN: EVERY LOAD",
+      "c": "yel",
+      "to": 2.4
+     },
+     {
+      "k": "hud",
+      "text": "FULL DUCT: ONCE A YEAR",
+      "c": "green",
+      "at": 2.4
+     }
+    ]
+   },
+   "text": "Clean the lint screen every single load. And clean the full duct to the outside once a year.",
+   "voice": "Clean the lint screen every single load. And clean the full duct to the outside once a year.",
+   "cam": [
+    [
+     0,
+     0.3,
+     0.56,
+     1.9
+    ],
+    [
+     0.45,
+     0.3,
+     0.56,
+     1.9
+    ],
+    [
+     1,
+     0.58,
+     0.5,
+     1.2
+    ]
+   ],
+   "accent": [
+    "every",
+    "year."
+   ],
+   "label": "THE FIX",
+   "hold": 0.6
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "About 2,900 home dryer fires are reported in the U.S. every year. The leading cause: failure to clean.",
+   "voice": "About twenty nine hundred home dryer fires are reported in the U.S. every year. The leading cause? Failure to clean them.",
+   "accent": [
+    "2,900",
+    "clean."
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "If your dryer takes two cycles, it’s probably not the dryer.",
+  "feel": "It’s the duct behind it, and a clogged duct is a fire risk.",
+  "shows": "Where the lint goes, why drying slows down, and the two cleanings that fix it.",
+  "ask": "When was your dryer duct last cleaned?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #firesafety"
+ }
+}

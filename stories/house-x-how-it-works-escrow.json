@@ -1,0 +1,1996 @@
+{
+ "slug": "house-x-how-it-works-escrow",
+ "book": "house",
+ "format": "X explainer",
+ "title": "Why your fixed mortgage payment went up",
+ "cover": "Fixed rate. Payment went up.",
+ "cover_accent": [
+  "up."
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  3
+ ],
+ "hero_t": 3.5,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "text",
+      "text": "YOUR MONTHLY PAYMENT",
+      "xy": [
+       430,
+       250
+      ],
+      "center": true,
+      "size": 44
+     },
+     {
+      "k": "rect",
+      "box": [
+       130,
+       320,
+       730,
+       1180
+      ],
+      "r": 30,
+      "w": 12,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       360,
+       690,
+       520
+      ],
+      "r": 18,
+      "fill": "dim",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PRINCIPAL",
+      "xy": [
+       430,
+       416
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       560,
+       690,
+       720
+      ],
+      "r": 18,
+      "fill": "dim",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "INTEREST",
+      "xy": [
+       430,
+       616
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       760,
+       690,
+       920
+      ],
+      "r": 18,
+      "fill": [
+       90,
+       200,
+       130
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PROPERTY TAX",
+      "xy": [
+       430,
+       816
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       960,
+       690,
+       1120
+      ],
+      "r": 18,
+      "fill": [
+       58,
+       160,
+       255
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "INSURANCE",
+      "xy": [
+       430,
+       1016
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "text",
+      "text": "ESCROW ACCOUNT",
+      "xy": [
+       1340,
+       430
+      ],
+      "center": true,
+      "size": 44
+     },
+     {
+      "k": "level",
+      "box": [
+       1112,
+       512,
+       1568,
+       1088
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "v0": 0.5,
+      "v1": 0.5,
+      "over": 3
+     },
+     {
+      "k": "rect",
+      "box": [
+       1100,
+       500,
+       1580,
+       1100
+      ],
+      "r": 30,
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       1060,
+       1320,
+       1380,
+       1500
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "TAX BILL",
+      "xy": [
+       1220,
+       1384
+      ],
+      "center": true,
+      "size": 38
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       1320,
+       1780,
+       1500
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "INSURANCE BILL",
+      "xy": [
+       1610,
+       1384
+      ],
+      "center": true,
+      "size": 32
+     },
+     {
+      "k": "count",
+      "fmt": "${:,.0f} / MONTH",
+      "v0": 2000,
+      "v1": 2000,
+      "over": 1.5,
+      "xy": [
+       430,
+       1230
+      ],
+      "center": true,
+      "c": "white",
+      "size": 64,
+      "to": 2.5
+     },
+     {
+      "k": "count",
+      "fmt": "${:,.0f} / MONTH",
+      "v0": 2000,
+      "v1": 2240,
+      "over": 1.5,
+      "xy": [
+       430,
+       1230
+      ],
+      "center": true,
+      "c": "red",
+      "size": 64,
+      "at": 2.5
+     },
+     {
+      "k": "hud",
+      "text": "PAYMENT INCREASE NOTICE",
+      "c": "red",
+      "at": 2.5
+     }
+    ]
+   },
+   "text": "You got a fixed-rate mortgage so the payment would never change. Then a letter says it’s going up.",
+   "voice": "You got a fixed rate mortgage so the payment would never change. Then a letter says it's going up.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.26,
+     0.48,
+     1.5
+    ]
+   ],
+   "accent": [
+    "up."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "text",
+      "text": "YOUR MONTHLY PAYMENT",
+      "xy": [
+       430,
+       250
+      ],
+      "center": true,
+      "size": 44
+     },
+     {
+      "k": "rect",
+      "box": [
+       130,
+       320,
+       730,
+       1180
+      ],
+      "r": 30,
+      "w": 12,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       360,
+       690,
+       520
+      ],
+      "r": 18,
+      "fill": "dim",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PRINCIPAL",
+      "xy": [
+       430,
+       416
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       560,
+       690,
+       720
+      ],
+      "r": 18,
+      "fill": "dim",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "INTEREST",
+      "xy": [
+       430,
+       616
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       760,
+       690,
+       920
+      ],
+      "r": 18,
+      "fill": [
+       90,
+       200,
+       130
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PROPERTY TAX",
+      "xy": [
+       430,
+       816
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       960,
+       690,
+       1120
+      ],
+      "r": 18,
+      "fill": [
+       58,
+       160,
+       255
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "INSURANCE",
+      "xy": [
+       430,
+       1016
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "text",
+      "text": "ESCROW ACCOUNT",
+      "xy": [
+       1340,
+       430
+      ],
+      "center": true,
+      "size": 44
+     },
+     {
+      "k": "level",
+      "box": [
+       1112,
+       512,
+       1568,
+       1088
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "v0": 0.5,
+      "v1": 0.5,
+      "over": 3
+     },
+     {
+      "k": "rect",
+      "box": [
+       1100,
+       500,
+       1580,
+       1100
+      ],
+      "r": 30,
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       1060,
+       1320,
+       1380,
+       1500
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "TAX BILL",
+      "xy": [
+       1220,
+       1384
+      ],
+      "center": true,
+      "size": 38
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       1320,
+       1780,
+       1500
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "INSURANCE BILL",
+      "xy": [
+       1610,
+       1384
+      ],
+      "center": true,
+      "size": 32
+     },
+     {
+      "k": "count",
+      "fmt": "${:,.0f} / MONTH",
+      "v0": 2000,
+      "v1": 2000,
+      "over": 1.5,
+      "xy": [
+       430,
+       1230
+      ],
+      "center": true,
+      "c": "white",
+      "size": 64
+     },
+     {
+      "k": "label",
+      "text": "FIXED",
+      "xy": [
+       790,
+       500
+      ],
+      "anchor": [
+       700,
+       520
+      ],
+      "c": "line",
+      "at": 1.2
+     },
+     {
+      "k": "label",
+      "text": "CAN CHANGE",
+      "xy": [
+       790,
+       900
+      ],
+      "anchor": [
+       700,
+       930
+      ],
+      "c": "yel",
+      "at": 2.6
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       430,
+       940
+      ],
+      "r": 330,
+      "c": "yel",
+      "at": 2.6
+     }
+    ]
+   },
+   "text": "Your payment is four things. Principal and interest are fixed. Taxes and insurance are not.",
+   "voice": "Your payment is four things. Principal and interest are fixed. Taxes and insurance, are not.",
+   "cam": [
+    [
+     0,
+     0.26,
+     0.48,
+     1.5
+    ],
+    [
+     1,
+     0.3,
+     0.46,
+     1.45
+    ]
+   ],
+   "accent": [
+    "four",
+    "not."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "text",
+      "text": "YOUR MONTHLY PAYMENT",
+      "xy": [
+       430,
+       250
+      ],
+      "center": true,
+      "size": 44
+     },
+     {
+      "k": "rect",
+      "box": [
+       130,
+       320,
+       730,
+       1180
+      ],
+      "r": 30,
+      "w": 12,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       360,
+       690,
+       520
+      ],
+      "r": 18,
+      "fill": "dim",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PRINCIPAL",
+      "xy": [
+       430,
+       416
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       560,
+       690,
+       720
+      ],
+      "r": 18,
+      "fill": "dim",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "INTEREST",
+      "xy": [
+       430,
+       616
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       760,
+       690,
+       920
+      ],
+      "r": 18,
+      "fill": [
+       90,
+       200,
+       130
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PROPERTY TAX",
+      "xy": [
+       430,
+       816
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       960,
+       690,
+       1120
+      ],
+      "r": 18,
+      "fill": [
+       58,
+       160,
+       255
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "INSURANCE",
+      "xy": [
+       430,
+       1016
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "text",
+      "text": "ESCROW ACCOUNT",
+      "xy": [
+       1340,
+       430
+      ],
+      "center": true,
+      "size": 44
+     },
+     {
+      "k": "level",
+      "box": [
+       1112,
+       512,
+       1568,
+       1088
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "v0": 0.2,
+      "v1": 0.6,
+      "over": 3
+     },
+     {
+      "k": "rect",
+      "box": [
+       1100,
+       500,
+       1580,
+       1100
+      ],
+      "r": 30,
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       1060,
+       1320,
+       1380,
+       1500
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "TAX BILL",
+      "xy": [
+       1220,
+       1384
+      ],
+      "center": true,
+      "size": 38
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       1320,
+       1780,
+       1500
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "INSURANCE BILL",
+      "xy": [
+       1610,
+       1384
+      ],
+      "center": true,
+      "size": 32
+     },
+     {
+      "k": "count",
+      "fmt": "${:,.0f} / MONTH",
+      "v0": 2000,
+      "v1": 2000,
+      "over": 1.5,
+      "xy": [
+       430,
+       1230
+      ],
+      "center": true,
+      "c": "white",
+      "size": 64
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        690,
+        840
+       ],
+       [
+        900,
+        840
+       ],
+       [
+        900,
+        700
+       ],
+       [
+        1100,
+        700
+       ]
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "n": 5,
+      "speed": 380,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        690,
+        1040
+       ],
+       [
+        960,
+        1040
+       ],
+       [
+        960,
+        860
+       ],
+       [
+        1100,
+        860
+       ]
+      ],
+      "c": [
+       58,
+       160,
+       255
+      ],
+      "n": 5,
+      "speed": 380,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1220,
+        1100
+       ],
+       [
+        1220,
+        1320
+       ]
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "n": 3,
+      "speed": 300,
+      "r": 14,
+      "at": 2.5
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1500,
+        1100
+       ],
+       [
+        1610,
+        1320
+       ]
+      ],
+      "c": [
+       58,
+       160,
+       255
+      ],
+      "n": 3,
+      "speed": 300,
+      "r": 14,
+      "at": 2.5
+     },
+     {
+      "k": "hud",
+      "text": "1/12 EVERY MONTH",
+      "c": "green"
+     }
+    ]
+   },
+   "text": "Your lender collects one-twelfth of those bills every month, holds it in escrow, and pays them for you.",
+   "voice": "Your lender collects one twelfth of those bills every month, holds it in escrow, and pays them for you.",
+   "cam": [
+    [
+     0,
+     0.3,
+     0.46,
+     1.45
+    ],
+    [
+     0.5,
+     0.62,
+     0.48,
+     1.4
+    ],
+    [
+     1,
+     0.72,
+     0.62,
+     1.4
+    ]
+   ],
+   "accent": [
+    "escrow,"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "text",
+      "text": "YOUR MONTHLY PAYMENT",
+      "xy": [
+       430,
+       250
+      ],
+      "center": true,
+      "size": 44
+     },
+     {
+      "k": "rect",
+      "box": [
+       130,
+       320,
+       730,
+       1180
+      ],
+      "r": 30,
+      "w": 12,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       360,
+       690,
+       520
+      ],
+      "r": 18,
+      "fill": "dim",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PRINCIPAL",
+      "xy": [
+       430,
+       416
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       560,
+       690,
+       720
+      ],
+      "r": 18,
+      "fill": "dim",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "INTEREST",
+      "xy": [
+       430,
+       616
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       760,
+       690,
+       920
+      ],
+      "r": 18,
+      "fill": [
+       90,
+       200,
+       130
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PROPERTY TAX",
+      "xy": [
+       430,
+       816
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       960,
+       690,
+       1120
+      ],
+      "r": 18,
+      "fill": [
+       58,
+       160,
+       255
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "INSURANCE",
+      "xy": [
+       430,
+       1016
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "text",
+      "text": "ESCROW ACCOUNT",
+      "xy": [
+       1340,
+       430
+      ],
+      "center": true,
+      "size": 44
+     },
+     {
+      "k": "level",
+      "box": [
+       1112,
+       512,
+       1568,
+       1088
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "v0": 0.6,
+      "v1": 0.42,
+      "over": 3
+     },
+     {
+      "k": "rect",
+      "box": [
+       1100,
+       500,
+       1580,
+       1100
+      ],
+      "r": 30,
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       1060,
+       1320,
+       1380,
+       1500
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "TAX BILL",
+      "xy": [
+       1220,
+       1384
+      ],
+      "center": true,
+      "size": 38
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       1320,
+       1780,
+       1500
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "INSURANCE BILL",
+      "xy": [
+       1610,
+       1384
+      ],
+      "center": true,
+      "size": 32
+     },
+     {
+      "k": "count",
+      "fmt": "${:,.0f} / MONTH",
+      "v0": 2000,
+      "v1": 2000,
+      "over": 1.5,
+      "xy": [
+       430,
+       1230
+      ],
+      "center": true,
+      "c": "white",
+      "size": 64
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        690,
+        840
+       ],
+       [
+        900,
+        840
+       ],
+       [
+        900,
+        700
+       ],
+       [
+        1100,
+        700
+       ]
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "n": 5,
+      "speed": 380,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        690,
+        1040
+       ],
+       [
+        960,
+        1040
+       ],
+       [
+        960,
+        860
+       ],
+       [
+        1100,
+        860
+       ]
+      ],
+      "c": [
+       58,
+       160,
+       255
+      ],
+      "n": 5,
+      "speed": 380,
+      "r": 14
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1090,
+        700
+       ],
+       [
+        1590,
+        700
+       ]
+      ],
+      "c": "yel",
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "NEEDED",
+      "xy": [
+       1620,
+       680
+      ],
+      "c": "yel",
+      "size": 34
+     },
+     {
+      "k": "hud",
+      "text": "SHORTAGE",
+      "c": "red",
+      "at": 2.2
+     },
+     {
+      "k": "count",
+      "fmt": "${:,.0f}",
+      "v0": 3600,
+      "v1": 4400,
+      "over": 2,
+      "xy": [
+       1220,
+       1436
+      ],
+      "center": true,
+      "c": "red",
+      "size": 44
+     },
+     {
+      "k": "count",
+      "fmt": "${:,.0f}",
+      "v0": 1800,
+      "v1": 2600,
+      "over": 2,
+      "xy": [
+       1610,
+       1436
+      ],
+      "center": true,
+      "c": "red",
+      "size": 44
+     }
+    ]
+   },
+   "text": "Once a year they re-check the math. If your taxes or insurance went up, there’s a shortage.",
+   "voice": "Once a year they recheck the math. If your taxes or insurance went up, there's a shortage.",
+   "cam": [
+    [
+     0,
+     0.72,
+     0.62,
+     1.4
+    ],
+    [
+     1,
+     0.74,
+     0.55,
+     1.45
+    ]
+   ],
+   "accent": [
+    "shortage."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "text",
+      "text": "YOUR MONTHLY PAYMENT",
+      "xy": [
+       430,
+       250
+      ],
+      "center": true,
+      "size": 44
+     },
+     {
+      "k": "rect",
+      "box": [
+       130,
+       320,
+       730,
+       1180
+      ],
+      "r": 30,
+      "w": 12,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       360,
+       690,
+       520
+      ],
+      "r": 18,
+      "fill": "dim",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PRINCIPAL",
+      "xy": [
+       430,
+       416
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       560,
+       690,
+       720
+      ],
+      "r": 18,
+      "fill": "dim",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "INTEREST",
+      "xy": [
+       430,
+       616
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       760,
+       690,
+       920
+      ],
+      "r": 18,
+      "fill": [
+       90,
+       200,
+       130
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PROPERTY TAX",
+      "xy": [
+       430,
+       816
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       960,
+       690,
+       1120
+      ],
+      "r": 18,
+      "fill": [
+       58,
+       160,
+       255
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "INSURANCE",
+      "xy": [
+       430,
+       1016
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "text",
+      "text": "ESCROW ACCOUNT",
+      "xy": [
+       1340,
+       430
+      ],
+      "center": true,
+      "size": 44
+     },
+     {
+      "k": "level",
+      "box": [
+       1112,
+       512,
+       1568,
+       1088
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "v0": 0.42,
+      "v1": 0.42,
+      "over": 3
+     },
+     {
+      "k": "rect",
+      "box": [
+       1100,
+       500,
+       1580,
+       1100
+      ],
+      "r": 30,
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       1060,
+       1320,
+       1380,
+       1500
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "TAX BILL",
+      "xy": [
+       1220,
+       1384
+      ],
+      "center": true,
+      "size": 38
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       1320,
+       1780,
+       1500
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "INSURANCE BILL",
+      "xy": [
+       1610,
+       1384
+      ],
+      "center": true,
+      "size": 32
+     },
+     {
+      "k": "count",
+      "fmt": "${:,.0f} / MONTH",
+      "v0": 2000,
+      "v1": 2240,
+      "over": 1.5,
+      "xy": [
+       430,
+       1230
+      ],
+      "center": true,
+      "c": "red",
+      "size": 64
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        690,
+        840
+       ],
+       [
+        900,
+        840
+       ],
+       [
+        900,
+        700
+       ],
+       [
+        1100,
+        700
+       ]
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "n": 5,
+      "speed": 380,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        690,
+        1040
+       ],
+       [
+        960,
+        1040
+       ],
+       [
+        960,
+        860
+       ],
+       [
+        1100,
+        860
+       ]
+      ],
+      "c": [
+       58,
+       160,
+       255
+      ],
+      "n": 5,
+      "speed": 380,
+      "r": 14
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       1300,
+       690,
+       1400
+      ],
+      "r": 14,
+      "fill": "red",
+      "w": 0,
+      "at": 0.8
+     },
+     {
+      "k": "text",
+      "text": "+ HIGHER BILLS",
+      "xy": [
+       430,
+       1330
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 36,
+      "at": 0.8
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       1420,
+       690,
+       1520
+      ],
+      "r": 14,
+      "fill": "yel",
+      "w": 0,
+      "at": 2.2
+     },
+     {
+      "k": "text",
+      "text": "+ LAST YEAR’S GAP",
+      "xy": [
+       430,
+       1450
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 36,
+      "at": 2.2
+     }
+    ]
+   },
+   "text": "So your payment rises for two reasons: to cover the higher bills, and to pay back last year’s gap.",
+   "voice": "So your payment rises for two reasons. To cover the higher bills, and to pay back last year's gap.",
+   "cam": [
+    [
+     0,
+     0.74,
+     0.55,
+     1.45
+    ],
+    [
+     0.3,
+     0.26,
+     0.7,
+     1.5
+    ],
+    [
+     1,
+     0.26,
+     0.72,
+     1.5
+    ]
+   ],
+   "accent": [
+    "two",
+    "reasons:"
+   ],
+   "hold": 0.6
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "text",
+      "text": "YOUR MONTHLY PAYMENT",
+      "xy": [
+       430,
+       250
+      ],
+      "center": true,
+      "size": 44
+     },
+     {
+      "k": "rect",
+      "box": [
+       130,
+       320,
+       730,
+       1180
+      ],
+      "r": 30,
+      "w": 12,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       360,
+       690,
+       520
+      ],
+      "r": 18,
+      "fill": "dim",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PRINCIPAL",
+      "xy": [
+       430,
+       416
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       560,
+       690,
+       720
+      ],
+      "r": 18,
+      "fill": "dim",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "INTEREST",
+      "xy": [
+       430,
+       616
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       760,
+       690,
+       920
+      ],
+      "r": 18,
+      "fill": [
+       90,
+       200,
+       130
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "PROPERTY TAX",
+      "xy": [
+       430,
+       816
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "rect",
+      "box": [
+       170,
+       960,
+       690,
+       1120
+      ],
+      "r": 18,
+      "fill": [
+       58,
+       160,
+       255
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "INSURANCE",
+      "xy": [
+       430,
+       1016
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 40
+     },
+     {
+      "k": "text",
+      "text": "ESCROW ACCOUNT",
+      "xy": [
+       1340,
+       430
+      ],
+      "center": true,
+      "size": 44
+     },
+     {
+      "k": "level",
+      "box": [
+       1112,
+       512,
+       1568,
+       1088
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "v0": 0.5,
+      "v1": 0.5,
+      "over": 3
+     },
+     {
+      "k": "rect",
+      "box": [
+       1100,
+       500,
+       1580,
+       1100
+      ],
+      "r": 30,
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       1060,
+       1320,
+       1380,
+       1500
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "TAX BILL",
+      "xy": [
+       1220,
+       1384
+      ],
+      "center": true,
+      "size": 38
+     },
+     {
+      "k": "rect",
+      "box": [
+       1440,
+       1320,
+       1780,
+       1500
+      ],
+      "r": 18,
+      "fill": "panel",
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "INSURANCE BILL",
+      "xy": [
+       1610,
+       1384
+      ],
+      "center": true,
+      "size": 32
+     },
+     {
+      "k": "count",
+      "fmt": "${:,.0f} / MONTH",
+      "v0": 2240,
+      "v1": 2240,
+      "over": 1.5,
+      "xy": [
+       430,
+       1230
+      ],
+      "center": true,
+      "c": "red",
+      "size": 64
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        690,
+        840
+       ],
+       [
+        900,
+        840
+       ],
+       [
+        900,
+        700
+       ],
+       [
+        1100,
+        700
+       ]
+      ],
+      "c": [
+       90,
+       200,
+       130
+      ],
+      "n": 5,
+      "speed": 380,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        690,
+        1040
+       ],
+       [
+        960,
+        1040
+       ],
+       [
+        960,
+        860
+       ],
+       [
+        1100,
+        860
+       ]
+      ],
+      "c": [
+       58,
+       160,
+       255
+      ],
+      "n": 5,
+      "speed": 380,
+      "r": 14
+     },
+     {
+      "k": "hud",
+      "text": "READ THE ESCROW STATEMENT",
+      "c": "green"
+     }
+    ]
+   },
+   "text": "When the escrow statement arrives, read it. It shows exactly which bill went up.",
+   "voice": "When the escrow statement arrives, read it. It shows exactly which bill went up.",
+   "cam": [
+    [
+     0,
+     0.26,
+     0.72,
+     1.5
+    ],
+    [
+     1,
+     0.5,
+     0.5,
+     1.0
+    ]
+   ],
+   "accent": [
+    "read",
+    "it."
+   ],
+   "label": "WHAT TO DO"
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "Fixed rate does not mean fixed payment. Your taxes and insurance can move it every year.",
+   "voice": "Fixed rate does not mean fixed payment. Your taxes and insurance can move it, every single year.",
+   "accent": [
+    "not"
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Fixed-rate mortgage. Payment went up anyway.",
+  "feel": "You weren’t lied to. You just met your escrow account.",
+  "shows": "The four parts of a mortgage payment, what escrow does, and why a shortage raises your payment twice. Dollar figures are examples.",
+  "ask": "Did your payment jump this year?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #mortgage #escrow"
+ }
+}

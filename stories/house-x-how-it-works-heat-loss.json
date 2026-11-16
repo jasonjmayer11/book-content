@@ -1,0 +1,2032 @@
+{
+ "slug": "house-x-how-it-works-heat-loss",
+ "book": "house",
+ "format": "X explainer",
+ "title": "Where your heat actually goes",
+ "cover": "Where your heat goes",
+ "cover_accent": [
+  "heat"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  1
+ ],
+ "hero_t": 3.0,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1500
+       ],
+       [
+        1840,
+        1500
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1540,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "rain",
+      "box": [
+       0,
+       0,
+       400,
+       1400
+      ],
+      "c": "ice",
+      "n": 14
+     },
+     {
+      "k": "rain",
+      "box": [
+       1440,
+       0,
+       1840,
+       1400
+      ],
+      "c": "ice",
+      "n": 14
+     },
+     {
+      "k": "text",
+      "text": "20°F OUTSIDE",
+      "xy": [
+       200,
+       1560
+      ],
+      "center": true,
+      "c": "ice",
+      "size": 40
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        420,
+        700
+       ],
+       [
+        920,
+        280
+       ],
+       [
+        1420,
+        700
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       500,
+       700,
+       1340,
+       1500
+      ],
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "ATTIC",
+      "xy": [
+       920,
+       470
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 40
+     },
+     {
+      "k": "level",
+      "box": [
+       512,
+       640,
+       1328,
+       692
+      ],
+      "c": [
+       236,
+       170,
+       200
+      ],
+      "dir": "right",
+      "v0": 0.0,
+      "v1": 0.0,
+      "over": 2.5
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       1180,
+       800,
+       1500
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       1000,
+       900,
+       1220,
+       1120
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1110,
+        900
+       ],
+       [
+        1110,
+        1120
+       ]
+      ],
+      "c": "dim",
+      "w": 6
+     },
+     {
+      "k": "rect",
+      "box": [
+       860,
+       1300,
+       1000,
+       1480
+      ],
+      "r": 10,
+      "fill": "hot",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "FURNACE",
+      "xy": [
+       930,
+       1250
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 28
+     },
+     {
+      "k": "text",
+      "text": "68°F",
+      "xy": [
+       1180,
+       1320
+      ],
+      "center": true,
+      "c": "hot",
+      "size": 70
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        670,
+        700
+       ],
+       [
+        730,
+        700
+       ]
+      ],
+      "c": "navy",
+      "w": 22
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        890,
+        700
+       ],
+       [
+        950,
+        700
+       ]
+      ],
+      "c": "navy",
+      "w": 22
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1110,
+        700
+       ],
+       [
+        1170,
+        700
+       ]
+      ],
+      "c": "navy",
+      "w": 22
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        700,
+        1280
+       ],
+       [
+        700,
+        700
+       ],
+       [
+        634.0,
+        420
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 330,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        920,
+        1280
+       ],
+       [
+        920,
+        700
+       ],
+       [
+        920.0,
+        420
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 330,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1140,
+        1280
+       ],
+       [
+        1140,
+        700
+       ],
+       [
+        1206.0,
+        420
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 330,
+      "r": 14
+     },
+     {
+      "k": "label",
+      "text": "GAPS IN THE CEILING",
+      "xy": [
+       1000,
+       560
+      ],
+      "anchor": [
+       1140,
+       690
+      ],
+      "c": "yel",
+      "at": 1.5
+     }
+    ]
+   },
+   "text": "Warm air rises. In winter it pushes up through every gap in your ceiling.",
+   "voice": "Warm air rises. In winter it pushes up through every gap in your ceiling.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.55,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.38,
+     1.5
+    ]
+   ],
+   "accent": [
+    "rises.",
+    "gap"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1500
+       ],
+       [
+        1840,
+        1500
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1540,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "rain",
+      "box": [
+       0,
+       0,
+       400,
+       1400
+      ],
+      "c": "ice",
+      "n": 14
+     },
+     {
+      "k": "rain",
+      "box": [
+       1440,
+       0,
+       1840,
+       1400
+      ],
+      "c": "ice",
+      "n": 14
+     },
+     {
+      "k": "text",
+      "text": "20°F OUTSIDE",
+      "xy": [
+       200,
+       1560
+      ],
+      "center": true,
+      "c": "ice",
+      "size": 40
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        420,
+        700
+       ],
+       [
+        920,
+        280
+       ],
+       [
+        1420,
+        700
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       500,
+       700,
+       1340,
+       1500
+      ],
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "ATTIC",
+      "xy": [
+       920,
+       470
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 40
+     },
+     {
+      "k": "level",
+      "box": [
+       512,
+       640,
+       1328,
+       692
+      ],
+      "c": [
+       236,
+       170,
+       200
+      ],
+      "dir": "right",
+      "v0": 0.0,
+      "v1": 0.0,
+      "over": 2.5
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       1180,
+       800,
+       1500
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       1000,
+       900,
+       1220,
+       1120
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1110,
+        900
+       ],
+       [
+        1110,
+        1120
+       ]
+      ],
+      "c": "dim",
+      "w": 6
+     },
+     {
+      "k": "rect",
+      "box": [
+       860,
+       1300,
+       1000,
+       1480
+      ],
+      "r": 10,
+      "fill": "hot",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "FURNACE",
+      "xy": [
+       930,
+       1250
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 28
+     },
+     {
+      "k": "text",
+      "text": "68°F",
+      "xy": [
+       1180,
+       1320
+      ],
+      "center": true,
+      "c": "hot",
+      "size": 70
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        670,
+        700
+       ],
+       [
+        730,
+        700
+       ]
+      ],
+      "c": "navy",
+      "w": 22
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        890,
+        700
+       ],
+       [
+        950,
+        700
+       ]
+      ],
+      "c": "navy",
+      "w": 22
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1110,
+        700
+       ],
+       [
+        1170,
+        700
+       ]
+      ],
+      "c": "navy",
+      "w": 22
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        700,
+        1280
+       ],
+       [
+        700,
+        700
+       ],
+       [
+        634.0,
+        420
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 330,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        920,
+        1280
+       ],
+       [
+        920,
+        700
+       ],
+       [
+        920.0,
+        420
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 330,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1140,
+        1280
+       ],
+       [
+        1140,
+        700
+       ],
+       [
+        1206.0,
+        420
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 330,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        300,
+        1470
+       ],
+       [
+        500,
+        1470
+       ],
+       [
+        760,
+        1440
+       ]
+      ],
+      "c": "ice",
+      "n": 4,
+      "speed": 260,
+      "r": 13
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1540,
+        1470
+       ],
+       [
+        1340,
+        1470
+       ],
+       [
+        1100,
+        1440
+       ]
+      ],
+      "c": "ice",
+      "n": 4,
+      "speed": 260,
+      "r": 13
+     },
+     {
+      "k": "label",
+      "text": "COLD AIR IN",
+      "xy": [
+       130,
+       1300
+      ],
+      "anchor": [
+       420,
+       1462
+      ],
+      "c": "ice",
+      "at": 0.6
+     },
+     {
+      "k": "hud",
+      "text": "YOUR HOUSE IS A CHIMNEY",
+      "c": "red",
+      "at": 1.2
+     }
+    ]
+   },
+   "text": "And cold air gets pulled in down low to replace it.",
+   "voice": "And cold air gets pulled in, down low, to replace it.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.38,
+     1.5
+    ],
+    [
+     1,
+     0.4,
+     0.78,
+     1.5
+    ]
+   ],
+   "accent": [
+    "cold"
+   ],
+   "hold": 0.8
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1500
+       ],
+       [
+        1840,
+        1500
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1540,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "rain",
+      "box": [
+       0,
+       0,
+       400,
+       1400
+      ],
+      "c": "ice",
+      "n": 14
+     },
+     {
+      "k": "rain",
+      "box": [
+       1440,
+       0,
+       1840,
+       1400
+      ],
+      "c": "ice",
+      "n": 14
+     },
+     {
+      "k": "text",
+      "text": "20°F OUTSIDE",
+      "xy": [
+       200,
+       1560
+      ],
+      "center": true,
+      "c": "ice",
+      "size": 40
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        420,
+        700
+       ],
+       [
+        920,
+        280
+       ],
+       [
+        1420,
+        700
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       500,
+       700,
+       1340,
+       1500
+      ],
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "ATTIC",
+      "xy": [
+       920,
+       470
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 40
+     },
+     {
+      "k": "level",
+      "box": [
+       512,
+       640,
+       1328,
+       692
+      ],
+      "c": [
+       236,
+       170,
+       200
+      ],
+      "dir": "right",
+      "v0": 0,
+      "v1": 1,
+      "over": 2.5
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       1180,
+       800,
+       1500
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       1000,
+       900,
+       1220,
+       1120
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1110,
+        900
+       ],
+       [
+        1110,
+        1120
+       ]
+      ],
+      "c": "dim",
+      "w": 6
+     },
+     {
+      "k": "rect",
+      "box": [
+       860,
+       1300,
+       1000,
+       1480
+      ],
+      "r": 10,
+      "fill": "hot",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "FURNACE",
+      "xy": [
+       930,
+       1250
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 28
+     },
+     {
+      "k": "text",
+      "text": "68°F",
+      "xy": [
+       1180,
+       1320
+      ],
+      "center": true,
+      "c": "hot",
+      "size": 70
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        670,
+        700
+       ],
+       [
+        730,
+        700
+       ]
+      ],
+      "c": "navy",
+      "w": 22
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        890,
+        700
+       ],
+       [
+        950,
+        700
+       ]
+      ],
+      "c": "navy",
+      "w": 22
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1110,
+        700
+       ],
+       [
+        1170,
+        700
+       ]
+      ],
+      "c": "navy",
+      "w": 22
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        700,
+        1280
+       ],
+       [
+        700,
+        700
+       ],
+       [
+        634.0,
+        420
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 330,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        920,
+        1280
+       ],
+       [
+        920,
+        700
+       ],
+       [
+        920.0,
+        420
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 330,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1140,
+        1280
+       ],
+       [
+        1140,
+        700
+       ],
+       [
+        1206.0,
+        420
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 330,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        300,
+        1470
+       ],
+       [
+        500,
+        1470
+       ],
+       [
+        760,
+        1440
+       ]
+      ],
+      "c": "ice",
+      "n": 4,
+      "speed": 260,
+      "r": 13
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1540,
+        1470
+       ],
+       [
+        1340,
+        1470
+       ],
+       [
+        1100,
+        1440
+       ]
+      ],
+      "c": "ice",
+      "n": 4,
+      "speed": 260,
+      "r": 13
+     },
+     {
+      "k": "label",
+      "text": "INSULATION",
+      "xy": [
+       1420,
+       600
+      ],
+      "anchor": [
+       1300,
+       664
+      ],
+      "c": [
+       236,
+       170,
+       200
+      ],
+      "at": 3.2
+     }
+    ]
+   },
+   "text": "Two things fight this. Air sealing stops air moving through holes. Insulation slows heat moving through surfaces.",
+   "voice": "Two things fight this. Air sealing stops air moving through holes. Insulation slows heat moving through surfaces.",
+   "cam": [
+    [
+     0,
+     0.4,
+     0.78,
+     1.5
+    ],
+    [
+     0.4,
+     0.5,
+     0.4,
+     1.4
+    ],
+    [
+     1,
+     0.56,
+     0.38,
+     1.5
+    ]
+   ],
+   "accent": [
+    "sealing",
+    "Insulation"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1500
+       ],
+       [
+        1840,
+        1500
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1540,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "rain",
+      "box": [
+       0,
+       0,
+       400,
+       1400
+      ],
+      "c": "ice",
+      "n": 14
+     },
+     {
+      "k": "rain",
+      "box": [
+       1440,
+       0,
+       1840,
+       1400
+      ],
+      "c": "ice",
+      "n": 14
+     },
+     {
+      "k": "text",
+      "text": "20°F OUTSIDE",
+      "xy": [
+       200,
+       1560
+      ],
+      "center": true,
+      "c": "ice",
+      "size": 40
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        420,
+        700
+       ],
+       [
+        920,
+        280
+       ],
+       [
+        1420,
+        700
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       500,
+       700,
+       1340,
+       1500
+      ],
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "ATTIC",
+      "xy": [
+       920,
+       470
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 40
+     },
+     {
+      "k": "level",
+      "box": [
+       512,
+       640,
+       1328,
+       692
+      ],
+      "c": [
+       236,
+       170,
+       200
+      ],
+      "dir": "right",
+      "v0": 1,
+      "v1": 1,
+      "over": 2.5
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       1180,
+       800,
+       1500
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       1000,
+       900,
+       1220,
+       1120
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1110,
+        900
+       ],
+       [
+        1110,
+        1120
+       ]
+      ],
+      "c": "dim",
+      "w": 6
+     },
+     {
+      "k": "rect",
+      "box": [
+       860,
+       1300,
+       1000,
+       1480
+      ],
+      "r": 10,
+      "fill": "hot",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "FURNACE",
+      "xy": [
+       930,
+       1250
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 28
+     },
+     {
+      "k": "text",
+      "text": "68°F",
+      "xy": [
+       1180,
+       1320
+      ],
+      "center": true,
+      "c": "hot",
+      "size": 70
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        670,
+        700
+       ],
+       [
+        730,
+        700
+       ]
+      ],
+      "c": "navy",
+      "w": 22
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        890,
+        700
+       ],
+       [
+        950,
+        700
+       ]
+      ],
+      "c": "navy",
+      "w": 22
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1110,
+        700
+       ],
+       [
+        1170,
+        700
+       ]
+      ],
+      "c": "navy",
+      "w": 22
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        700,
+        1280
+       ],
+       [
+        700,
+        700
+       ],
+       [
+        634.0,
+        420
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 330,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        920,
+        1280
+       ],
+       [
+        920,
+        700
+       ],
+       [
+        920.0,
+        420
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 330,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1140,
+        1280
+       ],
+       [
+        1140,
+        700
+       ],
+       [
+        1206.0,
+        420
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 330,
+      "r": 14
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        300,
+        1470
+       ],
+       [
+        500,
+        1470
+       ],
+       [
+        760,
+        1440
+       ]
+      ],
+      "c": "ice",
+      "n": 4,
+      "speed": 260,
+      "r": 13
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1540,
+        1470
+       ],
+       [
+        1340,
+        1470
+       ],
+       [
+        1100,
+        1440
+       ]
+      ],
+      "c": "ice",
+      "n": 4,
+      "speed": 260,
+      "r": 13
+     },
+     {
+      "k": "hud",
+      "text": "STILL LEAKING",
+      "c": "red"
+     }
+    ]
+   },
+   "text": "Insulation without air sealing is a wool sweater in a windstorm.",
+   "voice": "Insulation without air sealing, is a wool sweater in a windstorm.",
+   "cam": [
+    [
+     0,
+     0.56,
+     0.38,
+     1.5
+    ],
+    [
+     1,
+     0.5,
+     0.4,
+     1.7
+    ]
+   ],
+   "accent": [
+    "sweater",
+    "windstorm."
+   ],
+   "hold": 0.8
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1500
+       ],
+       [
+        1840,
+        1500
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1540,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "rain",
+      "box": [
+       0,
+       0,
+       400,
+       1400
+      ],
+      "c": "ice",
+      "n": 14
+     },
+     {
+      "k": "rain",
+      "box": [
+       1440,
+       0,
+       1840,
+       1400
+      ],
+      "c": "ice",
+      "n": 14
+     },
+     {
+      "k": "text",
+      "text": "20°F OUTSIDE",
+      "xy": [
+       200,
+       1560
+      ],
+      "center": true,
+      "c": "ice",
+      "size": 40
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        420,
+        700
+       ],
+       [
+        920,
+        280
+       ],
+       [
+        1420,
+        700
+       ]
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       500,
+       700,
+       1340,
+       1500
+      ],
+      "w": 16
+     },
+     {
+      "k": "text",
+      "text": "ATTIC",
+      "xy": [
+       920,
+       470
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 40
+     },
+     {
+      "k": "level",
+      "box": [
+       512,
+       640,
+       1328,
+       692
+      ],
+      "c": [
+       236,
+       170,
+       200
+      ],
+      "dir": "right",
+      "v0": 1,
+      "v1": 1,
+      "over": 2.5
+     },
+     {
+      "k": "rect",
+      "box": [
+       600,
+       1180,
+       800,
+       1500
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       1000,
+       900,
+       1220,
+       1120
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1110,
+        900
+       ],
+       [
+        1110,
+        1120
+       ]
+      ],
+      "c": "dim",
+      "w": 6
+     },
+     {
+      "k": "rect",
+      "box": [
+       860,
+       1300,
+       1000,
+       1480
+      ],
+      "r": 10,
+      "fill": "hot",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "FURNACE",
+      "xy": [
+       930,
+       1250
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 28
+     },
+     {
+      "k": "text",
+      "text": "68°F",
+      "xy": [
+       1180,
+       1320
+      ],
+      "center": true,
+      "c": "hot",
+      "size": 70
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        670,
+        700
+       ],
+       [
+        730,
+        700
+       ]
+      ],
+      "c": "navy",
+      "w": 22
+     },
+     {
+      "k": "rect",
+      "box": [
+       656,
+       684,
+       744,
+       716
+      ],
+      "r": 8,
+      "fill": "yel",
+      "w": 0,
+      "shadow": false,
+      "at": 0.8
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        890,
+        700
+       ],
+       [
+        950,
+        700
+       ]
+      ],
+      "c": "navy",
+      "w": 22
+     },
+     {
+      "k": "rect",
+      "box": [
+       876,
+       684,
+       964,
+       716
+      ],
+      "r": 8,
+      "fill": "yel",
+      "w": 0,
+      "shadow": false,
+      "at": 0.8
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1110,
+        700
+       ],
+       [
+        1170,
+        700
+       ]
+      ],
+      "c": "navy",
+      "w": 22
+     },
+     {
+      "k": "rect",
+      "box": [
+       1096,
+       684,
+       1184,
+       716
+      ],
+      "r": 8,
+      "fill": "yel",
+      "w": 0,
+      "shadow": false,
+      "at": 0.8
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        930,
+        1300
+       ],
+       [
+        930,
+        800
+       ],
+       [
+        640,
+        800
+       ],
+       [
+        640,
+        1140
+       ],
+       [
+        930,
+        1300
+       ]
+      ],
+      "c": "hot",
+      "n": 6,
+      "speed": 300,
+      "r": 14,
+      "at": 0.8
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        930,
+        1300
+       ],
+       [
+        930,
+        800
+       ],
+       [
+        1260,
+        800
+       ],
+       [
+        1260,
+        1240
+       ],
+       [
+        930,
+        1300
+       ]
+      ],
+      "c": "hot",
+      "n": 6,
+      "speed": 300,
+      "r": 14,
+      "at": 0.8
+     },
+     {
+      "k": "hud",
+      "text": "SEAL FIRST, THEN INSULATE",
+      "c": "green",
+      "at": 0.8
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        700,
+        1280
+       ],
+       [
+        700,
+        700
+       ],
+       [
+        634.0,
+        420
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 330,
+      "r": 14,
+      "to": 0.8
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        920,
+        1280
+       ],
+       [
+        920,
+        700
+       ],
+       [
+        920.0,
+        420
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 330,
+      "r": 14,
+      "to": 0.8
+     },
+     {
+      "k": "dots",
+      "pts": [
+       [
+        1140,
+        1280
+       ],
+       [
+        1140,
+        700
+       ],
+       [
+        1206.0,
+        420
+       ]
+      ],
+      "c": "hot",
+      "n": 5,
+      "speed": 330,
+      "r": 14,
+      "to": 0.8
+     }
+    ]
+   },
+   "text": "So seal first, then insulate.",
+   "voice": "So seal first. Then insulate.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.4,
+     1.7
+    ],
+    [
+     1,
+     0.5,
+     0.55,
+     1.1
+    ]
+   ],
+   "accent": [
+    "seal",
+    "first,"
+   ],
+   "label": "THE FIX",
+   "hold": 1.6
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "The EPA estimates that sealing and insulating saves the average home about 15% on heating and cooling.",
+   "voice": "The E P A estimates that air sealing and insulating saves the average home about fifteen percent on heating and cooling.",
+   "accent": [
+    "15%"
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Your house is a chimney, and you’re paying to heat the sky.",
+  "feel": "Most people add insulation and wonder why the bill didn’t move.",
+  "shows": "Why warm air leaves through the ceiling, why cold air comes in low, and why you seal before you insulate.",
+  "ask": "Is your upstairs always the wrong temperature?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #energysaving"
+ }
+}

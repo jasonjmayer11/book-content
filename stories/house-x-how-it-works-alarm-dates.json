@@ -1,0 +1,2375 @@
+{
+ "slug": "house-x-how-it-works-alarm-dates",
+ "book": "house",
+ "format": "X explainer",
+ "title": "Your smoke alarm has an expiration date",
+ "cover": "Your alarm expired",
+ "cover_accent": [
+  "expired"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  2
+ ],
+ "hero_t": 3.0,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       0,
+       1840,
+       200
+      ],
+      "fill": "panel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       0,
+       1840,
+       200
+      ],
+      "c": [
+       44,
+       70,
+       110
+      ],
+      "gap": 40
+     },
+     {
+      "k": "text",
+      "text": "CEILING",
+      "xy": [
+       920,
+       220
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       520,
+       620
+      ],
+      "r": 250,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       520,
+       620
+      ],
+      "r": 170,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 0,
+      "a1": 0,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 45,
+      "a1": 45,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 90,
+      "a1": 90,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 135,
+      "a1": 135,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 180,
+      "a1": 180,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 225,
+      "a1": 225,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 270,
+      "a1": 270,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 315,
+      "a1": 315,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       520,
+       620
+      ],
+      "r": 56,
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       660,
+       480
+      ],
+      "r": 16,
+      "fill": "green",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "FRONT",
+      "xy": [
+       520,
+       900
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1300,
+       620
+      ],
+      "r": 250,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       1140,
+       540,
+       1460,
+       700
+      ],
+      "r": 10,
+      "fill": [
+       236,
+       230,
+       214
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "MFG DATE",
+      "xy": [
+       1300,
+       556
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 30
+     },
+     {
+      "k": "text",
+      "text": "2011 MAR 08",
+      "xy": [
+       1300,
+       610
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 44
+     },
+     {
+      "k": "bolts",
+      "pts": [
+       [
+        1160,
+        470
+       ],
+       [
+        1440,
+        470
+       ],
+       [
+        1160,
+        780
+       ],
+       [
+        1440,
+        780
+       ]
+      ],
+      "c": "line"
+     },
+     {
+      "k": "text",
+      "text": "BACK",
+      "xy": [
+       1300,
+       900
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "level",
+      "box": [
+       204,
+       1204,
+       1164,
+       1276
+      ],
+      "c": "green",
+      "dir": "right",
+      "v0": 0.0,
+      "v1": 0.0,
+      "over": 3
+     },
+     {
+      "k": "level",
+      "box": [
+       1164,
+       1204,
+       1636,
+       1276
+      ],
+      "c": "red",
+      "dir": "right",
+      "v0": 0.0,
+      "v1": 0.0,
+      "over": 1.5,
+      "at": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       1200,
+       1640,
+       1280
+      ],
+      "r": 10,
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "SMOKE ALARM AGE",
+      "xy": [
+       200,
+       1120
+      ],
+      "size": 40
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        200,
+        1280
+       ],
+       [
+        200,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "0 YRS",
+      "xy": [
+       200,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        680,
+        1280
+       ],
+       [
+        680,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "5 YRS",
+      "xy": [
+       680,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1160,
+        1280
+       ],
+       [
+        1160,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "10 YRS",
+      "xy": [
+       1160,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1640,
+        1280
+       ],
+       [
+        1640,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "15 YRS",
+      "xy": [
+       1640,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       660,
+       480
+      ],
+      "r": 50,
+      "c": "green"
+     }
+    ]
+   },
+   "text": "Every smoke alarm has an expiration date. Almost nobody knows that.",
+   "voice": "Every smoke alarm has an expiration date. Almost nobody knows that.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.45,
+     1.0
+    ],
+    [
+     1,
+     0.3,
+     0.36,
+     1.7
+    ]
+   ],
+   "accent": [
+    "expiration",
+    "date."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       0,
+       1840,
+       200
+      ],
+      "fill": "panel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       0,
+       1840,
+       200
+      ],
+      "c": [
+       44,
+       70,
+       110
+      ],
+      "gap": 40
+     },
+     {
+      "k": "text",
+      "text": "CEILING",
+      "xy": [
+       920,
+       220
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       520,
+       620
+      ],
+      "r": 250,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       520,
+       620
+      ],
+      "r": 170,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 0,
+      "a1": 0,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 45,
+      "a1": 45,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 90,
+      "a1": 90,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 135,
+      "a1": 135,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 180,
+      "a1": 180,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 225,
+      "a1": 225,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 270,
+      "a1": 270,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 315,
+      "a1": 315,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       520,
+       620
+      ],
+      "r": 56,
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       660,
+       480
+      ],
+      "r": 16,
+      "fill": "green",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "FRONT",
+      "xy": [
+       520,
+       900
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1300,
+       620
+      ],
+      "r": 250,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       1140,
+       540,
+       1460,
+       700
+      ],
+      "r": 10,
+      "fill": [
+       236,
+       230,
+       214
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "MFG DATE",
+      "xy": [
+       1300,
+       556
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 30
+     },
+     {
+      "k": "text",
+      "text": "2011 MAR 08",
+      "xy": [
+       1300,
+       610
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 44
+     },
+     {
+      "k": "bolts",
+      "pts": [
+       [
+        1160,
+        470
+       ],
+       [
+        1440,
+        470
+       ],
+       [
+        1160,
+        780
+       ],
+       [
+        1440,
+        780
+       ]
+      ],
+      "c": "line"
+     },
+     {
+      "k": "text",
+      "text": "BACK",
+      "xy": [
+       1300,
+       900
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "level",
+      "box": [
+       204,
+       1204,
+       1164,
+       1276
+      ],
+      "c": "green",
+      "dir": "right",
+      "v0": 0,
+      "v1": 1,
+      "over": 3
+     },
+     {
+      "k": "level",
+      "box": [
+       1164,
+       1204,
+       1636,
+       1276
+      ],
+      "c": "red",
+      "dir": "right",
+      "v0": 0,
+      "v1": 1,
+      "over": 1.5,
+      "at": 3
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       1200,
+       1640,
+       1280
+      ],
+      "r": 10,
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "SMOKE ALARM AGE",
+      "xy": [
+       200,
+       1120
+      ],
+      "size": 40
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        200,
+        1280
+       ],
+       [
+        200,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "0 YRS",
+      "xy": [
+       200,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        680,
+        1280
+       ],
+       [
+        680,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "5 YRS",
+      "xy": [
+       680,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1160,
+        1280
+       ],
+       [
+        1160,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "10 YRS",
+      "xy": [
+       1160,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1640,
+        1280
+       ],
+       [
+        1640,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "15 YRS",
+      "xy": [
+       1640,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "label",
+      "text": "REPLACE HERE",
+      "xy": [
+       980,
+       1440
+      ],
+      "anchor": [
+       1160,
+       1290
+      ],
+      "c": "yel",
+      "at": 3
+     },
+     {
+      "k": "hud",
+      "text": "PAST ITS DATE",
+      "c": "red",
+      "at": 3.4
+     },
+     {
+      "k": "rise",
+      "at_xy": [
+       520,
+       1060
+      ],
+      "c": "dim",
+      "n": 4,
+      "h": 160,
+      "gap": 70,
+      "at": 3.4
+     }
+    ]
+   },
+   "text": "The sensor inside loses sensitivity over time. After about 10 years, it may not respond quickly, or at all.",
+   "voice": "The sensor inside loses sensitivity over time. After about ten years, it may not respond quickly, or at all.",
+   "cam": [
+    [
+     0,
+     0.3,
+     0.36,
+     1.7
+    ],
+    [
+     0.35,
+     0.5,
+     0.7,
+     1.3
+    ],
+    [
+     1,
+     0.52,
+     0.7,
+     1.35
+    ]
+   ],
+   "accent": [
+    "10",
+    "years,"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       0,
+       1840,
+       200
+      ],
+      "fill": "panel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       0,
+       1840,
+       200
+      ],
+      "c": [
+       44,
+       70,
+       110
+      ],
+      "gap": 40
+     },
+     {
+      "k": "text",
+      "text": "CEILING",
+      "xy": [
+       920,
+       220
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       520,
+       620
+      ],
+      "r": 250,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       520,
+       620
+      ],
+      "r": 170,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 0,
+      "a1": 0,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 45,
+      "a1": 45,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 90,
+      "a1": 90,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 135,
+      "a1": 135,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 180,
+      "a1": 180,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 225,
+      "a1": 225,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 270,
+      "a1": 270,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 315,
+      "a1": 315,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       520,
+       620
+      ],
+      "r": 56,
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       660,
+       480
+      ],
+      "r": 16,
+      "fill": "green",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "FRONT",
+      "xy": [
+       520,
+       900
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1300,
+       620
+      ],
+      "r": 250,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       1140,
+       540,
+       1460,
+       700
+      ],
+      "r": 10,
+      "fill": [
+       236,
+       230,
+       214
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "MFG DATE",
+      "xy": [
+       1300,
+       556
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 30
+     },
+     {
+      "k": "text",
+      "text": "2011 MAR 08",
+      "xy": [
+       1300,
+       610
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 44
+     },
+     {
+      "k": "bolts",
+      "pts": [
+       [
+        1160,
+        470
+       ],
+       [
+        1440,
+        470
+       ],
+       [
+        1160,
+        780
+       ],
+       [
+        1440,
+        780
+       ]
+      ],
+      "c": "line"
+     },
+     {
+      "k": "text",
+      "text": "BACK",
+      "xy": [
+       1300,
+       900
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "level",
+      "box": [
+       204,
+       1204,
+       1164,
+       1276
+      ],
+      "c": "green",
+      "dir": "right",
+      "v0": 1,
+      "v1": 1,
+      "over": 3
+     },
+     {
+      "k": "level",
+      "box": [
+       1164,
+       1204,
+       1636,
+       1276
+      ],
+      "c": "red",
+      "dir": "right",
+      "v0": 1,
+      "v1": 1,
+      "over": 1.5,
+      "at": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       1200,
+       1640,
+       1280
+      ],
+      "r": 10,
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "SMOKE ALARM AGE",
+      "xy": [
+       200,
+       1120
+      ],
+      "size": 40
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        200,
+        1280
+       ],
+       [
+        200,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "0 YRS",
+      "xy": [
+       200,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        680,
+        1280
+       ],
+       [
+        680,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "5 YRS",
+      "xy": [
+       680,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1160,
+        1280
+       ],
+       [
+        1160,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "10 YRS",
+      "xy": [
+       1160,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1640,
+        1280
+       ],
+       [
+        1640,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "15 YRS",
+      "xy": [
+       1640,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       1300,
+       620
+      ],
+      "r": 210,
+      "c": "yel",
+      "at": 1.4
+     }
+    ]
+   },
+   "text": "Take it down and look at the back. The manufacture date is printed right there.",
+   "voice": "Take it down and look at the back. The manufacture date is printed right there.",
+   "cam": [
+    [
+     0,
+     0.52,
+     0.7,
+     1.35
+    ],
+    [
+     0.4,
+     0.7,
+     0.36,
+     1.8
+    ],
+    [
+     1,
+     0.7,
+     0.36,
+     1.9
+    ]
+   ],
+   "accent": [
+    "back."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       0,
+       1840,
+       200
+      ],
+      "fill": "panel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       0,
+       1840,
+       200
+      ],
+      "c": [
+       44,
+       70,
+       110
+      ],
+      "gap": 40
+     },
+     {
+      "k": "text",
+      "text": "CEILING",
+      "xy": [
+       920,
+       220
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       520,
+       620
+      ],
+      "r": 250,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       520,
+       620
+      ],
+      "r": 170,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 0,
+      "a1": 0,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 45,
+      "a1": 45,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 90,
+      "a1": 90,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 135,
+      "a1": 135,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 180,
+      "a1": 180,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 225,
+      "a1": 225,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 270,
+      "a1": 270,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 315,
+      "a1": 315,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       520,
+       620
+      ],
+      "r": 56,
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       660,
+       480
+      ],
+      "r": 16,
+      "fill": "green",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "FRONT",
+      "xy": [
+       520,
+       900
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1300,
+       620
+      ],
+      "r": 250,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       1140,
+       540,
+       1460,
+       700
+      ],
+      "r": 10,
+      "fill": [
+       236,
+       230,
+       214
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "MFG DATE",
+      "xy": [
+       1300,
+       556
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 30
+     },
+     {
+      "k": "text",
+      "text": "2011 MAR 08",
+      "xy": [
+       1300,
+       610
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 44
+     },
+     {
+      "k": "bolts",
+      "pts": [
+       [
+        1160,
+        470
+       ],
+       [
+        1440,
+        470
+       ],
+       [
+        1160,
+        780
+       ],
+       [
+        1440,
+        780
+       ]
+      ],
+      "c": "line"
+     },
+     {
+      "k": "text",
+      "text": "BACK",
+      "xy": [
+       1300,
+       900
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "level",
+      "box": [
+       204,
+       1204,
+       1164,
+       1276
+      ],
+      "c": "green",
+      "dir": "right",
+      "v0": 1,
+      "v1": 1,
+      "over": 3
+     },
+     {
+      "k": "level",
+      "box": [
+       1164,
+       1204,
+       1636,
+       1276
+      ],
+      "c": "red",
+      "dir": "right",
+      "v0": 0,
+      "v1": 0,
+      "over": 1.5,
+      "at": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       1200,
+       1640,
+       1280
+      ],
+      "r": 10,
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "SMOKE ALARM AGE",
+      "xy": [
+       200,
+       1120
+      ],
+      "size": 40
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        200,
+        1280
+       ],
+       [
+        200,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "0 YRS",
+      "xy": [
+       200,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        680,
+        1280
+       ],
+       [
+        680,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "5 YRS",
+      "xy": [
+       680,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1160,
+        1280
+       ],
+       [
+        1160,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "10 YRS",
+      "xy": [
+       1160,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1640,
+        1280
+       ],
+       [
+        1640,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "15 YRS",
+      "xy": [
+       1640,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "text",
+      "text": "CO ALARM: 5 TO 10 YRS, CHECK THE MODEL",
+      "xy": [
+       200,
+       1440
+      ],
+      "c": "yel",
+      "size": 40,
+      "at": 2.8
+     },
+     {
+      "k": "hud",
+      "text": "SMOKE: 10 YEARS",
+      "c": "yel"
+     },
+     {
+      "k": "hud",
+      "text": "CO: 5 TO 10 YEARS",
+      "c": "yel",
+      "at": 2.8
+     }
+    ]
+   },
+   "text": "Smoke alarms: replace about every 10 years. Carbon monoxide alarms often sooner, typically 5 to 10 years depending on the model.",
+   "voice": "Smoke alarms, replace about every ten years. Carbon monoxide alarms, often sooner. Typically five to ten years, depending on the model.",
+   "cam": [
+    [
+     0,
+     0.7,
+     0.36,
+     1.9
+    ],
+    [
+     0.3,
+     0.5,
+     0.72,
+     1.3
+    ],
+    [
+     1,
+     0.5,
+     0.74,
+     1.3
+    ]
+   ],
+   "accent": [
+    "10",
+    "5"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       0,
+       0,
+       1840,
+       200
+      ],
+      "fill": "panel",
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       0,
+       1840,
+       200
+      ],
+      "c": [
+       44,
+       70,
+       110
+      ],
+      "gap": 40
+     },
+     {
+      "k": "text",
+      "text": "CEILING",
+      "xy": [
+       920,
+       220
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       520,
+       620
+      ],
+      "r": 250,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       520,
+       620
+      ],
+      "r": 170,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 0,
+      "a1": 0,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 45,
+      "a1": 45,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 90,
+      "a1": 90,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 135,
+      "a1": 135,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 180,
+      "a1": 180,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 225,
+      "a1": 225,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 270,
+      "a1": 270,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       520,
+       620
+      ],
+      "len": 150,
+      "a0": 315,
+      "a1": 315,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       520,
+       620
+      ],
+      "r": 56,
+      "fill": "line",
+      "w": 0
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       660,
+       480
+      ],
+      "r": 16,
+      "fill": "green",
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "FRONT",
+      "xy": [
+       520,
+       900
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1300,
+       620
+      ],
+      "r": 250,
+      "fill": "panel",
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       1140,
+       540,
+       1460,
+       700
+      ],
+      "r": 10,
+      "fill": [
+       236,
+       230,
+       214
+      ],
+      "w": 0
+     },
+     {
+      "k": "text",
+      "text": "MFG DATE",
+      "xy": [
+       1300,
+       556
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 30
+     },
+     {
+      "k": "text",
+      "text": "2011 MAR 08",
+      "xy": [
+       1300,
+       610
+      ],
+      "center": true,
+      "c": "navy",
+      "size": 44
+     },
+     {
+      "k": "bolts",
+      "pts": [
+       [
+        1160,
+        470
+       ],
+       [
+        1440,
+        470
+       ],
+       [
+        1160,
+        780
+       ],
+       [
+        1440,
+        780
+       ]
+      ],
+      "c": "line"
+     },
+     {
+      "k": "text",
+      "text": "BACK",
+      "xy": [
+       1300,
+       900
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 36
+     },
+     {
+      "k": "level",
+      "box": [
+       204,
+       1204,
+       1164,
+       1276
+      ],
+      "c": "green",
+      "dir": "right",
+      "v0": 1,
+      "v1": 1,
+      "over": 3
+     },
+     {
+      "k": "level",
+      "box": [
+       1164,
+       1204,
+       1636,
+       1276
+      ],
+      "c": "red",
+      "dir": "right",
+      "v0": 1,
+      "v1": 1,
+      "over": 1.5,
+      "at": 0
+     },
+     {
+      "k": "rect",
+      "box": [
+       200,
+       1200,
+       1640,
+       1280
+      ],
+      "r": 10,
+      "w": 10
+     },
+     {
+      "k": "text",
+      "text": "SMOKE ALARM AGE",
+      "xy": [
+       200,
+       1120
+      ],
+      "size": 40
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        200,
+        1280
+       ],
+       [
+        200,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "0 YRS",
+      "xy": [
+       200,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        680,
+        1280
+       ],
+       [
+        680,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "5 YRS",
+      "xy": [
+       680,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1160,
+        1280
+       ],
+       [
+        1160,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "10 YRS",
+      "xy": [
+       1160,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1640,
+        1280
+       ],
+       [
+        1640,
+        1320
+       ]
+      ],
+      "w": 8
+     },
+     {
+      "k": "text",
+      "text": "15 YRS",
+      "xy": [
+       1640,
+       1336
+      ],
+      "center": true,
+      "c": "sky",
+      "size": 34
+     },
+     {
+      "k": "hud",
+      "text": "DECOR, NOT PROTECTION",
+      "c": "red"
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       1640,
+       1240
+      ],
+      "r": 90,
+      "c": "red"
+     }
+    ]
+   },
+   "text": "If the house came with a 15-year-old alarm, it’s decor, not protection.",
+   "voice": "If the house came with a fifteen year old alarm, it's decor. Not protection.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.74,
+     1.3
+    ],
+    [
+     1,
+     0.5,
+     0.5,
+     1.0
+    ]
+   ],
+   "accent": [
+    "decor,"
+   ],
+   "label": "CHECK YOURS",
+   "hold": 0.8
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "NFPA: 3 out of 5 home fire deaths happen in homes with no working smoke alarm.",
+   "voice": "The N F P A says three out of five home fire deaths happen in homes with no working smoke alarm.",
+   "accent": [
+    "3",
+    "5"
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Your smoke alarm has an expiration date.",
+  "feel": "It can beep when you test it and still be too old to trust.",
+  "shows": "Why alarms wear out, where the date is printed, and when to replace smoke and CO alarms.",
+  "ask": "Go look. What year is on the back of yours?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #firesafety"
+ }
+}

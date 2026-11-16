@@ -1,0 +1,1963 @@
+{
+ "slug": "house-x-how-it-works-four-ages",
+ "book": "house",
+ "format": "X explainer",
+ "title": "The four ages that decide your next big bills",
+ "cover": "4 numbers to know",
+ "cover_accent": [
+  "4"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  1
+ ],
+ "hero_t": 3.0,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1100
+       ],
+       [
+        380,
+        1100
+       ],
+       [
+        380,
+        1560
+       ],
+       [
+        1300,
+        1560
+       ],
+       [
+        1300,
+        1100
+       ],
+       [
+        1840,
+        1100
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1140,
+       370,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1310,
+       1140,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "rect",
+      "box": [
+       380,
+       1100,
+       1300,
+       1550
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       380,
+       560,
+       1300,
+       1100
+      ],
+      "w": 16
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        300,
+        560
+       ],
+       [
+        840,
+        200
+       ],
+       [
+        1380,
+        560
+       ]
+      ],
+      "w": 24,
+      "c": "yel"
+     },
+     {
+      "k": "rect",
+      "box": [
+       480,
+       700,
+       680,
+       920
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       980,
+       700,
+       1180,
+       920
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       1120,
+       1480
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "rect",
+      "box": [
+       440,
+       1180,
+       600,
+       1540
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 12
+     },
+     {
+      "k": "flame",
+      "at_xy": [
+       520,
+       1520
+      ],
+      "size": 30,
+      "n": 3
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        520,
+        1180
+       ],
+       [
+        520,
+        1104
+       ]
+      ],
+      "w": 20
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       1200,
+       880,
+       1540
+      ],
+      "r": 50,
+      "fill": [
+       40,
+       110,
+       180
+      ],
+      "w": 12
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        800,
+        1200
+       ],
+       [
+        800,
+        1104
+       ]
+      ],
+      "w": 12
+     },
+     {
+      "k": "rect",
+      "box": [
+       1460,
+       880,
+       1700,
+       1100
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 12
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1580,
+       990
+      ],
+      "r": 76,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1580,
+       990
+      ],
+      "len": 70,
+      "a0": 0,
+      "a1": 2880,
+      "over": 10,
+      "c": "dim",
+      "w": 12
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1580,
+       990
+      ],
+      "len": 70,
+      "a0": 180,
+      "a1": 3060,
+      "over": 10,
+      "c": "dim",
+      "w": 12
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1460,
+        1040
+       ],
+       [
+        1300,
+        1040
+       ]
+      ],
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       840,
+       360
+      ],
+      "r": 150,
+      "c": "yel",
+      "at": 0.4
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       520,
+       1360
+      ],
+      "r": 210,
+      "c": "yel",
+      "at": 1.0
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       820,
+       1370
+      ],
+      "r": 200,
+      "c": "yel",
+      "at": 1.6
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       1580,
+       990
+      ],
+      "r": 180,
+      "c": "yel",
+      "at": 2.2
+     },
+     {
+      "k": "text",
+      "text": "ROOF",
+      "xy": [
+       1100,
+       300
+      ],
+      "c": "yel",
+      "size": 44,
+      "at": 0.4
+     },
+     {
+      "k": "text",
+      "text": "FURNACE",
+      "xy": [
+       420,
+       950
+      ],
+      "c": "yel",
+      "size": 36,
+      "at": 1.0
+     },
+     {
+      "k": "text",
+      "text": "WATER HEATER",
+      "xy": [
+       700,
+       950
+      ],
+      "c": "yel",
+      "size": 36,
+      "at": 1.6
+     },
+     {
+      "k": "text",
+      "text": "AC",
+      "xy": [
+       1550,
+       780
+      ],
+      "c": "yel",
+      "size": 44,
+      "at": 2.2
+     }
+    ]
+   },
+   "text": "Four things in your house decide your next decade of big bills.",
+   "voice": "Four things in your house decide your next decade of big bills.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.45,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.48,
+     1.05
+    ]
+   ],
+   "accent": [
+    "Four",
+    "big",
+    "bills."
+   ],
+   "hold": 0.8
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1100
+       ],
+       [
+        380,
+        1100
+       ],
+       [
+        380,
+        1560
+       ],
+       [
+        1300,
+        1560
+       ],
+       [
+        1300,
+        1100
+       ],
+       [
+        1840,
+        1100
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1140,
+       370,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1310,
+       1140,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "rect",
+      "box": [
+       380,
+       1100,
+       1300,
+       1550
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       380,
+       560,
+       1300,
+       1100
+      ],
+      "w": 16
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        300,
+        560
+       ],
+       [
+        840,
+        200
+       ],
+       [
+        1380,
+        560
+       ]
+      ],
+      "w": 24,
+      "c": "yel"
+     },
+     {
+      "k": "rect",
+      "box": [
+       480,
+       700,
+       680,
+       920
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       980,
+       700,
+       1180,
+       920
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       1120,
+       1480
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "rect",
+      "box": [
+       440,
+       1180,
+       600,
+       1540
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 12
+     },
+     {
+      "k": "flame",
+      "at_xy": [
+       520,
+       1520
+      ],
+      "size": 30,
+      "n": 3
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        520,
+        1180
+       ],
+       [
+        520,
+        1104
+       ]
+      ],
+      "w": 20
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       1200,
+       880,
+       1540
+      ],
+      "r": 50,
+      "fill": [
+       40,
+       110,
+       180
+      ],
+      "w": 12
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        800,
+        1200
+       ],
+       [
+        800,
+        1104
+       ]
+      ],
+      "w": 12
+     },
+     {
+      "k": "rect",
+      "box": [
+       1460,
+       880,
+       1700,
+       1100
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 12
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1580,
+       990
+      ],
+      "r": 76,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1580,
+       990
+      ],
+      "len": 70,
+      "a0": 0,
+      "a1": 2880,
+      "over": 10,
+      "c": "dim",
+      "w": 12
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1580,
+       990
+      ],
+      "len": 70,
+      "a0": 180,
+      "a1": 3060,
+      "over": 10,
+      "c": "dim",
+      "w": 12
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1460,
+        1040
+       ],
+       [
+        1300,
+        1040
+       ]
+      ],
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "ROOF",
+      "xy": [
+       1100,
+       300
+      ],
+      "c": "yel",
+      "size": 44,
+      "at": 0.4
+     },
+     {
+      "k": "text",
+      "text": "FURNACE",
+      "xy": [
+       420,
+       950
+      ],
+      "c": "yel",
+      "size": 36,
+      "at": 1.0
+     },
+     {
+      "k": "text",
+      "text": "WATER HEATER",
+      "xy": [
+       700,
+       950
+      ],
+      "c": "yel",
+      "size": 36,
+      "at": 1.6
+     },
+     {
+      "k": "text",
+      "text": "AC",
+      "xy": [
+       1550,
+       780
+      ],
+      "c": "yel",
+      "size": 44,
+      "at": 2.2
+     },
+     {
+      "k": "count",
+      "fmt": "{:.0f}",
+      "v0": 2026,
+      "v1": 2008,
+      "over": 2,
+      "xy": [
+       1100,
+       360
+      ],
+      "c": "white",
+      "size": 60
+     },
+     {
+      "k": "count",
+      "fmt": "{:.0f}",
+      "v0": 2026,
+      "v1": 2011,
+      "over": 2,
+      "xy": [
+       440,
+       1000
+      ],
+      "c": "white",
+      "size": 44
+     },
+     {
+      "k": "count",
+      "fmt": "{:.0f}",
+      "v0": 2026,
+      "v1": 2014,
+      "over": 2,
+      "xy": [
+       760,
+       1000
+      ],
+      "c": "white",
+      "size": 44
+     },
+     {
+      "k": "count",
+      "fmt": "{:.0f}",
+      "v0": 2026,
+      "v1": 2016,
+      "over": 2,
+      "xy": [
+       1540,
+       830
+      ],
+      "c": "white",
+      "size": 50
+     },
+     {
+      "k": "hud",
+      "text": "YEAR INSTALLED",
+      "c": "yel"
+     }
+    ]
+   },
+   "text": "Your furnace, your AC, your water heater, and your roof. Each one has a birthday.",
+   "voice": "Your furnace. Your A C. Your water heater. And your roof. Each one has a birthday.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.48,
+     1.05
+    ],
+    [
+     0.5,
+     0.36,
+     0.72,
+     1.6
+    ],
+    [
+     1,
+     0.6,
+     0.5,
+     1.2
+    ]
+   ],
+   "accent": [
+    "birthday."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1100
+       ],
+       [
+        380,
+        1100
+       ],
+       [
+        380,
+        1560
+       ],
+       [
+        1300,
+        1560
+       ],
+       [
+        1300,
+        1100
+       ],
+       [
+        1840,
+        1100
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1140,
+       370,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1310,
+       1140,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "rect",
+      "box": [
+       380,
+       1100,
+       1300,
+       1550
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       380,
+       560,
+       1300,
+       1100
+      ],
+      "w": 16
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        300,
+        560
+       ],
+       [
+        840,
+        200
+       ],
+       [
+        1380,
+        560
+       ]
+      ],
+      "w": 24,
+      "c": "yel"
+     },
+     {
+      "k": "rect",
+      "box": [
+       480,
+       700,
+       680,
+       920
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       980,
+       700,
+       1180,
+       920
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       1120,
+       1480
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "rect",
+      "box": [
+       440,
+       1180,
+       600,
+       1540
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 12
+     },
+     {
+      "k": "flame",
+      "at_xy": [
+       520,
+       1520
+      ],
+      "size": 30,
+      "n": 3
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        520,
+        1180
+       ],
+       [
+        520,
+        1104
+       ]
+      ],
+      "w": 20
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       1200,
+       880,
+       1540
+      ],
+      "r": 50,
+      "fill": [
+       40,
+       110,
+       180
+      ],
+      "w": 12
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        800,
+        1200
+       ],
+       [
+        800,
+        1104
+       ]
+      ],
+      "w": 12
+     },
+     {
+      "k": "rect",
+      "box": [
+       1460,
+       880,
+       1700,
+       1100
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 12
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1580,
+       990
+      ],
+      "r": 76,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1580,
+       990
+      ],
+      "len": 70,
+      "a0": 0,
+      "a1": 2880,
+      "over": 10,
+      "c": "dim",
+      "w": 12
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1580,
+       990
+      ],
+      "len": 70,
+      "a0": 180,
+      "a1": 3060,
+      "over": 10,
+      "c": "dim",
+      "w": 12
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1460,
+        1040
+       ],
+       [
+        1300,
+        1040
+       ]
+      ],
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "rect",
+      "box": [
+       770,
+       1290,
+       870,
+       1350
+      ],
+      "r": 6,
+      "fill": [
+       236,
+       230,
+       214
+      ],
+      "w": 0
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        782,
+        1310
+       ],
+       [
+        858,
+        1310
+       ]
+      ],
+      "c": [
+       120,
+       120,
+       120
+      ],
+      "w": 4
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        782,
+        1330
+       ],
+       [
+        840,
+        1330
+       ]
+      ],
+      "c": [
+       120,
+       120,
+       120
+      ],
+      "w": 4
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       820,
+       1320
+      ],
+      "r": 90,
+      "c": "yel",
+      "at": 0.6
+     },
+     {
+      "k": "label",
+      "text": "SERIAL NO. STICKER",
+      "xy": [
+       930,
+       1230
+      ],
+      "anchor": [
+       872,
+       1316
+      ],
+      "c": "yel",
+      "at": 0.8,
+      "size": 40
+     }
+    ]
+   },
+   "text": "The date is on a sticker, usually hidden in the serial number. Search the brand name plus “serial number date” to decode it.",
+   "voice": "The date is on a sticker, usually hidden in the serial number. Search the brand name, plus serial number date, to decode it.",
+   "cam": [
+    [
+     0,
+     0.6,
+     0.5,
+     1.2
+    ],
+    [
+     1,
+     0.5,
+     0.75,
+     2.2
+    ]
+   ],
+   "accent": [
+    "sticker,",
+    "serial"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1100
+       ],
+       [
+        380,
+        1100
+       ],
+       [
+        380,
+        1560
+       ],
+       [
+        1300,
+        1560
+       ],
+       [
+        1300,
+        1100
+       ],
+       [
+        1840,
+        1100
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1140,
+       370,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1310,
+       1140,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "rect",
+      "box": [
+       380,
+       1100,
+       1300,
+       1550
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       380,
+       560,
+       1300,
+       1100
+      ],
+      "w": 16
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        300,
+        560
+       ],
+       [
+        840,
+        200
+       ],
+       [
+        1380,
+        560
+       ]
+      ],
+      "w": 24,
+      "c": "yel"
+     },
+     {
+      "k": "rect",
+      "box": [
+       480,
+       700,
+       680,
+       920
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       980,
+       700,
+       1180,
+       920
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       1120,
+       1480
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "rect",
+      "box": [
+       440,
+       1180,
+       600,
+       1540
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 12
+     },
+     {
+      "k": "flame",
+      "at_xy": [
+       520,
+       1520
+      ],
+      "size": 30,
+      "n": 3
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        520,
+        1180
+       ],
+       [
+        520,
+        1104
+       ]
+      ],
+      "w": 20
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       1200,
+       880,
+       1540
+      ],
+      "r": 50,
+      "fill": [
+       40,
+       110,
+       180
+      ],
+      "w": 12
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        800,
+        1200
+       ],
+       [
+        800,
+        1104
+       ]
+      ],
+      "w": 12
+     },
+     {
+      "k": "rect",
+      "box": [
+       1460,
+       880,
+       1700,
+       1100
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 12
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1580,
+       990
+      ],
+      "r": 76,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1580,
+       990
+      ],
+      "len": 70,
+      "a0": 0,
+      "a1": 2880,
+      "over": 10,
+      "c": "dim",
+      "w": 12
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1580,
+       990
+      ],
+      "len": 70,
+      "a0": 180,
+      "a1": 3060,
+      "over": 10,
+      "c": "dim",
+      "w": 12
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1460,
+        1040
+       ],
+       [
+        1300,
+        1040
+       ]
+      ],
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "rect",
+      "box": [
+       900,
+       1260,
+       1260,
+       1300
+      ],
+      "r": 8,
+      "w": 6
+     },
+     {
+      "k": "level",
+      "box": [
+       904,
+       1264,
+       1256,
+       1296
+      ],
+      "c": "red",
+      "dir": "right",
+      "v0": 0,
+      "v1": 1,
+      "over": 4
+     },
+     {
+      "k": "text",
+      "text": "0",
+      "xy": [
+       900,
+       1316
+      ],
+      "c": "sky",
+      "size": 28
+     },
+     {
+      "k": "text",
+      "text": "12 YRS",
+      "xy": [
+       1180,
+       1316
+      ],
+      "c": "sky",
+      "size": 28
+     },
+     {
+      "k": "hud",
+      "text": "ON THE CLOCK",
+      "c": "red",
+      "at": 3.5
+     }
+    ]
+   },
+   "text": "Tank water heaters commonly last around 8 to 12 years. Past 10, you’re not in trouble, but you’re on the clock.",
+   "voice": "Tank water heaters commonly last around eight to twelve years. Past ten, you're not in trouble. But you're on the clock.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.75,
+     2.2
+    ],
+    [
+     1,
+     0.56,
+     0.75,
+     2.0
+    ]
+   ],
+   "accent": [
+    "8",
+    "12",
+    "clock."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gx",
+   "state": {
+    "els": [
+     {
+      "k": "poly",
+      "pts": [
+       [
+        0,
+        1100
+       ],
+       [
+        380,
+        1100
+       ],
+       [
+        380,
+        1560
+       ],
+       [
+        1300,
+        1560
+       ],
+       [
+        1300,
+        1100
+       ],
+       [
+        1840,
+        1100
+       ],
+       [
+        1840,
+        1760
+       ],
+       [
+        0,
+        1760
+       ]
+      ],
+      "fill": "soil",
+      "w": 0
+     },
+     {
+      "k": "hatch",
+      "box": [
+       0,
+       1140,
+       370,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "hatch",
+      "box": [
+       1310,
+       1140,
+       1840,
+       1760
+      ],
+      "c": [
+       38,
+       50,
+       64
+      ],
+      "gap": 46
+     },
+     {
+      "k": "rect",
+      "box": [
+       380,
+       1100,
+       1300,
+       1550
+      ],
+      "w": 16
+     },
+     {
+      "k": "rect",
+      "box": [
+       380,
+       560,
+       1300,
+       1100
+      ],
+      "w": 16
+     },
+     {
+      "k": "poly",
+      "pts": [
+       [
+        300,
+        560
+       ],
+       [
+        840,
+        200
+       ],
+       [
+        1380,
+        560
+       ]
+      ],
+      "w": 24,
+      "c": "yel"
+     },
+     {
+      "k": "rect",
+      "box": [
+       480,
+       700,
+       680,
+       920
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "rect",
+      "box": [
+       980,
+       700,
+       1180,
+       920
+      ],
+      "w": 8,
+      "c": "dim"
+     },
+     {
+      "k": "text",
+      "text": "BASEMENT",
+      "xy": [
+       1120,
+       1480
+      ],
+      "center": true,
+      "c": "dim",
+      "size": 32
+     },
+     {
+      "k": "rect",
+      "box": [
+       440,
+       1180,
+       600,
+       1540
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 12
+     },
+     {
+      "k": "flame",
+      "at_xy": [
+       520,
+       1520
+      ],
+      "size": 30,
+      "n": 3
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        520,
+        1180
+       ],
+       [
+        520,
+        1104
+       ]
+      ],
+      "w": 20
+     },
+     {
+      "k": "rect",
+      "box": [
+       760,
+       1200,
+       880,
+       1540
+      ],
+      "r": 50,
+      "fill": [
+       40,
+       110,
+       180
+      ],
+      "w": 12
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        800,
+        1200
+       ],
+       [
+        800,
+        1104
+       ]
+      ],
+      "w": 12
+     },
+     {
+      "k": "rect",
+      "box": [
+       1460,
+       880,
+       1700,
+       1100
+      ],
+      "r": 14,
+      "fill": "panel",
+      "w": 12
+     },
+     {
+      "k": "circ",
+      "at_xy": [
+       1580,
+       990
+      ],
+      "r": 76,
+      "c": "dim",
+      "w": 8
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1580,
+       990
+      ],
+      "len": 70,
+      "a0": 0,
+      "a1": 2880,
+      "over": 10,
+      "c": "dim",
+      "w": 12
+     },
+     {
+      "k": "rot",
+      "pivot": [
+       1580,
+       990
+      ],
+      "len": 70,
+      "a0": 180,
+      "a1": 3060,
+      "over": 10,
+      "c": "dim",
+      "w": 12
+     },
+     {
+      "k": "line",
+      "pts": [
+       [
+        1460,
+        1040
+       ],
+       [
+        1300,
+        1040
+       ]
+      ],
+      "c": "dim",
+      "w": 14
+     },
+     {
+      "k": "text",
+      "text": "ROOF",
+      "xy": [
+       1100,
+       300
+      ],
+      "c": "yel",
+      "size": 44,
+      "at": 0.4
+     },
+     {
+      "k": "text",
+      "text": "FURNACE",
+      "xy": [
+       420,
+       950
+      ],
+      "c": "yel",
+      "size": 36,
+      "at": 1.0
+     },
+     {
+      "k": "text",
+      "text": "WATER HEATER",
+      "xy": [
+       700,
+       950
+      ],
+      "c": "yel",
+      "size": 36,
+      "at": 1.6
+     },
+     {
+      "k": "text",
+      "text": "AC",
+      "xy": [
+       1550,
+       780
+      ],
+      "c": "yel",
+      "size": 44,
+      "at": 2.2
+     },
+     {
+      "k": "text",
+      "text": "2008",
+      "xy": [
+       1100,
+       360
+      ],
+      "c": "red",
+      "size": 60
+     },
+     {
+      "k": "text",
+      "text": "2011",
+      "xy": [
+       440,
+       1000
+      ],
+      "c": "white",
+      "size": 44
+     },
+     {
+      "k": "text",
+      "text": "2014",
+      "xy": [
+       760,
+       1000
+      ],
+      "c": "white",
+      "size": 44
+     },
+     {
+      "k": "text",
+      "text": "2016",
+      "xy": [
+       1540,
+       830
+      ],
+      "c": "white",
+      "size": 50
+     },
+     {
+      "k": "hud",
+      "text": "WRITE THEM DOWN",
+      "c": "green"
+     },
+     {
+      "k": "ring",
+      "at_xy": [
+       840,
+       360
+      ],
+      "r": 150,
+      "c": "red",
+      "at": 1.2
+     }
+    ]
+   },
+   "text": "Write all four ages down, and start saving before the oldest one quits.",
+   "voice": "Write all four ages down, and start saving before the oldest one quits.",
+   "cam": [
+    [
+     0,
+     0.56,
+     0.75,
+     2.0
+    ],
+    [
+     1,
+     0.5,
+     0.45,
+     1.0
+    ]
+   ],
+   "accent": [
+    "four",
+    "ages"
+   ],
+   "label": "DO THIS",
+   "hold": 0.8
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "Replacing any one of these costs thousands. Knowing the ages turns an emergency into a plan.",
+   "voice": "Replacing any one of these costs thousands. Knowing their ages turns an emergency, into a plan.",
+   "accent": [
+    "plan."
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Four numbers decide your next ten years of repair bills.",
+  "feel": "Most homeowners can’t tell you a single one of them.",
+  "shows": "The four big-ticket systems, where to find each one’s age, and why you write them down. Years shown are examples.",
+  "ask": "Do you know how old your roof is?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering"
+ }
+}
