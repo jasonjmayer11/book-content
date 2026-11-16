@@ -1,0 +1,174 @@
+{
+ "title": "The valve that decides how bad a burst pipe gets",
+ "cover": "Find this valve first",
+ "cover_accent": [
+  "valve"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "shutoff",
+  "locate"
+ ],
+ "hero_t": 3.9,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "shutoff",
+   "state": "burst",
+   "text": "When a pipe bursts, water comes out at several gallons a minute.",
+   "voice": "When a pipe bursts, water comes out at several gallons a minute.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.66,
+     0.45,
+     1.45
+    ]
+   ],
+   "accent": [
+    "gallons"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "shutoff",
+   "state": "burst",
+   "text": "The difference between a $300 repair and a $30,000 insurance claim is how fast you can stop it.",
+   "voice": "The difference between a three hundred dollar repair and a thirty thousand dollar insurance claim is how fast you can stop it.",
+   "cam": [
+    [
+     0,
+     0.66,
+     0.45,
+     1.45
+    ],
+    [
+     1,
+     0.66,
+     0.72,
+     1.5
+    ]
+   ],
+   "accent": [
+    "$300",
+    "$30,000"
+   ],
+   "t0": 4.2
+  },
+  {
+   "type": "diagram",
+   "diagram": "shutoff",
+   "state": "locate",
+   "text": "The main shutoff sits where the water line enters your house. Usually on the wall facing the street, near the water meter.",
+   "voice": "The main shutoff sits where the water line enters your house. Usually on the wall facing the street, near the water meter.",
+   "cam": [
+    [
+     0,
+     0.18,
+     0.8,
+     1.5
+    ],
+    [
+     1,
+     0.42,
+     0.78,
+     1.6
+    ]
+   ],
+   "accent": [
+    "main",
+    "shutoff"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "shutoff",
+   "state": "close",
+   "text": "Turn it, and everything downstream stops.",
+   "voice": "Turn it, and everything downstream stops.",
+   "cam": [
+    [
+     0,
+     0.42,
+     0.8,
+     1.7
+    ],
+    [
+     0.45,
+     0.42,
+     0.8,
+     1.7
+    ],
+    [
+     1,
+     0.55,
+     0.55,
+     1.0
+    ]
+   ],
+   "accent": [
+    "stops."
+   ],
+   "hold": 1.6
+  },
+  {
+   "type": "diagram",
+   "diagram": "shutoff",
+   "state": "tag",
+   "text": "Find it this week. Turn it off and on once, because old valves seize up. Then label it.",
+   "voice": "Find it this week. Turn it off and on once, because old valves seize up. Then label it.",
+   "cam": [
+    [
+     0,
+     0.42,
+     0.8,
+     1.6
+    ],
+    [
+     1,
+     0.42,
+     0.84,
+     1.8
+    ]
+   ],
+   "accent": [
+    "label"
+   ],
+   "label": "DO THIS NOW"
+  },
+  {
+   "type": "book",
+   "text": "That’s page 4 of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's page four of the manual your house didn't come with. A simple book for first-time homeowners."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Do you know where your main water shutoff is? Right now?",
+  "feel": "A burst pipe doesn’t wait for you to Google it.",
+  "shows": "Where the main shutoff hides, what it does, and why you turn it once before you ever need it.",
+  "ask": "Where’s yours: basement, garage or outside?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #plumbing101"
+ },
+ "slug": "house-x-how-it-works-shutoff",
+ "book": "house",
+ "format": "X explainer"
+}

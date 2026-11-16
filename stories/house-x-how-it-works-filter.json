@@ -1,0 +1,182 @@
+{
+ "title": "What your furnace filter actually does",
+ "cover": "Your furnace can’t breathe",
+ "cover_accent": [
+  "breathe"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "filter",
+  "clog"
+ ],
+ "hero_t": 2.6,
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "filter",
+   "state": "clean",
+   "text": "Every bit of air your furnace heats gets pulled through one filter first.",
+   "voice": "Every bit of air your furnace heats gets pulled through one filter first.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.42,
+     0.48,
+     1.6
+    ]
+   ],
+   "accent": [
+    "filter"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "filter",
+   "state": "clean",
+   "text": "It catches the dust so the machine doesn’t have to.",
+   "voice": "It catches the dust, so the machine doesn't have to.",
+   "cam": [
+    [
+     0,
+     0.42,
+     0.48,
+     1.6
+    ],
+    [
+     1,
+     0.4,
+     0.5,
+     1.9
+    ]
+   ],
+   "accent": [
+    "dust"
+   ],
+   "t0": 4
+  },
+  {
+   "type": "diagram",
+   "diagram": "filter",
+   "state": "clog",
+   "text": "But almost nobody changes it. Month after month it clogs, and the air can’t get through.",
+   "voice": "But almost nobody changes it. Month after month it clogs, and the air can't get through.",
+   "cam": [
+    [
+     0,
+     0.4,
+     0.5,
+     1.9
+    ],
+    [
+     1,
+     0.45,
+     0.5,
+     1.5
+    ]
+   ],
+   "accent": [
+    "clogs,"
+   ],
+   "hold": 0.6
+  },
+  {
+   "type": "diagram",
+   "diagram": "filter",
+   "state": "strain",
+   "text": "Now the system works harder, your bill goes up, and an expensive machine wears out early.",
+   "voice": "Now the system works harder, your bill goes up, and an expensive machine wears out early.",
+   "cam": [
+    [
+     0,
+     0.45,
+     0.5,
+     1.5
+    ],
+    [
+     0.4,
+     0.8,
+     0.48,
+     1.6
+    ],
+    [
+     1,
+     0.45,
+     0.32,
+     1.25
+    ]
+   ],
+   "accent": [
+    "bill",
+    "expensive"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "filter",
+   "state": "swap",
+   "text": "The fix takes a minute. Slide the old one out, slide a new one in. Basic filters need it every 1 to 3 months.",
+   "voice": "The fix takes a minute. Slide the old one out, slide a new one in. Basic filters need it every one to three months.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.45,
+     1.1
+    ],
+    [
+     0.6,
+     0.42,
+     0.38,
+     1.45
+    ],
+    [
+     1,
+     0.42,
+     0.4,
+     1.5
+    ]
+   ],
+   "accent": [
+    "1",
+    "3",
+    "months."
+   ],
+   "label": "THE FIX",
+   "hold": 0.8
+  },
+  {
+   "type": "book",
+   "text": "That’s page 6 of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's page six of the manual your house didn't come with. A simple book for first-time homeowners."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "When did you last change your furnace filter?",
+  "feel": "If the answer is “the what?”, this one’s for you.",
+  "shows": "What the filter does, what happens when it clogs, and the one-minute fix.",
+  "ask": "Be honest: how many months has it been?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #hvac"
+ },
+ "slug": "house-x-how-it-works-filter",
+ "book": "house",
+ "format": "X explainer"
+}

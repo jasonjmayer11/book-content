@@ -1,0 +1,210 @@
+{
+ "title": "Why your bathroom outlet has two buttons",
+ "cover": "Why two buttons?",
+ "cover_accent": [
+  "two"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gfci",
+  "leak"
+ ],
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "gfci",
+   "state": "normal",
+   "text": "Why does your bathroom outlet have two little buttons? It’s a GFCI, and it’s watching.",
+   "voice": "Why does your bathroom outlet have two little buttons? It's called a G F C I, and it's watching.",
+   "cam": [
+    [
+     0,
+     0.28,
+     0.43,
+     1.5
+    ],
+    [
+     1,
+     0.28,
+     0.43,
+     2.0
+    ]
+   ],
+   "accent": [
+    "GFCI,"
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gfci",
+   "state": "normal",
+   "text": "Electricity flows out on one wire and back on the other. The two should always match.",
+   "voice": "Electricity flows out on one wire, and back on the other. The two should always match.",
+   "cam": [
+    [
+     0,
+     0.28,
+     0.43,
+     2.0
+    ],
+    [
+     1,
+     0.55,
+     0.43,
+     1.5
+    ]
+   ],
+   "accent": [
+    "match."
+   ],
+   "t0": 3
+  },
+  {
+   "type": "diagram",
+   "diagram": "gfci",
+   "state": "leak",
+   "text": "If some goes missing, it’s leaking somewhere it shouldn’t. Through water. Or through you.",
+   "voice": "If some goes missing, it's leaking somewhere it shouldn't. Through water. Or through you.",
+   "cam": [
+    [
+     0,
+     0.55,
+     0.43,
+     1.5
+    ],
+    [
+     1,
+     0.78,
+     0.5,
+     1.5
+    ]
+   ],
+   "accent": [
+    "missing,",
+    "you."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gfci",
+   "state": "trip",
+   "text": "So it cuts the power in a fraction of a second.",
+   "voice": "So it cuts the power, in a fraction of a second.",
+   "cam": [
+    [
+     0,
+     0.78,
+     0.5,
+     1.5
+    ],
+    [
+     0.5,
+     0.28,
+     0.43,
+     2.0
+    ],
+    [
+     1,
+     0.28,
+     0.43,
+     2.0
+    ]
+   ],
+   "accent": [
+    "cuts"
+   ],
+   "hold": 1.0
+  },
+  {
+   "type": "diagram",
+   "diagram": "gfci",
+   "state": "chain",
+   "text": "One GFCI can protect several outlets, sometimes in a different room. So a dead outlet is usually not broken.",
+   "voice": "One G F C I can protect several outlets, sometimes in a different room. So a dead outlet is usually not broken.",
+   "cam": [
+    [
+     0,
+     0.28,
+     0.43,
+     2.0
+    ],
+    [
+     0.4,
+     0.6,
+     0.78,
+     1.5
+    ],
+    [
+     1,
+     0.62,
+     0.78,
+     1.6
+    ]
+   ],
+   "accent": [
+    "not",
+    "broken."
+   ]
+  },
+  {
+   "type": "diagram",
+   "diagram": "gfci",
+   "state": "reset",
+   "text": "Find the one with the buttons, and press “Reset.”",
+   "voice": "Find the one with the buttons, and press reset.",
+   "cam": [
+    [
+     0,
+     0.6,
+     0.78,
+     1.5
+    ],
+    [
+     0.35,
+     0.28,
+     0.43,
+     2.1
+    ],
+    [
+     1,
+     0.28,
+     0.43,
+     1.9
+    ]
+   ],
+   "accent": [
+    "“Reset.”"
+   ],
+   "label": "THE FIX",
+   "hold": 1.2
+  },
+  {
+   "type": "book",
+   "text": "That’s page 5 of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's page five of the manual your house didn't come with. A simple book for first-time homeowners."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Your outlet isn’t broken. It’s protecting you.",
+  "feel": "Every new homeowner pays an electrician for this once. You don’t have to.",
+  "shows": "How a GFCI outlet works, why it trips, and why one can kill the power to outlets in another room.",
+  "ask": "Ever lost power to an outlet and had no idea why?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #electrical101"
+ },
+ "slug": "house-x-how-it-works-gfci",
+ "book": "house",
+ "format": "X explainer"
+}

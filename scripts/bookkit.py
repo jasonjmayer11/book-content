@@ -272,7 +272,7 @@ def sc_diagram(s, book, dur, speak):
     spans, t0 = [], 0.1
     for c in caps:
         d = max(0.5, (speak - 0.1) * len(c) / tot); spans.append((t0, t0 + d)); t0 += d
-    huds = {}
+    huds = {}; s_t0 = s.get("t0", 0.0)
     def cam_at(k):
         for a, b in zip(cam, cam[1:]):
             if k <= b[0]:
@@ -280,7 +280,7 @@ def sc_diagram(s, book, dur, speak):
         return cam[-1][1:]
     def frame(t):
         f = BG.copy().convert("RGBA"); f.alpha_composite(stripes(t))
-        big, hud, hud_c = draw(state, t, dur, F_SEMI)
+        big, hud, hud_c = draw(state, t + s_t0, dur + s_t0, F_SEMI)
         cx, cy, z = cam_at(min(1.0, t / dur)); cw, ch = DW / z, DH / z
         x = min(max(cx * DW - cw / 2, 0), DW - cw); y = min(max(cy * DH - ch / 2, 0), DH - ch)
         f.paste(big.resize((PW, PH), Image.BICUBIC, box=(x, y, x + cw, y + ch)), (80, PY), mask); f.alpha_composite(edge)
@@ -312,7 +312,7 @@ def make_cover(story, book):
         cv.alpha_composite(st, (CX - st.width // 2, y)); y += st.height + 30
     if story.get("hero"):
         from diagrams import DIAGRAMS
-        hd, hs = story["hero"]; hero = DIAGRAMS[hd](hs, 2.0, 4.0, F_SEMI)[0]; hh = min(PH, 1640 - y - 20); hw = int(PW * hh / PH)
+        hd, hs = story["hero"]; hero = DIAGRAMS[hd](hs, story.get("hero_t", 2.0), 4.0, F_SEMI)[0]; hh = min(PH, 1640 - y - 20); hw = int(PW * hh / PH)
         hero = rounded(hero.resize((hw, hh), Image.LANCZOS), 26)
         ImageDraw.Draw(hero).rounded_rectangle([1, 1, hw - 2, hh - 2], radius=26, outline=YELLOW + (255,), width=5)
         cv.alpha_composite(hero, (CX - hw // 2, y + 10))
