@@ -274,7 +274,8 @@ def sc_page(s, book, dur, speak):
     lab = pill(s.get("label", f"FROM THE BOOK  ·  PAGE {s.get('page_no', '')}".rstrip(" ·")), size=26)
     caps = chunks(s["text"])
     cap_l = [fit_block(c, F_DISP, 68, 940, 240, accent=s.get("accent", ()), lh=1.12) for c in caps]
-    spans = cap_spans(s, caps, speak)
+    spans = cap_spans(s, caps, speak); wt_ = word_times(s, speak)
+    cap_w0 = [sum(len(c.split()) for c in caps[:i]) for i in range(len(caps))]
     hl_at = s.get("highlight_at", dur * 0.35)
     def crop(src, k):
         cx, cy, w = (a[i] + (b[i] - a[i]) * k for i in range(3))
@@ -289,11 +290,11 @@ def sc_page(s, book, dur, speak):
             im = Image.blend(im, crop(hl, k), ease_out((t - hl_at) / 0.5))
         f.paste(im, (80, PY), mask)
         place(f, lab, CX, PY - lab.height - 22, 1.0)
-        for (c0, c1), blk in zip(spans, cap_l):
+        for (c0, c1), blk, w0 in zip(spans, cap_l, cap_w0):
             if c0 <= t < c1 or (blk is cap_l[-1] and t >= c1):
-                al = min(1.0, (t - c0) / 0.12 + 0.3)
-                for l, x, yy in blk[2]:
-                    f.alpha_composite(with_alpha(l, al), (int(CX + x), int(1370 - blk[1] / 2 + yy)))
+                for j, (l, x, yy) in enumerate(blk[2]):              # each word lights up as it is spoken
+                    k = min(1.0, max(0.0, (t - (wt_[min(w0 + j, len(wt_) - 1)] - 0.06)) / 0.1)) if wt_ else 1.0
+                    f.alpha_composite(with_alpha(l, 0.28 + 0.72 * k), (int(CX + x), int(1370 - blk[1] / 2 + yy - 8 * k * (1 - k) * 4)))
         return f
     return frame
 
@@ -362,7 +363,8 @@ def sc_diagram(s, book, dur, speak):
     lab = pill(s.get("label", "HOW IT WORKS"), size=26)
     caps = chunks(s["text"])
     cap_l = [fit_block(c, F_DISP, 68, 940, 240, accent=s.get("accent", ()), lh=1.12) for c in caps]
-    spans = cap_spans(s, caps, speak)
+    spans = cap_spans(s, caps, speak); wt_ = word_times(s, speak)
+    cap_w0 = [sum(len(c.split()) for c in caps[:i]) for i in range(len(caps))]
     huds = {}; s_t0 = s.get("t0", 0.0)
     def cam_at(k):
         for a, b in zip(cam, cam[1:]):
