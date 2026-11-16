@@ -382,11 +382,11 @@ def sc_diagram(s, book, dur, speak):
             key = (hud, hud_c)
             if key not in huds: huds[key] = pill(hud, size=30, fg=BLACK, bg=hud_c, padx=26, pady=14)
             f.alpha_composite(huds[key], (80 + 24, PY + 24))
-        for (c0, c1), blk in zip(spans, cap_l):
+        for (c0, c1), blk, w0 in zip(spans, cap_l, cap_w0):
             if c0 <= t < c1 or (blk is cap_l[-1] and t >= c1):
-                al = min(1.0, (t - c0) / 0.12 + 0.3)
-                for l, xx, yy in blk[2]:
-                    f.alpha_composite(with_alpha(l, al), (int(CX + xx), int(1370 - blk[1] / 2 + yy)))
+                for j, (l, xx, yy) in enumerate(blk[2]):             # each word lights up as it is spoken
+                    k = min(1.0, max(0.0, (t - (wt_[min(w0 + j, len(wt_) - 1)] - 0.06)) / 0.1)) if wt_ else 1.0
+                    f.alpha_composite(with_alpha(l, 0.28 + 0.72 * k), (int(CX + xx), int(1370 - blk[1] / 2 + yy - 32 * k * (1 - k))))
         return f
     return frame
 
