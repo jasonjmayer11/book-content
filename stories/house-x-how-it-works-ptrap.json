@@ -22,7 +22,27 @@
    "accent": [
     "bent?"
    ],
-   "voice": "Why is the pipe under your sink bent? It's not a mistake."
+   "voice": "Why is the pipe under your sink bent? It's not a mistake.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     0.45,
+     0.5,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.7,
+     1.55
+    ]
+   ]
   },
   {
    "type": "diagram",
@@ -32,7 +52,27 @@
    "accent": [
     "P-trap."
    ],
-   "voice": "It's called a P trap. Every time you run the tap, a little water stays behind in the bend."
+   "voice": "It's called a P trap. Every time you run the tap, a little water stays behind in the bend.",
+   "cam": [
+    [
+     0,
+     0.47,
+     0.22,
+     1.6
+    ],
+    [
+     0.35,
+     0.45,
+     0.42,
+     1.6
+    ],
+    [
+     1,
+     0.5,
+     0.68,
+     1.6
+    ]
+   ]
   },
   {
    "type": "diagram",
@@ -44,7 +84,27 @@
     "sewer",
     "gas"
    ],
-   "voice": "That water is a seal. It's the only thing stopping sewer gas from drifting up into your house."
+   "voice": "That water is a seal. It's the only thing stopping sewer gas from drifting up into your house.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.68,
+     1.6
+    ],
+    [
+     0.35,
+     0.62,
+     0.62,
+     1.7
+    ],
+    [
+     1,
+     0.63,
+     0.61,
+     1.75
+    ]
+   ]
   },
   {
    "type": "diagram",
@@ -56,7 +116,39 @@
     "smell."
    ],
    "voice": "But in a drain nobody uses, the water evaporates. The seal is gone. That's the smell.",
-   "hold": 0.8
+   "hold": 0.8,
+   "cam": [
+    [
+     0,
+     0.63,
+     0.61,
+     1.75
+    ],
+    [
+     0.15,
+     0.5,
+     0.7,
+     1.75
+    ],
+    [
+     0.6,
+     0.5,
+     0.7,
+     1.75
+    ],
+    [
+     0.8,
+     0.5,
+     0.45,
+     1.0
+    ],
+    [
+     1,
+     0.45,
+     0.3,
+     1.25
+    ]
+   ]
   },
   {
    "type": "diagram",
@@ -69,7 +161,33 @@
     "Done."
    ],
    "voice": "The fix is free. Pour in a quart of water. Done.",
-   "hold": 0.8
+   "hold": 0.8,
+   "cam": [
+    [
+     0,
+     0.47,
+     0.25,
+     1.4
+    ],
+    [
+     0.35,
+     0.5,
+     0.66,
+     1.6
+    ],
+    [
+     0.75,
+     0.55,
+     0.62,
+     1.7
+    ],
+    [
+     1,
+     0.5,
+     0.5,
+     1.0
+    ]
+   ]
   },
   {
    "type": "book",

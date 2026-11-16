@@ -260,8 +260,9 @@ def sc_end(s, book, dur, speak):
     return frame
 
 def sc_diagram(s, book, dur, speak):
-    from diagrams import DIAGRAMS
+    from diagrams import DIAGRAMS, DW, DH
     draw = DIAGRAMS[s["diagram"]]; state = s["state"]
+    cam = s.get("cam") or [[0, 0.5, 0.5, 1.0], [1, 0.5, 0.5, 1.0]]            # keyframes: [time fraction, cx, cy, zoom]
     mask = Image.new("L", (PW, PH), 0); ImageDraw.Draw(mask).rounded_rectangle([0, 0, PW - 1, PH - 1], radius=28, fill=255)
     edge = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ImageDraw.Draw(edge).rounded_rectangle([78, PY - 2, 82 + PW, PY + PH + 2], radius=30, outline=YELLOW + (150,), width=3)
@@ -271,15 +272,28 @@ def sc_diagram(s, book, dur, speak):
     spans, t0 = [], 0.1
     for c in caps:
         d = max(0.5, (speak - 0.1) * len(c) / tot); spans.append((t0, t0 + d)); t0 += d
+    huds = {}
+    def cam_at(k):
+        for a, b in zip(cam, cam[1:]):
+            if k <= b[0]:
+                e = ease_in_out((k - a[0]) / max(1e-6, b[0] - a[0])); return [a[i] + (b[i] - a[i]) * e for i in (1, 2, 3)]
+        return cam[-1][1:]
     def frame(t):
         f = BG.copy().convert("RGBA"); f.alpha_composite(stripes(t))
-        f.paste(draw(state, t, dur, F_SEMI), (80, PY), mask); f.alpha_composite(edge)
+        big, hud, hud_c = draw(state, t, dur, F_SEMI)
+        cx, cy, z = cam_at(min(1.0, t / dur)); cw, ch = DW / z, DH / z
+        x = min(max(cx * DW - cw / 2, 0), DW - cw); y = min(max(cy * DH - ch / 2, 0), DH - ch)
+        f.paste(big.resize((PW, PH), Image.BICUBIC, box=(x, y, x + cw, y + ch)), (80, PY), mask); f.alpha_composite(edge)
         place(f, lab, CX, PY - lab.height - 22, 1.0)
+        if hud:
+            key = (hud, hud_c)
+            if key not in huds: huds[key] = pill(hud, size=30, fg=BLACK, bg=hud_c, padx=26, pady=14)
+            f.alpha_composite(huds[key], (80 + 24, PY + 24))
         for (c0, c1), blk in zip(spans, cap_l):
             if c0 <= t < c1 or (blk is cap_l[-1] and t >= c1):
                 al = min(1.0, (t - c0) / 0.12 + 0.3)
-                for l, x, yy in blk[2]:
-                    f.alpha_composite(with_alpha(l, al), (int(CX + x), int(1370 - blk[1] / 2 + yy)))
+                for l, xx, yy in blk[2]:
+                    f.alpha_composite(with_alpha(l, al), (int(CX + xx), int(1370 - blk[1] / 2 + yy)))
         return f
     return frame
 
@@ -298,7 +312,7 @@ def make_cover(story, book):
         cv.alpha_composite(st, (CX - st.width // 2, y)); y += st.height + 30
     if story.get("hero"):
         from diagrams import DIAGRAMS
-        hd, hs = story["hero"]; hero = DIAGRAMS[hd](hs, 2.0, 4.0, F_SEMI); hh = min(PH, 1640 - y - 20); hw = int(PW * hh / PH)
+        hd, hs = story["hero"]; hero = DIAGRAMS[hd](hs, 2.0, 4.0, F_SEMI)[0]; hh = min(PH, 1640 - y - 20); hw = int(PW * hh / PH)
         hero = rounded(hero.resize((hw, hh), Image.LANCZOS), 26)
         ImageDraw.Draw(hero).rounded_rectangle([1, 1, hw - 2, hh - 2], radius=26, outline=YELLOW + (255,), width=5)
         cv.alpha_composite(hero, (CX - hw // 2, y + 10))
@@ -313,17 +327,22 @@ def make_cover(story, book):
 def synth(lines, voice, speed):
     try:
         from kokoro import KPipeline
+        pipe = KPipeline(lang_code="a")
+        def say(text):
+            parts = []
+            for gs, ps, a in pipe(text, voice=voice, speed=speed):
+                print(f"  phonemes: {ps}"); parts.append(a.numpy() if hasattr(a, "numpy") else np.asarray(a))
+            return np.concatenate(parts).astype(np.float32) if parts else None
     except Exception:
-        return None
-    pipe = KPipeline(lang_code="a"); out = []
-    for text in lines:
-        if not text: out.append(None); continue
-        parts = []
-        for gs, ps, a in pipe(text, voice=voice, speed=speed):
-            print(f"  phonemes: {ps}")
-            parts.append(a.numpy() if hasattr(a, "numpy") else np.asarray(a))
-        out.append(np.concatenate(parts).astype(np.float32) if parts else None)
-    return out
+        try:
+            from kokoro_onnx import Kokoro
+            md = os.environ.get("KOKORO_ONNX_DIR", os.path.join(ROOT, "models"))
+            ko = Kokoro(os.path.join(md, "kokoro-v1.0.onnx"), os.path.join(md, "voices-v1.0.bin"))
+            def say(text):
+                a, sr = ko.create(text, voice=voice, speed=speed, lang="en-us"); return np.asarray(a, dtype=np.float32)
+        except Exception as e:
+            print("voice unavailable:", e); return None
+    return [say(t) if t else None for t in lines]
 
 
 # ------------------------------------------------------------------ audio
