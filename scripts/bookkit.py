@@ -259,7 +259,31 @@ def sc_end(s, book, dur, speak):
         return f
     return frame
 
-SCENES = {"hook": sc_hook, "page": sc_page, "quote": sc_quote, "book": sc_book, "end": sc_end}
+def sc_diagram(s, book, dur, speak):
+    from diagrams import DIAGRAMS
+    draw = DIAGRAMS[s["diagram"]]; state = s["state"]
+    mask = Image.new("L", (PW, PH), 0); ImageDraw.Draw(mask).rounded_rectangle([0, 0, PW - 1, PH - 1], radius=28, fill=255)
+    edge = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(edge).rounded_rectangle([78, PY - 2, 82 + PW, PY + PH + 2], radius=30, outline=YELLOW + (150,), width=3)
+    lab = pill(s.get("label", "HOW IT WORKS"), size=26)
+    caps = chunks(s["text"]); tot = sum(len(c) for c in caps) or 1
+    cap_l = [fit_block(c, F_DISP, 68, 940, 240, accent=s.get("accent", ()), lh=1.12) for c in caps]
+    spans, t0 = [], 0.1
+    for c in caps:
+        d = max(0.5, (speak - 0.1) * len(c) / tot); spans.append((t0, t0 + d)); t0 += d
+    def frame(t):
+        f = BG.copy().convert("RGBA"); f.alpha_composite(stripes(t))
+        f.paste(draw(state, t, dur, F_SEMI), (80, PY), mask); f.alpha_composite(edge)
+        place(f, lab, CX, PY - lab.height - 22, 1.0)
+        for (c0, c1), blk in zip(spans, cap_l):
+            if c0 <= t < c1 or (blk is cap_l[-1] and t >= c1):
+                al = min(1.0, (t - c0) / 0.12 + 0.3)
+                for l, x, yy in blk[2]:
+                    f.alpha_composite(with_alpha(l, al), (int(CX + x), int(1370 - blk[1] / 2 + yy)))
+        return f
+    return frame
+
+SCENES = {"diagram": sc_diagram, "hook": sc_hook, "page": sc_page, "quote": sc_quote, "book": sc_book, "end": sc_end}
 
 
 # ------------------------------------------------------------------ designed cover (grid thumbnail)
@@ -272,8 +296,16 @@ def make_cover(story, book):
     if story.get("cover_sub"):
         st = text_layer(story["cover_sub"], F_SEMI, fit_size(story["cover_sub"], F_SEMI, 46, 820, 30), GOLD)
         cv.alpha_composite(st, (CX - st.width // 2, y)); y += st.height + 30
-    b3, pad = book3d(book, h=min(900, 1650 - y))
-    cv.alpha_composite(b3, (CX - b3.width // 2, y - pad + 10))
+    if story.get("hero"):
+        from diagrams import DIAGRAMS
+        hd, hs = story["hero"]; hero = DIAGRAMS[hd](hs, 2.0, 4.0, F_SEMI); hh = min(PH, 1640 - y - 20); hw = int(PW * hh / PH)
+        hero = rounded(hero.resize((hw, hh), Image.LANCZOS), 26)
+        ImageDraw.Draw(hero).rounded_rectangle([1, 1, hw - 2, hh - 2], radius=26, outline=YELLOW + (255,), width=5)
+        cv.alpha_composite(hero, (CX - hw // 2, y + 10))
+        b3, pad = book3d(book, h=330); cv.alpha_composite(b3, (CX + hw // 2 - b3.width + pad - 10, y + hh - b3.height + pad + 30))
+    else:
+        b3, pad = book3d(book, h=min(900, 1650 - y))
+        cv.alpha_composite(b3, (CX - b3.width // 2, y - pad + 10))
     return cv.convert("RGB")
 
 

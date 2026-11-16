@@ -1,0 +1,100 @@
+{
+ "slug": "house-x-how-it-works-ptrap",
+ "book": "house",
+ "format": "X explainer",
+ "title": "Why the pipe under your sink is bent",
+ "cover": "Why is this pipe bent?",
+ "cover_accent": [
+  "bent?"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "ptrap",
+  "seal"
+ ],
+ "scenes": [
+  {
+   "type": "diagram",
+   "diagram": "ptrap",
+   "state": "intro",
+   "label": "HOW IT WORKS",
+   "text": "Why is the pipe under your sink bent? It’s not a mistake.",
+   "accent": [
+    "bent?"
+   ],
+   "voice": "Why is the pipe under your sink bent? It's not a mistake."
+  },
+  {
+   "type": "diagram",
+   "diagram": "ptrap",
+   "state": "fill",
+   "text": "It’s called a P-trap. Every time you run the tap, a little water stays behind in the bend.",
+   "accent": [
+    "P-trap."
+   ],
+   "voice": "It's called a P trap. Every time you run the tap, a little water stays behind in the bend."
+  },
+  {
+   "type": "diagram",
+   "diagram": "ptrap",
+   "state": "seal",
+   "text": "That water is a seal. It’s the only thing stopping sewer gas from drifting up into your house.",
+   "accent": [
+    "seal.",
+    "sewer",
+    "gas"
+   ],
+   "voice": "That water is a seal. It's the only thing stopping sewer gas from drifting up into your house."
+  },
+  {
+   "type": "diagram",
+   "diagram": "ptrap",
+   "state": "dry",
+   "text": "But in a drain nobody uses, the water evaporates. The seal is gone. That’s the smell.",
+   "accent": [
+    "evaporates.",
+    "smell."
+   ],
+   "voice": "But in a drain nobody uses, the water evaporates. The seal is gone. That's the smell.",
+   "hold": 0.8
+  },
+  {
+   "type": "diagram",
+   "diagram": "ptrap",
+   "state": "refill",
+   "label": "THE FIX",
+   "text": "The fix is free. Pour in a quart of water. Done.",
+   "accent": [
+    "free.",
+    "Done."
+   ],
+   "voice": "The fix is free. Pour in a quart of water. Done.",
+   "hold": 0.8
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. A simple book for first-time homeowners."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "That bent pipe under your sink is doing a job.",
+  "feel": "It’s the only thing between your bathroom and the sewer, and nobody mentions it at closing.",
+  "shows": "How a P-trap works, why an unused drain starts to smell, and the free fix.",
+  "ask": "Which drain in your house never gets used?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #plumbing101 #homeownertips #homemaintenance #engineering"
+ }
+}
