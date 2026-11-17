@@ -3,7 +3,7 @@
 
 Usage: python3 scripts/post_social.py <video.mp4> <title> <caption_file> [cover.jpg]
 Env:   UPLOAD_POST_API_KEY   (secret)
-       UPLOAD_POST_USER      profile name in Upload-Post (default: booksbyjason)
+       UPLOAD_POST_USER      profile name in Upload-Post (default: AllTheShitBooks)
        POST_PLATFORMS        comma list (default: instagram,facebook,youtube; add tiktok on a paid plan)
        IDEMPOTENCY_KEY       reel slug, so a retried job never double-posts
 """
@@ -16,7 +16,7 @@ caption = open(caption_file, encoding="utf-8").read().strip()
 key = os.environ.get("UPLOAD_POST_API_KEY")
 if not key:
     sys.exit("UPLOAD_POST_API_KEY secret is missing — add it in repo Settings → Secrets → Actions")
-user = os.environ.get("UPLOAD_POST_USER") or "booksbyjason"
+user = os.environ.get("UPLOAD_POST_USER") or "AllTheShitBooks"
 if "dealcaddie" in user.lower():
     sys.exit(f"Refusing to post: UPLOAD_POST_USER is '{user}', which looks like the DealCaddie profile. Book reels must go to the books profile.")
 platforms = [p.strip() for p in (os.environ.get("POST_PLATFORMS") or "instagram,facebook,youtube").split(",") if p.strip()]
