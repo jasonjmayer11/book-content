@@ -32,7 +32,7 @@ fields = [("user", user)] + [("platform[]", p) for p in platforms] + [
     # Instagram / Facebook / TikTok show the full caption
     ("instagram_title", caption[:2200]),
     ("media_type", "REELS"),
-    ("audio_name", "DealCaddie · Deal Verdict"),          # label instead of "Original audio"
+    ("audio_name", "All The Sh*t Books · Original"),
     ("share_to_feed", "true"),
     ("facebook_title", short),
     ("facebook_description", tracked(caption, "facebook", "reel")),

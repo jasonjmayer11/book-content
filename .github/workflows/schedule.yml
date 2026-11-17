@@ -1,0 +1,43 @@
+name: Schedule approved reels
+# Runs when Claude pushes schedule.json after Jason replies "approved" in chat.
+# Each approved, not-yet-posted entry is uploaded once to Upload-Post with its scheduled time.
+on:
+  push:
+    paths: [schedule.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: {group: schedule, cancel-in-progress: false}
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          UPLOAD_POST_API_KEY: ${{ secrets.UPLOAD_POST_API_KEY }}
+          UPLOAD_POST_USER: ${{ vars.UPLOAD_POST_USER }}
+          POST_PLATFORMS: ${{ vars.POST_PLATFORMS || 'instagram,facebook' }}
+        run: |
+          pip install -q requests
+          touch posted.txt
+          python3 - <<'PY'
+          import json, os, subprocess
+          posted = set(open("posted.txt").read().split())
+          for e in json.load(open("schedule.json")):
+              s = e["slug"]
+              if not e.get("approved") or s in posted: continue
+              d = f"post/{s}"; os.makedirs(d, exist_ok=True)
+              subprocess.run(["gh", "release", "download", s, "-D", d, "--clobber"], check=True)
+              env = dict(os.environ, SCHEDULE_AT=e["at"], IDEMPOTENCY_KEY=s)
+              r = subprocess.run(["python3", "scripts/post_social.py", f"{d}/{s}.mp4", e["title"], f"{d}/{s}-caption.txt", f"{d}/{s}-cover.jpg"], env=env)
+              if r.returncode == 0:
+                  open("posted.txt", "a").write(s + "\n"); print("scheduled", s, e["at"])
+              else:
+                  print("FAILED", s)
+          PY
+          git config user.name "book-content bot"; git config user.email "actions@users.noreply.github.com"
+          git add posted.txt && git commit -m "Record scheduled reels [skip ci]" && git push || true
