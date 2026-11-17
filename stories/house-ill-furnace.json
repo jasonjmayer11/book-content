@@ -1,0 +1,594 @@
+{
+ "slug": "house-ill-furnace",
+ "book": "house",
+ "format": "X explainer (illustrated)",
+ "title": "How your furnace works, and the crack that matters",
+ "cover": "The crack you can\u2019t see",
+ "cover_accent": [
+  "crack"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  {
+   "img": "assets/book/furnace.png",
+   "scale": 1.7,
+   "els": [
+    {
+     "k": "glow",
+     "at_xy": [
+      858,
+      1538
+     ],
+     "r": 170,
+     "c": [
+      80,
+      140,
+      255
+     ],
+     "a": 0.8,
+     "sy": 0.45
+    },
+    {
+     "k": "focus",
+     "box": [
+      502,
+      714,
+      1207,
+      1717
+     ],
+     "at_word": 0
+    }
+   ]
+  }
+ ],
+ "hero_t": 2.0,
+ "scenes": [
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/furnace.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "overlay",
+      "img": "assets/book/furnace-cover.png",
+      "span": [
+       672,
+       2992
+      ],
+      "xs": [
+       442,
+       1420
+      ]
+     }
+    ]
+   },
+   "text": "This box in your basement lights a gas fire every time your heat kicks on.",
+   "voice": "This box in your basement lights a gas fire every time your heat kicks on.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5208333333333334,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.5,
+     1.08
+    ]
+   ],
+   "accent": [
+    "fire"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/furnace.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "glow",
+      "at_xy": [
+       858,
+       1538
+      ],
+      "r": 170,
+      "c": [
+       80,
+       140,
+       255
+      ],
+      "a": 0.8,
+      "sy": 0.45
+     },
+     {
+      "k": "overlay",
+      "img": "assets/book/furnace-cover.png",
+      "span": [
+       672,
+       2992
+      ],
+      "xs": [
+       442,
+       1420
+      ],
+      "wipe_word": 1,
+      "wipe_over": 1.6
+     }
+    ]
+   },
+   "text": "Here\u2019s what\u2019s inside.",
+   "voice": "Here's what's inside.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.08
+    ],
+    [
+     1,
+     0.5,
+     0.5208333333333334,
+     1.0
+    ]
+   ],
+   "accent": [
+    "inside."
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/furnace.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "glow",
+      "at_xy": [
+       858,
+       1538
+      ],
+      "r": 170,
+      "c": [
+       80,
+       140,
+       255
+      ],
+      "a": 0.8,
+      "sy": 0.45
+     },
+     {
+      "k": "focus",
+      "box": [
+       527,
+       1394,
+       1190,
+       1717
+      ],
+      "at_word": 0,
+      "to_word": 5
+     },
+     {
+      "k": "tag",
+      "text": "BURNERS",
+      "xy": [
+       1093,
+       1475
+      ],
+      "target": [
+       1020,
+       1538
+      ],
+      "c": [
+       120,
+       180,
+       255
+      ],
+      "at_word": 0,
+      "size": 50,
+      "to_word": 5
+     },
+     {
+      "k": "focus",
+      "box": [
+       502,
+       714,
+       1207,
+       1411
+      ],
+      "at_word": 5
+     },
+     {
+      "k": "tag",
+      "text": "HEAT EXCHANGER",
+      "xy": [
+       850,
+       561
+      ],
+      "target": [
+       884,
+       884
+      ],
+      "c": "hot",
+      "at_word": 1,
+      "size": 50
+     }
+    ]
+   },
+   "text": "Burners heat a sealed metal box called the heat exchanger. The flame and its exhaust stay inside it, and get vented outside.",
+   "voice": "Burners heat a sealed metal box called the heat exchanger. The flame and its exhaust stay inside it, and get vented outside.",
+   "cam": [
+    [
+     0,
+     0.4675925925925926,
+     0.46875,
+     1.5
+    ],
+    [
+     0.3,
+     0.4675925925925926,
+     0.3333333333333333,
+     1.45
+    ],
+    [
+     1,
+     0.4675925925925926,
+     0.3229166666666667,
+     1.5
+    ]
+   ],
+   "accent": [
+    "sealed",
+    "exhaust"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/furnace.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "glow",
+      "at_xy": [
+       858,
+       1538
+      ],
+      "r": 170,
+      "c": [
+       80,
+       140,
+       255
+      ],
+      "a": 0.8,
+      "sy": 0.45
+     },
+     {
+      "k": "focus",
+      "box": [
+       476,
+       2074,
+       1207,
+       2907
+      ],
+      "at_word": 0,
+      "to_word": 7
+     },
+     {
+      "k": "tag",
+      "text": "BLOWER",
+      "xy": [
+       1173,
+       1634
+      ],
+      "target": [
+       884,
+       2482
+      ],
+      "c": [
+       170,
+       220,
+       255
+      ],
+      "at_word": 2,
+      "size": 50,
+      "to_word": 7
+     },
+     {
+      "k": "focus",
+      "box": [
+       476,
+       1870,
+       1207,
+       2057
+      ],
+      "at_word": 7,
+      "to_word": 10
+     },
+     {
+      "k": "tag",
+      "text": "FILTER",
+      "xy": [
+       1190,
+       1634
+      ],
+      "target": [
+       952,
+       1955
+      ],
+      "c": "yel",
+      "at_word": 9,
+      "size": 50,
+      "to_word": 10
+     },
+     {
+      "k": "flow",
+      "pts": [
+       [
+        799,
+        2720
+       ],
+       [
+        799,
+        2125
+       ],
+       [
+        1105,
+        1955
+       ],
+       [
+        1114,
+        1394
+       ],
+       [
+        1114,
+        765
+       ],
+       [
+        876,
+        561
+       ],
+       [
+        876,
+        68
+       ]
+      ],
+      "c": [
+       170,
+       220,
+       255
+      ],
+      "n": 10,
+      "speed": 420,
+      "size": 30,
+      "at_word": 10
+     },
+     {
+      "k": "tag",
+      "text": "WARM AIR TO DUCTS",
+      "xy": [
+       68,
+       272
+      ],
+      "target": [
+       850,
+       340
+      ],
+      "c": [
+       255,
+       150,
+       60
+      ],
+      "at_word": 17,
+      "size": 50
+     }
+    ]
+   },
+   "text": "Below, a blower pulls in house air through the filter, pushes it across the hot exchanger, and up into your ducts.",
+   "voice": "Below, a blower pulls in house air through the filter, pushes it across the hot exchanger, and up into your ducts.",
+   "cam": [
+    [
+     0,
+     0.4444444444444444,
+     0.7552083333333334,
+     1.5
+    ],
+    [
+     0.35,
+     0.4444444444444444,
+     0.6041666666666666,
+     1.5
+    ],
+    [
+     0.7,
+     0.46296296296296297,
+     0.3645833333333333,
+     1.1
+    ],
+    [
+     1,
+     0.48148148148148145,
+     0.2916666666666667,
+     1.0
+    ]
+   ],
+   "accent": [
+    "blower",
+    "filter",
+    "ducts."
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/furnace.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "glow",
+      "at_xy": [
+       858,
+       1538
+      ],
+      "r": 170,
+      "c": [
+       80,
+       140,
+       255
+      ],
+      "a": 0.8,
+      "sy": 0.45
+     },
+     {
+      "k": "focus",
+      "box": [
+       502,
+       714,
+       1207,
+       1411
+      ],
+      "at_word": 0
+     },
+     {
+      "k": "glow",
+      "at_xy": [
+       884,
+       1054
+      ],
+      "r": 120,
+      "c": [
+       255,
+       70,
+       50
+      ],
+      "a": 0.7,
+      "sy": 0.8,
+      "at_word": 3
+     },
+     {
+      "k": "hud",
+      "text": "CRACKED EXCHANGER = CO RISK",
+      "c": "hot",
+      "at_word": 4
+     }
+    ]
+   },
+   "text": "If that exchanger cracks, exhaust can leak into the air you breathe, including carbon monoxide (CO).",
+   "voice": "If that exchanger cracks, exhaust can leak into the air you breathe, including carbon monoxide.",
+   "cam": [
+    [
+     0,
+     0.4675925925925926,
+     0.3229166666666667,
+     1.4
+    ],
+    [
+     1,
+     0.4675925925925926,
+     0.3333333333333333,
+     1.6
+    ]
+   ],
+   "accent": [
+    "cracks,",
+    "carbon",
+    "monoxide"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/furnace.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "glow",
+      "at_xy": [
+       858,
+       1538
+      ],
+      "r": 170,
+      "c": [
+       80,
+       140,
+       255
+      ],
+      "a": 0.8,
+      "sy": 0.45
+     },
+     {
+      "k": "hud",
+      "text": "YEARLY TUNE-UP + CO ALARM",
+      "c": "green",
+      "at_word": 0
+     }
+    ]
+   },
+   "text": "So get it inspected every year, change the filter, and keep a CO alarm near the bedrooms.",
+   "voice": "So get it inspected every year, change the filter, and keep a carbon monoxide alarm near the bedrooms.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5208333333333334,
+     1.05
+    ],
+    [
+     1,
+     0.5,
+     0.5,
+     1.0
+    ]
+   ],
+   "accent": [
+    "every",
+    "year,",
+    "alarm"
+   ]
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "Accidental carbon monoxide poisoning kills more than 400 Americans a year. You can\u2019t see it or smell it.",
+   "voice": "Accidental carbon monoxide poisoning kills more than four hundred Americans a year. You can't see it, and you can't smell it.",
+   "accent": [
+    "400",
+    "see",
+    "smell"
+   ],
+   "count": "SOURCE: CDC",
+   "size": 78,
+   "hold": 0.6
+  },
+  {
+   "type": "book",
+   "text": "That\u2019s one page of the manual your house didn\u2019t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Your furnace lights a gas fire every time the heat kicks on.",
+  "feel": "One part keeps that fire\u2019s exhaust out of the air you breathe, and most people never think about it.",
+  "shows": "How a gas furnace works: burners, heat exchanger, blower, filter. Plus the yearly check that matters. If a CO alarm ever goes off, get out and call 911.",
+  "ask": "When was yours last inspected?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #hvac"
+ }
+}

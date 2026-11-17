@@ -1,0 +1,447 @@
+{
+ "slug": "house-ill-septic",
+ "book": "house",
+ "format": "X explainer (illustrated)",
+ "title": "How a septic system works",
+ "cover": "What\u2019s under your yard",
+ "cover_accent": [
+  "yard"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  {
+   "img": "assets/book/septic.png",
+   "scale": 1.7,
+   "els": [
+    {
+     "k": "focus",
+     "box": [
+      246,
+      765,
+      1615,
+      1938
+     ],
+     "at_word": 0
+    }
+   ]
+  }
+ ],
+ "hero_t": 2.0,
+ "scenes": [
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/septic.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "overlay",
+      "img": "assets/book/septic-cover.png",
+      "span": [
+       400,
+       3264
+      ],
+      "xs": [
+       0,
+       1836
+      ]
+     }
+    ]
+   },
+   "text": "If your house isn\u2019t on city sewer, everything you flush ends up right here, in your yard.",
+   "voice": "If your house isn't on city sewer, everything you flush ends up right here, in your yard.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.3958333333333333,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.3645833333333333,
+     1.1
+    ]
+   ],
+   "accent": [
+    "your",
+    "yard."
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/septic.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "overlay",
+      "img": "assets/book/septic-cover.png",
+      "span": [
+       400,
+       3264
+      ],
+      "xs": [
+       0,
+       1836
+      ],
+      "wipe_word": 1,
+      "wipe_over": 1.8
+     }
+    ]
+   },
+   "text": "Let\u2019s dig in.",
+   "voice": "Let's dig in.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.3645833333333333,
+     1.1
+    ],
+    [
+     1,
+     0.5,
+     0.5,
+     1.0
+    ]
+   ],
+   "accent": [
+    "dig"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/septic.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "flow",
+      "pts": [
+       [
+        510,
+        340
+       ],
+       [
+        510,
+        1020
+       ]
+      ],
+      "c": [
+       200,
+       200,
+       200
+      ],
+      "n": 5,
+      "speed": 300,
+      "size": 30,
+      "at_word": 0
+     },
+     {
+      "k": "focus",
+      "box": [
+       246,
+       765,
+       1615,
+       1938
+      ],
+      "at_word": 5
+     },
+     {
+      "k": "tag",
+      "text": "SCUM",
+      "xy": [
+       217,
+       952
+      ],
+      "target": [
+       714,
+       1096
+      ],
+      "c": "yel",
+      "at_word": 17,
+      "size": 50
+     },
+     {
+      "k": "tag",
+      "text": "SLUDGE",
+      "xy": [
+       217,
+       1896
+      ],
+      "target": [
+       714,
+       1700
+      ],
+      "c": "brown",
+      "at_word": 15,
+      "size": 50
+     }
+    ]
+   },
+   "text": "Wastewater flows from the house into a buried tank. Solids sink to the bottom as sludge, and grease floats to the top as scum.",
+   "voice": "Wastewater flows from the house into a buried tank. Solids sink to the bottom as sludge, and grease floats to the top as scum.",
+   "cam": [
+    [
+     0,
+     0.35185185185185186,
+     0.1875,
+     1.3
+    ],
+    [
+     0.35,
+     0.5,
+     0.4270833333333333,
+     1.2
+    ],
+    [
+     1,
+     0.48148148148148145,
+     0.4270833333333333,
+     1.3
+    ]
+   ],
+   "accent": [
+    "sludge,",
+    "scum."
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/septic.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "focus",
+      "box": [
+       952,
+       1020,
+       1598,
+       1538
+      ],
+      "at_word": 0,
+      "to_word": 10
+     },
+     {
+      "k": "flow",
+      "pts": [
+       [
+        1266,
+        1088
+       ],
+       [
+        1802,
+        1238
+       ]
+      ],
+      "c": [
+       170,
+       220,
+       255
+      ],
+      "n": 5,
+      "speed": 260,
+      "size": 30,
+      "at_word": 6
+     },
+     {
+      "k": "focus",
+      "box": [
+       136,
+       2618,
+       1717,
+       3043
+      ],
+      "at_word": 10
+     },
+     {
+      "k": "tag",
+      "text": "DRAIN FIELD",
+      "xy": [
+       510,
+       2380
+      ],
+      "target": [
+       918,
+       2737
+      ],
+      "c": "green",
+      "at_word": 10,
+      "size": 50
+     },
+     {
+      "k": "flow",
+      "pts": [
+       [
+        221,
+        2740
+       ],
+       [
+        1683,
+        2740
+       ]
+      ],
+      "c": [
+       170,
+       220,
+       255
+      ],
+      "n": 8,
+      "speed": 300,
+      "size": 30,
+      "at_word": 14
+     },
+     {
+      "k": "flow",
+      "pts": [
+       [
+        221,
+        2910
+       ],
+       [
+        1683,
+        2910
+       ]
+      ],
+      "c": [
+       170,
+       220,
+       255
+      ],
+      "n": 8,
+      "speed": 300,
+      "size": 30,
+      "at_word": 14
+     }
+    ]
+   },
+   "text": "The clearer liquid in the middle flows out to the drain field, where the soil filters it.",
+   "voice": "The clearer liquid in the middle flows out to the drain field, where the soil filters it.",
+   "cam": [
+    [
+     0,
+     0.6851851851851852,
+     0.3958333333333333,
+     1.35
+    ],
+    [
+     0.45,
+     0.5555555555555556,
+     0.625,
+     1.1
+    ],
+    [
+     1,
+     0.5,
+     0.859375,
+     1.3
+    ]
+   ],
+   "accent": [
+    "drain",
+    "field,",
+    "filters"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/septic.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "focus",
+      "box": [
+       357,
+       1496,
+       1522,
+       1844
+      ],
+      "at_word": 0
+     },
+     {
+      "k": "spots",
+      "box": [
+       366,
+       1462,
+       1513,
+       1828
+      ],
+      "n": 260,
+      "r": 7,
+      "c": "brown",
+      "over": 3.0
+     },
+     {
+      "k": "hud",
+      "text": "PUMP EVERY 3 TO 5 YEARS",
+      "c": "yel",
+      "at_word": 5
+     }
+    ]
+   },
+   "text": "But sludge keeps piling up. Skip the pumping, and solids escape into the drain field and clog it.",
+   "voice": "But sludge keeps piling up. Skip the pumping, and solids escape into the drain field and clog it.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5,
+     1.3
+    ],
+    [
+     1,
+     0.5,
+     0.5104166666666666,
+     1.45
+    ]
+   ],
+   "accent": [
+    "piling",
+    "clog"
+   ]
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "Pumping runs about $250 to $500 every 3 to 5 years. Replacing a failed system: $5,000 to $15,000.",
+   "voice": "Pumping runs about two hundred fifty to five hundred dollars every three to five years. Replacing a failed system costs five to fifteen thousand.",
+   "accent": [
+    "$5,000",
+    "$15,000."
+   ],
+   "count": "SOURCE: EPA",
+   "size": 78,
+   "hold": 0.6
+  },
+  {
+   "type": "book",
+   "text": "That\u2019s one page of the manual your house didn\u2019t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "On a septic system? Everything you flush stays on your property.",
+  "feel": "It\u2019s out of sight, so it\u2019s out of mind, right up until it backs up.",
+  "shows": "How a septic tank works: sludge, scum, the drain field, and why pumping every few years beats replacing the whole system.",
+  "ask": "Do you know when yours was last pumped?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #septic"
+ }
+}

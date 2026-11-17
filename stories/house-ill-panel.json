@@ -1,0 +1,745 @@
+{
+ "slug": "house-ill-panel",
+ "book": "house",
+ "format": "X explainer (illustrated)",
+ "title": "How your breaker panel works",
+ "cover": "What a breaker actually does",
+ "cover_accent": [
+  "breaker"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  {
+   "img": "assets/book/panel.png",
+   "scale": 1.7,
+   "els": [
+    {
+     "k": "rect",
+     "box": [
+      847,
+      474,
+      952,
+      525
+     ],
+     "fill": [
+      22,
+      22,
+      25
+     ],
+     "w": 0,
+     "shadow": false
+    },
+    {
+     "k": "rect",
+     "box": [
+      847,
+      714,
+      952,
+      765
+     ],
+     "fill": [
+      22,
+      22,
+      25
+     ],
+     "w": 0,
+     "shadow": false
+    },
+    {
+     "k": "glow",
+     "at_xy": [
+      898,
+      408
+     ],
+     "r": 120,
+     "c": [
+      140,
+      220,
+      255
+     ],
+     "a": 0.55,
+     "sy": 0.5
+    }
+   ]
+  }
+ ],
+ "hero_t": 2.0,
+ "scenes": [
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/panel.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       847,
+       474,
+       952,
+       525
+      ],
+      "fill": [
+       22,
+       22,
+       25
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "rect",
+      "box": [
+       847,
+       714,
+       952,
+       765
+      ],
+      "fill": [
+       22,
+       22,
+       25
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "overlay",
+      "img": "assets/book/panel-cover.png",
+      "span": [
+       76,
+       3136
+      ],
+      "xs": [
+       314,
+       1488
+      ]
+     }
+    ]
+   },
+   "text": "Every light, outlet and appliance in your house runs through this one gray box.",
+   "voice": "Every light, outlet and appliance in your house runs through this one gray box.",
+   "cam": [
+    [
+     0,
+     0.49074074074074076,
+     0.5,
+     1.0
+    ],
+    [
+     1,
+     0.49074074074074076,
+     0.4895833333333333,
+     1.08
+    ]
+   ],
+   "accent": [
+    "gray",
+    "box."
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/panel.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       847,
+       474,
+       952,
+       525
+      ],
+      "fill": [
+       22,
+       22,
+       25
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "rect",
+      "box": [
+       847,
+       714,
+       952,
+       765
+      ],
+      "fill": [
+       22,
+       22,
+       25
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "glow",
+      "at_xy": [
+       898,
+       408
+      ],
+      "r": 120,
+      "c": [
+       140,
+       220,
+       255
+      ],
+      "a": 0.55,
+      "sy": 0.5
+     },
+     {
+      "k": "overlay",
+      "img": "assets/book/panel-cover.png",
+      "span": [
+       76,
+       3136
+      ],
+      "xs": [
+       314,
+       1488
+      ],
+      "wipe_word": 1,
+      "wipe_over": 1.6
+     }
+    ]
+   },
+   "text": "Here\u2019s what\u2019s behind the door.",
+   "voice": "Here's what's behind the door.",
+   "cam": [
+    [
+     0,
+     0.49074074074074076,
+     0.4895833333333333,
+     1.08
+    ],
+    [
+     1,
+     0.49074074074074076,
+     0.5,
+     1.0
+    ]
+   ],
+   "accent": [
+    "door."
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/panel.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       847,
+       474,
+       952,
+       525
+      ],
+      "fill": [
+       22,
+       22,
+       25
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "rect",
+      "box": [
+       847,
+       714,
+       952,
+       765
+      ],
+      "fill": [
+       22,
+       22,
+       25
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "glow",
+      "at_xy": [
+       898,
+       408
+      ],
+      "r": 120,
+      "c": [
+       140,
+       220,
+       255
+      ],
+      "a": 0.55,
+      "sy": 0.5
+     },
+     {
+      "k": "flow",
+      "pts": [
+       [
+        898,
+        0
+       ],
+       [
+        898,
+        425
+       ]
+      ],
+      "c": [
+       140,
+       220,
+       255
+      ],
+      "n": 5,
+      "speed": 300,
+      "size": 30,
+      "at_word": 0
+     },
+     {
+      "k": "focus",
+      "box": [
+       680,
+       306,
+       1122,
+       816
+      ],
+      "at_word": 10
+     },
+     {
+      "k": "tag",
+      "text": "MAIN BREAKER",
+      "xy": [
+       911,
+       510
+      ],
+      "target": [
+       1020,
+       620
+      ],
+      "c": "yel",
+      "at_word": 12,
+      "size": 50
+     }
+    ]
+   },
+   "text": "Power from the street comes in at the top and hits the main breaker, which can shut off the whole house.",
+   "voice": "Power from the street comes in at the top and hits the main breaker, which can shut off the whole house.",
+   "cam": [
+    [
+     0,
+     0.49074074074074076,
+     0.13541666666666666,
+     1.6
+    ],
+    [
+     1,
+     0.49074074074074076,
+     0.17708333333333334,
+     1.7
+    ]
+   ],
+   "accent": [
+    "main",
+    "breaker,",
+    "whole"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/panel.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       847,
+       474,
+       952,
+       525
+      ],
+      "fill": [
+       22,
+       22,
+       25
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "rect",
+      "box": [
+       847,
+       714,
+       952,
+       765
+      ],
+      "fill": [
+       22,
+       22,
+       25
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "glow",
+      "at_xy": [
+       898,
+       408
+      ],
+      "r": 120,
+      "c": [
+       140,
+       220,
+       255
+      ],
+      "a": 0.55,
+      "sy": 0.5
+     },
+     {
+      "k": "focus",
+      "box": [
+       774,
+       782,
+       1028,
+       2805
+      ],
+      "at_word": 2,
+      "to_word": 11
+     },
+     {
+      "k": "flow",
+      "pts": [
+       [
+        901,
+        816
+       ],
+       [
+        901,
+        2720
+       ]
+      ],
+      "c": [
+       255,
+       170,
+       80
+      ],
+      "n": 10,
+      "speed": 420,
+      "size": 30,
+      "at_word": 2
+     },
+     {
+      "k": "tag",
+      "text": "BUS BARS",
+      "xy": [
+       1083,
+       1190
+      ],
+      "target": [
+       952,
+       1360
+      ],
+      "c": [
+       255,
+       170,
+       80
+      ],
+      "at_word": 3,
+      "size": 50,
+      "to_word": 11
+     },
+     {
+      "k": "focus",
+      "box": [
+       706,
+       1309,
+       1096,
+       1513
+      ],
+      "at_word": 11
+     },
+     {
+      "k": "tag",
+      "text": "ONE CIRCUIT",
+      "xy": [
+       1000,
+       1190
+      ],
+      "target": [
+       1054,
+       1411
+      ],
+      "c": "green",
+      "at_word": 14,
+      "size": 50
+     }
+    ]
+   },
+   "text": "From there, metal bus bars carry power down to every breaker. Each breaker feeds one circuit in your house.",
+   "voice": "From there, metal bus bars carry power down to every breaker. Each breaker feeds one circuit in your house.",
+   "cam": [
+    [
+     0,
+     0.49074074074074076,
+     0.3645833333333333,
+     1.3
+    ],
+    [
+     0.5,
+     0.49074074074074076,
+     0.5208333333333334,
+     1.25
+    ],
+    [
+     1,
+     0.49074074074074076,
+     0.4322916666666667,
+     1.6
+    ]
+   ],
+   "accent": [
+    "bus",
+    "one",
+    "circuit"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/panel.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       847,
+       474,
+       952,
+       525
+      ],
+      "fill": [
+       22,
+       22,
+       25
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "rect",
+      "box": [
+       847,
+       714,
+       952,
+       765
+      ],
+      "fill": [
+       22,
+       22,
+       25
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "glow",
+      "at_xy": [
+       898,
+       408
+      ],
+      "r": 120,
+      "c": [
+       140,
+       220,
+       255
+      ],
+      "a": 0.55,
+      "sy": 0.5
+     },
+     {
+      "k": "focus",
+      "box": [
+       706,
+       1309,
+       1096,
+       1513
+      ],
+      "at_word": 0
+     },
+     {
+      "k": "glow",
+      "at_xy": [
+       1020,
+       1411
+      ],
+      "r": 110,
+      "c": [
+       255,
+       60,
+       40
+      ],
+      "a": 0.75,
+      "sy": 0.7,
+      "at_word": 7
+     },
+     {
+      "k": "hud",
+      "text": "TRIPS BEFORE WIRES OVERHEAT",
+      "c": "yel",
+      "at_word": 11
+     }
+    ]
+   },
+   "text": "Pull too much current and the wire heats up. The breaker trips first, before that wire can start a fire.",
+   "voice": "Pull too much current and the wire heats up. The breaker trips first, before that wire can start a fire.",
+   "cam": [
+    [
+     0,
+     0.49074074074074076,
+     0.4322916666666667,
+     1.6
+    ],
+    [
+     1,
+     0.49074074074074076,
+     0.4322916666666667,
+     1.8
+    ]
+   ],
+   "accent": [
+    "too",
+    "much",
+    "first,"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/panel.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       847,
+       474,
+       952,
+       525
+      ],
+      "fill": [
+       22,
+       22,
+       25
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "rect",
+      "box": [
+       847,
+       714,
+       952,
+       765
+      ],
+      "fill": [
+       22,
+       22,
+       25
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "glow",
+      "at_xy": [
+       898,
+       408
+      ],
+      "r": 120,
+      "c": [
+       140,
+       220,
+       255
+      ],
+      "a": 0.55,
+      "sy": 0.5
+     },
+     {
+      "k": "hud",
+      "text": "KEEPS TRIPPING? CALL AN ELECTRICIAN",
+      "c": "hot",
+      "at_word": 0
+     }
+    ]
+   },
+   "text": "If one keeps tripping, don\u2019t just keep flipping it back on. That\u2019s the circuit telling you something\u2019s wrong.",
+   "voice": "If one keeps tripping, don't just keep flipping it back on. That's the circuit telling you something's wrong.",
+   "cam": [
+    [
+     0,
+     0.49074074074074076,
+     0.46875,
+     1.05
+    ],
+    [
+     1,
+     0.49074074074074076,
+     0.5,
+     1.0
+    ]
+   ],
+   "accent": [
+    "telling",
+    "wrong."
+   ]
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "Wiring, outlets, cords and lights start about 32,000 home fires a year.",
+   "voice": "Wiring, outlets, cords and lights start about thirty-two thousand home fires a year.",
+   "accent": [
+    "32,000"
+   ],
+   "count": "SOURCE: NFPA, 2015\u20132019 AVERAGE",
+   "size": 78,
+   "hold": 0.6
+  },
+  {
+   "type": "book",
+   "text": "That\u2019s one page of the manual your house didn\u2019t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Every outlet in your house runs through one gray box.",
+  "feel": "Most people only open it when the power\u2019s already out.",
+  "shows": "How a breaker panel works: main breaker, bus bars, one breaker per circuit, and why a breaker that keeps tripping is a warning, not a nuisance. Panel work is a job for a licensed electrician.",
+  "ask": "Is your panel labeled?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #electrical"
+ }
+}

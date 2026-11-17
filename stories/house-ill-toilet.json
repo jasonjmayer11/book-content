@@ -1,0 +1,437 @@
+{
+ "slug": "house-ill-toilet",
+ "book": "house",
+ "format": "X explainer (illustrated)",
+ "title": "How your toilet works, and why it keeps running",
+ "cover": "Why your toilet keeps running",
+ "cover_accent": [
+  "running"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  {
+   "img": "assets/book/toilet.png",
+   "scale": 1.7,
+   "els": [
+    {
+     "k": "focus",
+     "box": [
+      255,
+      323,
+      1572,
+      1624
+     ],
+     "at_word": 0
+    }
+   ]
+  }
+ ],
+ "hero_t": 2.0,
+ "scenes": [
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/toilet.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "overlay",
+      "img": "assets/book/toilet-cover.png",
+      "span": [
+       51,
+       1632
+      ],
+      "xs": [
+       238,
+       1836
+      ]
+     }
+    ]
+   },
+   "text": "You use it every day. But what actually happens when you push the handle?",
+   "voice": "You use it every day. But what actually happens when you push the handle?",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.46875,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.40625,
+     1.12
+    ]
+   ],
+   "accent": [
+    "handle?"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/toilet.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "overlay",
+      "img": "assets/book/toilet-cover.png",
+      "span": [
+       51,
+       1632
+      ],
+      "xs": [
+       238,
+       1836
+      ],
+      "wipe_word": 1,
+      "wipe_over": 1.4
+     }
+    ]
+   },
+   "text": "Let\u2019s take the lid off.",
+   "voice": "Let's take the lid off.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.40625,
+     1.12
+    ],
+    [
+     1,
+     0.5,
+     0.3229166666666667,
+     1.25
+    ]
+   ],
+   "accent": [
+    "off."
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/toilet.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "focus",
+      "box": [
+       340,
+       510,
+       1105,
+       1598
+      ],
+      "at_word": 4
+     },
+     {
+      "k": "tag",
+      "text": "FLAPPER",
+      "xy": [
+       1088,
+       1632
+      ],
+      "target": [
+       910,
+       1504
+      ],
+      "c": "yel",
+      "at_word": 8,
+      "size": 50
+     },
+     {
+      "k": "flow",
+      "pts": [
+       [
+        910,
+        1530
+       ],
+       [
+        910,
+        2006
+       ]
+      ],
+      "c": [
+       120,
+       190,
+       255
+      ],
+      "n": 6,
+      "speed": 380,
+      "size": 30,
+      "at_word": 13
+     }
+    ]
+   },
+   "text": "The handle pulls a chain that lifts the flapper, and the tank's water rushes into the bowl.",
+   "voice": "The handle pulls a chain that lifts the flapper, and the tank's water rushes into the bowl.",
+   "cam": [
+    [
+     0,
+     0.2777777777777778,
+     0.21875,
+     1.5
+    ],
+    [
+     0.35,
+     0.4166666666666667,
+     0.3385416666666667,
+     1.45
+    ],
+    [
+     1,
+     0.49537037037037035,
+     0.46875,
+     1.35
+    ]
+   ],
+   "accent": [
+    "flapper,",
+    "rushes"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/toilet.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "focus",
+      "box": [
+       510,
+       459,
+       799,
+       1241
+      ],
+      "at_word": 5
+     },
+     {
+      "k": "tag",
+      "text": "FILL VALVE",
+      "xy": [
+       792,
+       952
+      ],
+      "target": [
+       663,
+       884
+      ],
+      "c": [
+       120,
+       190,
+       255
+      ],
+      "at_word": 12,
+      "size": 50
+     },
+     {
+      "k": "flow",
+      "pts": [
+       [
+        660,
+        1224
+       ],
+       [
+        660,
+        561
+       ]
+      ],
+      "c": [
+       120,
+       190,
+       255
+      ],
+      "n": 6,
+      "speed": 300,
+      "size": 30,
+      "at_word": 15
+     }
+    ]
+   },
+   "text": "As the water drops, the float drops with it and opens the fill valve, which refills the tank.",
+   "voice": "As the water drops, the float drops with it and opens the fill valve, which refills the tank.",
+   "cam": [
+    [
+     0,
+     0.3888888888888889,
+     0.2916666666666667,
+     1.45
+    ],
+    [
+     1,
+     0.36574074074074076,
+     0.2708333333333333,
+     1.7
+    ]
+   ],
+   "accent": [
+    "float",
+    "fill",
+    "valve,"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/toilet.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "focus",
+      "box": [
+       1046,
+       425,
+       1232,
+       1530
+      ],
+      "at_word": 10
+     },
+     {
+      "k": "tag",
+      "text": "OVERFLOW TUBE",
+      "xy": [
+       571,
+       391
+      ],
+      "target": [
+       1105,
+       493
+      ],
+      "c": "green",
+      "at_word": 10,
+      "size": 50
+     },
+     {
+      "k": "flow",
+      "pts": [
+       [
+        1139,
+        493
+       ],
+       [
+        1139,
+        1496
+       ]
+      ],
+      "c": [
+       170,
+       220,
+       255
+      ],
+      "n": 7,
+      "speed": 360,
+      "size": 30,
+      "at_word": 13
+     }
+    ]
+   },
+   "text": "If the water gets too high, it spills into the overflow tube and down into the bowl, not onto your floor.",
+   "voice": "If the water gets too high, it spills into the overflow tube and down into the bowl, not onto your floor.",
+   "cam": [
+    [
+     0,
+     0.5555555555555556,
+     0.234375,
+     1.4
+    ],
+    [
+     1,
+     0.6157407407407407,
+     0.2916666666666667,
+     1.55
+    ]
+   ],
+   "accent": [
+    "overflow",
+    "floor."
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/toilet.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "focus",
+      "box": [
+       774,
+       1411,
+       1046,
+       1590
+      ],
+      "at_word": 0
+     },
+     {
+      "k": "hud",
+      "text": "RUNNING TOILET? CHECK THE FLAPPER",
+      "c": "green",
+      "at_word": 8
+     }
+    ]
+   },
+   "text": "When a toilet keeps running, it\u2019s usually a worn-out flapper. That\u2019s a cheap part you can swap yourself.",
+   "voice": "When a toilet keeps running, it's usually a worn-out flapper. That's a cheap part you can swap yourself.",
+   "cam": [
+    [
+     0,
+     0.49537037037037035,
+     0.453125,
+     1.6
+    ],
+    [
+     1,
+     0.49537037037037035,
+     0.4583333333333333,
+     1.8
+    ]
+   ],
+   "accent": [
+    "worn-out",
+    "cheap"
+   ]
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "A leaky toilet can waste about 200 gallons of water every single day.",
+   "voice": "A leaky toilet can waste about two hundred gallons of water, every single day.",
+   "accent": [
+    "200",
+    "gallons"
+   ],
+   "count": "SOURCE: EPA WATERSENSE",
+   "size": 78,
+   "hold": 0.6
+  },
+  {
+   "type": "book",
+   "text": "That\u2019s one page of the manual your house didn\u2019t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Ever wondered what actually happens when you flush?",
+  "feel": "A running toilet sounds harmless. Your water bill disagrees.",
+  "shows": "How a toilet tank works: handle, chain, flapper, fill valve, overflow tube. And the cheap part behind most running toilets.",
+  "ask": "Got one that won\u2019t stop running?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #plumbing101"
+ }
+}

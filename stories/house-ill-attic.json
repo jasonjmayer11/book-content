@@ -1,0 +1,604 @@
+{
+ "slug": "house-ill-attic",
+ "book": "house",
+ "format": "X explainer (illustrated)",
+ "title": "How your attic breathes",
+ "cover": "Your attic has to breathe",
+ "cover_accent": [
+  "breathe"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  {
+   "img": "assets/book/attic.png",
+   "scale": 1.7,
+   "els": [
+    {
+     "k": "flow",
+     "pts": [
+      [
+       170,
+       1785
+      ],
+      [
+       323,
+       1530
+      ],
+      [
+       731,
+       1190
+      ],
+      [
+       1003,
+       731
+      ],
+      [
+       1040,
+       408
+      ]
+     ],
+     "c": [
+      170,
+      220,
+      255
+     ],
+     "n": 9,
+     "speed": 380,
+     "size": 30,
+     "at_word": 0
+    },
+    {
+     "k": "flow",
+     "pts": [
+      [
+       1726,
+       1810
+      ],
+      [
+       1615,
+       1530
+      ],
+      [
+       1343,
+       1190
+      ],
+      [
+       1088,
+       731
+      ],
+      [
+       1051,
+       408
+      ]
+     ],
+     "c": [
+      170,
+      220,
+      255
+     ],
+     "n": 9,
+     "speed": 380,
+     "size": 30,
+     "at_word": 0
+    }
+   ]
+  }
+ ],
+ "hero_t": 2.0,
+ "scenes": [
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/attic.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "overlay",
+      "img": "assets/book/attic-cover.png",
+      "span": [
+       323,
+       2338
+      ],
+      "xs": [
+       0,
+       1836
+      ]
+     }
+    ]
+   },
+   "text": "From outside, it\u2019s just a roof. But the space under it decides how long that roof lasts.",
+   "voice": "From outside, it\u2019s just a roof. But the space under it decides how long that roof lasts.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.4270833333333333,
+     1.0
+    ],
+    [
+     1,
+     0.5185185185185185,
+     0.40625,
+     1.08
+    ]
+   ],
+   "accent": [
+    "how",
+    "long"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/attic.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "overlay",
+      "img": "assets/book/attic-cover.png",
+      "span": [
+       323,
+       2338
+      ],
+      "xs": [
+       0,
+       1836
+      ],
+      "wipe_word": 1,
+      "wipe_over": 1.6
+     }
+    ]
+   },
+   "text": "Here\u2019s what\u2019s happening up there.",
+   "voice": "Here's what's happening up there.",
+   "cam": [
+    [
+     0,
+     0.5185185185185185,
+     0.40625,
+     1.08
+    ],
+    [
+     1,
+     0.5,
+     0.4166666666666667,
+     1.0
+    ]
+   ],
+   "accent": [
+    "up",
+    "there."
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/attic.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "flow",
+      "pts": [
+       [
+        170,
+        1887
+       ],
+       [
+        170,
+        1632
+       ]
+      ],
+      "c": [
+       170,
+       220,
+       255
+      ],
+      "n": 4,
+      "speed": 260,
+      "size": 30,
+      "at_word": 3
+     },
+     {
+      "k": "focus",
+      "box": [
+       0,
+       1513,
+       408,
+       1836
+      ],
+      "at_word": 5
+     },
+     {
+      "k": "tag",
+      "text": "SOFFIT VENT",
+      "xy": [
+       437,
+       1904
+      ],
+      "target": [
+       187,
+       1683
+      ],
+      "c": [
+       170,
+       220,
+       255
+      ],
+      "at_word": 12,
+      "size": 50
+     }
+    ]
+   },
+   "text": "Cool outside air comes in low, through vents under the eaves called soffit vents.",
+   "voice": "Cool outside air comes in low, through vents under the eaves called soffit vents.",
+   "cam": [
+    [
+     0,
+     0.2777777777777778,
+     0.5104166666666666,
+     1.5
+    ],
+    [
+     1,
+     0.2037037037037037,
+     0.515625,
+     1.7
+    ]
+   ],
+   "accent": [
+    "soffit",
+    "vents."
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/attic.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "flow",
+      "pts": [
+       [
+        170,
+        1785
+       ],
+       [
+        323,
+        1530
+       ],
+       [
+        731,
+        1190
+       ],
+       [
+        1003,
+        731
+       ],
+       [
+        1040,
+        408
+       ]
+      ],
+      "c": [
+       170,
+       220,
+       255
+      ],
+      "n": 9,
+      "speed": 380,
+      "size": 30,
+      "at_word": 0
+     },
+     {
+      "k": "flow",
+      "pts": [
+       [
+        1726,
+        1810
+       ],
+       [
+        1615,
+        1530
+       ],
+       [
+        1343,
+        1190
+       ],
+       [
+        1088,
+        731
+       ],
+       [
+        1051,
+        408
+       ]
+      ],
+      "c": [
+       170,
+       220,
+       255
+      ],
+      "n": 9,
+      "speed": 380,
+      "size": 30,
+      "at_word": 0
+     },
+     {
+      "k": "focus",
+      "box": [
+       765,
+       289,
+       1343,
+       765
+      ],
+      "at_word": 10
+     },
+     {
+      "k": "tag",
+      "text": "RIDGE VENT",
+      "xy": [
+       520,
+       442
+      ],
+      "target": [
+       952,
+       510
+      ],
+      "c": [
+       170,
+       220,
+       255
+      ],
+      "at_word": 12,
+      "size": 50
+     }
+    ]
+   },
+   "text": "It warms up, rises, and carries heat and moisture out through the ridge vent at the very top.",
+   "voice": "It warms up, rises, and carries heat and moisture out through the ridge vent at the very top.",
+   "cam": [
+    [
+     0,
+     0.5185185185185185,
+     0.4270833333333333,
+     1.05
+    ],
+    [
+     0.6,
+     0.5694444444444444,
+     0.1875,
+     1.5
+    ],
+    [
+     1,
+     0.5694444444444444,
+     0.171875,
+     1.65
+    ]
+   ],
+   "accent": [
+    "rises,",
+    "ridge",
+    "vent"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/attic.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "flow",
+      "pts": [
+       [
+        170,
+        1785
+       ],
+       [
+        323,
+        1530
+       ],
+       [
+        731,
+        1190
+       ],
+       [
+        1003,
+        731
+       ],
+       [
+        1040,
+        408
+       ]
+      ],
+      "c": [
+       170,
+       220,
+       255
+      ],
+      "n": 9,
+      "speed": 380,
+      "size": 30,
+      "at_word": 0
+     },
+     {
+      "k": "flow",
+      "pts": [
+       [
+        1726,
+        1810
+       ],
+       [
+        1615,
+        1530
+       ],
+       [
+        1343,
+        1190
+       ],
+       [
+        1088,
+        731
+       ],
+       [
+        1051,
+        408
+       ]
+      ],
+      "c": [
+       170,
+       220,
+       255
+      ],
+      "n": 9,
+      "speed": 380,
+      "size": 30,
+      "at_word": 0
+     },
+     {
+      "k": "focus",
+      "box": [
+       0,
+       1862,
+       1836,
+       2329
+      ],
+      "at_word": 3
+     },
+     {
+      "k": "tag",
+      "text": "INSULATION",
+      "xy": [
+       299,
+       2414
+      ],
+      "target": [
+       714,
+       2091
+      ],
+      "c": [
+       255,
+       170,
+       190
+      ],
+      "at_word": 5,
+      "size": 50
+     },
+     {
+      "k": "glow",
+      "at_xy": [
+       918,
+       2465
+      ],
+      "r": 260,
+      "c": [
+       255,
+       150,
+       60
+      ],
+      "a": 0.45,
+      "sy": 0.35,
+      "at_word": 9
+     }
+    ]
+   },
+   "text": "Down on the attic floor, insulation keeps your home's heat downstairs, where you paid for it.",
+   "voice": "Down on the attic floor, insulation keeps your home's heat downstairs, where you paid for it.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.6145833333333334,
+     1.25
+    ],
+    [
+     1,
+     0.5,
+     0.6458333333333334,
+     1.4
+    ]
+   ],
+   "accent": [
+    "insulation",
+    "downstairs,"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/attic.png",
+    "scale": 1.7,
+    "els": [
+     {
+      "k": "hud",
+      "text": "BLOCKED VENTS = MOLD + ICE DAMS",
+      "c": "hot",
+      "at_word": 0
+     }
+    ]
+   },
+   "text": "Block those vents or skimp on insulation, and you get trapped moisture, mold, and ice dams.",
+   "voice": "Block those vents or skimp on insulation, and you get trapped moisture, mold, and ice dams.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.3958333333333333,
+     1.1
+    ],
+    [
+     1,
+     0.5,
+     0.4270833333333333,
+     1.0
+    ]
+   ],
+   "accent": [
+    "moisture,",
+    "mold,",
+    "ice",
+    "dams."
+   ]
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "Sealing air leaks and insulating the attic cuts heating and cooling costs by about 15% on average.",
+   "voice": "Sealing air leaks and insulating the attic cuts heating and cooling costs by about fifteen percent, on average.",
+   "accent": [
+    "15%"
+   ],
+   "count": "SOURCE: ENERGY STAR (EPA)",
+   "size": 78,
+   "hold": 0.6
+  },
+  {
+   "type": "book",
+   "text": "That\u2019s one page of the manual your house didn\u2019t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Your roof\u2019s lifespan is decided in a room you never go into.",
+  "feel": "Bad airflow up there shows up later as mold, ice dams and higher bills.",
+  "shows": "How attic ventilation works: soffit vents in, ridge vent out, insulation on the floor. Plus what happens when it\u2019s blocked.",
+  "ask": "Have you ever been up in yours?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #roofing"
+ }
+}
