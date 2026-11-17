@@ -417,8 +417,24 @@ def _c(v, default=LINE): return COL.get(v, default) if isinstance(v, str) else (
 def _p(e, lt):
     return ease_in_out(min(1.0, max(0.0, lt / max(0.05, e.get("over", 1.0)))))
 def _lerp(a, b, p): return [a[i] + (b[i] - a[i]) * p for i in range(len(a))]
+def _photo(path, scale):
+    key = ("photo", path, scale)
+    if key not in _cache:
+        import os
+        root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        src = Image.open(os.path.join(root, path)).convert("RGB")
+        src = src.resize((round(src.width * scale), round(src.height * scale)), Image.LANCZOS)
+        Hc = round(src.width * 16 / 9)                                  # pad to 9:16 so the whole artwork fits a wide shot
+        if Hc > src.height:
+            can = Image.new("RGB", (src.width, Hc), (6, 9, 14)); off = (Hc - src.height) // 2
+            m = Image.new("L", src.size, 255); md = ImageDraw.Draw(m)
+            for i in range(120): md.line([(0, i), (src.width, i)], fill=int(255 * i / 120)); md.line([(0, src.height - 1 - i), (src.width, src.height - 1 - i)], fill=int(255 * i / 120))
+            can.paste(src, (0, off), m); src = can
+        _cache[key] = src
+    return _cache[key].copy()
+
 def gx(state, t, dur, font):
-    im = _grid(); d = ImageDraw.Draw(im); hud, hud_c = None, YEL
+    im = _photo(state["img"], state.get("scale", 1.0)) if state.get("img") else _grid(); d = ImageDraw.Draw(im); hud, hud_c = None, YEL
     for e in state["els"]:
         at = e.get("at", 0.0)
         if at < 0: at = max(0.0, dur + at)                      # negative = seconds before the scene ends
@@ -502,6 +518,25 @@ def gx(state, t, dur, font):
             for i in range(e.get("n", 4)):
                 q = (t * 0.6 + i / e.get("n", 4)) % 1; x = x0 + (i - 1.5) * e.get("gap", 90) + 20 * math.sin(q * 7 + i); y = y0 - e.get("h", 300) * q
                 d.arc([x - 30, y - 30, x + 30, y + 30], 200, 340, fill=c, width=10)
+        elif k == "glow":                                           # additive light (flames, hot spots), flickering
+            x, y = e["at_xy"]; r = e["r"]; c3 = _c(e.get("c"), YEL)
+            a = e.get("a", .8) * (0.75 + 0.18 * math.sin(t * e.get("f", 9)) + 0.07 * math.sin(t * e.get("f", 9) * 2.7 + 1))
+            box = (int(x - 2 * r), int(y - 2 * r), int(x + 2 * r), int(y + 2 * r))
+            reg = im.crop(box); m = Image.new("L", reg.size, 0)
+            ImageDraw.Draw(m).ellipse([r, r * (2 - e.get("sy", 1.0)), 3 * r, r * (2 + e.get("sy", 1.0))], fill=int(255 * a))
+            m = m.filter(ImageFilter.GaussianBlur(r * .45)); light = Image.composite(Image.new("RGB", reg.size, c3), Image.new("RGB", reg.size, (0, 0, 0)), m)
+            from PIL import ImageChops
+            im.paste(ImageChops.screen(reg, light), box[:2]); d = ImageDraw.Draw(im)
+        elif k == "spots":                                          # deposits appearing over time (sediment, corrosion)
+            x0, y0, x1, y1 = e["box"]; n = int(e.get("n", 40) * p); rr = e.get("r", 6)
+            for i in range(n):
+                xx = x0 + (i * 7919 % 1000) / 1000 * (x1 - x0); yy = y0 + (i * 6271 % 1000) / 1000 * (y1 - y0); r_ = rr * (0.6 + (i % 5) / 6)
+                d.ellipse([xx - r_, yy - r_ * .8, xx + r_, yy + r_ * .8], fill=_c(e.get("c"), COL["brown"]) if i % 3 else _mix(_c(e.get("c"), COL["brown"]), .35, (0, 0, 0)))
+        elif k == "panel":                                          # callout box in the artwork's own style
+            x0, y0, x1, y1 = e["box"]; d.rounded_rectangle(e["box"], radius=e.get("rad", 22), fill=tuple(e.get("fill", (12, 20, 30))), outline=tuple(e.get("edge", (110, 160, 190))), width=e.get("w", 4))
+            _txt(im, font, e["title"], [x0 + 34, y0 + 26], (255, 255, 255), e.get("size", 46))
+            if e.get("sub"): _txt(im, font, e["sub"], [x0 + 34, y0 + 30 + e.get("size", 46) * 1.25], _c(e.get("c"), YEL), int(e.get("size", 46) * .78))
+            d = ImageDraw.Draw(im)
         elif k == "hatch":
             x0, y0, x1, y1 = e["box"]; sp = e.get("gap", 26)
             for i in range(int(-(y1 - y0)), int(x1 - x0), sp):

@@ -390,7 +390,53 @@ def sc_diagram(s, book, dur, speak):
         return f
     return frame
 
-SCENES = {"diagram": sc_diagram, "hook": sc_hook, "page": sc_page, "quote": sc_quote, "book": sc_book, "end": sc_end}
+def _grad():
+    g = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(g)
+    for y in range(H):
+        a = 0
+        if y > H * .55: a = int(235 * min(1, (y - H * .55) / (H * .25)))
+        if y < 300: a = max(a, int(150 * (1 - y / 300)))
+        d.line([(0, y), (W, y)], fill=(4, 6, 10, a))
+    return g
+PHOTO_GRAD = None
+def sc_photo(s, book, dur, speak):
+    """Full-frame illustrated artwork with a moving camera, overlays drawn in the artwork's own pixels, captions over a dark fade."""
+    global PHOTO_GRAD
+    from diagrams import gx
+    if PHOTO_GRAD is None: PHOTO_GRAD = _grad()
+    cam = s.get("cam") or [[0, .5, .5, 1.0], [1, .5, .5, 1.0]]
+    lab = pill(s.get("label", "HOW IT WORKS"), size=30)
+    caps = chunks(s["text"])
+    cap_l = [fit_block(c, F_DISP, 76, 960, 260, accent=s.get("accent", ()), lh=1.12) for c in caps]
+    spans = cap_spans(s, caps, speak); wt_ = word_times(s, speak)
+    cap_w0 = [sum(len(c.split()) for c in caps[:i]) for i in range(len(caps))]
+    huds = {}; s_t0 = s.get("t0", 0.0)
+    def cam_at(k):
+        for a, b in zip(cam, cam[1:]):
+            if k <= b[0]:
+                e = ease_in_out((k - a[0]) / max(1e-6, b[0] - a[0])); return [a[i] + (b[i] - a[i]) * e for i in (1, 2, 3)]
+        return cam[-1][1:]
+    def frame(t):
+        big, hud, hud_c = gx(s["state"], t + s_t0, dur + s_t0, F_SEMI)
+        cx, cy, z = cam_at(min(1.0, t / dur)); Wb, Hb = big.size
+        ch = Hb / z; cw = ch * W / H
+        if cw > Wb: cw = Wb; ch = cw * H / W
+        x = min(max(cx * Wb - cw / 2, 0), Wb - cw); y = min(max(cy * Hb - ch / 2, 0), Hb - ch)
+        f = big.resize((W, H), Image.BICUBIC, box=(x, y, x + cw, y + ch)).convert("RGBA"); f.alpha_composite(PHOTO_GRAD)
+        place(f, lab, CX, 120, 1.0)
+        if hud:
+            key = (hud, hud_c)
+            if key not in huds: huds[key] = pill(hud, size=32, fg=BLACK, bg=hud_c, padx=28, pady=16)
+            place(f, huds[key], CX, 200, 1.0)
+        for (c0, c1), blk, w0 in zip(spans, cap_l, cap_w0):
+            if c0 <= t < c1 or (blk is cap_l[-1] and t >= c1):
+                for j, (l, xx, yy) in enumerate(blk[2]):
+                    k = min(1.0, max(0.0, (t - (wt_[min(w0 + j, len(wt_) - 1)] - 0.06)) / 0.1)) if wt_ else 1.0
+                    f.alpha_composite(with_alpha(l, 0.3 + 0.7 * k), (int(CX + xx), int(1600 - blk[1] / 2 + yy - 32 * k * (1 - k))))
+        return f
+    return frame
+
+SCENES = {"photo": sc_photo, "diagram": sc_diagram, "hook": sc_hook, "page": sc_page, "quote": sc_quote, "book": sc_book, "end": sc_end}
 
 
 # ------------------------------------------------------------------ designed cover (grid thumbnail)
@@ -406,6 +452,7 @@ def make_cover(story, book):
     if story.get("hero"):
         from diagrams import DIAGRAMS
         hd, hs = story["hero"]; hs = story["scenes"][hs]["state"] if hd == "gx" else hs; hero = DIAGRAMS[hd](hs, story.get("hero_t", 2.0), 4.0, F_SEMI)[0]; hh = min(PH, 1640 - y - 20); hw = int(PW * hh / PH)
+        hw = int(hero.width * hh / hero.height) if hd == "gx" and story["scenes"][story["hero"][1]]["state"].get("img") else hw
         hero = rounded(hero.resize((hw, hh), Image.LANCZOS), 26)
         ImageDraw.Draw(hero).rounded_rectangle([1, 1, hw - 2, hh - 2], radius=26, outline=YELLOW + (255,), width=5)
         cv.alpha_composite(hero, (CX - hw // 2, y + 10))
