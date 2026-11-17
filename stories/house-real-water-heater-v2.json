@@ -1,0 +1,690 @@
+{
+ "slug": "house-real-water-heater-v2",
+ "book": "house",
+ "format": "X explainer (illustrated)",
+ "title": "How your water heater works, and what kills it",
+ "cover": "What kills a water heater",
+ "cover_accent": [
+  "kills"
+ ],
+ "cover_sub": "How your house works",
+ "hero": [
+  "gx",
+  0
+ ],
+ "hero_t": 2.0,
+ "scenes": [
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/wh-clean.png",
+    "scale": 1.5,
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       483,
+       2270,
+       615,
+       2334
+      ],
+      "fill": [
+       8,
+       13,
+       22
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "glow",
+      "at_xy": [
+       892,
+       2550
+      ],
+      "r": 150,
+      "c": [
+       255,
+       145,
+       35
+      ],
+      "a": 0.5,
+      "sy": 0.55
+     }
+    ]
+   },
+   "text": "Your water heater sits in a corner doing its job, until the day it doesn’t.",
+   "voice": "Your water heater sits in a corner doing its job, until the day it doesn't.",
+   "cam": [
+    [
+     0,
+     0.5,
+     0.5074626865671642,
+     1.0
+    ],
+    [
+     1,
+     0.5,
+     0.498134328358209,
+     1.12
+    ]
+   ],
+   "accent": [
+    "doesn’t."
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/wh-clean.png",
+    "scale": 1.5,
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       483,
+       2270,
+       615,
+       2334
+      ],
+      "fill": [
+       8,
+       13,
+       22
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "glow",
+      "at_xy": [
+       892,
+       2550
+      ],
+      "r": 150,
+      "c": [
+       255,
+       145,
+       35
+      ],
+      "a": 0.45,
+      "sy": 0.55
+     },
+     {
+      "k": "focus",
+      "box": [
+       960,
+       522,
+       1118,
+       2374
+      ],
+      "at_word": 0,
+      "to_word": 9
+     },
+     {
+      "k": "flow",
+      "pts": [
+       [
+        1038,
+        567
+       ],
+       [
+        1038,
+        2319
+       ],
+       [
+        960,
+        2340
+       ]
+      ],
+      "c": [
+       150,
+       210,
+       255
+      ],
+      "n": 9,
+      "speed": 520,
+      "size": 30,
+      "at_word": 0
+     },
+     {
+      "k": "tag",
+      "text": "COLD WATER IN",
+      "xy": [
+       1095,
+       912
+      ],
+      "target": [
+       1038,
+       957
+      ],
+      "c": [
+       150,
+       210,
+       255
+      ],
+      "at_word": 0,
+      "to_word": 9,
+      "size": 52
+     },
+     {
+      "k": "focus",
+      "box": [
+       690,
+       2427,
+       1110,
+       2652
+      ],
+      "at_word": 9,
+      "to_word": 13
+     },
+     {
+      "k": "glow",
+      "at_xy": [
+       892,
+       2550
+      ],
+      "r": 150,
+      "c": [
+       255,
+       145,
+       35
+      ],
+      "a": 0.95,
+      "sy": 0.55,
+      "at_word": 9
+     },
+     {
+      "k": "tag",
+      "text": "GAS BURNER",
+      "xy": [
+       1035,
+       2314
+      ],
+      "target": [
+       900,
+       2540
+      ],
+      "c": "hot",
+      "at_word": 10,
+      "to_word": 13,
+      "size": 52
+     },
+     {
+      "k": "focus",
+      "box": [
+       555,
+       477,
+       1200,
+       1302
+      ],
+      "at_word": 13
+     },
+     {
+      "k": "flow",
+      "pts": [
+       [
+        900,
+        2322
+       ],
+       [
+        848,
+        1662
+       ],
+       [
+        795,
+        1092
+       ],
+       [
+        783,
+        837
+       ],
+       [
+        772,
+        597
+       ],
+       [
+        705,
+        522
+       ]
+      ],
+      "c": [
+       255,
+       170,
+       70
+      ],
+      "n": 9,
+      "speed": 420,
+      "size": 30,
+      "at_word": 13
+     },
+     {
+      "k": "tag",
+      "text": "HOT WATER OUT",
+      "xy": [
+       840,
+       1122
+      ],
+      "target": [
+       772,
+       732
+      ],
+      "c": [
+       255,
+       170,
+       70
+      ],
+      "at_word": 15,
+      "size": 52
+     }
+    ]
+   },
+   "text": "Cold water goes down a tube to the bottom. A burner heats it, and the hot water rises to the top, ready for your shower.",
+   "voice": "Cold water goes down a tube to the bottom. A burner heats it, and the hot water rises to the top, ready for your shower.",
+   "cam": [
+    [
+     0,
+     0.572139303482587,
+     0.33955223880597013,
+     1.45
+    ],
+    [
+     0.3,
+     0.572139303482587,
+     0.5261194029850746,
+     1.45
+    ],
+    [
+     0.48,
+     0.5306799336650083,
+     0.6940298507462687,
+     1.55
+    ],
+    [
+     0.7,
+     0.48092868988391374,
+     0.4701492537313433,
+     1.35
+    ],
+    [
+     1,
+     0.46434494195688225,
+     0.29757462686567165,
+     1.45
+    ]
+   ],
+   "accent": [
+    "Cold",
+    "hot",
+    "rises"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/wh-clean.png",
+    "scale": 1.5,
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       483,
+       2270,
+       615,
+       2334
+      ],
+      "fill": [
+       8,
+       13,
+       22
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "glow",
+      "at_xy": [
+       892,
+       2550
+      ],
+      "r": 150,
+      "c": [
+       255,
+       145,
+       35
+      ],
+      "a": 0.6,
+      "sy": 0.55
+     },
+     {
+      "k": "focus",
+      "box": [
+       660,
+       2217,
+       1125,
+       2652
+      ],
+      "at_word": 3
+     },
+     {
+      "k": "spots",
+      "box": [
+       687,
+       2274,
+       1098,
+       2340
+      ],
+      "n": 300,
+      "r": 6,
+      "c": "brown",
+      "over": 3.5,
+      "at_word": 3
+     },
+     {
+      "k": "tag",
+      "text": "SEDIMENT",
+      "xy": [
+       1050,
+       2067
+      ],
+      "target": [
+       900,
+       2316
+      ],
+      "c": "brown",
+      "at_word": 3,
+      "size": 52
+     },
+     {
+      "k": "hud",
+      "text": "WORKS HARDER, RUNS LOUDER",
+      "c": "red",
+      "at_word": 13
+     }
+    ]
+   },
+   "text": "Over the years, sediment settles at the bottom. It makes the heater work harder, and rumble.",
+   "voice": "Over the years, sediment settles at the bottom. It makes the heater work harder, and rumble.",
+   "cam": [
+    [
+     0,
+     0.48092868988391374,
+     0.5634328358208955,
+     1.25
+    ],
+    [
+     1,
+     0.4975124378109453,
+     0.6940298507462687,
+     1.75
+    ]
+   ],
+   "accent": [
+    "sediment"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/wh-clean.png",
+    "scale": 1.5,
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       483,
+       2270,
+       615,
+       2334
+      ],
+      "fill": [
+       8,
+       13,
+       22
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "glow",
+      "at_xy": [
+       892,
+       2550
+      ],
+      "r": 150,
+      "c": [
+       255,
+       145,
+       35
+      ],
+      "a": 0.45,
+      "sy": 0.55
+     },
+     {
+      "k": "spots",
+      "box": [
+       687,
+       2274,
+       1098,
+       2340
+      ],
+      "n": 300,
+      "r": 6,
+      "c": "brown",
+      "over": 0.01
+     },
+     {
+      "k": "focus",
+      "box": [
+       848,
+       882,
+       975,
+       2337
+      ],
+      "at_word": 2
+     },
+     {
+      "k": "spots",
+      "box": [
+       897,
+       972,
+       921,
+       2262
+      ],
+      "n": 90,
+      "r": 7,
+      "c": "brown",
+      "over": 4,
+      "at_word": 4
+     },
+     {
+      "k": "tag",
+      "text": "ANODE ROD",
+      "xy": [
+       1035,
+       1302
+      ],
+      "target": [
+       909,
+       1392
+      ],
+      "at_word": 3,
+      "size": 52
+     },
+     {
+      "k": "hud",
+      "text": "HAVE IT CHECKED EVERY FEW YEARS",
+      "c": "green",
+      "at_word": 13
+     }
+    ]
+   },
+   "text": "Inside, a metal rod sacrifices itself so the tank doesn’t rust. Having it checked every few years can add years to the tank.",
+   "voice": "Inside, a metal rod sacrifices itself so the tank doesn't rust. Having it checked every few years can add years to the tank.",
+   "cam": [
+    [
+     0,
+     0.4975124378109453,
+     0.6940298507462687,
+     1.75
+    ],
+    [
+     0.3,
+     0.5306799336650083,
+     0.4701492537313433,
+     1.4
+    ],
+    [
+     1,
+     0.5306799336650083,
+     0.4701492537313433,
+     1.5
+    ]
+   ],
+   "accent": [
+    "rod"
+   ]
+  },
+  {
+   "type": "photo",
+   "state": {
+    "img": "assets/book/wh-clean.png",
+    "scale": 1.5,
+    "els": [
+     {
+      "k": "rect",
+      "box": [
+       483,
+       2270,
+       615,
+       2334
+      ],
+      "fill": [
+       8,
+       13,
+       22
+      ],
+      "w": 0,
+      "shadow": false
+     },
+     {
+      "k": "glow",
+      "at_xy": [
+       892,
+       2550
+      ],
+      "r": 150,
+      "c": [
+       255,
+       145,
+       35
+      ],
+      "a": 0.45,
+      "sy": 0.55
+     },
+     {
+      "k": "spots",
+      "box": [
+       687,
+       2274,
+       1098,
+       2340
+      ],
+      "n": 300,
+      "r": 6,
+      "c": "brown",
+      "over": 0.01
+     },
+     {
+      "k": "hud",
+      "text": "TYPICAL LIFE: 8 TO 12 YEARS",
+      "c": "yel",
+      "at_word": 3
+     },
+     {
+      "k": "focus",
+      "box": [
+       660,
+       2187,
+       1140,
+       2667
+      ],
+      "at_word": 14
+     },
+     {
+      "k": "hud",
+      "text": "FLUSH A FEW GALLONS YEARLY",
+      "c": "green",
+      "at_word": 14
+     }
+    ]
+   },
+   "text": "Tanks commonly last 8 to 12 years. Find the date on the sticker, and drain a few gallons from the bottom once a year.",
+   "voice": "Tanks commonly last eight to twelve years. Find the date on the sticker, and drain a few gallons from the bottom once a year.",
+   "cam": [
+    [
+     0,
+     0.5306799336650083,
+     0.4701492537313433,
+     1.5
+    ],
+    [
+     0.55,
+     0.5,
+     0.5074626865671642,
+     1.0
+    ],
+    [
+     1,
+     0.4975124378109453,
+     0.6007462686567164,
+     1.25
+    ]
+   ],
+   "accent": [
+    "8",
+    "12",
+    "years."
+   ],
+   "label": "KEEP IT ALIVE",
+   "hold": 0.6
+  },
+  {
+   "type": "quote",
+   "label": "WHY IT MATTERS",
+   "text": "When a tank finally rusts through, the water ends up on your floor. Know its age, and you replace it on your schedule.",
+   "voice": "When a tank finally rusts through, the water ends up on your floor. Know its age, and you replace it on your schedule, not its schedule.",
+   "accent": [
+    "your",
+    "schedule."
+   ],
+   "size": 80,
+   "hold": 0.5
+  },
+  {
+   "type": "book",
+   "text": "That’s one page of the manual your house didn’t come with",
+   "accent": [
+    "manual"
+   ],
+   "size": 96,
+   "book_h": 700,
+   "chips": [
+    "34 CHAPTERS",
+    "PAPERBACK + KINDLE"
+   ],
+   "voice": "That's one page of the manual your house didn't come with. If this was news to you, the rest of the book will be too."
+  },
+  {
+   "type": "end",
+   "dur": 3.6
+  }
+ ],
+ "caption": {
+  "hook": "Your water heater is aging quietly in a corner.",
+  "feel": "It works until the day it doesn’t, and that day usually involves water on the floor.",
+  "shows": "How a tank heater works, what sediment and rust do to it, and the yearly flush. If yours is old and has never been flushed, ask a plumber first.",
+  "ask": "Do you know how old yours is?",
+  "tags": "#firsttimehomebuyer #newhomeowner #howitworks #homeownertips #homemaintenance #engineering #plumbing101"
+ }
+}

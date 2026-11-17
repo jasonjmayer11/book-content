@@ -417,7 +417,13 @@ def sc_photo(s, book, dur, speak):
                 e = ease_in_out((k - a[0]) / max(1e-6, b[0] - a[0])); return [a[i] + (b[i] - a[i]) * e for i in (1, 2, 3)]
         return cam[-1][1:]
     def frame(t):
-        big, hud, hud_c = gx(s["state"], t + s_t0, dur + s_t0, F_SEMI)
+        if "_st" not in s:                                           # labels/spotlights can fire on a spoken word
+            st = json.loads(json.dumps(s["state"])); w_ = word_times(s, speak)
+            for e in st["els"]:
+                if "at_word" in e and w_: e["at"] = w_[min(e.pop("at_word"), len(w_) - 1)] - 0.1
+                if "to_word" in e and w_: e["to"] = w_[min(e.pop("to_word"), len(w_) - 1)] - 0.1
+            s["_st"] = st
+        big, hud, hud_c = gx(s["_st"], t + s_t0, dur + s_t0, F_SEMI)
         cx, cy, z = cam_at(min(1.0, t / dur)); Wb, Hb = big.size
         ch = Hb / z; cw = ch * W / H
         if cw > Wb: cw = Wb; ch = cw * H / W

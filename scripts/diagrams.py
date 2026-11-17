@@ -2,7 +2,7 @@
 Drawn at 2x so the camera can push in on the part being talked about and stay sharp."""
 import math
 from PIL import Image, ImageDraw, ImageFilter
-from reelkit import text_layer, ease_in_out, ease_out
+from reelkit import text_layer, ease_in_out, ease_out, with_alpha
 
 NAVY, GRID, LINE, WATER, GAS, YEL = (10, 22, 40), (24, 44, 74), (252, 238, 201), (58, 160, 255), (170, 220, 60), (252, 211, 3)
 DW, DH = 1840, 1760
@@ -537,6 +537,38 @@ def gx(state, t, dur, font):
             _txt(im, font, e["title"], [x0 + 34, y0 + 26], (255, 255, 255), e.get("size", 46))
             if e.get("sub"): _txt(im, font, e["sub"], [x0 + 34, y0 + 30 + e.get("size", 46) * 1.25], _c(e.get("c"), YEL), int(e.get("size", 46) * .78))
             d = ImageDraw.Draw(im)
+        elif k == "focus":                                          # spotlight: dim everything except the part being talked about
+            x0, y0, x1, y1 = e["box"]; a = e.get("dim", .68) * p
+            if "to" in e: a *= min(1.0, max(0.0, (e["to"] - t) / .3))
+            if a > .01:
+                sc_ = 8; m = Image.new("L", (im.width // sc_, im.height // sc_), 0)
+                ImageDraw.Draw(m).rounded_rectangle([x0 / sc_, y0 / sc_, x1 / sc_, y1 / sc_], radius=e.get("rad", 60) / sc_, fill=255)
+                m = m.filter(ImageFilter.GaussianBlur(e.get("soft", 40) / sc_)).resize(im.size, Image.BILINEAR)
+                dark = Image.blend(im, Image.new("RGB", im.size, (0, 0, 0)), a)
+                im = Image.composite(im, dark, m); d = ImageDraw.Draw(im)
+        elif k == "flow":                                           # chevrons travelling along a path: shows direction
+            path = [tuple(q) for q in e["pts"]]; Lp = _len(path); n = e.get("n", 8); sz = e.get("size", 26); c3 = _c(e.get("c"))
+            for i in range(n):
+                s0 = (t * e.get("speed", 300) + i * Lp / n) % Lp; x, y = _along(path, s0); x2, y2 = _along(path, min(Lp, s0 + 4))
+                ang = math.atan2(y2 - y, x2 - x); ca, sa = math.cos(ang), math.sin(ang)
+                fade = min(1.0, s0 / 60, (Lp - s0) / 60)
+                pts_ = [(x + ca * sz - 0, y + sa * sz), (x - ca * sz * .4 - sa * sz, y - sa * sz * .4 + ca * sz), (x, y), (x - ca * sz * .4 + sa * sz, y - sa * sz * .4 - ca * sz)]
+                col = tuple(int(c3[j] * fade + 0 * (1 - fade)) for j in range(3))
+                d.polygon(pts_, fill=col)
+        elif k == "tag":                                            # one clean label: slides in, draws its leader line, pulses on the target
+            tx, ty = e["target"]; lx, ly = e["xy"]; q = ease_out(min(1.0, lt / .35))
+            if "to" in e: q *= min(1.0, max(0.0, (e["to"] - t) / .25))
+            if q > .02:
+                tl = text_layer(e["text"], font, e.get("size", 64), (255, 255, 255), tracking=0.06)
+                bw, bh = tl.width + 90, tl.height + 50; side = 1 if lx < tx else -1
+                bx = lx - (1 - q) * 60 * side; ex, ey = (bx + bw, ly + bh / 2) if side > 0 else (bx, ly + bh / 2)
+                lp = min(1.0, max(0.0, (lt - .15) / .35))
+                if lp > 0: d.line([(ex, ey), (ex + (tx - ex) * lp, ey + (ty - ey) * lp)], fill=_c(e.get("c"), YEL), width=8)
+                if lp >= 1:
+                    r = 22 + 8 * math.sin(t * 6); d.ellipse([tx - r, ty - r, tx + r, ty + r], outline=_c(e.get("c"), YEL), width=8); d.ellipse([tx - 10, ty - 10, tx + 10, ty + 10], fill=_c(e.get("c"), YEL))
+                box = Image.new("RGBA", (int(bw), int(bh)), (0, 0, 0, 0)); bd = ImageDraw.Draw(box)
+                bd.rounded_rectangle([0, 0, bw - 1, bh - 1], radius=int(bh / 2), fill=(10, 14, 22, int(235 * q)), outline=_c(e.get("c"), YEL) + (int(255 * q),), width=5)
+                box.alpha_composite(with_alpha(tl, q), (45, 25)); im.paste(box, (int(bx), int(ly)), box); d = ImageDraw.Draw(im)
         elif k == "hatch":
             x0, y0, x1, y1 = e["box"]; sp = e.get("gap", 26)
             for i in range(int(-(y1 - y0)), int(x1 - x0), sp):
