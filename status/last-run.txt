@@ -1,17 +1,12 @@
-Tue Nov 17 21:38:47 UTC 2026
+Tue Nov 17 21:40:43 UTC 2026
 scheduled for 2026-11-19T00:00:00Z
-posting house-real-water-heater-v3.mp4 to ['instagram', 'facebook'] as 'booksbyjason'
+posting house-real-water-heater-v3.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
 cover: media/house-real-water-heater-v3/house-real-water-heater-v3-cover.jpg
-HTTP 400
+HTTP 202
 {
-  "success": false,
-  "message": "Username not associated with any profile",
-  "error_code": "profile_not_found",
-  "available_profiles": [
-    "dealcaddie",
-    "AllTheShitBooks"
-  ],
-  "next_step": "`user` must be the name of one of your Upload-Post profiles, not a social handle. Yours: dealcaddie, AllTheShitBooks. GET /api/uploadposts/users lists them with their connected accounts."
+  "success": true,
+  "job_id": "55371d95e24b460a96e9dc2e2164cec4",
+  "scheduled_date": "2026-11-19T00:00:00+00:00",
+  "request_id": "house-real-water-heater-v3"
 }
-Upload-Post rejected the post — see the response above
-FAILED house-real-water-heater-v3
+scheduled house-real-water-heater-v3 2026-11-19T00:00:00Z
