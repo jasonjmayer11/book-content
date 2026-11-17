@@ -1,12 +1,287 @@
-Tue Nov 17 21:40:43 UTC 2026
-scheduled for 2026-11-19T00:00:00Z
-posting house-real-water-heater-v3.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
-cover: media/house-real-water-heater-v3/house-real-water-heater-v3-cover.jpg
+Tue Nov 17 21:46:27 UTC 2026
+scheduled for 2026-11-20T00:00:00Z
+posting house-x-how-it-works-shutoff.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-shutoff/house-x-how-it-works-shutoff-cover.jpg
 HTTP 202
 {
   "success": true,
-  "job_id": "55371d95e24b460a96e9dc2e2164cec4",
-  "scheduled_date": "2026-11-19T00:00:00+00:00",
-  "request_id": "house-real-water-heater-v3"
+  "job_id": "35695a45a2454f0c893f91b830896947",
+  "scheduled_date": "2026-11-20T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-shutoff"
 }
-scheduled house-real-water-heater-v3 2026-11-19T00:00:00Z
+scheduled for 2026-11-21T00:00:00Z
+posting house-ill-furnace.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-ill-furnace/house-ill-furnace-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "2d501f07a6de4a9abeb45c67a45980bf",
+  "scheduled_date": "2026-11-21T00:00:00+00:00",
+  "request_id": "house-ill-furnace"
+}
+scheduled for 2026-11-22T00:00:00Z
+posting house-x-how-it-works-ptrap.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-ptrap/house-x-how-it-works-ptrap-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "01cfddcfa94e4485ad2166ec6725c604",
+  "scheduled_date": "2026-11-22T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-ptrap"
+}
+scheduled for 2026-11-23T00:00:00Z
+posting house-ill-panel.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-ill-panel/house-ill-panel-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "9304b3880e7042449058e34128314173",
+  "scheduled_date": "2026-11-23T00:00:00+00:00",
+  "request_id": "house-ill-panel"
+}
+scheduled for 2026-11-24T00:00:00Z
+posting house-x-how-it-works-gfci.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-gfci/house-x-how-it-works-gfci-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "3d3bbbf5f8ab4b2ab8d3f959bd06ecfe",
+  "scheduled_date": "2026-11-24T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-gfci"
+}
+scheduled for 2026-11-25T00:00:00Z
+posting house-ill-toilet.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-ill-toilet/house-ill-toilet-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "5cac1014b4034cfebe2173d09a9314f2",
+  "scheduled_date": "2026-11-25T00:00:00+00:00",
+  "request_id": "house-ill-toilet"
+}
+scheduled for 2026-11-26T00:00:00Z
+posting house-x-how-it-works-frozen-pipes.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-frozen-pipes/house-x-how-it-works-frozen-pipes-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "003557a5fe1f4e83ae0496c523001e60",
+  "scheduled_date": "2026-11-26T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-frozen-pipes"
+}
+scheduled for 2026-11-27T00:00:00Z
+posting house-ill-attic.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-ill-attic/house-ill-attic-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "ddd967d6565e4edf935b2c1dfca22ac2",
+  "scheduled_date": "2026-11-27T00:00:00+00:00",
+  "request_id": "house-ill-attic"
+}
+scheduled for 2026-11-28T00:00:00Z
+posting house-x-how-it-works-dryer-vent.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-dryer-vent/house-x-how-it-works-dryer-vent-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "1729aec0c63f48188f6d2f1a4d90e67a",
+  "scheduled_date": "2026-11-28T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-dryer-vent"
+}
+scheduled for 2026-11-29T00:00:00Z
+posting house-ill-septic.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-ill-septic/house-ill-septic-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "91763509a2594e1b9112bb1fd58ad7d8",
+  "scheduled_date": "2026-11-29T00:00:00+00:00",
+  "request_id": "house-ill-septic"
+}
+scheduled for 2026-11-30T00:00:00Z
+posting house-x-how-it-works-filter.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-filter/house-x-how-it-works-filter-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "1a67dbc9e2ab42faad6bd32926c08b1a",
+  "scheduled_date": "2026-11-30T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-filter"
+}
+scheduled for 2026-12-01T00:00:00Z
+posting house-x-how-it-works-gutters.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-gutters/house-x-how-it-works-gutters-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "02402dbdcb2b45f3be7c4483c5c34345",
+  "scheduled_date": "2026-12-01T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-gutters"
+}
+scheduled for 2026-12-02T00:00:00Z
+posting house-x-how-it-works-ice-dams.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-ice-dams/house-x-how-it-works-ice-dams-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "cfcd19afdb784cb1b8c12a8e982280ff",
+  "scheduled_date": "2026-12-02T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-ice-dams"
+}
+scheduled for 2026-12-03T00:00:00Z
+posting house-x-how-it-works-alarm-dates.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-alarm-dates/house-x-how-it-works-alarm-dates-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "313e4b5824be4ed1b45fcd2b76091fe0",
+  "scheduled_date": "2026-12-03T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-alarm-dates"
+}
+scheduled for 2026-12-04T00:00:00Z
+posting house-x-how-it-works-sump-pump.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-sump-pump/house-x-how-it-works-sump-pump-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "81a04107848e419e8302e23cf52c56d5",
+  "scheduled_date": "2026-12-04T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-sump-pump"
+}
+scheduled for 2026-12-05T00:00:00Z
+posting house-x-how-it-works-radon.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-radon/house-x-how-it-works-radon-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "95d47f590e694187a343f321528880b0",
+  "scheduled_date": "2026-12-05T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-radon"
+}
+scheduled for 2026-12-06T00:00:00Z
+posting house-x-how-it-works-main-line.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-main-line/house-x-how-it-works-main-line-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "df8a16a6d95a45549c79124dfba524b0",
+  "scheduled_date": "2026-12-06T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-main-line"
+}
+scheduled for 2026-12-07T00:00:00Z
+posting house-x-how-it-works-washer-hoses.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-washer-hoses/house-x-how-it-works-washer-hoses-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "e3bf48736dea46dda33005ad4ba9ad0b",
+  "scheduled_date": "2026-12-07T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-washer-hoses"
+}
+scheduled for 2026-12-08T00:00:00Z
+posting house-x-how-it-works-ac.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-ac/house-x-how-it-works-ac-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "52e568ff340b4329a64bdfd1e9bf43a3",
+  "scheduled_date": "2026-12-08T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-ac"
+}
+scheduled for 2026-12-09T00:00:00Z
+posting house-x-how-it-works-heat-loss.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-heat-loss/house-x-how-it-works-heat-loss-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "67c9dda55c294235b10ebfde934bce82",
+  "scheduled_date": "2026-12-09T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-heat-loss"
+}
+scheduled for 2026-12-10T00:00:00Z
+posting house-x-how-it-works-garage-door.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-garage-door/house-x-how-it-works-garage-door-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "a3fd549993964fc39fe94f0077c0c4ee",
+  "scheduled_date": "2026-12-10T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-garage-door"
+}
+scheduled for 2026-12-11T00:00:00Z
+posting house-x-how-it-works-four-ages.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-four-ages/house-x-how-it-works-four-ages-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "b2e4f615c5aa4e61b8d7d2dfa81dc83f",
+  "scheduled_date": "2026-12-11T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-four-ages"
+}
+scheduled for 2026-12-12T00:00:00Z
+posting house-x-how-it-works-escrow.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-escrow/house-x-how-it-works-escrow-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "698bd1bce2a74f6a89b0c93b68009be1",
+  "scheduled_date": "2026-12-12T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-escrow"
+}
+scheduled for 2026-12-13T00:00:00Z
+posting house-x-how-it-works-insurance-gaps.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-insurance-gaps/house-x-how-it-works-insurance-gaps-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "cf83a88ba5ad4f0cb1272485cf8fe6fa",
+  "scheduled_date": "2026-12-13T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-insurance-gaps"
+}
+scheduled for 2026-12-14T00:00:00Z
+posting house-x-how-it-works-equity.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-equity/house-x-how-it-works-equity-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "07b02ecdb43f45ebbd1e58d06dccbb08",
+  "scheduled_date": "2026-12-14T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-equity"
+}
+scheduled for 2026-12-15T00:00:00Z
+posting house-x-how-it-works-repair-fund.mp4 to ['instagram', 'facebook'] as 'AllTheShitBooks'
+cover: media/house-x-how-it-works-repair-fund/house-x-how-it-works-repair-fund-cover.jpg
+HTTP 202
+{
+  "success": true,
+  "job_id": "777705a2931348afa6ab904bb3ed0776",
+  "scheduled_date": "2026-12-15T00:00:00+00:00",
+  "request_id": "house-x-how-it-works-repair-fund"
+}
+scheduled house-x-how-it-works-shutoff 2026-11-20T00:00:00Z
+scheduled house-ill-furnace 2026-11-21T00:00:00Z
+scheduled house-x-how-it-works-ptrap 2026-11-22T00:00:00Z
+scheduled house-ill-panel 2026-11-23T00:00:00Z
+scheduled house-x-how-it-works-gfci 2026-11-24T00:00:00Z
+scheduled house-ill-toilet 2026-11-25T00:00:00Z
+scheduled house-x-how-it-works-frozen-pipes 2026-11-26T00:00:00Z
+scheduled house-ill-attic 2026-11-27T00:00:00Z
+scheduled house-x-how-it-works-dryer-vent 2026-11-28T00:00:00Z
+scheduled house-ill-septic 2026-11-29T00:00:00Z
+scheduled house-x-how-it-works-filter 2026-11-30T00:00:00Z
+scheduled house-x-how-it-works-gutters 2026-12-01T00:00:00Z
+scheduled house-x-how-it-works-ice-dams 2026-12-02T00:00:00Z
+scheduled house-x-how-it-works-alarm-dates 2026-12-03T00:00:00Z
+scheduled house-x-how-it-works-sump-pump 2026-12-04T00:00:00Z
+scheduled house-x-how-it-works-radon 2026-12-05T00:00:00Z
+scheduled house-x-how-it-works-main-line 2026-12-06T00:00:00Z
+scheduled house-x-how-it-works-washer-hoses 2026-12-07T00:00:00Z
+scheduled house-x-how-it-works-ac 2026-12-08T00:00:00Z
+scheduled house-x-how-it-works-heat-loss 2026-12-09T00:00:00Z
+scheduled house-x-how-it-works-garage-door 2026-12-10T00:00:00Z
+scheduled house-x-how-it-works-four-ages 2026-12-11T00:00:00Z
+scheduled house-x-how-it-works-escrow 2026-12-12T00:00:00Z
+scheduled house-x-how-it-works-insurance-gaps 2026-12-13T00:00:00Z
+scheduled house-x-how-it-works-equity 2026-12-14T00:00:00Z
+scheduled house-x-how-it-works-repair-fund 2026-12-15T00:00:00Z
