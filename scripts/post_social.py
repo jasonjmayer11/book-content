@@ -17,6 +17,8 @@ key = os.environ.get("UPLOAD_POST_API_KEY")
 if not key:
     sys.exit("UPLOAD_POST_API_KEY secret is missing — add it in repo Settings → Secrets → Actions")
 user = os.environ.get("UPLOAD_POST_USER") or "booksbyjason"
+if "dealcaddie" in user.lower():
+    sys.exit(f"Refusing to post: UPLOAD_POST_USER is '{user}', which looks like the DealCaddie profile. Book reels must go to the books profile.")
 platforms = [p.strip() for p in (os.environ.get("POST_PLATFORMS") or "instagram,facebook,youtube").split(",") if p.strip()]
 idem = os.environ.get("IDEMPOTENCY_KEY") or os.path.basename(video)
 
