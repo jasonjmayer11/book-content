@@ -433,6 +433,16 @@ def _photo(path, scale):
         _cache[key] = src
     return _cache[key].copy()
 
+def _overlay(path, scale, size):
+    key = ("ov", path, scale, size)
+    if key not in _cache:
+        import os
+        root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        src = Image.open(os.path.join(root, path)).convert("RGBA")
+        src = src.resize((round(src.width * scale), round(src.height * scale)), Image.LANCZOS)
+        can = Image.new("RGBA", size, (0, 0, 0, 0)); can.alpha_composite(src, (0, (size[1] - src.height) // 2)); _cache[key] = can
+    return _cache[key]
+
 def gx(state, t, dur, font):
     im = _photo(state["img"], state.get("scale", 1.0)) if state.get("img") else _grid(); d = ImageDraw.Draw(im); hud, hud_c = None, YEL
     for e in state["els"]:
@@ -441,7 +451,20 @@ def gx(state, t, dur, font):
         lt = t - at
         if lt < 0 or ("to" in e and t > e["to"]): continue
         k = e["k"]; c = _c(e.get("c")); p = _p(e, lt)
-        if k == "line":
+        if k == "overlay":                                         # a layer over the artwork (closed shell); "wipe" peels it off top-to-bottom with a scan line
+            ov = _overlay(e["img"], state.get("scale", 1.0), im.size); wp = 0.0
+            if "wipe" in e: wp = ease_in_out(min(1.0, max(0.0, (t - e["wipe"]) / e.get("wipe_over", 1.4))))
+            y0, y1 = e.get("span", [0, im.height]); yw = int(y0 + (y1 - y0) * wp)
+            if wp < 1:
+                if wp > 0: ov = ov.copy(); ov.paste((0, 0, 0, 0), (0, 0, im.width, yw))
+                im = im.convert("RGBA"); im.alpha_composite(ov); im = im.convert("RGB")
+                if 0 < wp:
+                    gl = Image.new("RGBA", im.size, (0, 0, 0, 0)); gd = ImageDraw.Draw(gl); x0_, x1_ = e.get("xs", [0, im.width])
+                    for i in range(22): gd.line([(x0_, yw - i), (x1_, yw - i)], fill=(120, 220, 255, int(150 * (1 - i / 22) ** 2)))
+                    gd.line([(x0_, yw), (x1_, yw)], fill=(220, 250, 255, 255), width=6)
+                    im = im.convert("RGBA"); im.alpha_composite(gl); im = im.convert("RGB")
+                d = ImageDraw.Draw(im)
+        elif k == "line":
             pts = [tuple(q) for q in e["pts"]]
             if e.get("draw"): pts = _upto(pts, _len(pts) * min(1.0, lt / e["draw"]))
             if len(pts) > 1: d.line(pts, fill=c, width=e.get("w", 12), joint="curve")

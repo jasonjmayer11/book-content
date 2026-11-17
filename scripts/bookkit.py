@@ -422,6 +422,7 @@ def sc_photo(s, book, dur, speak):
             for e in st["els"]:
                 if "at_word" in e and w_: e["at"] = w_[min(e.pop("at_word"), len(w_) - 1)] - 0.1
                 if "to_word" in e and w_: e["to"] = w_[min(e.pop("to_word"), len(w_) - 1)] - 0.1
+                if "wipe_word" in e and w_: e["wipe"] = w_[min(e.pop("wipe_word"), len(w_) - 1)] - 0.05
             s["_st"] = st
         big, hud, hud_c = gx(s["_st"], t + s_t0, dur + s_t0, F_SEMI)
         cx, cy, z = cam_at(min(1.0, t / dur)); Wb, Hb = big.size
@@ -457,8 +458,8 @@ def make_cover(story, book):
         cv.alpha_composite(st, (CX - st.width // 2, y)); y += st.height + 30
     if story.get("hero"):
         from diagrams import DIAGRAMS
-        hd, hs = story["hero"]; hs = story["scenes"][hs]["state"] if hd == "gx" else hs; hero = DIAGRAMS[hd](hs, story.get("hero_t", 2.0), 4.0, F_SEMI)[0]; hh = min(PH, 1640 - y - 20); hw = int(PW * hh / PH)
-        hw = int(hero.width * hh / hero.height) if hd == "gx" and story["scenes"][story["hero"][1]]["state"].get("img") else hw
+        hd, hs = story["hero"]; hs = (hs if isinstance(hs, dict) else story["scenes"][hs]["state"]) if hd == "gx" else hs; hero = DIAGRAMS[hd](hs, story.get("hero_t", 2.0), 4.0, F_SEMI)[0]; hh = min(PH, 1640 - y - 20); hw = int(PW * hh / PH)
+        hw = int(hero.width * hh / hero.height) if hd == "gx" and hs.get("img") else hw
         hero = rounded(hero.resize((hw, hh), Image.LANCZOS), 26)
         ImageDraw.Draw(hero).rounded_rectangle([1, 1, hw - 2, hh - 2], radius=26, outline=YELLOW + (255,), width=5)
         cv.alpha_composite(hero, (CX - hw // 2, y + 10))
