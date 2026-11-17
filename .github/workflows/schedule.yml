@@ -14,6 +14,8 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with: {ref: media, path: media}
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - env:
@@ -30,8 +32,8 @@ jobs:
           for e in json.load(open("schedule.json")):
               s = e["slug"]
               if not e.get("approved") or s in posted: continue
-              d = f"post/{s}"; os.makedirs(d, exist_ok=True)
-              subprocess.run(["gh", "release", "download", s, "-D", d, "--clobber"], check=True)
+              d = f"media/{s}"
+              if not os.path.exists(f"{d}/{s}.mp4"): print("MISSING media for", s); continue
               env = dict(os.environ, SCHEDULE_AT=e["at"], IDEMPOTENCY_KEY=s)
               r = subprocess.run(["python3", "scripts/post_social.py", f"{d}/{s}.mp4", e["title"], f"{d}/{s}-caption.txt", f"{d}/{s}-cover.jpg"], env=env)
               if r.returncode == 0:
